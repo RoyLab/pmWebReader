@@ -1,0 +1,1 @@
+﻿Applic={};Applic.Text='飞机测试数据源';Applic.Product=[];Applic.ProductGrideHeader=[['id',''],['Product','产 品']];Applic.Model=[];Applic.ProductGride=[];Scurity={};Scurity.Class=[['01','公开(01)'],['02','内部(02)'],['03','秘密(03)'],['04','机密(04)'],['05','绝密(05)']];Scurity.Text='目录';Scurity.Password='W10='

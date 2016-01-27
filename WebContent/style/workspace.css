@@ -1,0 +1,30 @@
+.menucontent {
+	width=100px;
+}
+.menutitle {
+	background:#e6e6fa;padding:5px;width:99%;border:1px solid #ccc;
+}
+.tool {
+	background:#e0eeee;width:99.5%;height:35px;padding-top:8px;padding-left:5px;border:1px solid #ccc;
+}
+.seperate {
+	height:20px;width:1px;
+}
+.main {
+	width:98%px;height:550px;
+}
+.leftpart {
+	background:#8ee5ee;width:200px;
+}
+#search-content {
+	line-height:26px;border:1px solid #ccc;width:90%;
+}
+#search-button {
+	width:28px;height:28px;padding-top:0px;
+}
+#read-content {
+	frameborder:no;border:0px;width:1135px;height:490px;
+}
+#search-result{
+	frameborder:no;border:0px;width:1135px;height:490px;
+}

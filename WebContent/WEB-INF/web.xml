@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+	<display-name>Publisher</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<context-param>
+	    <param-name>jdbcName</param-name>
+	    <param-value>com.mysql.jdbc.Driver</param-value>
+	</context-param>
+	<context-param>
+	    <param-name>dbUrl</param-name>
+	    <param-value>jdbc:mysql://127.0.0.1:3306/db_pm</param-value>
+	</context-param>
+	<context-param>
+		<param-name>UserDburl</param-name>
+		<param-value>jdbc:mysql://localhost:3306/db_military</param-value>
+	</context-param>
+	
+	<context-param>
+	    <param-name>dbUserName</param-name>
+	    <param-value>root</param-value>
+	</context-param>
+	<context-param>
+	    <param-name>dbPassword</param-name>
+	    <param-value>609330246</param-value>
+	</context-param>
+	<context-param>
+		<param-name>language</param-name>
+		<param-value>zh_CN</param-value>
+	</context-param>
+	<context-param>
+	<!-- 	xml文件的位置 -->
+		<param-name>pmLocation</param-name>
+		<param-value>D:\publisher\source</param-value>
+	</context-param>
+	<context-param>
+		<param-name>projectName</param-name>
+		<param-value>飞机测试数据源</param-value>
+	</context-param>
+	<context-param>
+	<!-- 	css文件的源码位置，暂未使用 -->
+		<param-name>cssXml</param-name>
+		<param-value>D:/pubRes/TemplateStyle</param-value>
+	</context-param>
+	<context-param>
+	<!-- 	css文件的位置 -->
+		<param-name>cssSrc</param-name>
+		<param-value>./style.css</param-value>
+	</context-param>
+	
+	<listener>
+		<listener-class>com.publisher.PublisherListener</listener-class>
+	</listener>
+	
+	<filter>
+		<filter-name>UserVerification</filter-name>
+		<filter-class>com.publisher.UserVerificationFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>UserVerification</filter-name>
+		<url-pattern>/*</url-pattern>	
+	</filter-mapping>
+	
+	<servlet>
+  		<servlet-name>loginServlet</servlet-name>
+  		<servlet-class>com.publisher.login.LoginServlet</servlet-class>
+  	</servlet>
+  
+  	<servlet-mapping>
+  		<servlet-name>loginServlet</servlet-name>
+  		<url-pattern>/login</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>logout</servlet-name>
+  		<servlet-class>com.publisher.login.LoginOut</servlet-class>
+  	</servlet>
+  
+  	<servlet-mapping>
+  		<servlet-name>logout</servlet-name>
+  		<url-pattern>/logout</url-pattern>
+  	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>Test</servlet-name>
+	    <servlet-class>com.publisher.servlets.Test</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>Test</servlet-name>
+	    <url-pattern>/test</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <servlet-name>Directory</servlet-name>
+	    <servlet-class>com.publisher.servlets.Directory</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>Directory</servlet-name>
+	    <url-pattern>/dir</url-pattern>
+	</servlet-mapping>
+		<servlet>
+	    <servlet-name>FTSearch</servlet-name>
+	    <servlet-class>com.publisher.servlets.FullTextSearch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>FTSearch</servlet-name>
+	    <url-pattern>/ftsearch</url-pattern>
+	</servlet-mapping>
+</web-app>

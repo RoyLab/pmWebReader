@@ -1,0 +1,1458 @@
+.step_numbercls
+{
+	font-size: 10.5pt;
+	line-height: 1.8;
+}
+
+body
+{
+	border: none;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+p
+{
+	margin: 0;
+	padding: 0;
+}
+
+.table_first_thead
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-left-style: solid;
+	border-left-width: 1pt;
+	padding: 5px;
+	border-color: #808080;
+	border-collapse: collapse;
+}
+
+.table_last_foot
+{
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-left-width: 1pt;
+	border-bottom-width: 1pt;
+	padding: 5px;
+	border-color: #808080;
+	border-collapse: collapse;
+}
+.table_first_row
+{
+	border-top-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 1pt;
+	border-left-width: 1pt;
+	border-bottom-width: 1pt;
+	padding: 5px;
+	border-color: #808080;
+	border-collapse: collapse;
+}
+.table_cell
+{
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-left-width: 1pt;
+	border-bottom-width: 1pt;
+	padding: 5px;
+	border-color: #808080;
+	border-collapse: collapse;
+}
+.table_last_col
+{
+	border-left-width: 1pt;
+	border-left-style: solid;
+	border-right-width: 0pt;
+	border-top-width: 0pt;
+	border-bottom-width: 0pt;
+	padding: 5px;
+	border-color: #808080;
+	border-collapse: collapse;
+	width: 0;
+	text-decoration: none;
+}
+
+.figure_min
+{
+	border-style: solid;
+	cursor: pointer;
+	border-width: 2px;
+	width: 100px;
+	border-color: #99CCFF; /*height:35px;*/
+	vertical-align: middle;
+	float: none;
+}
+
+.figure_max
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: Blue;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.mouse_move
+{
+	background-color: White;
+}
+
+#figure_toggleLayer
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: Gray;
+	height: 350px;
+	position: absolute;
+	z-index: 99;
+}
+
+#object_remarkLayer
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FF0000;
+	width: 400px;
+	height: 350px;
+	position: absolute;
+	z-index: 99;
+}
+
+#revised-quiet
+{
+	color: #FF00FF;
+	display: none;
+}
+
+#add_revised_first_td
+{
+	/*border-top-style:solid; 	 border-bottom-style:solid; 	 border-left-style:solid; 	 border-top-width:1pt; 	 border-bottom-width:1pt; 	 border-left-width:1pt; 	 border-top-color:red; 	 border-bottom-color:red; 	 border-left-color:red;*/
+}
+#add_revised_center_td
+{
+	/*border-top-style:solid; 	 border-bottom-style:solid; 	 border-top-width:1pt; 	 border-bottom-width:1pt; 	 border-top-color:red; 	 border-bottom-color:red;*/
+}
+#add_revised_last_td
+{
+	/*border-top-style:solid; 	border-bottom-style:solid; 	border-right-style:solid; 	border-top-width:1pt; 	border-bottom-width:1pt; 	border-right-width:1pt; 	border-top-color:red; 	border-bottom-color:red; 	border-right-color:red;*/
+}
+#modify_revised_first_td
+{
+	/*border-top-style:solid; 	 border-bottom-style:solid; 	 border-left-style:solid; 	 border-top-width:1pt; 	 border-bottom-width:1pt; 	 border-left-width:1pt; 	 border-top-color:red; 	 border-bottom-color:red; 	 border-left-color:red;*/
+}
+#modify_revised_center_td
+{
+	/*border-top-style:solid; 	 border-bottom-style:solid; 	 border-top-width:1pt; 	 border-bottom-width:1pt; 	 border-top-color:red; 	 border-bottom-color:red;*/
+}
+#modify_revised_last_td
+{
+	/*border-top-style:solid; 	border-bottom-style:solid; 	border-right-style:solid; 	border-top-width:1pt; 	border-bottom-width:1pt; 	border-right-width:1pt; 	border-top-color:red; 	border-bottom-color:red; 	border-right-color:red;*/
+}
+#delete_revised_first_td
+{
+	/*border-top-style:solid; 	 border-bottom-style:solid; 	 border-left-style:solid; 	 border-top-width:1pt; 	 border-bottom-width:1pt; 	 border-left-width:1pt; 	 border-top-color:red; 	 border-bottom-color:red; 	 border-left-color:red;*/
+}
+#delete_revised_center_td
+{
+	/*border-top-style:solid; 	 border-bottom-style:solid; 	 border-top-width:1pt; 	 border-bottom-width:1pt; 	 border-top-color:red; 	 border-bottom-color:red;*/
+}
+#delete_revised_last_td
+{
+	/*border-top-style:solid; 	border-bottom-style:solid; 	border-right-style:solid; 	border-top-width:1pt; 	border-bottom-width:1pt; 	border-right-width:1pt; 	border-top-color:red; 	border-bottom-color:red; 	border-right-color:red;*/
+}
+
+.afiproc_table
+{
+	border-top-width: 0pt;
+	border-top-style: solid;
+	border-left-width: 0pt;
+	border-left-style: solid;
+	border-color: #808080;
+	border-collapse: collapse;
+	background-image: none;
+}
+.afiproc_table_td
+{
+	border-right-width: 0pt;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-bottom-width: 0pt;
+	padding: 1px;
+	border-color: #808080;
+	border-collapse: collapse;
+}
+.afiproc_table_th
+{
+	border-right-width: 0pt;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-bottom-width: 0pt;
+	padding: 5px;
+	border-color: #808080;
+	border-collapse: collapse;
+	background-color: #FFFFCC;
+}
+
+.acrodefcls
+{
+	padding: 5px;
+	width: 100px;
+	text-align: left;
+	line-height: 2;
+}
+
+.dialog_windows
+{
+	width: 500;
+	background-color: #c0c0c0;
+	border-style: solid;
+	border-color: #0000FF;
+}
+
+.dialog_title
+{
+	background-color: #0000FF;
+	color: #FFFFFF;
+	padding-top: 1pt;
+	padding-bottom: 1pt;
+	padding-left: 3pt;
+	padding-right: 3pt;
+	font-weight: bold;
+}
+
+.dialog_body
+{
+	padding-top: 10pt;
+	padding-bottom: 10pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+}
+
+.dialog_button
+{
+	padding-top: 3pt;
+	padding-bottom: 1pt;
+	padding-left: 10pt;
+	padding-right: 10pt;
+	font-weight: bold;
+}
+.nonebordertable
+{
+	border: none;
+}
+
+.nonebordertable td
+{
+	border: none;
+}
+
+/*加个width:1让过程类编号所占宽处于最小不要变化*/
+.auto_adapt_with_cls
+{
+	table-layout: fixed;
+	word-wrap: normal;
+	word-break: keep-all;
+	width:1;
+}
+
+.noindent_dstep_with_cls
+{
+	width: 70px;
+}
+body
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	text-align: left;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	padding: 5pt;
+}
+
+sub
+{
+	font-size: 60%;
+	vertical-align: bottom;
+}
+
+sup
+{
+	font-size: 60%;
+	vertical-align: top;
+}
+
+.dmodule_title
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+.lists_title1
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: Bold;
+	font-style: italic;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+.lists_title2
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+.crew_frc_titlecls
+{
+	font-family: Arial,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.crew_frc_lists
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+}
+
+.para0_title
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.para0_notitle
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara1_title
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara1_notitle
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara2_title
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara2_notitle
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara3_title
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara3_notitle
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara4_title
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara4_notitle
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara5_title
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara5_notitle
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara6_title
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara6_notitle
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara7_title
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.subpara7_notitle
+{
+	font-family: 黑体,宋体;
+	font-size: 12pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.metadataPane
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+	padding: 5px;
+}
+
+.table_withhead_title
+{
+	font-family: 黑体,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: center;
+}
+
+.figure_title
+{
+	font-family: 黑体,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: center;
+}
+
+.figure_multimedia_icn
+{
+	font-family: 黑体,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: center;display:none;
+}
+
+.multimedia_title
+{
+	font-family: 黑体,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: center;
+}
+
+.warning_head
+{
+	font-family:  黑体,宋体;
+	font-size: 15.75pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 4mm;
+	text-align: center;
+}
+
+.warning_text
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+	text-indent: 2em;
+}
+
+.warning_subsup_text
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 2;
+	letter-spacing: 0mm;
+	text-align: left;
+	text-indent: 2em;
+}
+
+.caution_head
+{
+	font-family: 黑体,宋体;
+	font-size: 15.75pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 4mm;
+	text-align: center;
+}
+
+.caution_text
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+	text-indent: 2em;
+}
+
+.caution_subsup_text
+{
+	font-family: 黑体,宋体;
+	font-size: 14.25pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 2;
+	letter-spacing: 0mm;
+	text-align: left;
+	text-indent: 2em;
+}
+
+.note_head
+{
+	font-family: 黑体,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.note_text
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+	text-indent: 2em;
+}
+
+.note_subsup_text
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 2;
+	letter-spacing: 0mm;
+	text-align: left;
+	text-indent: 2em;
+}
+
+.table_class
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	word-break: normal;
+	text-align: ;
+	var_table_width: 90;
+}
+
+.table_first_thead
+{
+	font-family: 黑体,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: Bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: center;
+	background-color: #FFFFCC;
+}
+
+.table_last_foot
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: none;
+	background-color: #FFFFCC;
+}
+
+.references_table
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: ;
+	border-top-width: 1pt;
+	border-top-style: solid;
+	border-left-width: 1pt;
+	border-left-style: solid;
+	border-collapse: collapse;
+	border-color: Gray;
+}
+
+.references_table th
+{
+	border-right-width: 1pt;
+	border-right-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-style: solid;
+	border-color: Gray;
+	border-collapse: collapse;
+	background-color: #FFFFCC;
+	padding: 5px;
+	text-align: center;
+}
+
+.references_table td
+{
+	border-right-width: 1pt;
+	border-right-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-style: solid;
+	border-collapse: collapse;
+	border-color: Gray;
+	padding: 5px;
+	text-align: ;
+	vertical-align: top;
+}
+
+.lists_table
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: ;
+	border-top-width: 1pt;
+	border-top-style: solid;
+	border-left-width: 1pt;
+	border-left-style: solid;
+	border-collapse: collapse;
+	border-color: Gray;
+}
+
+.lists_table th
+{
+	border-right-width: 1pt;
+	border-right-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-style: solid;
+	border-collapse: collapse;
+	border-color: Gray;
+	background-color: #FFFFCC;
+	padding: 5px;
+	text-align: center;
+}
+
+.lists_table td
+{
+	border-right-width: 1pt;
+	border-right-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-style: solid;
+	border-collapse: collapse;
+	border-color: Gray;
+	padding: 5px;
+	text-align: ;
+	vertical-align: top;
+}
+
+.lists_table_noborder
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: ;
+}
+
+.para_firstline_indent_text
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+	text-indent: 2em;
+}
+
+.para_firstline_indent_subsup_text
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 2;
+	letter-spacing: 0mm;
+	text-align: left;
+	text-indent: 2em;
+}
+
+.para_text
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.para_subsup_text
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 2;
+	letter-spacing: 0mm;
+	text-align: left;
+}
+
+.verbatimcls
+{
+	font-weight: Bold;
+}
+
+.parasigdatacls
+{
+	font-weight: Bold;
+}
+
+.var_step_indent_cls
+{
+	var-indent: true;
+	var-auto_adapt: true;
+}
+
+.step_titlecls
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+}
+
+.step_numbercls
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+}
+
+.step1_with_cls
+{
+	width: 25px;
+}
+
+.step2_with_cls
+{
+	width: 40px;
+}
+
+.step3_with_cls
+{
+	width: 55px;
+}
+
+.step4_with_cls
+{
+	width: 70px;
+}
+
+.step5_with_cls
+{
+	width: 85px;
+}
+
+.step6_with_cls
+{
+	width: 100px;
+}
+
+.step7_with_cls
+{
+	width: 115px;
+}
+
+.step8_with_cls
+{
+	width: 130px;
+}
+
+.noindent_step_with_cls
+{
+	width: 85px;
+}
+
+.noindent6_step_with_cls
+{
+	width: 100px;
+}
+
+.noindent7_step_with_cls
+{
+	width: 115px;
+}
+
+.noindent8_step_with_cls
+{
+	width: 130px;
+}
+
+.simple_randlist_hyphen
+{
+	list-style-position: outside;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.unordered_randlist_hyphen_Odd
+{
+	list-style-position: outside;
+	list-style-type: disc;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	line-height: 1.8;
+	text-indent: 7mm;
+}
+
+.unordered_randlist_hyphen_Even
+{
+	list-style-position: outside;
+	list-style-type: circle;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	line-height: 1.8;
+	text-indent: 7mm;
+}
+
+.seqlist_hyphen_1
+{
+	list-style-position: outside;
+	list-style-type: lower-alpha;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	line-height: 1.8;
+	text-indent: 7mm;
+}
+
+.seqlist_hyphen_2
+{
+	list-style-position: outside;
+	list-style-type: decimal;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	line-height: 1.8;
+	text-indent: 7mm;
+}
+
+.seqlist_hyphen_0
+{
+	list-style-position: outside;
+	list-style-type: upper-roman;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	line-height: 1.8;
+	text-indent: 7mm;
+}
+
+.label_prefix_cls
+{
+	font-family: 黑体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: left;
+	text-indent: 0em;
+}
+
+.card_context_cls
+{
+	font-family: Arial,宋体;
+	font-size: 10.5pt;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 1.8;
+	letter-spacing: 0mm;
+	text-align: ;
+}
+
+.captioncls
+{
+	border-style: solid;
+	border-top-width: 1pt;
+	border-left-width: 1pt;
+	border-right-width: 1pt;
+	border-bottom-width: 1pt;
+	padding: 5px;
+	border-color: black;
+	font-weight: bold;
+	font-size: 10.5pt;
+}
+
+.acrotermcls
+{
+	font-weight: Bold;
+}
+
+.acrodefcls
+{
+	background-color: #FFFFCC;
+	border-color: Black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.taskid_cls
+{
+	display: block;
+	width: 10%;
+}
+
+.task_name_cls
+{
+	width: 10%;
+}
+
+.task_refs_cls
+{
+	width: 12%;
+}
+
+.deftask_equip_cls
+{
+	display: block;
+	width: 15%;
+}
+
+.pmd_accpnl_cls
+{
+	display: block;
+	width: 8%;
+}
+
+.pmd_zone_cls
+{
+	display: block;
+	width: 8%;
+}
+
+.deftask_limit_cls
+{
+	width: 10%;
+}
+
+.supervis_lev_cls
+{
+	display: block;
+	width: 6%;
+}
+
+.deftask_applic_cls
+{
+	display: block;
+	width: 6%;
+}
+
+.deftask_remark_cls
+{
+	display: block;
+	width: 10%;
+}
+
+.deftask_other_cls
+{
+	display: block;
+	width: 5%;
+}
+
+.timelim_sns_cls
+{
+	display: block;
+}
+
+.timelim_lt01_cls
+{
+	display: block;
+}
+
+.timelim_lt02_cls
+{
+	display: block;
+}
+
+.timelim_lt61_cls
+{
+	display: block;
+}
+
+.timelim_cat_cls
+{
+	display: block;
+}
+
+.task_task_cls
+{
+	display: block;
+}
+
+.task_applic_cls
+{
+	display: block;
+}
+
+.ofault_fcontext_cls
+{
+	display: block;
+}
+
+.var_techrep_display_cls
+{
+	var-techrep: none;
+}
+
+.legend_deflist_term_cls
+{
+	width: 8mm;
+}
+
+.legend_deflist_def_cls
+{
+	width: 68mm;
+}
+
+.compart_hr
+{
+	color: blue;
+	width: 100%;
+}
+
+.short_compart_hr
+{
+	color: black;
+	width: 80%;
+}
+
+a:link
+{
+	color: #0000FF;
+}
+
+a:visited
+{
+	color: #CC3300;
+}
+
+a:hover
+{
+	color: #FF00FF;
+}
+
+a:active
+{
+	color: #FF0000;
+}
+
+.Change_add
+{
+	border-style: solid;
+	border-color: #00FF00;
+	border-width: 1px;
+	margin: 1px;
+}
+
+.Change_modify
+{
+	border-style: solid;
+	border-color: #FFFF00;
+	border-width: 1px;
+	margin: 1px;
+}
+
+.Change_delete
+{
+	border-style: solid;
+	border-color: red;
+	border-width: 1px;
+	margin: 1px;
+}
+
+.PrelreqsSize
+{
+	width: 500;
+	height: 400;
+}
+
+.SafetySize
+{
+	width: 500;
+	height: 400;
+}
+
+.StepWindowSize
+{
+	width: 500;
+	height: 400;
+}
+
+.MetadataPaneSize
+{
+	width: 500;
+	height: 400;
+}
+
+.DMRefedListSize
+{
+	width: 600;
+	height: 400;
+}
+
+.PMRefedListSize
+{
+	width: 600;
+	height: 400;
+}
+
+.AfiSize
+{
+	width: 500;
+	height: 400;
+}
+
+.references_title
+{
+	width: 50%;
+}
+
+.reqconds_applic
+{
+	width: 20%;
+}
+
+.reqconds_condition
+{
+	width: 50%;
+}
+
+.reqconds_reference
+{
+	width: 30%;
+}
+
+.reqpers_man
+{
+	width: 20%;
+}
+
+.reqpers_category
+{
+	width: 20%;
+}
+
+.reqpers_skill
+{
+	width: 20%;
+}
+
+.reqpers_trade
+{
+	width: 20%;
+}
+
+.reqpers_esttime
+{
+	width: 20%;
+}
+
+.supequi_supply_spare_name
+{
+	width: 15%;
+}
+
+.supequi_supply_spare_csnref
+{
+	width: 15%;
+}
+
+.supequi_supply_spare_nsn
+{
+	width: 10%;
+}
+
+.supequi_supply_spare_mfc
+{
+	width: 10%;
+}
+
+.supequi_supply_spare_tce
+{
+	width: 15%;
+}
+
+.var_23applic_style
+{
+	var-23applic: normal;
+}
+
+
+.DmEnding{}
