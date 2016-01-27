@@ -5,11 +5,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>虚拟军事训练系统登录</title>
-	<link rel="stylesheet" type="text/css" href="themes/default/easyui.css">
-	<link rel="stylesheet" type="text/css" href="themes/acon.css">
-	<link rel="stylesheet" type="text/css" href="style/login.css">
-	<script type="text/javascript" src="jquery.min.js"></script>
-	<script type="text/javascript" src="jquery.easyui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="resources/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="resources/themes/acon.css">
+	<link rel="stylesheet" type="text/css" href="resources/style/login.css">
+	<script type="text/javascript" src="resources/js/jquery.min.js"></script>
+	<script type="text/javascript" src="resources/js/jquery.easyui.min.js"></script>
 	<%
         String login;   	
 		if(request.getAttribute("error")!=null){

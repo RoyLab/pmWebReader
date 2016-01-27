@@ -57,7 +57,7 @@ public class LoginServlet extends HttpServlet{
 				request.getRequestDispatcher("login.jsp").forward(request, response);
 			}else{
 				session.setAttribute("currentUser", currentUser);
-				response.sendRedirect("workspace1.jsp");
+				response.sendRedirect("mainPanel.jsp");
 			}
 		}catch(Exception e){
 			e.printStackTrace();

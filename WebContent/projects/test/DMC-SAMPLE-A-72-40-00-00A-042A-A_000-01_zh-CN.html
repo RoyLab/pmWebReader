@@ -1,0 +1,112 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="PRAGMA" content="no-cache">
+<link rel="STYLESHEET" type="text/css" href="../manual-resources/css/style.css">
+<link rel="STYLESHEET" type="text/css" href="../manual-resources/css/tbStyle.css">
+<script language="JavaScript" src="../manual-resources/js/jquery.js"></script><script language="JavaScript" src="../manual-resources/js/Dialog.js"></script><script language="JavaScript" src="../manual-resources/js/Reference.js"></script><script language="JavaScript" src="../manual-resources/js/AssistantInfo.js"></script><script language="JavaScript" src="../manual-resources/js/Graphic.js"></script><script language="JavaScript" src="../manual-resources/js/Procedure.js"></script><script language="JavaScript" src="../manual-resources/js/Fault.js"></script><script language="JavaScript" src="../manual-resources/js/Process.js"></script><script language="JavaScript" src="../manual-resources/js/Schedule.js"></script><script language="JavaScript" src="../manual-resources/js/ApplicRecised.js"></script><script language="JavaScript" src="../manual-resources/js/IETM.js"></script>
+<title>Content</title>
+</head>
+<body>
+<div style="height:80%" id="dmContent">
+<div align="center" class="dmodule_title">高压涡轮间隙主动控制 - 功能的描述</div>
+      
+<div class="figure">
+<p align="center">
+<img class="figure_min" id="ICN-SAMPLE-A-724000-A-SBTR-00015-A-01-1.png" src="thumbnails/min_ICN-SAMPLE-A-724000-A-SBTR-00015-A-01-1.GIF"></p>
+</div>
+<div class="figure_multimedia_icn">ICN-SAMPLE-A-724000-A-SBTR-00015-A-01-1</div>
+<div class="figure_title">
+<a name="dir-title-5"></a>图片1 HPTACC  －  功能说明</div>
+      
+        
+<div class="para0_title">1&nbsp;概述 </div>
+        
+<p class="para_firstline_indent_text">EEC使用这些数据控制 HPTACC 活门 ：<ul class="unordered_randlist_hyphen_Odd">
+<li style="line-height:1.8;">
+<div class="para_text" style="text-indent:0mm;">环境压力（PO）</div>
+</li>
+<li style="line-height:1.8;">
+<div class="para_text" style="text-indent:0mm;"> N2 </div>
+</li>
+<li style="line-height:1.8;">
+<div class="para_text" style="text-indent:0mm;">压气机出口空气温度（T3）</div>
+</li>
+<li style="line-height:1.8;">
+<div class="para_text" style="text-indent:0mm;">高压涡轮护罩支架温度（TCC传感器）</div>
+</li>
+</ul>
+</p>
+        
+<p class="para_firstline_indent_text">EEC通常通过显示电子装置（DEU）从 ADIRU 接收 PO。其它数据来自发动机传感器。 </p>
+      
+      
+        
+<div class="para0_title">2&nbsp;控制 </div>
+        
+<p class="para_firstline_indent_text">HPTACC 系统自动地工作。EEC使用飞机和发动机数据控制用于冷却高压涡轮护罩支架的 HPC  第 9 级/第 4 级引气比率。如果ADIRU 数据变得无效，EEC使用在 EEC内的 PO传感器。EEC发送一个 HPTACC 指令信号至 HMU。HMU 发送修正的伺服燃油压力至 HPTACC 活门的杆侧和筒侧。这就移动在 HPTACC 活门内的活门。活门控制 HPC  第 9 级和第 4 级空气的流量。这就控制流至HPT 护罩支架的温度。 </p>
+        
+<p class="para_firstline_indent_text">EEC 从 N2 转速，T3 和高度（PO）计算需要的 HPT 机匣支架温度（TCC）。如果 TCC 过高，EEC 发送一个信号至 HMU 冷却HPT 护罩支架。 如 TCC过低， EEC发送一个信号至 HMU冷却 HPT护罩支架少一些。 </p>
+        
+<p class="para_firstline_indent_text">作动筒有两个 LVDT。EEC 使用这些 LVDT 监控 HPTACC 作动筒的位置。1 个 LVDT 发送一个电信号至 EEC的通道 A。另一个LVDT 发送一个电信号至通道 B。 </p>
+      
+      
+        
+<div class="para0_title">3&nbsp;工作方式 </div>
+        
+<p class="para_firstline_indent_text">HPTACC 有五个工作方式： <ul class="unordered_randlist_hyphen_Odd">
+<li style="line-height:1.8;">
+<div class="para_text" style="text-indent:0mm;">－作动筒完全缩入。HPC 第 4 级和第 9 级活门都是关闭。这是当发动机停车时的作动筒位置。这是失效保险的位置。如果 EEC 或 HMU 有故障，EEC 指令 HPTACC活门至此位置。当 HPTACC是在此位置时，HPT叶尖间隙是最大。</div>
+</li>
+<li style="line-height:1.8;">
+<div class="para_text" style="text-indent:0mm;">－EEC调定作动筒至 8％伸长。第 9 级活门让低流量的第 9 级空气流至 HPT 护罩支架。4 级蝶形活门是全关的。这样少量地冷却护罩支架。</div>
+</li>
+<li style="line-height:1.8;">
+<div class="para_text" style="text-indent:0mm;">－EEC 调定作动筒到 37％的伸长。第 9 级活门全部打开。第 4级蝶形活门是全关的。这较多地冷却护罩支架。 </div>
+</li>
+<li style="line-height:1.8;">
+<div class="para_text" style="text-indent:0mm;">－EEC 在 38%和 99%之间计算作动筒位置。这调定第 9 级和第 4 级空气比率至精确地调节 HPT 间隙。这更多地冷却护罩支架。</div>
+</li>
+<li style="line-height:1.8;">
+<div class="para_text" style="text-indent:0mm;">－作动筒全部伸长（100%）。第 9 级活门全部关闭。4 级活门完全打开。这提供最小 HPT 间隙的最大护罩支架冷却。</div>
+</li>
+</ul>
+</p>
+      
+      
+<table cellpadding="5" border="0" cellspacing="0" align="center" class="table_class" width="90%">
+<br>
+<colgroup>
+<col colwidth="76">
+<col colwidth="324">
+</colgroup>
+<tr>
+<th class="table_first_thead" width="19%" align="left" valign="top">发动机状态</th><th class="table_first_thead" width="81%" align="left" valign="top">HPTACC 方式 </th><td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;">&nbsp;</td>
+</tr>
+<tr>
+<td style="border-top-style:solid;border-top-width:1pt;" width="19%" class="table_cell" align="left" valign="top">冷起动 </td><td style="border-top-style:solid;border-top-width:1pt;" width="81%" class="table_cell" align="left" valign="top">开始是全部第 4 级，然后过渡到混合方式至全部第 9 级 </td><td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;">&nbsp;</td>
+</tr>
+<tr>
+<td class="table_cell" align="left" valign="top">热起动 </td><td class="table_cell" align="left" valign="top">第 9 级以把 HPT 磨擦减至最小 </td><td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;">&nbsp;</td>
+</tr>
+<tr>
+<td class="table_cell" align="left" valign="top">起飞和上升</td><td class="table_cell" align="left" valign="top">开始 4级以降低 EGT峰值，然后过渡至混合方式 </td><td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;">&nbsp;</td>
+</tr>
+<tr>
+<td class="table_cell" align="left" valign="top">巡航 </td><td class="table_cell" align="left" valign="top">第 4 级以减小燃油消耗量 </td><td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;">&nbsp;</td>
+</tr>
+<tr>
+<td class="table_cell" align="left" valign="top">下降 </td><td class="table_cell" align="left" valign="top">低流量第 9 级以防止磨擦 </td><td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;">&nbsp;</td>
+</tr>
+</table>
+    
+</div>
+<br>
+<br>
+<br>
+<br>
+<hr class="DmEnding" width="98%" align="center">
+<div class="DmEnding" align="center" style="color:#6C6C6C;font-family:黑体; font-weight:bold;">数据模块结束</div>
+</body>
+</html>

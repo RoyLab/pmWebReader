@@ -2,12 +2,7 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
 	<display-name>Publisher</display-name>
 	<welcome-file-list>
-		<welcome-file>index.html</welcome-file>
-		<welcome-file>index.htm</welcome-file>
-		<welcome-file>index.jsp</welcome-file>
-		<welcome-file>default.html</welcome-file>
-		<welcome-file>default.htm</welcome-file>
-		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>login.jsp</welcome-file>
 	</welcome-file-list>
 	<context-param>
 	    <param-name>jdbcName</param-name>
@@ -35,23 +30,12 @@
 		<param-value>zh_CN</param-value>
 	</context-param>
 	<context-param>
-	<!-- 	xml文件的位置 -->
 		<param-name>pmLocation</param-name>
 		<param-value>D:\publisher\source</param-value>
 	</context-param>
 	<context-param>
 		<param-name>projectName</param-name>
 		<param-value>飞机测试数据源</param-value>
-	</context-param>
-	<context-param>
-	<!-- 	css文件的源码位置，暂未使用 -->
-		<param-name>cssXml</param-name>
-		<param-value>D:/pubRes/TemplateStyle</param-value>
-	</context-param>
-	<context-param>
-	<!-- 	css文件的位置 -->
-		<param-name>cssSrc</param-name>
-		<param-value>./style.css</param-value>
 	</context-param>
 	
 	<listener>

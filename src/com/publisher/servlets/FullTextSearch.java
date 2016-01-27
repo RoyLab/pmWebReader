@@ -10,10 +10,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.w3c.dom.Document;
 
+import com.publisher.Dmc2Xml;
 import com.publisher.SearchEngine;
 import com.publisher.utils.OperateXMLByDOM;
 import com.publisher.utils.XSLTTransformer;
-import com.publisher.xmlparsers.Dmc2Xml;
 
 public class FullTextSearch extends HttpServlet {
 
