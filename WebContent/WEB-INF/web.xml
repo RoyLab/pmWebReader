@@ -10,7 +10,7 @@
   </context-param>
   <context-param>
     <param-name>dbUrl</param-name>
-    <param-value>jdbc:mysql://127.0.0.1:3306/db_pm</param-value>
+    <param-value>jdbc:mysql://127.0.0.1:3306/</param-value>
   </context-param>
   <context-param>
     <param-name>UserDburl</param-name>

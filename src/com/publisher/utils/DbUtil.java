@@ -13,12 +13,12 @@ import com.publisher.Config;
 
 public class DbUtil {
 
-	public static Connection getCon(){
+	public static Connection getCon(String db){
 		Connection con=null;
 		ServletContext ctx = Config.getInstance().getServletContext();
 		try {
 			Class.forName(ctx.getInitParameter("jdbcName"));
-			con=DriverManager.getConnection(ctx.getInitParameter("dbUrl"), 
+			con=DriverManager.getConnection(ctx.getInitParameter("dbUrl")+"db_"+db, 
 					ctx.getInitParameter("dbUserName"), ctx.getInitParameter("dbPassword"));
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block

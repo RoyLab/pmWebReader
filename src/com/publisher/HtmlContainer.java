@@ -18,7 +18,7 @@ public class HtmlContainer {
 	private Connection con = null;
 	
 	public HtmlContainer() throws Exception {
-		con = DbUtil.getCon();
+		con = DbUtil.getCon(Config.getInstance().getProjectName());
 	}
 
 	public void writeHtml(JspWriter out, String dmc){

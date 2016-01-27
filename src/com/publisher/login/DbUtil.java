@@ -25,6 +25,17 @@ public class DbUtil {
 		return con;
 	}
 	
+	public Connection getCon(String db) throws Exception{
+		ServletContext ctx = Config.getInstance().getServletContext();
+		dbUrl=ctx.getInitParameter("dbUrl")+"db_"+db;
+		dbUserName=ctx.getInitParameter("dbUserName");
+		dbPassword=ctx.getInitParameter("dbPassword");
+		jdbcName=ctx.getInitParameter("jdbcName");
+		Class.forName(jdbcName);
+		Connection con=DriverManager.getConnection(dbUrl, dbUserName, dbPassword);
+		return con;
+	}
+	
 	public void closeCon(Connection con)throws Exception{
 		if(con!=null){
 			con.close();

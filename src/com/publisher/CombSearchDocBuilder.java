@@ -17,7 +17,7 @@ import com.publisher.utils.DbUtil;
 
 public class CombSearchDocBuilder {
 	
-	private static String sqlDmcInfoQuery = "select name,associateFile,dmc from t_main where dmc in (?);";
+	private static String sqlDmcInfoQuery = "select name,associateFile,dmc from t_dmcmain where dmc in (?);";
 	
 	public Document createTreeViewDoc(String dmcs) throws ParserConfigurationException, SQLException{
 		
@@ -34,7 +34,7 @@ public class CombSearchDocBuilder {
 		}
 		Connection con = null;
 		try {
-			con = DbUtil.getCon();
+			con = DbUtil.getCon(Config.getInstance().getProjectName());
 			Statement pstmt = con.createStatement();
 			String str = ","+dmcs;
 			str = str.replaceAll(",",	"','");

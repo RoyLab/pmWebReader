@@ -11,12 +11,12 @@ import com.publisher.utils.DbUtil;
 public class SearchEngine {
 	
 	private Connection con = null;
-	private static String sqlFullTextSearch = "select dmc from t_main where content like ?;";
+	private static String sqlFullTextSearch = "select dmc from t_dmcmain where content like ?;";
 	private static String sqlCombSearch = "select distinct dmId from t_* where content like ?;";
-	private static String sqlIdQuery = "select dmc from t_main where id in (?);";
+	private static String sqlIdQuery = "select dmc from t_dmcmain where id in (?);";
 	
 	public SearchEngine() throws Exception {
-		con = DbUtil.getCon();
+		con = DbUtil.getCon(Config.getInstance().getProjectName());
 	}
 	
 	public String fullTextSearch(String keyword) throws SQLException{

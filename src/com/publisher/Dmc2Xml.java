@@ -19,7 +19,7 @@ import com.publisher.utils.DbUtil;
 
 public class Dmc2Xml {
 	
-	private static String sqlDmcInfoQuery = "select name,associateFile,dmc,content,modified from t_main where dmc in (?);";
+	private static String sqlDmcInfoQuery = "select name,associateFile,dmc,content,modified from t_dmcmain where dmc in (?);";
 	
 	private static int ABSTRACT_CHAR_NUMBER = 250;
 	
@@ -38,7 +38,7 @@ public class Dmc2Xml {
 		}
 		Connection con = null;
 		try {
-			con = DbUtil.getCon();
+			con = DbUtil.getCon(Config.getInstance().getProjectName());
 			Statement pstmt = con.createStatement();
 			String str = ","+dmcs;
 			str = str.replaceAll(",",	"','");

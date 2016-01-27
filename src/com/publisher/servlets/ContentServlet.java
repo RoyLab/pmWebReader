@@ -1,12 +1,18 @@
 package com.publisher.servlets;
 
 import java.io.IOException;
-import java.lang.ProcessBuilder.Redirect;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.publisher.Config;
+import com.publisher.login.DbUtil;
 
 /**
  * Servlet implementation class ContentServlet
@@ -19,24 +25,43 @@ public class ContentServlet extends HttpServlet {
      */
     public ContentServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
-		System.out.println("no");
-		response.sendRedirect("projects/test/DMC-SAMPLE-A-72-00-00-00A-012A-A_000-04_zh-CN.html");
+		String dmc = request.getParameter("dmc");
+		
+		DbUtil db = new DbUtil();
+		String html = null;
+		try {
+			Connection con = db.getCon(Config.getInstance().getProjectName());
+			Statement stmt = con.createStatement();
+			ResultSet resultSet = stmt.executeQuery("select html from t_dmcmain where dmc='"+dmc+"';");
+			
+			if (resultSet.next())
+				html = resultSet.getString(1);
+			
+			stmt.close();
+			con.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		if (html != null)
+			response.sendRedirect("projects/"+Config.getInstance().getProjectName()+"/" + html);
+		else
+			response.sendRedirect("projects/manual-resources/null.html");
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 

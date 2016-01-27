@@ -28,7 +28,6 @@ public class FullTextSearch extends HttpServlet {
     	try {
 			SearchEngine searchEngine = new SearchEngine();
 			String keyword = new String(request.getParameter("key").getBytes("ISO8859-1"),"UTF-8");
-//			String keyword = new String(request.getParameter("key").getBytes("ISO8859-1"),"GB2312");
 			String dmcs = searchEngine.fullTextSearch((keyword != null)?keyword:"发动机");
 			Dmc2Xml docBuilder = new Dmc2Xml();
 			xml = docBuilder.createTreeViewDoc(dmcs, keyword);
@@ -36,8 +35,7 @@ public class FullTextSearch extends HttpServlet {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-    	XSLTTransformer.xsl2Stream2(OperateXMLByDOM.doc2FormatString(xml), out, request.getServletContext().getRealPath("")+"/xslt/ftsearch.xslt");
-    	//System.out.println(request.getServletContext().getRealPath(""));
+    	XSLTTransformer.xsl2Stream(OperateXMLByDOM.doc2FormatString(xml), out, this.getClass().getResourceAsStream("/com/publisher/xslt/ftsearch.xslt"));
     }
 
     @Override

@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.io.Writer;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -114,6 +115,38 @@ public class XSLTTransformer {
 	    } catch (FileNotFoundException e) {
 	    	e.printStackTrace();
 	        // File not found
+	    } catch (TransformerConfigurationException e) {
+	    	e.printStackTrace();
+	        // An error occurred in the XSL file
+	    } catch (TransformerException e) {
+	    	e.printStackTrace();
+	        // An error occurred while applying the XSL file
+	        // Get location of error in input file
+	    }
+	}
+	
+	public static void xsl2Stream(
+	        String input,
+	        Writer writer,
+	        InputStream xslFile) {
+	    try {
+	        // Create transformer factory
+	        TransformerFactory factory = TransformerFactory.newInstance();
+	
+	        // Use the factory to create a template containing the xsl file
+	        Templates template = factory.newTemplates(new StreamSource(
+	        		xslFile));
+	
+	        // Use the template to create a transformer
+	        Transformer xformer = template.newTransformer();
+	
+	        // Prepare the input and output files
+	        Source source = new StreamSource(new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8)));
+	        Result result = new StreamResult(writer);
+	
+	        // Apply the xsl file to the source file and write the result to the
+	        // output file
+	        xformer.transform(source, result);
 	    } catch (TransformerConfigurationException e) {
 	    	e.printStackTrace();
 	        // An error occurred in the XSL file
