@@ -13,14 +13,9 @@ import com.publisher.Config;
 
 public class DbUtil {
 
-//	private static String dbUrl = "jdbc:mysql://127.0.0.1:3306/db_pm";
-//	private static String dbUserName = "root";
-//	private static String dbPassword = "609330246";
-//	private static String jdbcName = "com.mysql.jdbc.Driver";
-
 	public static Connection getCon(){
 		Connection con=null;
-		ServletContext ctx = Config.getServletContext();
+		ServletContext ctx = Config.getInstance().getServletContext();
 		try {
 			Class.forName(ctx.getInitParameter("jdbcName"));
 			con=DriverManager.getConnection(ctx.getInitParameter("dbUrl"), 

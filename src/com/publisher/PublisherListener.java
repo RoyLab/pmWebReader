@@ -7,7 +7,9 @@ public class PublisherListener implements ServletContextListener {
 	
 	public void contextInitialized(ServletContextEvent event) {
 		
-		Config.setServletContext(event.getServletContext());
+		Config config = Config.getInstance();
+		config.setServletContext(event.getServletContext());
+		config.init();
 	}
 	
 	public void contextDestroyed(ServletContextEvent event) {

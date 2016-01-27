@@ -9,24 +9,36 @@ import javax.servlet.ServletContext;
 
 public class Config {
 	
-	public static String[] SEARCH_CLASS = {"pnr", "nsn", "para",
+	public final static String[] SEARCH_CLASS = {"pnr", "nsn", "para",
 			"figure", "table", "step", "warning", "caution"};
 	
-	private static ServletContext servletContext = null;
-
-	public static ServletContext getServletContext() {
+	public static Config getInstance(){
+		if (instance == null)
+			instance = new Config();
+		return instance;
+	}
+		
+	private static Config instance = null;
+	private Config(){
+	}
+	
+	private String projName = null;
+	public String getProjectName(){
+		return projName;
+	}
+	
+	public void init(){
+		projName = servletContext.getInitParameter("projectName");
+	}
+	
+	private ServletContext servletContext = null;
+	public ServletContext getServletContext() {
 		return servletContext;
 	}
 
-	public static void setServletContext(ServletContext svctx) {
+	public void setServletContext(ServletContext svctx) {
 		servletContext = svctx;
 	}
-
-//	public Config(ServletContext svctx){
-//		PropertiesUtil prop = new PropertiesUtil("/config.properties");
-//		setServletContext(svctx);
-//	}
-	
 }
 
 class PropertiesUtil {
@@ -40,7 +52,6 @@ class PropertiesUtil {
 		try {
 			prop.load(in);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

@@ -3,8 +3,8 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes'/>
 
-<xsl:import href="descript.xslt" />
 <xsl:import href="proced.xslt" />
+<xsl:import href="descript.xslt" />
 
 <xsl:template match="/">
 	<xsl:apply-templates select="dmodule/content/descript | dmodule/content/proced"/>

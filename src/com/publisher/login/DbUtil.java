@@ -15,7 +15,7 @@ public class DbUtil {
 	private String jdbcName;//="com.mysql.jdbc.Driver";
 	
 	public Connection getCon() throws Exception{
-		ServletContext ctx = Config.getServletContext();
+		ServletContext ctx = Config.getInstance().getServletContext();
 		dbUrl=ctx.getInitParameter("UserDburl");
 		dbUserName=ctx.getInitParameter("dbUserName");
 		dbPassword=ctx.getInitParameter("dbPassword");

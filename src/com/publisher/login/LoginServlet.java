@@ -9,11 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.publisher.Config;
-import com.publisher.login.DbUtil;
-import com.publisher.login.User;
-import com.publisher.login.UserDao;
-
 public class LoginServlet extends HttpServlet{
 
 	/**
@@ -37,8 +32,6 @@ public class LoginServlet extends HttpServlet{
 		String userName=request.getParameter("userName");
 		String password=request.getParameter("password");
 		String authority=request.getParameter("authority");
-		String aa=Config.getServletContext().getRealPath("");
-		System.out.println(aa+'\n');
 		
 		Connection con=null;
 		try{

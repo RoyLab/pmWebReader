@@ -29,14 +29,7 @@ public class HtmlContainer {
 					+ name[0]
 					+ "	</div>");
 
-			XSLTTransformer.xsl2StreamWithPath(content, out, Config.getServletContext().getRealPath("")+"/xslt/dm.xslt");
-			
-//			// write into the file
-//	    	File f = new File("D:/Codes/eclipse/Publisher/WebContent/xslt/ftsearch.html");
-//	    	FileOutputStream fis = new FileOutputStream(f);
-//	    	OutputStreamWriter w = new OutputStreamWriter(fis);
-//			XSLTTransformer.xsl2Stream2(content, w, "D:/Codes/eclipse/Publisher/WebContent/xslt/dm.xslt");
-//			w.close();
+			XSLTTransformer.xsl2StreamWithPath(content, out, Config.getInstance().getServletContext().getRealPath("")+"/xslt/dm.xslt");
 				
 		} catch (IOException e) {
 			e.printStackTrace();
