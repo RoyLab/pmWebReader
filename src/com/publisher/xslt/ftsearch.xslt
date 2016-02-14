@@ -19,7 +19,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <br/>
       </xsl:for-each>
     <xsl:variable name="keyword"><xsl:value-of select="result/key" /></xsl:variable>
-    <h1><xsl:value-of select="$keyword"/></h1>
+    
     <script type="text/javascript">
       $("p").textSearch("<xsl:value-of select="$keyword"/>");
     </script>

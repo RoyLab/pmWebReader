@@ -23,7 +23,7 @@
 </head>
 
 
-<body background="style/LoginBackgroundImage.jpg" >
+<body background="resources/style/LoginBackgroundImage.jpg" >
 	<div id="loginWin" class="easyui-window" title="虚拟军事训练系统登录" minimizable="false" maximizable="false" resizable="false" collapsible="false">
     <div class="easyui-layout" fit="true">
             <div region="center" border="false" style="padding:5px;background:#fff;border:1px solid #ccc;">
