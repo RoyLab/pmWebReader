@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-723000-A-SBTR-00037-A-01-1 SYSTEM "ICN-SAMPLE-A-723000-A-SBTR-00037-A-01-1.CGM" NDATA cgm>
+<!ENTITY ICN-SAMPLE-A-723000-A-SBTR-00038-A-01-1 SYSTEM "ICN-SAMPLE-A-723000-A-SBTR-00038-A-01-1.CGM" NDATA cgm>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/proced.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>3</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>310</incode>
+          <incodev>C</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>点火电嘴</techname>
+        <infoname>检查</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="03" day="17"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <refs>
+      <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" target="">
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>3</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>720</incode>
+          <incodev>B</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+        <dmtitle>
+          <techname>电嘴/电嘴座,点火器</techname>
+          <infoname>安装程序</infoname>
+        </dmtitle>
+        <language language="zh" country="CN"></language>
+        <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+        <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+      </refdm>
+      <refdm xlink:title="-" xlink:type="simple" xlink:actuate="onRequest">
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>3</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>520</incode>
+          <incodev>B</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+        <dmtitle>
+          <techname>电嘴/电嘴座,点火器</techname>
+          <infoname>拆卸程序</infoname>
+        </dmtitle>
+        <language language="zh" country="CN"></language>
+        <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+        <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+      </refdm>
+      <refdm target="hot-001" xlink:title="-" xlink:type="simple" xlink:actuate="onRequest">
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>941</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+        <dmtitle>
+          <techname>主引擎</techname>
+          <infoname>图解零件数据</infoname>
+        </dmtitle>
+        <language language="zh" country="CN"></language>
+        <?ReferenceType TypeName="DynamicFixed" XEditor_ChangeType="Unchange"?>
+        <?ReferenceType TypeName="DynamicFixed" XEditor_ChangeType="Unchange"?>
+      </refdm>
+    </refs>
+    <proced>
+      <prelreqs>
+        <reqconds>
+          <reqcond>打开反推门</reqcond>
+        </reqconds>
+        <supequip>
+          <supeqli>
+            <supequi>
+              <nomen>维护平台 1号和3号发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks>4-8 ft(1.2-2.4 m)最小的</remarks>
+            </supequi>
+            <supequi>
+              <nomen>高空作业台,2号发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supequi>
+            <supequi>
+              <nomen>镜,放大灯</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supequi>
+            <supequi>
+              <nomen>螺纹模</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>1.000-20NS</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supequi>
+            <supequi>
+              <nomen>螺纹模</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>0.9375-16NS</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supequi>
+            <supequi>
+              <nomen>服务磨损测量的工具</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>CT-492</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supequi>
+          </supeqli>
+        </supequip>
+        <supplies>
+          <nosupply></nosupply>
+        </supplies>
+        <spares>
+          <nospares></nospares>
+        </spares>
+        <safety>
+          <safecond>
+            <warning>
+              <para>如电嘴是磨损超过标准,更换插头。陶瓷件碎片能够进入涡轮。这能够引起损坏涡轮。</para>
+            </warning>
+          </safecond>
+        </safety>
+      </prelreqs>
+      <mainfunc>
+        <figure id="fig-001">
+          <title>点火电嘴-检查</title>
+          <graphic boardno="ICN-SAMPLE-A-723000-A-SBTR-00037-A-01-1" xlink:type="simple" reprohgt="150" reprowid="133">
+            <hotspot visibility="visible" apsid="AUTOID_9961" apsname="1" id="hot-001"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_9964" apsname="2" id="hot-002"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_9967" apsname="3" id="hot-003"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_9970" apsname="4" id="hot-004"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_9976" apsname="5" id="hot-005"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_9973" apsname="6" id="hot-006"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_9979" apsname="7" id="hot-007"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_9982" apsname="8" id="hot-008"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_9985" apsname="9" id="hot-009"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_9988" apsname="10" id="hot-010"></hotspot>
+          </graphic>
+          <legend>
+            <deflist>
+              <term>1</term>
+              <def>
+                <para>接头螺纹</para>
+              </def>
+              <term>2</term>
+              <def>
+                <para>壳体螺纹</para>
+              </def>
+              <term>3</term>
+              <def>
+                <para>陶瓷隔离器</para>
+              </def>
+              <term>4</term>
+              <def>
+                <para>陶瓷隔离器</para>
+              </def>
+              <term>5</term>
+              <def>
+                <para>下部壳体</para>
+              </def>
+              <term>6</term>
+              <def>
+                <para>隔离区支架臂</para>
+              </def>
+              <term>7</term>
+              <def>
+                <para>区域7</para>
+              </def>
+              <term>8</term>
+              <def>
+                <para>区域8</para>
+              </def>
+              <term>9</term>
+              <def>
+                <para>区域9</para>
+              </def>
+              <term>10</term>
+              <def>
+                <para>区域10</para>
+              </def>
+            </deflist>
+          </legend>
+        </figure>
+        <figure id="fig-002">
+          <title>点火电嘴-检查</title>
+          <graphic boardno="ICN-SAMPLE-A-723000-A-SBTR-00038-A-01-1" xlink:type="simple" reprohgt="150" reprowid="142">
+            <hotspot visibility="visible" apsid="AUTOID_8733" apsname="12" id="hot-012"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8730" apsname="13" id="hot-013"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8736" apsname="14" id="hot-014"></hotspot>
+          </graphic>
+          <legend>
+            <deflist>
+              <term>12</term>
+              <def>
+                <para>接线柱头</para>
+              </def>
+              <term>13</term>
+              <def>
+                <para>接触按钮</para>
+              </def>
+              <term>14</term>
+              <def>
+                <para>碳迹</para>
+              </def>
+            </deflist>
+          </legend>
+        </figure>
+        <step1>
+          <title>点火电嘴检查</title>
+          <step2>
+            <para>拆下点火电嘴（<refdm xlink:title="-" xlink:type="simple" xlink:actuate="onRequest"><avee><modelic>SAMPLE</modelic><sdc>A</sdc><chapnum>72</chapnum><section>3</section><subsect>0</subsect><subject>00</subject><discode>00</discode><discodev>A</discodev><incode>520</incode><incodev>B</incodev><itemloc>A</itemloc></avee><dmtitle><techname>电嘴/电嘴座,点火器</techname><infoname>拆卸程序</infoname></dmtitle><language language="zh" country="CN"></language><?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?><?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?></refdm>）。</para>
+          </step2>
+          <step2>
+            <para>按下列步骤做一个目视检验的点火电嘴</para>
+            <step3>
+              <para>目视检查接头螺纹(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-001" xidtype="hotspot" target="1"></xref>),和管壳螺纹(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-002" xidtype="hotspot" target="2"></xref>)在点火电嘴。</para>
+            </step3>
+            <step3>
+              <para>用一个螺纹模修理螺纹是损坏的。使用一个 1.000-20NS 螺纹模对连接螺纹(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-001" xidtype="hotspot" target="1"></xref>)。使用一个 0.9375-16NS 螺纹模对管壳螺纹(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-002" xidtype="hotspot" target="2"></xref>)。</para>
+            </step3>
+          </step2>
+          <step2>
+            <para>检查陶器的表面(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-003" xidtype="hotspot" target="3"></xref>)的裂纹。</para>
+          </step2>
+          <step2>
+            <para>检查点火电嘴对于内部陶器的碎粒。摇动插头和倾听用于陶瓷件碎片松动在插头。</para>
+          </step2>
+          <step2>
+            <para>如裂纹或者碎粒是发现,更换插头。</para>
+          </step2>
+          <step2>
+            <note>
+              <para>使用目视检验作为第两种方法做分析电嘴磨损。最大外壳内径冲蚀识别,是一个标准防止损失陶器的材料。</para>
+            </note>
+            <para>检查插头端部的冲蚀用一个放大镜。发现如绝缘支架肩(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-006" xidtype="hotspot" target="6"></xref>)磨穿透。测量点火电嘴磨损用 CT-492,或者 CT-468使用工具。</para>
+          </step2>
+          <step2>
+            <para>按下列步骤检查点火电嘴的冲蚀:<seqlist><item><para>最大深度的磨损在区域(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-007" xidtype="hotspot" target="7"></xref>)是 0.030 in.(0.762 mm)。</para></item><item><para>多余的材料(通过磨损引起)在冷却空气孔区域(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-008" xidtype="hotspot" target="8"></xref>)是不准许。一件有裂纹是不准许的。</para></item><item><para>最大壳冲蚀在区域(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-009" xidtype="hotspot" target="9"></xref>)是 0.300 in. (7.6 mm)在直径。</para></item><item><para>最大减低冲蚀在区域(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-010" xidtype="hotspot" target="10"></xref>)是 0.340 in. (8.6 mm)在直径。</para></item></seqlist></para>
+          </step2>
+          <step2>
+            <para>如显示有更多的磨损更换点火电嘴这将避免损坏其他的点火系统零组件<refdm target="hot-001" xlink:title="-" xlink:type="simple" xlink:actuate="onRequest"><avee><modelic>SAMPLE</modelic><sdc>A</sdc><chapnum>72</chapnum><section>0</section><subsect>0</subsect><subject>00</subject><discode>00</discode><discodev>A</discodev><incode>941</incode><incodev>A</incodev><itemloc>A</itemloc></avee><dmtitle><techname>主引擎</techname><infoname>图解零件数据</infoname></dmtitle><language language="zh" country="CN"></language><?ReferenceType TypeName="DynamicFixed" XEditor_ChangeType="Unchange"?><?ReferenceType TypeName="DynamicFixed" XEditor_ChangeType="Unchange"?></refdm>。</para>
+          </step2>
+          <step2>
+            <para>如高压引线拆除从点火电咀终端,检查电咀的电级腔(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-012" xidtype="hotspot" target="12"></xref>)。查看电弧和跳火。<seqlist><item><para>坑洞,或者污染在接触按钮(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-013" xidtype="hotspot" target="13"></xref>)是电弧存在符号。清洁接触按钮拆卸小量的污染和坑洞。</para></item><item><para>跳火通过碳迹(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-014" xidtype="hotspot" target="14"></xref>)标识。</para></item><item><para>如一个或多个的指示发现,更换点火电嘴。</para></item><item><para>检查端子凹处(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="hot-012" xidtype="hotspot" target="12"></xref>)油,脏物和其他的传导性的污染的符号。清洁凹处拆卸污染。</para></item></seqlist></para>
+          </step2>
+        </step1>
+      </mainfunc>
+      <closereqs>
+        <reqconds>
+          <reqcondm>
+            <reqcond>安装点火电嘴。</reqcond>
+            <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" target="">
+              <avee>
+                <modelic>SAMPLE</modelic>
+                <sdc>A</sdc>
+                <chapnum>72</chapnum>
+                <section>3</section>
+                <subsect>0</subsect>
+                <subject>00</subject>
+                <discode>00</discode>
+                <discodev>A</discodev>
+                <incode>720</incode>
+                <incodev>B</incodev>
+                <itemloc>A</itemloc>
+              </avee>
+              <dmtitle>
+                <techname>电嘴/电嘴座,点火器</techname>
+                <infoname>安装程序</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+              <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+            </refdm>
+          </reqcondm>
+          <reqcond>拆除所有任务区的工具和装备。</reqcond>
+          <reqcond>关闭反推舱门。</reqcond>
+        </reqconds>
+      </closereqs>
+    </proced>
+  </content>
+</dmodule>

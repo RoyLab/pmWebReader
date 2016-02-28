@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-720000-A-SBTR-00001-A-01-1 SYSTEM "ICN-SAMPLE-A-720000-A-SBTR-00001-A-01-1.PNG" NDATA png>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/descript.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>010</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机</techname>
+        <infoname>综合数据</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="04" type="new"></issno>
+      <issdate year="2011" month="01" day="12"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <descript>
+      <figure>
+        <title>发动机－ 介绍</title>
+        <graphic boardno="ICN-SAMPLE-A-720000-A-SBTR-00001-A-01-1" xlink:type="simple" reprohgt="100" reprowid="150"></graphic>
+      </figure>
+      <para0>
+        <title>介绍</title>
+        <para>飞机的动力装置是两台 CFM56–7 发动机。这种发动机是双转子，轴流式涡轮风扇发动机。 N1 转子由一个风扇，一个低压压气机和一个低压涡轮构成。 N2 转子包括一个高压压气机和一个高压涡轮。 N1 和 N2 转子在机械上是独立的。N2 转子驱动发动机齿轮箱。由引气驱动的起动马达与 N2 转子连接。</para>
+        <para>双通道的电子发动机控制（EEC）操纵各台发动机。EEC监控自动油门和飞行机组输入信号，以自动调定发动机推力。</para>
+        <para>每台发动机都有各自的驾驶舱控制。移动推力手柄可以调定推力。推力可以是自动油门系统自动调节，也可以飞行机组人工调定。前推力手柄控制前推力，从慢车到最大。如果EEC在备用模式，前推油门至最大位可得到过量的供油，但这样的做法只有在所有其他可能采取的行动都已采取并即将撞地的情况下才能使用。反推手柄控制范围是从反推慢车到最大反推。</para>
+        <para>发动机向飞机提供推力。发动机也向这些飞机系统提供动力：<randlist><item><para>电气系统</para></item><item><para>液压系统</para></item><item><para>气压系统</para></item></randlist></para>
+      </para0>
+      <para0>
+        <title>发动机指示</title>
+        <para>提供主和次发动机指示。发动机指示显示在中央前面板的上侧显示组件（DU）和下侧显示组件（DU）上，或者显示在机长或副驾驶的内侧显示组件上。</para>
+        <subpara1>
+          <title>主发动机指示</title>
+          <para>N1 和 EGT 是主发动机显示。主发动机指示通常显示在中央前面板的上侧DU上。如果那一个显示组件失效，显示自动移到下侧DU上。利用各自的显示选择面板，可以人工将主发动机指示显示到机长或副驾驶的内侧 DU 上。</para>
+        </subpara1>
+        <subpara1>
+          <title>次发动机指示</title>
+          <para>N2，燃油流量，滑油压力，滑油温度，滑油油量和发动机振动指数是次发动机指示。利用各自的显示选择面板和发动机显示控制面板的 ENG 电门，可以将次发动机指示（除燃油流量）人工选择到机长或副驾驶的内侧显示组件或下侧显示组件上。燃油流量保持显示，显示位于上侧显示组件，在主发动机指示的下方。</para>
+          <para>次发动机指示在以下情况自动显示：<randlist><item><para>显示器刚刚接通电源时</para></item><item><para>飞行中，发动机起动手柄放到 CUTOFF位时</para></item><item><para>飞行中， N2 RPM 低于慢车时</para></item><item><para>次发动机指示超出极限时</para></item></randlist></para>
+          <para>当次发动机指示自动显示时，它们不能被清除，直到其产生条件被排除。</para>
+        </subpara1>
+        <subpara1>
+          <title>密集显示</title>
+          <para>在密集显示，主和次发动机参数指示在同一个显示上。 N1 和 EGT 与正常显示方式相同。 其它指示仅有数字读数。超出极限时，N2 滑油温度和滑油压力的数字读数变成红色或琥珀色。如果飞行中曾超出极限，在地面发动机关车后， N2数字显示会被红色方框框住。</para>
+          <para>选择了次发动机指示（人工或自动）而下侧 DU 不工作时，主和次发动机指示以密集格式显示在上侧 DU 上。 同样，如果上侧 DU 不工作，下侧 DU以密集格式显示参数。</para>
+        </subpara1>
+      </para0>
+    </descript>
+  </content>
+</dmodule>

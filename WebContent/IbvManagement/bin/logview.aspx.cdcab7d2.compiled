@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/LogView.aspx" hash="5814482f9" filehash="898c6eac43eaebbe" flags="110000" assembly="App_Web_fj1wu5ky" type="ASP.logview_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/LogView.aspx" />
+        <filedep name="/IbvManagement/LogView.aspx.cs" />
+    </filedeps>
+</preserve>

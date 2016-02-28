@@ -1,0 +1,143 @@
+﻿<HTML xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="PRAGMA" content="no-cache">
+    <title>高压涡轮间隙主动控制 － 功能的描述</title>
+    <link rel="STYLESHEET" type="text/css" href="../manual-resources/css/style.css">
+    <link rel="STYLESHEET" type="text/css" href="../manual-resources/css/tbStyle.css"><script language="JavaScript" src="../manual-resources/js/jQuery.js"></script><script language="JavaScript" src="../manual-resources/js/Dialog.js"></script><script language="JavaScript" src="../manual-resources/js/Reference.js"></script><script language="JavaScript" src="../manual-resources/js/AssistantInfo.js"></script><script language="JavaScript" src="../manual-resources/js/Graphic.js"></script><script language="JavaScript" src="../manual-resources/js/Procedure.js"></script><script language="JavaScript" src="../manual-resources/js/Fault.js"></script><script language="JavaScript" src="../manual-resources/js/Process.js"></script><script language="JavaScript" src="../manual-resources/js/Schedule.js"></script><script language="JavaScript" src="../manual-resources/js/ApplicRecised.js"></script><script language="JavaScript" src="../manual-resources/js/IETM.js"></script></HEAD>
+  <BODY>
+    <div style="height:80%" id="dmContent">
+      <div id="metadataPane" style="display:none">
+        <table class="metadataPane">
+          <tr>
+            <td valign="top" nowrap>数据模块编码: 
+            </td>
+            <td valign="top">SAMPLE-A-72-40-00-00A-042A-在产品</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>版本: 
+            </td>
+            <td valign="top">000 
+        new</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>出版日期: 
+            </td>
+            <td valign="top">2011-01-11</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>密级: 
+            </td>
+            <td valign="top">公开</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>责任公司: 
+            </td>
+            <td valign="top">SBTR</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>原创作者: 
+            </td>
+            <td valign="top">SBTR</td>
+          </tr>
+          <tr class="applic_hiden">
+            <td valign="top" nowrap>适用性:</td>
+            <td>全部</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>
+        业务规则DM: 
+      </td>
+            <td>SAMPLE-A-00-00-00-00A-022A-A</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>质量保证状况: 
+            </td>
+            <td valign="top">初稿</td>
+          </tr>
+          <tr>
+            <td colspan="3"></td>
+          </tr>
+        </table>
+      </div>
+      <div id="tooltip" align="center" style="display:none;width:90px;height:20px;background-color:#CBE1FE;border:1px #86ACDE solid;"><span class="refs_text">引用链终</span><img src="../manual-resources/images/Next1.gif"></div>
+      <div align="center" class="dmodule_title">高压涡轮间隙主动控制 － 功能的描述</div><a name="dir-figure-1" xmlns:user="http://mycompany.com/mynamespace"></a><a name="" xmlns:user="http://mycompany.com/mynamespace"></a><div class="figure" xmlns:user="http://mycompany.com/mynamespace">
+        <p align="center"><img class="figure_min" id="ICN-SAMPLE-A-724000-A-SBTR-00015-A-01-1.png" src="min_ICN-SAMPLE-A-724000-A-SBTR-00015-A-01-1.GIF"></p>
+      </div>
+      <div class="figure_multimedia_icn" xmlns:user="http://mycompany.com/mynamespace">ICN-SAMPLE-A-724000-A-SBTR-00015-A-01-1</div>
+      <div class="figure_title" xmlns:user="http://mycompany.com/mynamespace"><a name="dir-title-1"></a>图片1  HPTACC  －  功能说明</div>
+      <div class="para0_title"><a name="dir-para0-4"></a>1  概述 </div><a name=""><p class="para_firstline_indent_text">EEC使用这些数据控制 HPTACC 活门 ：<ul class="unordered_randlist_hyphen_Odd">
+            <li style="line-height:1.8;"><a name=""><div class="para_text" style="text-indent:0mm;">环境压力（PO）</div></a></li>
+            <li style="line-height:1.5"><a name=""><div class="para_text" style="text-indent:0mm;"> N2 </div></a></li>
+            <li style="line-height:1.5"><a name=""><div class="para_text" style="text-indent:0mm;">压气机出口空气温度（T3）</div></a></li>
+            <li style="line-height:1.5"><a name=""><div class="para_text" style="text-indent:0mm;">高压涡轮护罩支架温度（TCC传感器）</div></a></li>
+          </ul>
+        </p></a><a name=""><p class="para_firstline_indent_text">EEC通常通过显示电子装置（DEU）从 ADIRU 接收 PO。其它数据来自发动机传感器。 </p></a><div class="para0_title"><a name="dir-para0-17"></a>2  控制 </div><a name=""><p class="para_firstline_indent_text">HPTACC 系统自动地工作。EEC使用飞机和发动机数据控制用于冷却高压涡轮护罩支架的 HPC  第 9 级/第 4 级引气比率。如果ADIRU 数据变得无效，EEC使用在 EEC内的 PO传感器。EEC发送一个 HPTACC 指令信号至 HMU。HMU 发送修正的伺服燃油压力至 HPTACC 活门的杆侧和筒侧。这就移动在 HPTACC 活门内的活门。活门控制 HPC  第 9 级和第 4 级空气的流量。这就控制流至HPT 护罩支架的温度。 </p></a><a name=""><p class="para_firstline_indent_text">EEC 从 N2 转速，T3 和高度（PO）计算需要的 HPT 机匣支架温度（TCC）。如果 TCC 过高，EEC 发送一个信号至 HMU 冷却HPT 护罩支架。 如 TCC过低， EEC发送一个信号至 HMU冷却 HPT护罩支架少一些。 </p></a><a name=""><p class="para_firstline_indent_text">作动筒有两个 LVDT。EEC 使用这些 LVDT 监控 HPTACC 作动筒的位置。1 个 LVDT 发送一个电信号至 EEC的通道 A。另一个LVDT 发送一个电信号至通道 B。 </p></a><div class="para0_title"><a name="dir-para0-22"></a>3  工作方式 </div><a name=""><p class="para_firstline_indent_text">HPTACC 有五个工作方式： <ul class="unordered_randlist_hyphen_Odd">
+            <li style="line-height:1.8;"><a name=""><div class="para_text" style="text-indent:0mm;"><span style="font-family:微软雅黑; font-size:10.5pt; font-weight:bold; background-color:Transparent; color:Black">无空气</span>－作动筒完全缩入。HPC 第 4 级和第 9 级活门都是关闭。这是当发动机停车时的作动筒位置。这是失效保险的位置。如果 EEC 或 HMU 有故障，EEC 指令 HPTACC活门至此位置。当 HPTACC是在此位置时，HPT叶尖间隙是最大。</div></a></li>
+            <li style="line-height:1.5"><a name=""><div class="para_text" style="text-indent:0mm;"><span style="font-family:微软雅黑; font-size:10.5pt; font-weight:bold; background-color:Transparent; color:Black">低流量第 9 级</span>－EEC调定作动筒至 8％伸长。第 9 级活门让低流量的第 9 级空气流至 HPT 护罩支架。4 级蝶形活门是全关的。这样少量地冷却护罩支架。</div></a></li>
+            <li style="line-height:1.5"><a name=""><div class="para_text" style="text-indent:0mm;"><span style="font-family:微软雅黑; font-size:10.5pt; font-weight:bold; background-color:Transparent; color:Black">高流量第 9 级</span>－EEC 调定作动筒到 37％的伸长。第 9 级活门全部打开。第 4级蝶形活门是全关的。这较多地冷却护罩支架。 </div></a></li>
+            <li style="line-height:1.5"><a name=""><div class="para_text" style="text-indent:0mm;"><span style="font-family:微软雅黑; font-size:10.5pt; font-weight:bold; background-color:Transparent; color:Black">混合</span>－EEC 在 38%和 99%之间计算作动筒位置。这调定第 9 级和第 4 级空气比率至精确地调节 HPT 间隙。这更多地冷却护罩支架。</div></a></li>
+            <li style="line-height:1.5"><a name=""><div class="para_text" style="text-indent:0mm;"><span style="font-family:微软雅黑; font-size:10.5pt; font-weight:bold; background-color:Transparent; color:Black">全第 4 级</span>－作动筒全部伸长（100%）。第 9 级活门全部关闭。4 级活门完全打开。这提供最小 HPT 间隙的最大护罩支架冷却。</div></a></li>
+          </ul>
+        </p></a><a name="dir-table-41" xmlns:sbtr="http://www.sbtr.com.cn"></a><div class="table_withhead_title" xmlns:sbtr="http://www.sbtr.com.cn">
+        <div class="table_withhead_title">表<span class="table_title_num">1</span>  典型的 HPTACC 方式和飞机状态列举在下表内。 </div>
+      </div>
+      <table cellpadding="5" border="0" cellspacing="0" align="center" class="table_class" width="90%" xmlns:sbtr="http://www.sbtr.com.cn">
+        <colgroup>
+          <col colwidth="76">
+          <col colwidth="324">
+        </colgroup>
+        <tr>
+          <th class="table_first_thead" width="19%" align="left" valign="left">发动机状态 </th>
+          <th class="table_first_thead" width="81%" align="left" valign="left">HPTACC 方式  </th>
+          <td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;"> </td>
+        </tr>
+        <tr>
+          <td style="border-top-style:solid;border-top-width:1pt;" width="19%" class="table_cell" align="left" valign="left">冷起动 </td>
+          <td style="border-top-style:solid;border-top-width:1pt;" width="81%" class="table_cell" align="left" valign="left">开始是全部第 4 级，然后过渡到混合方式至全部第 9 级 </td>
+          <td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;"> </td>
+        </tr>
+        <tr>
+          <td class="table_cell" align="left" valign="left">热起动 </td>
+          <td class="table_cell" align="left" valign="left">第 9 级以把 HPT 磨擦减至最小 </td>
+          <td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;"> </td>
+        </tr>
+        <tr>
+          <td class="table_cell" align="left" valign="left">起飞和上升</td>
+          <td class="table_cell" align="left" valign="left">开始 4级以降低 EGT峰值，然后过渡至混合方式 </td>
+          <td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;"> </td>
+        </tr>
+        <tr>
+          <td class="table_cell" align="left" valign="left">巡航 </td>
+          <td class="table_cell" align="left" valign="left">第 4 级以减小燃油消耗量 </td>
+          <td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;"> </td>
+        </tr>
+        <tr>
+          <td class="table_cell" align="left" valign="left">下降 </td>
+          <td class="table_cell" align="left" valign="left">低流量第 9 级以防止磨擦 </td>
+          <td class="table_last_col" style="border-right-width:0pt;border-top-width:0pt;border-bottom-width:0pt;"> </td>
+        </tr>
+      </table><br xmlns:sbtr="http://www.sbtr.com.cn"><br><br></div>
+    <hr class="DmEnding" width="98%" align="center">
+    <div class="DmEnding" align="center" style="color:#6C6C6C;font-family:黑体; font-weight:bold;">数据模块结束</div><input name="dmType" type="hidden" id="dmType" value="descript"><input name="security" type="hidden" id="security" value="公开" numvalue="01"><input name="dmcxt" type="hidden" id="dmcxt" value="-"><input name="dmc" type="hidden" id="dmc" value="SAMPLE-A-72-40-00-00A-042A-在产品"><input name="issno" type="hidden" id="issno" value="000"><input name="issno_inwork" type="hidden" id="issno_inwork" value="01"><input name="language" type="hidden" id="language" value="中文"><input name="country" type="hidden" id="country" value="中国"><input name="applic" type="hidden" id="applicValue" value="全部"><div id="PMRefedList" style="display:none;">
+      <table width="100%" class="references_table">
+        <tr>
+          <th>标题</th>
+          <th>出版模块编码</th>
+        </tr>
+        <tr>
+          <td>test</td>
+          <td>SAMPLE-54656-56465-00_000-04_zh-CN</td>
+        </tr>
+      </table>
+    </div>
+    <div id="DMRefedList" style="display:none;">
+      <table width="100%" class="references_table">
+        <tr>
+          <th>标题</th>
+          <th>数据模块编码</th>
+        </tr>
+      </table>
+    </div>
+  </BODY>
+</HTML>

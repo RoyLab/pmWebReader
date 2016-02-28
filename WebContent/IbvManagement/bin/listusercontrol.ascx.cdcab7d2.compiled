@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/ListUserControl.ascx" hash="5814482f9" filehash="d3261514d823e985" flags="110000" assembly="App_Web_fj1wu5ky" type="ASP.listusercontrol_ascx">
+    <filedeps>
+        <filedep name="/IbvManagement/ListUserControl.ascx" />
+        <filedep name="/IbvManagement/ListUserControl.ascx.cs" />
+    </filedeps>
+</preserve>

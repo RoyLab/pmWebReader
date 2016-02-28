@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/CommentExport.aspx" hash="5814482f9" filehash="28caf358b6eba07a" flags="110000" assembly="App_Web_xyr-fbv8" type="ASP.commentexport_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/CommentExport.aspx" />
+        <filedep name="/IbvManagement/CommentExport.aspx.cs" />
+        <filedep name="/IbvManagement/HeaderUserControl.ascx" />
+        <filedep name="/IbvManagement/HeaderUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/ListUserControl.ascx" />
+        <filedep name="/IbvManagement/ListUserControl.ascx.cs" />
+    </filedeps>
+</preserve>

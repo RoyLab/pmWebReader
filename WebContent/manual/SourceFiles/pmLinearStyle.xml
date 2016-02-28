@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CSS>
+    <StyleClass Name="wholeBodyStyle" DisplayName="全文样式" Description="全文样式" Order="101" GroupBy="01:全文样式">
+      <attributes>
+        <StyleProperty name="line-height" displayname="行间距(%)" Description="行间距" type="Int" unit="%" value="170" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="left" />
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimSun" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="10.5" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="paraCommonStyle" DisplayName="段落" Description="段落" Order="201" GroupBy="02:段落">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimSun" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="italic" />
+        <StyleProperty name="line-height" displayname="行间距(%)" Description="行间距" type="Int" unit="%" value="170" />
+        <StyleProperty name="start-indent" displayname="缩进(pt)" Description="缩进" type="Int" unit="pt" value="8" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="friCenterTitle" DisplayName="一级居中标题" Description="一级居中标题" Order="301" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="center" />
+        <StyleProperty name="space-before" displayname="上间距(mm)" Description="上间距(mm)" type="Int" unit="mm" value="4" />
+        <StyleProperty name="space-after" displayname="下间距(mm)" Description="下间距(mm)" type="Int" unit="mm" value="4" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="secCenterTitle" DisplayName="二级居中标题" Description="二级居中标题" Order="302" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="italic" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="center" />
+        <StyleProperty name="space-before" displayname="上间距(mm)" Description="上间距(mm)" type="Int" unit="mm" value="4" />
+        <StyleProperty name="space-after" displayname="下间距(mm)" Description="下间距(mm)" type="Int" unit="mm" value="4" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="zeroSideTitle" DisplayName="0级侧标题" Description="0级侧标题" Order="303" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="left" />
+        <StyleProperty name="space-before" displayname="上间距(mm)" Description="上间距(mm)" type="Int" unit="mm" value="4" />
+        <StyleProperty name="space-after" displayname="下间距(mm)" Description="下间距(mm)" type="Int" unit="mm" value="4" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="friSideTitle" DisplayName="1级侧标题" Description="1级侧标题" Order="304" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="left" />
+        <StyleProperty name="space-before" displayname="上间距(mm)" Description="上间距(mm)" type="Int" unit="mm" value="4" />
+        <StyleProperty name="space-after" displayname="下间距(mm)" Description="下间距(mm)" type="Int" unit="mm" value="4" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="secSideTitle" DisplayName="2级侧标题" Description="2级侧标题" Order="305" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="left" />
+        <StyleProperty name="space-before" displayname="上间距(mm)" Description="上间距(mm)" type="Int" unit="mm" value="4" />
+        <StyleProperty name="space-after" displayname="下间距(mm)" Description="下间距(mm)" type="Int" unit="mm" value="4" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="thiSideTitle" DisplayName="3级侧标题" Description="3级侧标题" Order="306" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="left" />
+        <StyleProperty name="space-before" displayname="上间距(mm)" Description="上间距(mm)" type="Int" unit="mm" value="4" />
+        <StyleProperty name="space-after" displayname="下间距(mm)" Description="下间距(mm)" type="Int" unit="mm" value="4" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="fouSideTitle" DisplayName="4级侧标题" Description="4级侧标题" Order="307" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="left" />
+        <StyleProperty name="space-before" displayname="上间距(mm)" Description="上间距(mm)" type="Int" unit="mm" value="4" />
+        <StyleProperty name="space-after" displayname="下间距(mm)" Description="下间距(mm)" type="Int" unit="mm" value="4" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="fifSideTitle" DisplayName="5级侧标题" Description="5级侧标题" Order="308" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="left" />
+        <StyleProperty name="space-before" displayname="上间距(mm)" Description="上间距(mm)" type="Int" unit="mm" value="4" />
+        <StyleProperty name="space-after" displayname="下间距(mm)" Description="下间距(mm)" type="Int" unit="mm" value="4" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="figureTitle" DisplayName="插图标题" Description="插图标题" Order="309" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="italic" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="tableTitle" DisplayName="表格标题" Description="表格标题" Order="310" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="italic" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="mediaTitle" DisplayName="多媒体标题" Description="多媒体标题" Order="211" GroupBy="03:标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="italic" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="icnSettingStyle" DisplayName="ICN码" Description="ICN码" Order="401" GroupBy="04:插图">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimSun" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="right" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="reftableHeaderStyle" DisplayName="引用" Description="引用" Order="501" GroupBy="05:引用">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimSun" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="tableHeaderStyle" DisplayName="表头" Description="表头" Order="601" GroupBy="06:表格">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="tableBodyStyle" DisplayName="表格内容" Description="表格内容" Order="602" GroupBy="06:表格">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimSun" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="文本位置" Description="文本位置" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="warningTitle" DisplayName="警告标题" Description="警告标题" Order="701" GroupBy="07:警告/注意/注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="15.75" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="warningContent" DisplayName="警告内容" Description="警告内容" Order="702" GroupBy="07:警告/注意/注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-indent" displayname="缩进" Description="缩进" type="Int" unit="pt" value="32" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="cautionTitle" DisplayName="注意标题" Description="注意标题" Order="703" GroupBy="07:警告/注意/注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="15.75" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="cautionContent" DisplayName="注意内容" Description="注意内容" Order="704" GroupBy="07:警告/注意/注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-indent" displayname="缩进" Description="缩进" type="Int" unit="pt" value="32" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="noteTitle" DisplayName="注标题" Description="注标题" Order="705" GroupBy="07:警告/注意/注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="15.75" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="noteContent" DisplayName="注内容" Description="注内容" Order="706" GroupBy="07:警告/注意/注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体" Description="字体" type="Enum" unit=",Arial" value="SimHei" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-indent" displayname="缩进" Description="缩进" type="Int" unit="pt" value="32" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="timelim" DisplayName="时间周期" Description="时间周期" Order="707" GroupBy="08:表格列设置">
+      <attributes>
+        <StyleProperty name="var00408" displayname="项目号" Description="显示项目号" type="Bool" unit="" value="true" />
+        <StyleProperty name="var00409" displayname="首翻期" Description="显示首翻期" type="Bool" unit="" value="true" />
+        <StyleProperty name="var00410" displayname="翻修间隔" Description="显示翻修间隔" type="Bool" unit="" value="true" />
+        <StyleProperty name="var00411" displayname="总寿命" Description="显示总寿命" type="Bool" unit="" value="true" />
+        <StyleProperty name="var00176" displayname="类别" Description="显示类别" type="Bool" unit="" value="true" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="applic" DisplayName="适用性" Description="适用性" Order="708" GroupBy="09:适用性设置">
+      <attributes>
+        <StyleProperty name="app_showWhenAllOrNull" displayname="显示" Description="当适用性在没有内容或者为‘all’的时候显示‘全部’" type="Bool" unit="" value="true" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="definspec" DisplayName="定义检查" Description="定义检查" Order="709" GroupBy="08:表格列设置">
+      <attributes>
+        <StyleProperty name="var00105" displayname="序号" Description="显示序号" type="Bool" unit="" value="true" />
+        <StyleProperty name="var00036" displayname="名称" Description="显示名称" type="Bool" unit="" value="true" />
+        <StyleProperty name="var00127" displayname="任务" Description="显示任务" type="Bool" unit="" value="true" />
+        <StyleProperty name="var00010" displayname="引用" Description="显示引用" type="Bool" unit="" value="true" />
+        <StyleProperty name="var00337" displayname="适用于" Description="显示适用于" type="Bool" unit="" value="true" />
+      </attributes>
+    </StyleClass>
+  </CSS>
+</StyleDocument>

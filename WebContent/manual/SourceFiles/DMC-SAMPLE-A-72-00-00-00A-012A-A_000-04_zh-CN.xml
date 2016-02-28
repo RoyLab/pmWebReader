@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-720000-A-SBTR-00004-A-01-1 SYSTEM "ICN-SAMPLE-A-720000-A-SBTR-00004-A-01-1.CGM" NDATA cgm>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/descript.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>012</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机</techname>
+        <infoname>安全注意事项</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="04" type="new"></issno>
+      <issdate year="2011" month="07" day="29"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <descript>
+      <figure id="fig-001">
+        <title>发动机危险区</title>
+        <graphic boardno="ICN-SAMPLE-A-720000-A-SBTR-00004-A-01-1" xlink:type="simple" reprohgt="97" reprowid="150">
+          <hotspot visibility="visible" apsid="AUTOID_8713" apsname="防撞灯" id="hot-001"></hotspot>
+          <hotspot visibility="visible" apsid="AUTOID_8710" apsname="防撞灯" id="hot-002"></hotspot>
+          <hotspot visibility="visible" apsid="AUTOID_8722" apsname="高温和排气速度危险区" id="hot-003"></hotspot>
+          <hotspot visibility="visible" apsid="AUTOID_8719" apsname="进/出走廊" id="hot-004"></hotspot>
+          <hotspot visibility="visible" apsid="AUTOID_8716" apsname="进/出走廊" id="hot-005"></hotspot>
+          <hotspot visibility="visible" apsid="AUTOID_8725" apsname="进气口危险区" id="hot-006"></hotspot>
+        </graphic>
+      </figure>
+      <caution id="cau-001">
+        <para>在发动机周围工作是危险的。当发动机在运转时，使用进／出走廊(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="进/出走廊"></xref>)。同样，当发动机在运转时，不要呆在进气口(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="进气口危险区"></xref>)和排气口区域(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="高温和排气速度危险区"></xref>)。 </para>
+      </caution>
+      <caution id="cau-002">
+        <para>发动机进气口吸力能够把人和大的物品吸入发动机。在慢车功率，进气口危险区(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="进气口危险区"></xref>)是环绕进气口半径 13（4.0 米）的区域。 </para>
+      </caution>
+      <warning id="war-003">
+        <para>如果风速超过 25 节（海里／小时），进气口危险区(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="进气口危险区"></xref>)增大 20％。</para>
+      </warning>
+      <caution id="cau-004">
+        <para>在发动机后面很长的距离内(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="高温和排气速度危险区"></xref>)排气是很热的。 高温的排气对人员和设备能够造成危害。 </para>
+      </caution>
+      <caution id="cau-005">
+        <para>在发动机后面很长的距离内排气(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="高温和排气速度危险区"></xref>)的速度是很高的， 对人员和设备能够造成危害。 </para>
+      </caution>
+      <warning id="war-006">
+        <para>发动机噪声能够使你暂时和永久失去听力。 当靠近运转中的发动机时，必须戴上耳朵防护装置。 </para>
+      </warning>
+    </descript>
+  </content>
+</dmodule>

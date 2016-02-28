@@ -1,0 +1,327 @@
+<html>
+<head>
+    <meta http-equiv="PRAGMA" content="no-cache" />
+    <meta charset='utf-8'>
+    
+    <title>IETM(S1000D)-IBV</title>
+    <link rel="stylesheet" type="text/css" href="resources/extjs/resources/css/ext-all.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="resources/extjs/resources/css/customtoolbarbutton.css" />
+    <link type="text/css" rel="stylesheet" href="resources/xyTree4.12/xyTree/xtree.css" />
+<!--    <link rel="Alternate" media="print" href="Manual/temp.HTM" />   -->
+    <link rel="Alternate" media="print" href="Manual/Print.aspx" />
+    <style type="text/css">
+
+        html, body
+        {
+            font: normal 12px verdana;
+            margin: 0;
+            padding: 0;
+            border: 0 none;
+            overflow: hidden;
+            height: 100%;
+        }
+        p
+        {
+            margin: 5px;
+        }
+        @media print
+        {
+            body
+            {
+                display: none;
+            }
+        }
+    </style>
+
+    <script language="javascript" type="text/jscript">
+         function LoginOut()
+        {
+             //如果备注修改过,需要提示用户是否保存备注
+             var remarkEditor=window.ApplicationContext.MainFrame.GetReMarkEditor();
+             if(remarkEditor.RemarkHandler.IsEditorHasChanged())
+             {
+                     if (confirm("备注已经更改，是否保存？")) {
+                        remarkEditor.RemarkHandler.SaveRemark();
+                     }
+             }
+
+            if(window.confirm("真的要注销系统吗？")==false)
+            {
+                return ;
+            }
+
+			try {
+                $.ajaxSetup({ async: false });
+                result = Service.WebService.Post('LogOut', null);
+            }
+            catch (e) {
+            }
+            finally {
+                $.ajaxSetup({ async: true });
+            }
+            UserManager.Cookies.SetCookiesName('');
+            window.location.href = 'login.html';
+        }
+
+        function keydown()
+        {
+            if(window.event.keyCode==122)
+            {
+                event.returnValue=false;
+                event.keyCode=0;
+                return false;
+            }
+
+            if(event.altKey&&window.event.keyCode==76)
+            {
+                LockPageEventHandler();
+            }
+        }
+
+        function InitManual()
+        {
+                var s=s135("manual");
+                var dmc=s135("dmc");
+                var index=0;
+
+                if (dmc!='') {
+                    s='IETM';
+                }
+                else if(s=='')
+                {
+                    s='IETM';
+                }
+                return s;
+        }
+
+         function s135(s136){
+            var s137=document.location.search;
+            if(s137=="")
+                return "";
+            if(s137.charAt(0)=="?")
+                s137=s137.substring(1,s137.length);
+            var s138=s137.split("&");
+            for(i=0;i<s138.length;i++)
+            {
+                var s138_values=s138[i].split("=");
+                if(s136==unescape(s138_values[0]))
+                {
+                    var s140;
+                    if(window.decodeURIComponent)
+                        s140=decodeURIComponent(s138_values[1]);
+                    else
+                        s140=unescape(s138_values[1]);
+                        return s140;
+                 }
+             }
+             return "";
+         }
+        //window.onload=function()
+        //{
+            //挂接关闭事件
+        //    onbeforeunload=MainClose;
+        //}
+        //function MainClose()
+        //{
+            //有用户登录信息，才需要提示。比如在注销时，也是先清除用户信息，才离开页面。
+        //    var userInfo= UserManager.Cookies.GetCookieName();
+        //    if(userInfo!=undefined && userInfo!='')
+        //    {
+        //        window.event.returnValue="离开将退出系统。";
+        //    }
+        //}
+
+</script>
+
+</head>
+<body id="docs">
+    <iframe id="lockframe" frameborder="1" width="100%" height="100%" style="position: absolute;
+        z-index: 9998; display: none"></iframe>
+    <div id="loading-mask" style="background: #DFE8F6;">
+    </div>
+    <div id="loading">
+        <div class="loading-indicator" style="background: transparent;">
+            <table  width="100%" height="100%" align="center">
+                <tr>
+                    <td align="center">
+                        <p>
+                            <!--<script type="text/javascript" language="javascript">document.write('打开'+InitManual()+'手册');</script>-->
+                            <script type="text/javascript" language="javascript">document.write('打开'+InitManual());</script>
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <p>
+                            <img src="resources/extjs/resources/images/default/shared/large-loading.gif" style="margin-right: 8px;"
+                                align="absmiddle" alt="" /></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <p>
+                            请稍侯...</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- <object id="max" type="application/x-oleobject" classid="clsid:ADB880A6-D8FF-11CF-9377-00AA003B7A11">
+    <param  name="Command" value="MINISIZE"/>
+    </object>
+-->
+
+    <script type="text/javascript" src="resources/extjs/adapter/ext/ext-base.js"></script>
+
+    <!-- <script src="test/js/ext-all-debug.js" type="text/javascript"></script>-->
+
+   <script src="resources/extjs/ext-all.js" type="text/javascript"></script>
+
+    <script src="resources/js/Common/HtmlEditor.js" type="text/javascript"></script>
+
+
+
+    <script src="manual-resources/js/jquery.js" type="text/javascript"></script>
+
+    <script src="resources/js/Common/ext-bugfix.js" type="text/javascript"></script>
+
+    <script src="resources/js/Common/ext-extend.js" type="text/javascript"></script>
+
+    <script src="resources/js/Common/miframe.js" type="text/javascript"></script>
+
+    <script src="resources/js/Common/ext-control.js" type="text/javascript"></script>
+
+    <script src="resources/js/Common/CommonService.js" type="text/javascript"></script>
+
+    <script src="resources/js/Common/BasicDataService.js" type="text/javascript"></script>
+
+    <script src="resources/js/Common/FilterService.js" type="text/javascript"></script>
+
+     <script src="resources/js/ViewHistory/ViewHistory.js" type="text/javascript"></script>
+
+    <script src="resources/js/ViewHistory/VisitedHistory.js" type="text/javascript"></script>
+
+    <script src="manual-resources/js/tree.js" type="text/javascript"></script>
+
+    <script src="resources/js/UserManager/UserManagerUtility.js" type="text/javascript"></script>
+
+    <script src="resources/js/UserManager/user-info.js" type="text/javascript"></script>
+
+    <script src="resources/js/UserManager/UserManagerUI.js" type="text/javascript"></script>
+
+    <script src="resources/js/UserManager/UserManager.js" type="text/javascript"></script>
+
+    <script src="resources/js/UserManager/RoleManagerUI.js" type="text/javascript"></script>
+
+    <script src="resources/js/UserManager/RoleManager.js" type="text/javascript"></script>
+
+    <script src="resources/js/UserManager/PasswordComplexity.js" type="text/javascript"></script>
+
+    <script src="resources/js/System/ViewProfile.js" type="text/javascript"></script>
+
+    <script src="resources/js/MainFrame/ApplicationContext.js" type="text/javascript"></script>
+
+    <script src="resources/js/MainFrame/MainFrame.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/MainFrameInterface.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/MainFrameHandler.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/MainFrameToolbarHandler.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/ManualTree/ManualTreePanel.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/ManualTree/ManualTreeHandler.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/ManualTree/PublicationManualTree.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/ManualTree/publicationTree.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/ManualTree/MyTreeLoader.js" type="text/javascript"></script>
+
+    <script src="resources/js/MainFrame/MutliTab/MutliTabPanel.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/MutliTab/MutliTabHandler.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/MutliTab/FrameHandler.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/MutliTab/FramePanel.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Multimedia/MultimediaPanel.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Multimedia/MultimediaHandler.js" type="text/javascript"></script>
+
+    <script src="resources/js/MainFrame/Multimedia/MultimediaFullScreenHandler.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Multimedia/MultimediaFullScreen.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Toolbar/ToolbarPanel.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Toolbar/ToolbarHandler.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Toolbar/InitCustomToolbarButton.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Remark/RemarkPanel.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Remark/RemarkHandler.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Navigation/NavigationPanel.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Navigation/NavigationTreeHandler.js" type="text/javascript"></script>
+    <script src="resources/js/MainFrame/Navigation/NavigationTreePanel.js" type="text/javascript"></script>
+
+    <script src="resources/js/System/print.js" type="text/javascript"></script>
+<!--
+    <script src="resources/js/event-handler.js" type="text/javascript"></script>
+
+    <script src="resources/js/Common/webservice-manager.js" type="text/javascript"></script> -->
+
+    <script src="resources/js/Common/FolderBrowserDialog.js" type="text/javascript"></script>
+
+    <script src="resources/js/System/ExportSourceFile.js" type="text/javascript"></script>
+
+    <script src="manual-resources/js/ApplicData.js" type="text/javascript"></script>
+
+
+
+
+    <script src="resources/js/Common/ApplicFilter.js" type="text/javascript"></script>
+
+    <script src="resources/js/System/lockPageEvent.js" type="text/javascript"></script>
+
+
+
+
+    <script src="resources/js/Common/scurityFilter.js" type="text/javascript"></script>
+
+    <script src="resources/js/index.js" type="text/javascript"></script>
+
+    <script src="manual-resources/js/AdvancedSearchData.js" type="text/javascript"></script>
+
+    <script src="resources/js/Search/AdvancedSearch.js" type="text/javascript"></script>
+
+    <script src="resources/js/Search/FullTextSearch.js" type="text/javascript"></script>
+
+    <script src="resources/js/Remark/Remark.js" type="text/javascript"></script>
+
+    <script src="resources/js/Bookmark/bookmark.js" type="text/javascript"></script>
+
+    <script src="resources/js/System/UserProfile.js" type="text/javascript"></script>
+
+    <!--<script src="resources/js/comment.js" type="text/javascript"></script>-->
+
+    <script src="resources/js/comment/CommentBiz.js" type="text/javascript"></script>
+
+    <script src="resources/js/comment/CommentDetailWindow.js" type="text/javascript"></script>
+
+    <script src="resources/js/comment/CommentMgrPanel.js" type="text/javascript"></script>
+
+    <script src="resources/js/comment/CommentPackDetailWindow.js" type="text/javascript"></script>
+
+    <script src="resources/js/comment/CommentPackHistoryWindow.js" type="text/javascript"></script>
+
+    <script src="resources/js/comment/CommentPackWindow.js" type="text/javascript"></script>
+
+    <script src="resources/js/comment/CommentPrintWindow.js" type="text/javascript"></script>
+
+    <script src="resources/js/comment/CommentSelectObjWindow.js" type="text/javascript"></script>
+
+    <script src="resources/js/Exterior/IETMSupport.js" type="text/javascript"></script>
+
+
+
+
+     <!-- 为了使用带复选框树，无顺序 -->
+    <script src="resources/xyTree4.12/xyTree/DivTree.js"></script>
+    <script src="resources/xyTree4.12/xyTree/Tree.js"></script>
+    <script src="resources/xyTree4.12/xyTree/Node.js"></script>
+
+     <div id="divmenu">
+        <!--<img src="resources/images/logo-ibv.png" style="float: right; margin-top: 8px; margin-right: 140px;" />-->
+    </div>
+    <div id="divToolbar">
+        <!--<img src="resources/images/logo-ibv.png" style="float: right; margin-top: 8px; margin-right: 140px;" />-->
+    </div>
+</body>
+</html>

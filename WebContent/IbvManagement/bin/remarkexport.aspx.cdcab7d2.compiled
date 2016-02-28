@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/RemarkExport.aspx" hash="5814482f9" filehash="b2b8ecf7f479ab1f" flags="110000" assembly="App_Web_xyr-fbv8" type="ASP.remarkexport_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/HeaderUserControl.ascx" />
+        <filedep name="/IbvManagement/HeaderUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/ListUserControl.ascx" />
+        <filedep name="/IbvManagement/ListUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/RemarkExport.aspx" />
+        <filedep name="/IbvManagement/RemarkExport.aspx.cs" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-091000-A-SBTR-00080-A-01-1 SYSTEM "ICN-SAMPLE-A-091000-A-SBTR-00080-A-01-1.JPG" NDATA jpg>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/proced.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>09</chapnum>
+          <section>1</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>100</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>牵引</techname>
+        <infoname>正常牵引飞机程序</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="03" type="new"></issno>
+      <issdate year="2012" month="05" day="21"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <proced>
+      <prelreqs>
+        <reqconds>
+          <reqcond>确保飞机的重心在后重心限制点之前。一般情况下。执行航班的飞机(装有燃油和旅客)。中心都在后限制点之前。</reqcond>
+          <reqcond>特殊情况下，如果飞机重心在后限制点之后，须给飞机加燃油或压舱物使重心前移。</reqcond>
+          <reqcond>确保所有起落架的地面销都已安装 。</reqcond>
+          <reqcond>确保电子舱舱门关闭。</reqcond>
+          <reqcond>确保轮胎充气正常。</reqcond>
+          <reqcond>确保前主起落架的勤务工作已完成 。</reqcond>
+          <reqcond>确保刹车液压压力正常，大约3000PSI 。</reqcond>
+          <reqcond>确保飞机牵引路线上的停机坪上没有工作梯 设备等障碍物。</reqcond>
+          <reqcond>将牵引杆连接到飞机和拖车上。</reqcond>
+          <reqcond>拆下飞机接地线。</reqcond>
+        </reqconds>
+        <supequip>
+          <nosupeq></nosupeq>
+        </supequip>
+        <supplies>
+          <nosupply></nosupply>
+        </supplies>
+        <spares>
+          <nospares></nospares>
+        </spares>
+        <safety>
+          <safecond>
+            <warning>
+              <para>牵引飞机时，必须确保拖车的耳机线连接到了飞机上。</para>
+            </warning>
+            <warning>
+              <para>前起落架减震柱完全压缩或减震柱内筒伸出超过59.7 厘米时，不得牵引飞机，否则会损坏前起落架减震柱。 </para>
+            </warning>
+          </safecond>
+        </safety>
+      </prelreqs>
+      <mainfunc>
+        <step1>
+          <title>牵引飞机</title>
+          <step2>
+            <para>驾驶舱人员、拖车司机和地面人员要保持目视联络。</para>
+          </step2>
+          <step2>
+            <para> 确认拖车司机、地面人员及驾驶舱人员之间内话联络正常。</para>
+          </step2>
+          <step2>
+            <para>确保轮挡已移走。</para>
+          </step2>
+          <step2>
+            <caution>
+              <para>在飞机急转弯之前先将飞机直线移动，平缓牵引飞机，避免突然起动或停车  </para>
+            </caution>
+            <para>确保飞机刹车松开。</para>
+          </step2>
+          <step2>
+            <para>牵引飞机。</para>
+          </step2>
+          <step2>
+            <warning>
+              <para>牵引飞机时，所有人员必须站在拖车 牵引杆 前轮和主轮周围的危险区域以外，由于飞机在向后推或向前拖的过程中飞机会改变位置因此地面人员必须知道前轮，主轮和拖车可能进行转弯，确保地面人员和可移动的设备保持至少3 米的距离，否则会造成致命伤害。</para>
+            </warning>
+            <para>确保牵引飞机区域的工作人员知道飞机牵引的危险区域（如<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="pic-001" xidtype="figure"></xref>所示）。</para>
+          </step2>
+          <step2>
+            <para>牵引飞机转弯前先将飞机缓慢地直线牵引 。</para>
+          </step2>
+          <step2>
+            <caution>
+              <para>牵引飞机过程中 如果使用飞机的刹车，可能会造成拖把的剪切销断开。</para>
+            </caution>
+            <para> 在安全的限制内，尽量少使用 飞机刹车。</para>
+          </step2>
+          <step2>
+            <para>最大的正常转弯角度是78 度，由前起落架舱门的红线标注。</para>
+          </step2>
+          <step2>
+            <para>飞机牵引到位后，放置轮挡，如果需要的话，脱开拖把。</para>
+          </step2>
+          <step2>
+            <para> 从拖飞机手柄处拆下旁通销A09003-1、 -2。</para>
+          </step2>
+          <step2>
+            <para>拔下内话耳机。</para>
+          </step2>
+        </step1>
+        <figure id="pic-001">
+          <title>飞机牵引的危险区域</title>
+          <graphic boardno="ICN-SAMPLE-A-091000-A-SBTR-00080-A-01-1" xlink:type="simple" reprohgt="150" reprowid="118"></graphic>
+        </figure>
+      </mainfunc>
+      <closereqs>
+        <reqconds>
+          <noconds></noconds>
+        </reqconds>
+      </closereqs>
+    </proced>
+  </content>
+</dmodule>

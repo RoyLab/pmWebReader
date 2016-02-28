@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/crew.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>130</incode>
+          <incodev>F</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机防冰</techname>
+        <infoname>正常操作</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="01" day="12"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <acrw>
+      <frc>
+        <drill ordered="on">
+          <warning>
+            <para>不要依赖机身的可见结冰痕迹来确定是否使用发动机防冰。使用温度和可见水汽标准，因为较晚使用发动机防冰可能会吸入较多的冰并导致发动机损坏或失效。</para>
+          </warning>
+          <caution>
+            <para>当OAT高于10C时，不要使用发动机防冰。</para>
+          </caution>
+          <note>
+            <para>双发起动后，必须立即选择发动机防冰接通（ON），当存在结冰情况或预计到结冰情况时，除非 OAT 在 -40C 以下，否则必须保持防冰接通。</para>
+          </note>
+          <if>
+            <condit>需要发动机防冰</condit>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>发动机起动电门</para>
+                </challeng>
+                <crew response="all">
+                  <crewmem crewmem="cm02"></crewmem>
+                </crew>
+                <response>
+                  <para>CONT （连续）</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>发动机防冰电门</para>
+                </challeng>
+                <crew response="all">
+                  <crewmem crewmem="cm02"></crewmem>
+                </crew>
+                <response>
+                  <para>ON（接通）</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <procd>
+                  <para>核实 COWL VALVE OPEN（整流罩活门打开）灯明亮，接着变暗。</para>
+                  <para>核实 COWL ANTI-ICE（整流罩防冰）灯熄灭。</para>
+                </procd>
+                <note>
+                  <para>如果在发动机处于 IDLE （慢车）的情况下，如果 COWL VALVE OPEN（整流罩活门打开）指示灯仍明亮，将 APU BLEED（APU 引气）电门置于 OFF （关断）位并略为增加推力（最多到 30% N1)。</para>
+                </note>
+              </step>
+            </step>
+          </if>
+          <elseif>
+            <condit>不再需要发动机防冰</condit>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>发动机防冰电门</para>
+                </challeng>
+                <crew response="all">
+                  <crewmem crewmem="cm02"></crewmem>
+                </crew>
+                <response>
+                  <para>OFF（关断）</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <procd>
+                <para>核实 COWL VALVE OPEN（整流罩活门打开）灯明亮，接着变暗。</para>
+              </procd>
+            </step>
+          </elseif>
+        </drill>
+      </frc>
+    </acrw>
+  </content>
+</dmodule>

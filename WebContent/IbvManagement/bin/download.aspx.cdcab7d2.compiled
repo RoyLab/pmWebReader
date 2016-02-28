@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/Download.aspx" hash="5814482f9" filehash="2b3a17e60c156168" flags="110000" assembly="App_Web_fj1wu5ky" type="ASP.download_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/Download.aspx" />
+        <filedep name="/IbvManagement/Download.aspx.cs" />
+    </filedeps>
+</preserve>

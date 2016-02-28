@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="gb2312"?>
+<indexes>
+    <item name="DM意见列表" id="678">
+        <topics>
+            <topic url="dm.htm" window="right">DM意见列表</topic>
+        </topics>
+    </item>
+    <item name="安全管理" id="638">
+        <topics>
+            <topic url="_6.htm" window="right">安全管理</topic>
+        </topics>
+    </item>
+    <item name="帮助" id="695">
+        <topics>
+            <topic url="_62.htm" window="right">帮助</topic>
+            <topic url="_63.htm" window="right">帮助</topic>
+        </topics>
+    </item>
+    <item name="备注输出" id="687">
+        <topics>
+            <topic url="_54.htm" window="right">备注输出</topic>
+        </topics>
+    </item>
+    <item name="编辑角色" id="651">
+        <topics>
+            <topic url="_19.htm" window="right">编辑角色</topic>
+        </topics>
+    </item>
+    <item name="播放多媒体" id="672">
+        <topics>
+            <topic url="_42.htm" window="right">播放多媒体</topic>
+        </topics>
+    </item>
+    <item name="菜单栏" id="659">
+        <topics>
+            <topic url="_29.htm" window="right">菜单栏</topic>
+        </topics>
+    </item>
+    <item name="查看被引用情况" id="669">
+        <topics>
+            <topic url="_39.htm" window="right">查看被引用情况</topic>
+        </topics>
+    </item>
+    <item name="查看数据模块状态" id="667">
+        <topics>
+            <topic url="_37.htm" window="right">查看数据模块状态</topic>
+        </topics>
+    </item>
+    <item name="查找" id="668">
+        <topics>
+            <topic url="_38.htm" window="right">查找</topic>
+        </topics>
+    </item>
+    <item name="产品介绍" id="633">
+        <topics>
+            <topic url="_1.htm" window="right">产品介绍</topic>
+        </topics>
+    </item>
+    <item name="打印" id="685">
+        <topics>
+            <topic url="_53.htm" window="right">打印</topic>
+        </topics>
+    </item>
+    <item name="导出DM" id="686">
+        <topics>
+            <topic url="dm1.htm" window="right">导出DM</topic>
+        </topics>
+    </item>
+    <item name="导航定位" id="656">
+        <topics>
+            <topic url="_26.htm" window="right">导航定位</topic>
+        </topics>
+    </item>
+    <item name="登 录" id="639">
+        <topics>
+            <topic url="_7.htm" window="right">登 录</topic>
+        </topics>
+    </item>
+    <item name="定期维护任务浏览" id="675">
+        <topics>
+            <topic url="_65.htm" window="right">定期维护任务浏览</topic>
+        </topics>
+    </item>
+    <item name="工具栏" id="658">
+        <topics>
+            <topic url="_28.htm" window="right">工具栏</topic>
+        </topics>
+    </item>
+    <item name="功能全景" id="637">
+        <topics>
+            <topic url="_5.htm" window="right">功能全景</topic>
+        </topics>
+    </item>
+    <item name="故障诊断浏览模式" id="673">
+        <topics>
+            <topic url="_43.htm" window="right">故障诊断浏览模式</topic>
+        </topics>
+    </item>
+    <item name="关于" id="696">
+        <topics>
+            <topic url="_64.htm" window="right">关于</topic>
+        </topics>
+    </item>
+    <item name="关于IETM S1000D -IBV" id="632">
+        <topics>
+            <topic url="ietms1000dibv.htm" window="right">关于IETM S1000D -IBV</topic>
+        </topics>
+    </item>
+    <item name="欢迎使用" id="631">
+        <topics>
+            <topic url="_.htm" window="right">欢迎使用</topic>
+        </topics>
+    </item>
+    <item name="角色维护" id="649">
+        <topics>
+            <topic url="_17.htm" window="right">角色维护</topic>
+        </topics>
+    </item>
+    <item name="历史记录" id="661">
+        <topics>
+            <topic url="_31.htm" window="right">历史记录</topic>
+        </topics>
+    </item>
+    <item name="链接跳转" id="666">
+        <topics>
+            <topic url="_36.htm" window="right">链接跳转</topic>
+        </topics>
+    </item>
+    <item name="密级管理" id="654">
+        <topics>
+            <topic url="_24.htm" window="right">密级管理</topic>
+        </topics>
+    </item>
+    <item name="密码本管理" id="655">
+        <topics>
+            <topic url="_25.htm" window="right">密码本管理</topic>
+        </topics>
+    </item>
+    <item name="目录树" id="657">
+        <topics>
+            <topic url="_27.htm" window="right">目录树</topic>
+        </topics>
+    </item>
+    <item name="屏幕锁定" id="653">
+        <topics>
+            <topic url="_23.htm" window="right">屏幕锁定</topic>
+        </topics>
+    </item>
+    <item name="强制离线" id="648">
+        <topics>
+            <topic url="_16.htm" window="right">强制离线</topic>
+        </topics>
+    </item>
+    <item name="全文检索" id="663">
+        <topics>
+            <topic url="_33.htm" window="right">全文检索</topic>
+        </topics>
+    </item>
+    <item name="删除角色" id="652">
+        <topics>
+            <topic url="_20.htm" window="right">删除角色</topic>
+        </topics>
+    </item>
+    <item name="删除用户" id="645">
+        <topics>
+            <topic url="_13.htm" window="right">删除用户</topic>
+        </topics>
+    </item>
+    <item name="设置功能权限" id="646">
+        <topics>
+            <topic url="_14.htm" window="right">设置功能权限</topic>
+            <topic url="_21.htm" window="right">设置功能权限</topic>
+        </topics>
+    </item>
+    <item name="设置数据权限" id="647">
+        <topics>
+            <topic url="_15.htm" window="right">设置数据权限</topic>
+            <topic url="_22.htm" window="right">设置数据权限</topic>
+        </topics>
+    </item>
+    <item name="适用性过滤" id="693">
+        <topics>
+            <topic url="_60.htm" window="right">适用性过滤</topic>
+        </topics>
+    </item>
+    <item name="书 签" id="660">
+        <topics>
+            <topic url="_30.htm" window="right">书 签</topic>
+        </topics>
+    </item>
+    <item name="输出" id="684">
+        <topics>
+            <topic url="_52.htm" window="right">输出</topic>
+        </topics>
+    </item>
+    <item name="推荐配置建议" id="636">
+        <topics>
+            <topic url="_4.htm" window="right">推荐配置建议</topic>
+        </topics>
+    </item>
+    <item name="退出系统" id="694">
+        <topics>
+            <topic url="_61.htm" window="right">退出系统</topic>
+        </topics>
+    </item>
+    <item name="为什么需要意见信息" id="677">
+        <topics>
+            <topic url="_46.htm" window="right">为什么需要意见信息</topic>
+        </topics>
+    </item>
+    <item name="维修指导浏览模式" id="674">
+        <topics>
+            <topic url="_44.htm" window="right">维修指导浏览模式</topic>
+        </topics>
+    </item>
+    <item name="系统功能" id="689">
+        <topics>
+            <topic url="_56.htm" window="right">系统功能</topic>
+        </topics>
+    </item>
+    <item name="显示/隐藏备注" id="670">
+        <topics>
+            <topic url="_40.htm" window="right">显示/隐藏备注</topic>
+        </topics>
+    </item>
+    <item name="新增意见" id="679">
+        <topics>
+            <topic url="_47.htm" window="right">新增意见</topic>
+        </topics>
+    </item>
+    <item name="新增用户" id="642">
+        <topics>
+            <topic url="_10.htm" window="right">新增用户</topic>
+        </topics>
+    </item>
+    <item name="修改密码" id="644">
+        <topics>
+            <topic url="_12.htm" window="right">修改密码</topic>
+        </topics>
+    </item>
+    <item name="修改用户资料" id="643">
+        <topics>
+            <topic url="_11.htm" window="right">修改用户资料</topic>
+        </topics>
+    </item>
+    <item name="页面缩放" id="665">
+        <topics>
+            <topic url="_35.htm" window="right">页面缩放</topic>
+        </topics>
+    </item>
+    <item name="意见查找" id="682">
+        <topics>
+            <topic url="_50.htm" window="right">意见查找</topic>
+        </topics>
+    </item>
+    <item name="意见管理" id="676">
+        <topics>
+            <topic url="_45.htm" window="right">意见管理</topic>
+        </topics>
+    </item>
+    <item name="意见输出" id="683">
+        <topics>
+            <topic url="_51.htm" window="right">意见输出</topic>
+        </topics>
+    </item>
+    <item name="意见信息输出" id="688">
+        <topics>
+            <topic url="_55.htm" window="right">意见信息输出</topic>
+        </topics>
+    </item>
+    <item name="用户管理" id="641">
+        <topics>
+            <topic url="_9.htm" window="right">用户管理</topic>
+        </topics>
+    </item>
+    <item name="用户配置" id="690">
+        <topics>
+            <topic url="_57.htm" window="right">用户配置</topic>
+        </topics>
+    </item>
+    <item name="阅读智能图像" id="671">
+        <topics>
+            <topic url="_41.htm" window="right">阅读智能图像</topic>
+        </topics>
+    </item>
+    <item name="运行环境" id="634">
+        <topics>
+            <topic url="_2.htm" window="right">运行环境</topic>
+        </topics>
+    </item>
+    <item name="增加角色" id="650">
+        <topics>
+            <topic url="_18.htm" window="right">增加角色</topic>
+        </topics>
+    </item>
+    <item name="中间意见答复" id="680">
+        <topics>
+            <topic url="_48.htm" window="right">中间意见答复</topic>
+        </topics>
+    </item>
+    <item name="注 销" id="640">
+        <topics>
+            <topic url="_8.htm" window="right">注 销</topic>
+        </topics>
+    </item>
+    <item name="资料浏览" id="664">
+        <topics>
+            <topic url="_34.htm" window="right">资料浏览</topic>
+        </topics>
+    </item>
+    <item name="自动定位树节点" id="692">
+        <topics>
+            <topic url="_59.htm" window="right">自动定位树节点</topic>
+        </topics>
+    </item>
+    <item name="自动加载图片" id="691">
+        <topics>
+            <topic url="_58.htm" window="right">自动加载图片</topic>
+        </topics>
+    </item>
+    <item name="组合查询" id="662">
+        <topics>
+            <topic url="_32.htm" window="right">组合查询</topic>
+        </topics>
+    </item>
+    <item name="最低配置要求" id="635">
+        <topics>
+            <topic url="_3.htm" window="right">最低配置要求</topic>
+        </topics>
+    </item>
+    <item name="最终意见答复" id="681">
+        <topics>
+            <topic url="_49.htm" window="right">最终意见答复</topic>
+        </topics>
+    </item>
+</indexes>

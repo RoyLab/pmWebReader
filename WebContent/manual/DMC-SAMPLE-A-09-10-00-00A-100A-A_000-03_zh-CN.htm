@@ -1,0 +1,362 @@
+﻿<HTML xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="PRAGMA" content="no-cache">
+    <title>牵引 － 正常牵引飞机程序</title>
+    <link rel="STYLESHEET" type="text/css" href="../manual-resources/css/style.css">
+    <link rel="STYLESHEET" type="text/css" href="../manual-resources/css/tbStyle.css"><script language="JavaScript" src="../manual-resources/js/jQuery.js"></script><script language="JavaScript" src="../manual-resources/js/Dialog.js"></script><script language="JavaScript" src="../manual-resources/js/Reference.js"></script><script language="JavaScript" src="../manual-resources/js/AssistantInfo.js"></script><script language="JavaScript" src="../manual-resources/js/Graphic.js"></script><script language="JavaScript" src="../manual-resources/js/Procedure.js"></script><script language="JavaScript" src="../manual-resources/js/Fault.js"></script><script language="JavaScript" src="../manual-resources/js/Process.js"></script><script language="JavaScript" src="../manual-resources/js/Schedule.js"></script><script language="JavaScript" src="../manual-resources/js/ApplicRecised.js"></script><script language="JavaScript" src="../manual-resources/js/IETM.js"></script></HEAD>
+  <BODY>
+    <div style="height:80%" id="dmContent">
+      <div id="metadataPane" style="display:none">
+        <table class="metadataPane">
+          <tr>
+            <td valign="top" nowrap>数据模块编码: 
+            </td>
+            <td valign="top">SAMPLE-A-09-10-00-00A-100A-在产品</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>版本: 
+            </td>
+            <td valign="top">000 
+        new</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>出版日期: 
+            </td>
+            <td valign="top">2012-05-21</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>密级: 
+            </td>
+            <td valign="top">公开</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>责任公司: 
+            </td>
+            <td valign="top">SBTR</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>原创作者: 
+            </td>
+            <td valign="top">SBTR</td>
+          </tr>
+          <tr class="applic_hiden">
+            <td valign="top" nowrap>适用性:</td>
+            <td>全部</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>
+        业务规则DM: 
+      </td>
+            <td>SAMPLE-A-00-00-00-00A-022A-A</td>
+          </tr>
+          <tr>
+            <td valign="top" nowrap>质量保证状况: 
+            </td>
+            <td valign="top">初稿</td>
+          </tr>
+          <tr>
+            <td colspan="3"></td>
+          </tr>
+        </table>
+      </div>
+      <div id="tooltip" align="center" style="display:none;width:90px;height:20px;background-color:#CBE1FE;border:1px #86ACDE solid;"><span class="refs_text">引用链终</span><img src="../manual-resources/images/Next1.gif"></div>
+      <div align="center" class="dmodule_title">牵引 － 正常牵引飞机程序</div>
+      <div id="proced_prelreqs">
+        <div class="lists_title1">前置要求</div><span class="nullpmd"></span><span class="nullreqpers"></span><a name="dir-reqconds-1"></a><span class="ReqcondsContent"><a name=""></a><div class="lists_title2">条件要求</div>
+          <table width="100%" class="lists_table" align="center">
+            <tr>
+              <th width="50%">动作/条件</th>
+            </tr>
+            <tr>
+              <td>确保飞机的重心在后重心限制点之前。一般情况下。执行航班的飞机(装有燃油和旅客)。中心都在后限制点之前。</td>
+            </tr>
+            <tr>
+              <td>特殊情况下，如果飞机重心在后限制点之后，须给飞机加燃油或压舱物使重心前移。</td>
+            </tr>
+            <tr>
+              <td>确保所有起落架的地面销都已安装 。</td>
+            </tr>
+            <tr>
+              <td>确保电子舱舱门关闭。</td>
+            </tr>
+            <tr>
+              <td>确保轮胎充气正常。</td>
+            </tr>
+            <tr>
+              <td>确保前主起落架的勤务工作已完成 。</td>
+            </tr>
+            <tr>
+              <td>确保刹车液压压力正常，大约3000PSI 。</td>
+            </tr>
+            <tr>
+              <td>确保飞机牵引路线上的停机坪上没有工作梯 设备等障碍物。</td>
+            </tr>
+            <tr>
+              <td>将牵引杆连接到飞机和拖车上。</td>
+            </tr>
+            <tr>
+              <td>拆下飞机接地线。</td>
+            </tr>
+          </table></span><a name="dir-supequip-12"></a><div>
+          <div class="lists_title2">保障工具</div><span class="nullsupequip"><span class="para_firstline_indent_text">无保障设备要求</span></span></div><a name="dir-supplies-14"></a><div>
+          <div class="lists_title2">消耗品</div><span class="nullsupplies"><span class="para_firstline_indent_text">无消耗品</span></span></div><a name="dir-spares-16"></a><div>
+          <div class="lists_title2">备件</div><span class="nullspares"><span class="para_firstline_indent_text">无备件要求</span></span></div>
+      </div><a name="dir-safety-18"></a><div id="proced_safety">
+        <div class="lists_title2">安全条件</div><a name="" xmlns:ibv="http://sbtr.com/namespace"></a><p xmlns:ibv="http://sbtr.com/namespace">
+          <table width="90%" border="0" align="center" background="../manual-resources/images/lines_rw_cut2.gif">
+            <tr>
+              <td style="border:none" width="10" height="10"></td>
+              <td style="border:none" height="10"></td>
+              <td style="border:none" width="10" height="10"></td>
+            </tr>
+            <tr>
+              <td style="border:none" width="10"></td>
+              <td style="border:none;padding:3px;" bgcolor="#000000">
+                <table width="100%" border="0" bgcolor="#FFFFFF">
+                  <tr>
+                    <td style="border:none" align="center" height="21px" nowrap>
+                      <div class="warning_head">警告</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="border:none;table-layout:fixed;word-wrap:break-word;word-break:break-all">
+                      <div><a name=""><p class="warning_text">牵引飞机时，必须确保拖车的耳机线连接到了飞机上。</p></a></div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="10" style="border:none"></td>
+            </tr>
+            <tr>
+              <td style="border:none" width="10" height="10"></td>
+              <td style="border:none" height="10"></td>
+              <td style="border:none" width="10" height="10"></td>
+            </tr>
+          </table>
+        </p><br xmlns:ibv="http://sbtr.com/namespace"><a name="" xmlns:ibv="http://sbtr.com/namespace"></a><p xmlns:ibv="http://sbtr.com/namespace">
+          <table width="90%" border="0" align="center" background="../manual-resources/images/lines_rw_cut2.gif">
+            <tr>
+              <td style="border:none" width="10" height="10"></td>
+              <td style="border:none" height="10"></td>
+              <td style="border:none" width="10" height="10"></td>
+            </tr>
+            <tr>
+              <td style="border:none" width="10"></td>
+              <td style="border:none;padding:3px;" bgcolor="#000000">
+                <table width="100%" border="0" bgcolor="#FFFFFF">
+                  <tr>
+                    <td style="border:none" align="center" height="21px" nowrap>
+                      <div class="warning_head">警告</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="border:none;table-layout:fixed;word-wrap:break-word;word-break:break-all">
+                      <div><a name=""><p class="warning_text">前起落架减震柱完全压缩或减震柱内筒伸出超过59.7 厘米时，不得牵引飞机，否则会损坏前起落架减震柱。 </p></a></div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="10" style="border:none"></td>
+            </tr>
+            <tr>
+              <td style="border:none" width="10" height="10"></td>
+              <td style="border:none" height="10"></td>
+              <td style="border:none" width="10" height="10"></td>
+            </tr>
+          </table>
+        </p>
+      </div>
+      <div class="lists_title1">维修操作</div>
+      <table cellpadding="0" cellspacing="5" border="0" width="100%">
+        <tr valign="top">
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_titlecls"><a name="dir-step1-25"></a>1  </span></td>
+          <td align="left" valign="top" colspan="8" style="border-bottom:none;border-right:none;"><span class="step_titlecls">牵引飞机</span></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-26"></a>1.1  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name=""><span class="para_text">驾驶舱人员、拖车司机和地面人员要保持目视联络。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-28"></a>1.2  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name=""><span class="para_text"> 确认拖车司机、地面人员及驾驶舱人员之间内话联络正常。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-30"></a>1.3  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name=""><span class="para_text">确保轮挡已移走。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-32"></a>1.4  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name="" xmlns:ibv="http://sbtr.com/namespace"></a><p xmlns:ibv="http://sbtr.com/namespace">
+              <table width="90%" border="0" align="center" background="../manual-resources/images/lines_by_cut2.gif" class="contentWaringOrCaution contentCaution">
+                <tr>
+                  <td style="border:none" width="10" height="10"></td>
+                  <td style="border:none" height="10"></td>
+                  <td style="border:none" width="10" height="10"></td>
+                </tr>
+                <tr>
+                  <td style="border:none" width="10"></td>
+                  <td style="border:none;padding:3px;" bgcolor="#000000">
+                    <table width="100%" border="0" bgcolor="#FFFFFF">
+                      <tr>
+                        <td style="border:none" align="center" height="21px" nowrap>
+                          <div class="caution_head">注意</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;table-layout:fixed;word-wrap:break-word;word-break:break-all">
+                          <div><a name=""><p class="caution_text">在飞机急转弯之前先将飞机直线移动，平缓牵引飞机，避免突然起动或停车  </p></a></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td width="10" style="border:none"></td>
+                </tr>
+                <tr>
+                  <td style="border:none" width="10" height="10"></td>
+                  <td style="border:none" height="10"></td>
+                  <td style="border:none" width="10" height="10"></td>
+                </tr>
+              </table>
+            </p><a name=""><span class="para_text">确保飞机刹车松开。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-36"></a>1.5  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name=""><span class="para_text">牵引飞机。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-38"></a>1.6  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name="" xmlns:ibv="http://sbtr.com/namespace"></a><p xmlns:ibv="http://sbtr.com/namespace">
+              <table width="90%" border="0" align="center" background="../manual-resources/images/lines_rw_cut2.gif" class="contentWaringOrCaution contentWarning">
+                <tr>
+                  <td style="border:none" width="10" height="10"></td>
+                  <td style="border:none" height="10"></td>
+                  <td style="border:none" width="10" height="10"></td>
+                </tr>
+                <tr>
+                  <td style="border:none" width="10"></td>
+                  <td style="border:none;padding:3px;" bgcolor="#000000">
+                    <table width="100%" border="0" bgcolor="#FFFFFF">
+                      <tr>
+                        <td style="border:none" align="center" height="21px" nowrap>
+                          <div class="warning_head">警告</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;table-layout:fixed;word-wrap:break-word;word-break:break-all">
+                          <div><a name=""><p class="warning_text">牵引飞机时，所有人员必须站在拖车 牵引杆 前轮和主轮周围的危险区域以外，由于飞机在向后推或向前拖的过程中飞机会改变位置因此地面人员必须知道前轮，主轮和拖车可能进行转弯，确保地面人员和可移动的设备保持至少3 米的距离，否则会造成致命伤害。</p></a></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td width="10" style="border:none"></td>
+                </tr>
+                <tr>
+                  <td style="border:none" width="10" height="10"></td>
+                  <td style="border:none" height="10"></td>
+                  <td style="border:none" width="10" height="10"></td>
+                </tr>
+              </table>
+            </p><a name=""><span class="para_text">确保牵引飞机区域的工作人员知道飞机牵引的危险区域（如<a id="2" href="#pic-001" class="insideXref" tget="" xmlns:ibv="http://sbtr.com/namespace">图1</a>所示）。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-43"></a>1.7  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name=""><span class="para_text">牵引飞机转弯前先将飞机缓慢地直线牵引 。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-45"></a>1.8  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name="" xmlns:ibv="http://sbtr.com/namespace"></a><p xmlns:ibv="http://sbtr.com/namespace">
+              <table width="90%" border="0" align="center" background="../manual-resources/images/lines_by_cut2.gif" class="contentWaringOrCaution contentCaution">
+                <tr>
+                  <td style="border:none" width="10" height="10"></td>
+                  <td style="border:none" height="10"></td>
+                  <td style="border:none" width="10" height="10"></td>
+                </tr>
+                <tr>
+                  <td style="border:none" width="10"></td>
+                  <td style="border:none;padding:3px;" bgcolor="#000000">
+                    <table width="100%" border="0" bgcolor="#FFFFFF">
+                      <tr>
+                        <td style="border:none" align="center" height="21px" nowrap>
+                          <div class="caution_head">注意</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border:none;table-layout:fixed;word-wrap:break-word;word-break:break-all">
+                          <div><a name=""><p class="caution_text">牵引飞机过程中 如果使用飞机的刹车，可能会造成拖把的剪切销断开。</p></a></div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td width="10" style="border:none"></td>
+                </tr>
+                <tr>
+                  <td style="border:none" width="10" height="10"></td>
+                  <td style="border:none" height="10"></td>
+                  <td style="border:none" width="10" height="10"></td>
+                </tr>
+              </table>
+            </p><a name=""><span class="para_text"> 在安全的限制内，尽量少使用 飞机刹车。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-49"></a>1.9  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name=""><span class="para_text">最大的正常转弯角度是78 度，由前起落架舱门的红线标注。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-51"></a>1.10  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name=""><span class="para_text">飞机牵引到位后，放置轮挡，如果需要的话，脱开拖把。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-53"></a>1.11  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name=""><span class="para_text"> 从拖飞机手柄处拆下旁通销A09003-1、 -2。</span></a></td>
+        </tr>
+        <tr valign="top">
+          <td colspan="1" style="border-bottom:none;border-right:none;"></td>
+          <td align="left" valign="top" nowrap class="auto_adapt_with_cls" style="border-bottom:none;border-right:none;"><span class="step_numbercls"><a name="dir-step2-55"></a>1.12  </span></td>
+          <td align="left" valign="top" colspan="7" style="border-bottom:none;border-right:none;"><a name=""><span class="para_text">拔下内话耳机。</span></a></td>
+        </tr>
+        <tr>
+          <td colspan="9"><a name="pic-001"></a><a name="dir-figure-58" xmlns:user="http://mycompany.com/mynamespace"></a><a name="pic-001" xmlns:user="http://mycompany.com/mynamespace"></a><div class="figure" xmlns:user="http://mycompany.com/mynamespace">
+              <p align="center"><img class="figure_min" id="ICN-SAMPLE-A-091000-A-SBTR-00080-A-01-1.jpg" src="min_ICN-SAMPLE-A-091000-A-SBTR-00080-A-01-1.GIF"></p>
+            </div>
+            <div class="figure_multimedia_icn" xmlns:user="http://mycompany.com/mynamespace">ICN-SAMPLE-A-091000-A-SBTR-00080-A-01-1</div>
+            <div class="figure_title" xmlns:user="http://mycompany.com/mynamespace"><a name="dir-title-58"></a>图片1  飞机牵引的危险区域</div>
+          </td>
+        </tr>
+      </table><br><a name=""></a><div>
+        <div class="lists_title1">结束要求</div><span class="para_firstline_indent_text">无</span></div><br><br></div>
+    <hr class="DmEnding" width="98%" align="center">
+    <div class="DmEnding" align="center" style="color:#6C6C6C;font-family:黑体; font-weight:bold;">数据模块结束</div><input name="dmType" type="hidden" id="dmType" value="proced"><input name="security" type="hidden" id="security" value="公开" numvalue="01"><input name="dmcxt" type="hidden" id="dmcxt" value="-"><input name="dmc" type="hidden" id="dmc" value="SAMPLE-A-09-10-00-00A-100A-在产品"><input name="issno" type="hidden" id="issno" value="000"><input name="issno_inwork" type="hidden" id="issno_inwork" value="03"><input name="language" type="hidden" id="language" value="中文"><input name="country" type="hidden" id="country" value="中国"><input name="applic" type="hidden" id="applicValue" value="全部"><iframe id="ifm_proced" style="display:none;" src="DMC-SAMPLE-A-09-10-00-00A-100A-A_000-03_zh-CN.html"></iframe>
+    <div id="PMRefedList" style="display:none;">
+      <table width="100%" class="references_table">
+        <tr>
+          <th>标题</th>
+          <th>出版模块编码</th>
+        </tr>
+        <tr>
+          <td>test</td>
+          <td>SAMPLE-54656-56465-00_000-04_zh-CN</td>
+        </tr>
+      </table>
+    </div>
+    <div id="DMRefedList" style="display:none;">
+      <table width="100%" class="references_table">
+        <tr>
+          <th>标题</th>
+          <th>数据模块编码</th>
+        </tr>
+      </table>
+    </div>
+  </BODY>
+</HTML>

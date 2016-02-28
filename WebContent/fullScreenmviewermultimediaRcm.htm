@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>多媒体查看</title>
+     <script src="resources/js/MIME/multimedia.js" type="text/javascript"></script>
+     <script language="javascript" type="text/javascript">
+//        var emHTML = "";
+//        function init(){
+//            if (document.getElementById('emMultimedia') != null)
+//                emHTML = document.getElementById('emMultimedia').outerHTML;
+//        }
+        
+        function SetSrc(src,requestString){
+            if(src!="")
+            { 
+               
+                mediaObj=new mediaObject()
+                var fullsrc = 'Manual/' + src;
+                mediaObj.file=fullsrc;
+                //mediaObject.fullscreen=false;
+                try
+                {
+                    if(!loadMultimedia(mediaObj))
+                    {
+                        top.settbardisabled(true);
+                    }
+                }
+                catch(e)
+                {
+                    top.settbardisabled(true);
+                }
+                
+//                if (document.getElementById('emMultimedia') == null)
+//                {
+//            	    axMultimedia.url = fullsrc;
+//            	}
+//            	else
+//            	{
+//            	    document.getElementById('emMultimedia').outerHTML = emHTML.replace('src=""','src="'+fullsrc+'"');    
+//            	}
+            }
+            
+            
+        
+        }
+        
+        function keydown()
+        {
+            if(event.keyCode==27)
+            {
+                window.close();
+            }
+        }
+        
+        function s135(s136)
+         {
+                var s137=document.location.search;
+                if(s137=="")
+                    return "";
+                if(s137.charAt(0)=="?")
+                    s137=s137.substring(1,s137.length);
+                var s138=s137.split("&");
+                for(i=0;i<s138.length;i++)
+                {
+                    var s138_values=s138[i].split("=");
+                    if(s136==unescape(s138_values[0]))
+                    {
+                        var s140;
+                        if(window.decodeURIComponent)     
+                            s140=decodeURIComponent(s138_values[1]);
+                        else 
+                            s140=unescape(s138_values[1]);  
+                            return s140;
+                     }
+                 }
+                 return "";
+          }
+    </script>
+</head>
+<body onkeydown="keydown();"  scroll="no" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" onload="SetSrc()">
+  <!--  <object id="axMultimedia" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6" width="100%" height="100%">        
+        <param name="url" value="" />
+        <param name="AutoStart" value="-1" />
+        <param name="EnableContextMenu" value="1" />
+        <param name="stretchToFit" value="1" />        
+        <param name="uiMode" value="Full" />
+        <param name="fullScreen" value="0" />
+        <embed id="emMultimedia" fullscreen="no" src="" align="center" border="0" width="100%" height="100%" />
+    
+    </object>  --> 
+     <!--<embed id="emMultimedia" fullscreen="no" src="" align="center" border="0" width="100%" height="100%" /> -->
+<!--      <input id="Button1" onclick="window.close();"  type="button" value="退出全屏"/>-->      
+      <div id="mainForm:imageDiv"></div>
+      <div id="mainForm:dmImage"></div>
+</body>
+</html>

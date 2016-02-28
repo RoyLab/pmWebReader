@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<baseData>
+  <!--意见类型-->
+  <CommentType value="Q" text="询问"/>
+  <CommentType value="I" text="中间答复"/>
+  <CommentType value="R" text="最终答复"/>
+
+  <!--密级类型-->
+  <SecurityType value="01" text="绝密"/>
+  <SecurityType value="02" text="机密"/>
+  <SecurityType value="03" text="秘密"/>
+  <SecurityType value="04" text="非密"/>
+
+  <!--商业密级-->
+  <CommclsType value="cc01" text="商业密级01" />
+  <CommclsType value="cc02" text="商业密级02" />
+  <CommclsType value="cc03" text="商业密级03" />
+  <CommclsType value="cc04" text="商业密级04" />
+  <CommclsType value="cc05" text="商业密级05" />
+
+  <!--优先级类型-->
+  <PriorityType value="cp01" text="常规" desc="routine"/>
+  <PriorityType value="cp02" text="紧急" desc="Emergency"/>
+  <PriorityType value="cp03" text="临界安全" desc="Safety critical"/>
+  
+  <!--语言-->
+  <LanguageType value="cn" text="中文"/>
+  <LanguageType value="en" text="英语"/>
+  
+  <!--回复类型-->
+  <ResponseType value="rt01" text="确定" desc="Accepted"/>
+  <ResponseType value="rt02" text="未确定" desc="Pending"/>
+  <ResponseType value="rt03" text="部分确定" desc="Partly accepted"/>
+
+  <!--国家-->
+  <CountryType value="ZH" text="中国" />
+  <CountryType value="USA" text="美国" />
+  <CountryType value="RU" text="俄国" />
+  <CountryType value="BRI" text="英国" />
+  <CountryType value="FR" text="法国" />
+  <CountryType value="BA" text="巴基斯坦" />
+
+	<!--发送单位（value值必须是5数字或者字母）-->
+	<SendidType value="10000" text="单位A" />
+	<SendidType value="10001" text="单位B" />
+	<SendidType value="10002" text="单位C" />
+	<SendidType value="10003" text="单位D" />
+	<SendidType value="10004" text="单位E" />
+	<SendidType value="10005" text="单位F" />
+
+  <!--城市-->
+  <CityType value="广州"/>
+  <CityType value="北京"/>
+  <CityType value="上海"/>
+  <CityType value="西安"/>
+  <CityType value="南京"/>
+  <CityType value="成都"/>
+  
+  <!--年份-->
+
+  <DiyearType  value="2015"/>
+  <DiyearType  value="2014"/>
+  <DiyearType  value="2013"/>
+  <DiyearType  value="2012"/>
+  <DiyearType  value="2011"/>
+  <DiyearType  value="2010"/>
+  <DiyearType  value="2009"/>
+  <DiyearType  value="2008"/>
+  <DiyearType  value="2007"/>
+  <DiyearType  value="2006"/>
+  
+</baseData>

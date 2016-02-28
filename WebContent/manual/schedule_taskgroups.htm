@@ -1,0 +1,44 @@
+﻿<HTML xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="PRAGMA" content="no-cache">
+    <title>
+    </title>
+    <link rel="STYLESHEET" type="text/css" href="../manual-resources/css/style.css">
+    <link rel="STYLESHEET" type="text/css" href="../manual-resources/css/tbStyle.css"><script language="JavaScript" src="../manual-resources/js/jQuery.js"></script><script language="JavaScript" src="../manual-resources/js/Dialog.js"></script><script language="JavaScript" src="../manual-resources/js/Reference.js"></script><script language="JavaScript" src="../manual-resources/js/AssistantInfo.js"></script><script language="JavaScript" src="../manual-resources/js/Graphic.js"></script><script language="JavaScript" src="../manual-resources/js/Procedure.js"></script><script language="JavaScript" src="../manual-resources/js/Fault.js"></script><script language="JavaScript" src="../manual-resources/js/Process.js"></script><script language="JavaScript" src="../manual-resources/js/Schedule.js"></script><script language="JavaScript" src="../manual-resources/js/ApplicRecised.js"></script><script language="JavaScript" src="../manual-resources/js/IETM.js"></script></HEAD>
+  <BODY>
+    <div style="height:80%" id="dmContent">
+      <div>
+        <div id="tooltip" align="center" style="display:none;width:90px;height:20px;background-color:#CBE1FE;border:1px #86ACDE solid;"><span class="refs_text">引用链终</span><img src="../manual-resources/images/Next1.gif"></div>
+        <div class="dmodule_title"><a name="schedule_query_content"></a>定期维护任务</div>
+        <div style="width:100%; background-color:#DFE8F6; padding:10px;">
+          <table style="font-size:10.5pt;">
+            <tr>
+              <td valign="top"><span id="0"><img class="schedule_collapseExpand" onclick="deftaskIsExpandAll(this,this.parentElement)" style="cursor:pointer;" src="../manual-resources/images/collapse.gif" path="../manual-resources/images">折叠所有</span>
+									  
+									周期：</td>
+              <td valign="top" style="border:solid; border-width:1px; border-color:silver;padding:3px;"><span style="line-height:1.8;"><span><input id="schedule_0" type="checkbox" value="schedule_0" onclick="taskCheckbox(this)" style="cursor:pointer;"><a style="display:none" title="可定位" href="#th01-1200-pe" class="insideXref">1200飞行小时</a><span>1200飞行小时</span>
+												  
+											</span><span><input id="schedule_1" type="checkbox" value="schedule_1" onclick="taskCheckbox(this)" style="cursor:pointer;"><a style="display:none" title="可定位" href="#th01-300-pe" class="insideXref">300飞行小时</a><span>300飞行小时</span>
+												  
+											</span><span><input id="schedule_2" type="checkbox" value="schedule_2" onclick="taskCheckbox(this)" style="cursor:pointer;"><a style="display:none" title="可定位" href="#th01-600-pe" class="insideXref">600飞行小时</a><span>600飞行小时</span>
+												  
+											</span><span><input id="schedule_ev" type="checkbox" value="schedule_ev" onclick="taskCheckbox(this)" style="cursor:pointer;"><a style="display:none" title="可定位" href="#--" class="insideXref">其它</a><span>其它</span>
+												  
+											</span></span></td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td><label><input id="schedule_all" type="radio" onclick="taskAllSelect(this)" style="cursor:pointer;">全选</label>
+									  
+									<label><input id="schedule_noall" type="radio" checked onclick="taskNoAllSelect(this)" style="cursor:pointer;">全不选</label></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="schedule_0"></div>
+      <div id="schedule_1"></div>
+      <div id="schedule_2"></div>
+      <div id="schedule_ev"></div><input name="dmType" type="hidden" id="dmType" value="schedule"><br><br></div>
+  </BODY>
+</HTML>

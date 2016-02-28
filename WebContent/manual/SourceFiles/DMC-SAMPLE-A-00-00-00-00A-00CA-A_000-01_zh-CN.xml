@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/descript.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/"><idstatus><dmaddres><dmc><avee><modelic>SAMPLE</modelic><sdc>A</sdc><chapnum>00</chapnum><section>0</section><subsect>0</subsect><subject>00</subject><discode>00</discode><discodev>A</discodev><incode>00C</incode><incodev>A</incodev><itemloc>A</itemloc></avee></dmc><dmtitle><techname>整机</techname><infoname>供应目录（通常用于数据模块前的内容）</infoname></dmtitle><issno issno="000" inwork="01" type="new"></issno><issdate year="2011" month="08" day="31"></issdate><language language="zh" country="CN"></language></dmaddres><status xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/"><security class="01"></security><rpc rpcname="">SBTR1</rpc><orig origname="">SBTR1</orig><applic><displaytext></displaytext></applic><brexref><refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest"><avee><modelic>SAMPLE</modelic><sdc>A</sdc><chapnum>00</chapnum><section>0</section><subsect>0</subsect><subject>00</subject><discode>00</discode><discodev>A</discodev><incode>022</incode><incodev>A</incodev><itemloc>A</itemloc></avee><dmtitle><techname>业务规则</techname><infoname>业务规则</infoname></dmtitle><language language="zh" country="CN"></language></refdm></brexref><qa><unverif></unverif></qa></status></idstatus><content><descript><table><title>消耗品</title><tgroup cols="2"><colspec colname="c0" colwidth="200"></colspec><colspec colname="c1" colwidth="500"></colspec><thead><row><entry colname="c0">名称</entry><entry colname="c1">标识号/引用</entry></row></thead><tbody><row><entry colname="c0">USA ASTM-D-1655-93(射流 A-1)</entry><entry colname="c1">部件:  01-001
+</entry></row><row><entry colname="c0">USA VV-P-236</entry><entry colname="c1">部件:  04-012
+</entry></row><row><entry colname="c0">防腐剂密封剂</entry><entry colname="c1">部件:  09-005
+</entry></row><row><entry colname="c0">不起毛棉布</entry><entry colname="c1">部件: 19-003
+</entry></row><row><entry colname="c0">燃油,涡轮增压</entry><entry colname="c1">部件: USA/ASTM-D-1655-93(射流 A-1)
+序列号: 01-001
+</entry></row><row><entry colname="c0">纯矿物凡士林或凡士林</entry><entry colname="c1">部件: USA/VV-P-236
+序列号: 04-012
+</entry></row><row><entry colname="c0">耐刷燃油抵抗涂层</entry><entry colname="c1">部件: USA/MIL-S-4383
+序列号: 09-007
+</entry></row><row><entry colname="c0">通用溶剂</entry><entry colname="c1">部件: GB/DEF-STAN
+序列号: 11-026
+</entry></row><row><entry colname="c0">不起毛棉布</entry><entry colname="c1">部件: USA/AMS 3819
+序列号: 19-003
+</entry></row></tbody></tgroup></table></descript></content></dmodule>

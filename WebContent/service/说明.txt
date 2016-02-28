@@ -1,0 +1,4 @@
+﻿这里放服务文件及数据库文件
+
+生成客户端文件命令：
+wsdl /out:c:\IETMWebService.cs http://localhost:16781/IBV/service/IETMSupportService.asmx?WSDL

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/CommentImport.aspx" hash="5814482f9" filehash="8d76b508c37dd6b0" flags="110000" assembly="App_Web_xyr-fbv8" type="ASP.commentimport_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/CheckBoxListUserControl.ascx" />
+        <filedep name="/IbvManagement/CheckBoxListUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/CommentImport.aspx" />
+        <filedep name="/IbvManagement/CommentImport.aspx.cs" />
+        <filedep name="/IbvManagement/UpLoadUserControl.ascx" />
+        <filedep name="/IbvManagement/UpLoadUserControl.ascx.cs" />
+    </filedeps>
+</preserve>

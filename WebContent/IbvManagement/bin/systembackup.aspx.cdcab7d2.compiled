@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/SystemBackup.aspx" hash="5814482f9" filehash="684e87982fa6b105" flags="110000" assembly="App_Web_xyr-fbv8" type="ASP.systembackup_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/HeaderUserControl.ascx" />
+        <filedep name="/IbvManagement/HeaderUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/ListUserControl.ascx" />
+        <filedep name="/IbvManagement/ListUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/SystemBackup.aspx" />
+        <filedep name="/IbvManagement/SystemBackup.aspx.cs" />
+    </filedeps>
+</preserve>

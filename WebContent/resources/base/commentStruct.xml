@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<comment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/comment.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+  <cstatus>
+    <ccode>
+      <modelic>defualt</modelic>
+      <sendid>defualt</sendid>
+      <diyear>defualt</diyear>
+      <seqnum>defualt</seqnum>
+      <ctype type="defualt"></ctype>
+    </ccode>
+    <ctitle>ooooooooo</ctitle>
+    <issdate year="defualt" month="defualt" day="defualt"></issdate>
+    <language language="defualt" country="defualt"></language>
+    <corig>
+      <dispaddr>
+        <enterprise>
+          <ent-name>defualt</ent-name>
+        </enterprise>
+        <address>
+          <city>defualt</city>
+          <country>defualt</country>
+        </address>
+      </dispaddr>
+    </corig>
+    <security class="defualt"></security>
+    <priority cprio="defualt"></priority>
+    <response rsptype="defualt"></response>
+    <crefs>
+    </crefs>
+  </cstatus>
+  <ccontent>
+  </ccontent>
+</comment>

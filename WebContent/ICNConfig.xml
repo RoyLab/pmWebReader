@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <icnview>
+    <!--属性值不区分大小写-->
+    <!--ext属性：文件后缀名，不包含“.”点号。“.”表示其他未知格式（目前还只支持ico）。-->
+    <!--cgm可查看位图，矢量图和cgm图。cgm控件根据配置使用larson或isoview-->
+    <!--viewext属性仅对view为cgm类型时有效；viewext属性的配置依赖IBB图像转换配置。-->
+    <!--localview属性，只适用未加密手册，默认false，为true时必须是单机本地预览的icn文件（必须当前IIS部署在本机时才有效）。
+      注：目前不是所有类型的文件都支持本地路径。
+      支持本地预览的格式\阅读器：autovue、cgm、windowsmedia（只验证了avi、mp3）、eon、deep、vrml。
+    -->
+    
+    <!--ico属性，ICN图在没有缩略图时，所使用的预览图。取值为根路径下相对路径。-->
+    <!--ext等于unknown表示未知扩展-->
+    
+    <!--BITMAP-->
+    <item ext="jpg" view="autovue"/>
+    <item ext="jpeg" view="autovue"/>
+    <item ext="bmp" view="autovue"/>
+    <item ext="ico" view="autovue"/>
+    <item ext="gif" view="autovue"/>
+    <item ext="tif" view="autovue" />
+    <item ext="tiff" view="autovue" />
+    <item ext="png" view="autovue"/>
+    <!--CGM-->
+    <item ext="cgm" view="cgm" />
+    <item ext="iso" view="cgm"/>
+    <!--AutoVue-->
+    <item ext="1" view="autovue" />
+    <item ext="CATDrawing" view="autovue" />
+    <item ext="CATPart" view="autovue" />
+    <item ext="CATProduct" view="autovue" />
+    <item ext="ipt" view="autovue" />
+    <item ext="iam" view="autovue" />
+    <item ext="par" view="autovue" />
+    <item ext="cfg" view="autovue" />
+    <item ext="SLDPRT" view="autovue" />
+    <item ext="SLDDRW" view="autovue" />
+    <item ext="SLDASM" view="autovue" localview="false"/>
+    <item ext="prt" view="autovue" />
+    <item ext="dwg" view="autovue" />
+    <item ext="dgn" view="autovue" />
+    <item ext="dst" view="autovue" />
+    <item ext="asm" view="autovue" localview="false"/>
+    <item ext="pcb" view="autovue" />
+    <item ext="emf" view="autovue" />
+    <item ext="wmf" view="autovue" />
+    <item ext="ddb" view="autovue" />
+    <item ext="sch" view="autovue" />
+    <item ext="PDF" view="autovue"/>
+    <item ext="vsd" view="autovue" />
+
+    <item ext="WMV" view="windowsmedia" />
+    <item ext="AVI" view="windowsmedia" />
+    <item ext="MPG" view="windowsmedia" localview="true"/>
+    <item ext="MPEG" view="windowsmedia" localview="true" />
+    <item ext="MP3" view="windowsmedia" />
+    <item ext="MP4" view="windowsmedia"/>
+    <item ext="WMA" view="windowsmedia" />
+    <item ext="MOV" view="windowsmedia" />
+    <!--flash、officedocument查看器无法本地方式查看（localview=true）-->
+    <item ext="SWF" view="flash" localview="false"/>
+    <item ext="DOC" view="officedocument" localview="false"/>
+    <item ext="DOCX" view="officedocument" localview="false" />
+    <item ext="PPT" view="officedocument" localview="false" />
+    <item ext="PPTX" view="officedocument" localview="false" />
+    <item ext="XLS" view="officedocument" localview="false" />
+    <item ext="XLSX" view="officedocument" localview="false" />
+
+    <item ext="edz" view="eon" />
+    <item ext="eoz" view="eon" />
+    <item ext="rh" view="deep" />
+    <item ext="wrl" view="vrml" />
+    <item ext="zip" view="pectrl" />
+    
+    <item ext="." view="" ico="manual-resources\images\Image.png"/>
+    <item ext=".mp4" view="" ico="manual-resources\images\ico_src_ext_mov.png"/>
+    <item ext=".zip" view="" ico="manual-resources\images\Image.png"/>
+    <item ext=".vsd" view="" ico="manual-resources\images\Image.png"/>
+  </icnview>
+</root>

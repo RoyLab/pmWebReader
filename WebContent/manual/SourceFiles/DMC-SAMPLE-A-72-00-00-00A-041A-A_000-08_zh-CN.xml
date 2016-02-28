@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-720000-A-SBTR-00002-A-01-1 SYSTEM "ICN-SAMPLE-A-720000-A-SBTR-00002-A-01-1.PNG" NDATA png>
+<!ENTITY ICN-SAMPLE-A-720000-A-SBTR-00089-A-01-1 SYSTEM "ICN-SAMPLE-A-720000-A-SBTR-00089-A-01-1.WMV" NDATA wmv>
+<!ENTITY ICN-SAMPLE-A-720000-A-SBTR-00082-A-01-1 SYSTEM "ICN-SAMPLE-A-720000-A-SBTR-00082-A-01-1.E1" NDATA e1>
+<!ENTITY ICN-SAMPLE-A-720000-A-SBTR1-00093-A-01-1 SYSTEM "ICN-SAMPLE-A-720000-A-SBTR1-00093-A-01-1.SLDASM" NDATA sldasm>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/descript.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>041</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机</techname>
+        <infoname>组成的描述</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="08" type="new"></issno>
+      <issdate year="2011" month="09" day="05"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+      <remarks>
+        <p>多媒体、3D演示效果</p>
+      </remarks>
+    </status>
+  </idstatus>
+  <content>
+    <descript>
+      <figure>
+        <title>发动机  一般说明 </title>
+        <graphic boardno="ICN-SAMPLE-A-720000-A-SBTR-00002-A-01-1" xlink:type="simple" reprohgt="101" reprowid="150"></graphic>
+      </figure>
+      <multimedia>
+        <title>发动机工作原理</title>
+        <multimediaobject boardno="ICN-SAMPLE-A-720000-A-SBTR-00089-A-01-1" multimediaclass="3D" xlink:type="simple" height="400" width="600"></multimediaobject>
+      </multimedia>
+      <para0>
+        <title>概述 </title>
+        <para>CFM56－7B一台高流量比、双转子、轴流式涡轮风扇发动机。发动机风扇直径是61英寸（1.55米）。发动机本体重量是5257磅（2385千克）发动机有这些部分：<randlist><item><para>风扇和增压器</para></item><item><para>高压压气机（HPC）</para></item><item><para>燃烧室</para></item><item><para>高压涡轮（HPT）</para></item><item><para>低压涡轮（LPT）</para></item><item><para>附件传动装置</para></item></randlist></para>
+        <para>风扇和增压器转子和低压涡轮（LPT）都是在相同的低压轴（N1）上。</para>
+        <para>高压压气机（HPC）和高压涡轮（HPT）都是在相同的高压轴（N2）上。</para>
+      </para0>
+      <para0>
+        <title>风扇和增压器</title>
+        <para>风扇和增压器是一个 4 级的压气机。 </para>
+        <para>风扇增加空气的速度。隔板整流罩把空气分为这两个气流：<randlist><item><para>第一股气流（主气流）</para></item><item><para>第二股气流（副气流，风扇气流）</para></item></randlist></para>
+        <para>第一股（原）气流流入发动机的核心。增压器增加此空气的压力并把它送至高压压气机。 </para>
+        <para>第二股气流流入风扇通道。在起飞期间第二股气流提供约 80％的推力。 </para>
+      </para0>
+      <para0>
+        <title>高压压气机（HPC） </title>
+        <para>高压压气机（HPC）是一个 9 级压气机。它增加来自低压压气机（LPC）的空气压力并送至燃烧室。高压压气机也为飞机的气压系统和发动机的空气系统提供引气。</para>
+      </para0>
+      <para0>
+        <title>燃烧室</title>
+        <figure>
+          <title></title>
+          <graphic boardno="ICN-SAMPLE-A-720000-A-SBTR-00082-A-01-1" xlink:type="simple" reprohgt="421" reprowid="349"></graphic>
+        </figure>
+        <para>燃烧室混合来自压气机的空气和来自喷油嘴的燃油。 空气和燃油的混合气在燃烧室内燃烧成为高温的燃气。高温的燃气流向高压涡轮。 </para>
+      </para0>
+      <para0>
+        <title>高压涡轮（HPT） </title>
+        <para>高压涡轮（HPT）是一个单级涡轮。它把高温的燃气的热能转变为机械能。 高压涡轮利用此机械能转动高压压气机转子和附件传动装置。 </para>
+      </para0>
+      <para0>
+        <title>低压涡轮（LPT） </title>
+        <para>低压涡轮（LPT）是一个 4 级涡轮。它把高温燃气的热能转换为机械能。低压涡轮利用此机械能转动风扇和增压器转子。 </para>
+      </para0>
+      <para0>
+        <title>附件传动装置 </title>
+        <figure>
+          <title></title>
+          <graphic boardno="ICN-SAMPLE-A-720000-A-SBTR1-00093-A-01-1" xlink:type="simple" reprohgt="421" reprowid="349"></graphic>
+        </figure>
+        <para>附件传动装置有这些部件： <randlist><item><para>进气道齿轮箱（IGB） </para></item><item><para>径向传动轴（RDS）</para></item><item><para>传输齿轮箱（TGB）</para></item><item><para>水平传动轴（HDS）</para></item><item><para>附件齿轮箱（AGB）</para></item></randlist></para>
+        <para>N2 轴通过这些轴和齿轮箱转动附件齿轮箱：<randlist><item><para>进气道齿轮箱（IGB）</para></item><item><para>径向传动轴（RDS）</para></item><item><para>传输齿轮箱（TGB） </para></item><item><para>水平传动轴（HDS）</para></item></randlist></para>
+        <para>附件齿轮箱（AGB）安装并运转飞机的附件和发动机的附件。</para>
+      </para0>
+    </descript>
+  </content>
+</dmodule>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/SystemRestore.aspx" hash="5814482f9" filehash="53c0a6e8e5fece2d" flags="110000" assembly="App_Web_xyr-fbv8" type="ASP.systemrestore_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/ListUserControl.ascx" />
+        <filedep name="/IbvManagement/ListUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/SystemRestore.aspx" />
+        <filedep name="/IbvManagement/SystemRestore.aspx.cs" />
+        <filedep name="/IbvManagement/UpLoadUserControl.ascx" />
+        <filedep name="/IbvManagement/UpLoadUserControl.ascx.cs" />
+    </filedeps>
+</preserve>

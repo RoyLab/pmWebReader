@@ -1,0 +1,59 @@
+﻿.x-custombtn-icon .x-btn-center .x-btn-text
+{ 
+	background-position:center;
+	background-repeat:no-repeat;
+	height:36px;
+	width:36px;
+	cursor:pointer;
+	white-space:nowrap;
+	padding:0;
+	
+}
+
+.x-custombtn-text-icon .x-btn-center .x-btn-text
+{
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	height:36px;
+	padding-left:36px;
+    padding-right:0;
+	background-image:transparent;
+}
+
+
+
+.x-toolbar .x-custombtn-over .x-btn-left
+{
+	background:url(../images/default/toolbar/tb-custombtn-sprite.gif) no-repeat 0 0;
+}
+
+.x-custombtn-text-icon .x-btn-menu-arrow-wrap .x-btn-center button {
+    height:36px;
+}
+
+.x-toolbar .x-custombtn-over .x-btn-right
+{background:url(../images/default/toolbar/tb-custombtn-sprite.gif) no-repeat 0 -36px;}
+.x-toolbar .x-custombtn-over .x-btn-center
+{background:url(../images/default/toolbar/tb-custombtn-sprite.gif) repeat-x 0 -72px;}
+.x-toolbar .x-custombtn-icon .x-custombtn-click .x-btn-left,.x-toolbar .x-custombtn-pressed .x-btn-left,.x-toolbar .x-custombtn-menu-active .x-btn-left
+{background:url(../images/default/toolbar/tb-custombtn-sprite.gif) no-repeat 0 -108px;}
+.x-toolbar .x-custombtn-icon .x-custombtn-click .x-btn-right,.x-toolbar .x-custombtn-pressed .x-btn-right,.x-toolbar .x-custombtn-menu-active .x-btn-right
+{background:url(../images/default/toolbar/tb-custombtn-sprite.gif) no-repeat 0 -144px;}
+.x-toolbar .x-custombtn-icon .x-custombtn-click .x-btn-center,.x-toolbar .x-custombtn-pressed .x-btn-center,.x-toolbar .x-custombtn-menu-active .x-btn-center
+{background:url(../images/default/toolbar/tb-custombtn-sprite.gif) repeat-x 0 -180px;}
+
+
+
+.x-toolbar .customytb-sep {
+	background-image: url(../images/default/grid/midi-grid-split.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	font-size: 1px;
+	height: 36px;
+	width:4px;
+	overflow: hidden;
+	cursor:default;
+	margin: 0 2px 0;
+	border:0;
+}

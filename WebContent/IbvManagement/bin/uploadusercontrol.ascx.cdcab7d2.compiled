@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/UpLoadUserControl.ascx" hash="5814482f9" filehash="89ae564332ef21a2" flags="110000" assembly="App_Web_fj1wu5ky" type="ASP.uploadusercontrol_ascx">
+    <filedeps>
+        <filedep name="/IbvManagement/UpLoadUserControl.ascx" />
+        <filedep name="/IbvManagement/UpLoadUserControl.ascx.cs" />
+    </filedeps>
+</preserve>

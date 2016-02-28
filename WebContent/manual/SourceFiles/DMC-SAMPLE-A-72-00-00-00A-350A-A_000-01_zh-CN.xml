@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/proced.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>350</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机</techname>
+        <infoname>标准荧光渗透剂检查</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="08" day="03"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR1</rpc>
+      <orig origname="">SBTR1</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <proced>
+      <prelreqs>
+        <reqconds>
+          <noconds></noconds>
+        </reqconds>
+        <supequip>
+          <supeqli>
+            <supequi>
+              <nomen>紫外线(UV)灯</nomen>
+              <identno>
+                <mfc></mfc>
+              </identno>
+              <qty>1</qty>
+              <remarks>带过滤器和反光镜</remarks>
+            </supequi>
+          </supeqli>
+        </supequip>
+        <supplies>
+          <supplyli>
+            <supply>
+              <nomen>棉布</nomen>
+              <identno>
+                <mfc>P05-005</mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks>不起毛</remarks>
+            </supply>
+            <supply>
+              <nomen>渗透,荧光,加速乳化(高)</nomen>
+              <identno>
+                <mfc>P05-032</mfc>
+                <pnr>PMC 4353</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>显色剂,干燥</nomen>
+              <identno>
+                <mfc>P05-034</mfc>
+                <pnr>PMC 4356</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>渗透,荧光,耐洗水(正常)</nomen>
+              <identno>
+                <mfc>P05-424</mfc>
+                <pnr>PMC 4351</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>渗透,荧光,加速乳化(正常)</nomen>
+              <identno>
+                <mfc>P05-234</mfc>
+                <pnr>PMC 4352</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>渗透,荧光,加速乳化(极端的高)</nomen>
+              <identno>
+                <mfc>P05-235</mfc>
+                <pnr>PMC 4354</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>渗透,荧光,水可洗的(高)</nomen>
+              <identno>
+                <mfc>P05-236</mfc>
+                <pnr>PMC 4360</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>显色剂,荧光渗透剂,非水的</nomen>
+              <identno>
+                <mfc>P05-237</mfc>
+                <pnr>PMC 4357</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>溶剂,甲乙酮</nomen>
+              <identno>
+                <mfc>P11-005</mfc>
+                <pnr>PMC 9076</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>酒精,异丙基</nomen>
+              <identno>
+                <mfc>P11-014</mfc>
+                <pnr>PMC 9094</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>丙酮,无苯酚</nomen>
+              <identno>
+                <mfc>P11-032</mfc>
+                <pnr>PMC 9008</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>溶剂,清洁器</nomen>
+              <identno>
+                <mfc>P11-038</mfc>
+                <pnr>PMC 8904</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+            <supply>
+              <nomen>溶剂,清洁器</nomen>
+              <identno>
+                <mfc>P11-039</mfc>
+                <pnr>PMC 9060</pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks></remarks>
+            </supply>
+          </supplyli>
+        </supplies>
+        <spares>
+          <nospares></nospares>
+        </spares>
+        <safety>
+          <nosafety></nosafety>
+        </safety>
+      </prelreqs>
+      <mainfunc>
+        <step1>
+          <title>设备说明</title>
+          <step2>
+            <para>检查所有紫外线(UV)灯过滤器和反光镜。确保他们是清洁和可用的。如果需要更换或清洗他们。</para>
+          </step2>
+          <step2>
+            <para>仅使用带木制玻璃过滤器的水银 100 瓦特 PAR 38 UV 灯(例子,KOPP 41)。</para>
+          </step2>
+          <step2>
+            <para>UV 灯必须有正确强度。按下列步骤检查它:<seqlist><item><para>对所有反光灯的UV 强度至少一个星期应做一次检查。在每个传感器更换后作一次检查。使用一校准UV 灯表。</para></item><item><para>测光表必须测量电磁辐射在接近的-波长 320-420 nm(3200-4000 埃)紫外线范围。在它的全程它必须有±5%准确性。经批准的灯表是,但不限于下列的名字:<randlist><item><para>Ardox Inc.-模型 DLM-1000</para></item><item><para>Spectronics 公司-模型 DM-365N 或者 DM-365X</para></item><item><para>Tokushu Toryo Co.-模型 UV-2500II</para></item><item><para>紫外线产品,Inc.-模型 J-221</para></item></randlist></para></item><item><para>UV 灯变热必须最少10 分钟。</para></item><item><para>用一个UV 或组合的 UV/白光测量计或 UV 光传感器做 UV 光的强度检查。移动附近的灯传感器以获得最大值计量器指示。</para></item><item><para>在离开零件表面距离 15 in.(38.1 cm)最小的强度是 1000 uw/cm2(1000 微瓦每平方厘米)。</para></item></seqlist></para>
+          </step2>
+          <step2>
+            <para>使用在表面测量周围环境白色的-灯强度的白色的-灯表必须测量最小的0-250 尺烛光的附带的灯。在它的全程它必须有一个±10%准确性。</para>
+          </step2>
+        </step1>
+        <step1>
+          <title>检查说明概述</title>
+          <warning>
+            <para>在你用荧光渗透剂检查零件之前,不要在一个发动机零件使用对比着色渗透剂。对比着色渗透剂是吸附的,并会减少荧光渗透剂检查的敏感性。</para>
+          </warning>
+          <step2>
+            <para>确保使用正确敏感性渗透剂。决不许使用比手册中指定的敏感性低的渗透剂。</para>
+          </step2>
+          <step2>
+            <para>检查区域必须有保护白色的灯。</para>
+          </step2>
+          <step2>
+            <para>在你进入黑的检查区域后不少于一分钟开始检查。眼睛必须首先适应黑的检查区域。</para>
+          </step2>
+          <step2>
+            <para>将UV 灯定位以防止检查时闪光。</para>
+            <note>
+              <para>在检查期间,当他们处于UV 灯时,不用戴使镜头变暗的防护镜。</para>
+            </note>
+          </step2>
+          <step2>
+            <para>如果必需,使用放大(10X 最大)和/或白色的灯来发现变化的区域。</para>
+          </step2>
+        </step1>
+        <step1>
+          <title>标准萤光渗透剂检查</title>
+          <caution>
+            <para>不要使用程序,诸如:重磨,刮,碎屑,和锤击。这些程序能够改变表面并引起你看不见的缺陷。这会造成萤光渗透剂检查结果是不满意的。</para>
+          </caution>
+          <step2>
+            <warning>
+              <para>不用含有卤素成分的溶剂清洗钛合金零件。卤素将损害金属。</para>
+            </warning>
+            <para>彻底清洁检查区域如下:<seqlist><item><para>从表面除去所有的多余物。确保从检查区域去除全部滑脂,滑油,或者灰尘。</para></item><item><para>使用一块布或者纸巾从钛零件上清洁多余的材料。</para></item></seqlist></para>
+          </step2>
+          <step2>
+            <para>应用保护胶带围绕区检查域,这将有助于防止渗透进入邻近区域。</para>
+          </step2>
+          <step2>
+            <para>按下列步骤做标准萤光渗透剂检查(FPI):<seqlist><item><para>用一刷子,布或者棉花球涂一种渗透剂。确保使用正确敏感性渗透剂。</para></item><item><para>让渗透剂干燥至少 10 分钟到最多 60 分钟。这将准许渗透进入材料。</para></item><item><para>使用一块布或者纸巾拆卸无用的渗透剂。如果必需,用布或者纸巾沾下列的一种材料:<randlist><item><para>用于钛合金零件,使用丙酮溶剂(P11-005)拆卸无用的渗透剂。</para></item><item><para>用于其他的零件,使用下列的一种材料和一块布拆卸无用的渗透剂。</para></item></randlist></para></item></seqlist></para>
+          </step2>
+          <step2>
+            <para>使用一 UV 灯以确保没有渗透在表面。</para>
+            <note>
+              <para>在检查期间,当它们处于UV 灯时,不用戴使镜头变暗的防护镜。</para>
+            </note>
+          </step2>
+          <step2>
+            <para>涂下列的一种显色剂到检查零件上。小心莫涂过多的显色剂在零件上。<randlist><item><para>显色剂(P05-034)</para></item><item><para>显示剂(P05-237)</para></item></randlist></para>
+            <note>
+              <para>如你使用非水的显色剂,以不变的厚度涂一层(仅一遍)。该层的厚度必须看得见,但没有不能看见零件颜色的厚度。</para>
+            </note>
+          </step2>
+          <step2>
+            <para>让零件区域干燥至少10 分钟。这将准许发展。</para>
+          </step2>
+          <step2>
+            <warning>
+              <para>确保尽快从零件除去全部渗透剂和显色剂材料。如材料保持在零件,在较高温度会发生危险的腐蚀。在焊接程序时这也会引起问题。</para>
+            </warning>
+            <warning>
+              <para>不用含有卤素成分的溶剂清洗钛合金零件。卤素将损害金属。</para>
+            </warning>
+            <para>用 UV 灯检查该区域。如有任何区域有一适当的荧光背景,或者你是不确信一个区域,做下列的程序:<seqlist><item><para>用一柔软的刷子沾湿下列的一种材料。轻轻地把材料涂至检查区域。液体不得超过或溢满任何表面。</para></item><item><para>表面发干后,涂显色剂。在一UV 之下灯检查。</para></item><item><para>如指示立即出现,立即进行分析。如指示没有立即出现,允许最小 5分钟,用于发展,然后检查它。在任何指示仅使用程序一次。</para></item></seqlist></para>
+          </step2>
+          <step2>
+            <para>用一块布或者纸巾沾湿下列的一种材料去除显色剂:<seqlist><item><para>用于钛合金零件,使用丙酮溶剂(P11-005)拆卸无用的渗透剂。</para></item><item><para>用于其他的零件,使用下列的一种材料和一块布拆卸无用的渗透剂。</para></item><item><para>用紫外灯检查零件以确保全部渗透和显色剂材料已去除。</para></item></seqlist></para>
+          </step2>
+        </step1>
+      </mainfunc>
+      <closereqs>
+        <reqconds>
+          <reqcond>拆除所有任务区的工具和装备。确保区域是清洁的。</reqcond>
+        </reqconds>
+      </closereqs>
+    </proced>
+  </content>
+</dmodule>

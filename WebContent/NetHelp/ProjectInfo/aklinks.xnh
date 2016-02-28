@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="gb2312"?>
+<root>
+    <keywords>
+        <keyword name="DM意见列表">
+            <topics>
+                <topic url="dm.htm" window="right"><![CDATA[DM意见列表]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="中间意见答复">
+            <topics>
+                <topic url="_48.htm" window="right"><![CDATA[中间意见答复]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="为什么需要意见信息">
+            <topics>
+                <topic url="_46.htm" window="right"><![CDATA[为什么需要意见信息]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="书 签">
+            <topics>
+                <topic url="_30.htm" window="right"><![CDATA[书 签]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="产品介绍">
+            <topics>
+                <topic url="_1.htm" window="right"><![CDATA[产品介绍]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="修改密码">
+            <topics>
+                <topic url="_12.htm" window="right"><![CDATA[修改密码]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="修改用户资料">
+            <topics>
+                <topic url="_11.htm" window="right"><![CDATA[修改用户资料]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="全文检索">
+            <topics>
+                <topic url="_33.htm" window="right"><![CDATA[全文检索]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="关于">
+            <topics>
+                <topic url="_64.htm" window="right"><![CDATA[关于]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="关于IETM S1000D -IBV">
+            <topics>
+                <topic url="ietms1000dibv.htm" window="right"><![CDATA[关于IETM S1000D -IBV]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="删除用户">
+            <topics>
+                <topic url="_13.htm" window="right"><![CDATA[删除用户]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="删除角色">
+            <topics>
+                <topic url="_20.htm" window="right"><![CDATA[删除角色]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="功能全景">
+            <topics>
+                <topic url="_5.htm" window="right"><![CDATA[功能全景]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="历史记录">
+            <topics>
+                <topic url="_31.htm" window="right"><![CDATA[历史记录]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="增加角色">
+            <topics>
+                <topic url="_18.htm" window="right"><![CDATA[增加角色]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="备注输出">
+            <topics>
+                <topic url="_54.htm" window="right"><![CDATA[备注输出]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="安全管理">
+            <topics>
+                <topic url="_6.htm" window="right"><![CDATA[安全管理]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="定期维护任务浏览">
+            <topics>
+                <topic url="_65.htm" window="right"><![CDATA[定期维护任务浏览]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="密码本管理">
+            <topics>
+                <topic url="_25.htm" window="right"><![CDATA[密码本管理]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="密级管理">
+            <topics>
+                <topic url="_24.htm" window="right"><![CDATA[密级管理]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="导出DM">
+            <topics>
+                <topic url="dm1.htm" window="right"><![CDATA[导出DM]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="导航定位">
+            <topics>
+                <topic url="_26.htm" window="right"><![CDATA[导航定位]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="屏幕锁定">
+            <topics>
+                <topic url="_23.htm" window="right"><![CDATA[屏幕锁定]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="工具栏">
+            <topics>
+                <topic url="_28.htm" window="right"><![CDATA[工具栏]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="帮助">
+            <topics>
+                <topic url="_62.htm" window="right"><![CDATA[帮助]]></topic>
+                <topic url="_63.htm" window="right"><![CDATA[帮助]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="强制离线">
+            <topics>
+                <topic url="_16.htm" window="right"><![CDATA[强制离线]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="意见信息输出">
+            <topics>
+                <topic url="_55.htm" window="right"><![CDATA[意见信息输出]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="意见查找">
+            <topics>
+                <topic url="_50.htm" window="right"><![CDATA[意见查找]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="意见管理">
+            <topics>
+                <topic url="_45.htm" window="right"><![CDATA[意见管理]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="意见输出">
+            <topics>
+                <topic url="_51.htm" window="right"><![CDATA[意见输出]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="打印">
+            <topics>
+                <topic url="_53.htm" window="right"><![CDATA[打印]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="推荐配置建议">
+            <topics>
+                <topic url="_4.htm" window="right"><![CDATA[推荐配置建议]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="播放多媒体">
+            <topics>
+                <topic url="_42.htm" window="right"><![CDATA[播放多媒体]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="故障诊断浏览模式">
+            <topics>
+                <topic url="_43.htm" window="right"><![CDATA[故障诊断浏览模式]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="新增意见">
+            <topics>
+                <topic url="_47.htm" window="right"><![CDATA[新增意见]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="新增用户">
+            <topics>
+                <topic url="_10.htm" window="right"><![CDATA[新增用户]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="显示/隐藏备注">
+            <topics>
+                <topic url="_40.htm" window="right"><![CDATA[显示/隐藏备注]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="最低配置要求">
+            <topics>
+                <topic url="_3.htm" window="right"><![CDATA[最低配置要求]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="最终意见答复">
+            <topics>
+                <topic url="_49.htm" window="right"><![CDATA[最终意见答复]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="查找">
+            <topics>
+                <topic url="_38.htm" window="right"><![CDATA[查找]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="查看数据模块状态">
+            <topics>
+                <topic url="_37.htm" window="right"><![CDATA[查看数据模块状态]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="查看被引用情况">
+            <topics>
+                <topic url="_39.htm" window="right"><![CDATA[查看被引用情况]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="欢迎使用">
+            <topics>
+                <topic url="_.htm" window="right"><![CDATA[欢迎使用]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="注 销">
+            <topics>
+                <topic url="_8.htm" window="right"><![CDATA[注 销]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="用户管理">
+            <topics>
+                <topic url="_9.htm" window="right"><![CDATA[用户管理]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="用户配置">
+            <topics>
+                <topic url="_57.htm" window="right"><![CDATA[用户配置]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="登 录">
+            <topics>
+                <topic url="_7.htm" window="right"><![CDATA[登 录]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="目录树">
+            <topics>
+                <topic url="_27.htm" window="right"><![CDATA[目录树]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="系统功能">
+            <topics>
+                <topic url="_56.htm" window="right"><![CDATA[系统功能]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="组合查询">
+            <topics>
+                <topic url="_32.htm" window="right"><![CDATA[组合查询]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="维修指导浏览模式">
+            <topics>
+                <topic url="_44.htm" window="right"><![CDATA[维修指导浏览模式]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="编辑角色">
+            <topics>
+                <topic url="_19.htm" window="right"><![CDATA[编辑角色]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="自动加载图片">
+            <topics>
+                <topic url="_58.htm" window="right"><![CDATA[自动加载图片]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="自动定位树节点">
+            <topics>
+                <topic url="_59.htm" window="right"><![CDATA[自动定位树节点]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="菜单栏">
+            <topics>
+                <topic url="_29.htm" window="right"><![CDATA[菜单栏]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="角色维护">
+            <topics>
+                <topic url="_17.htm" window="right"><![CDATA[角色维护]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="设置功能权限">
+            <topics>
+                <topic url="_14.htm" window="right"><![CDATA[设置功能权限]]></topic>
+                <topic url="_21.htm" window="right"><![CDATA[设置功能权限]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="设置数据权限">
+            <topics>
+                <topic url="_15.htm" window="right"><![CDATA[设置数据权限]]></topic>
+                <topic url="_22.htm" window="right"><![CDATA[设置数据权限]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="资料浏览">
+            <topics>
+                <topic url="_34.htm" window="right"><![CDATA[资料浏览]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="输出">
+            <topics>
+                <topic url="_52.htm" window="right"><![CDATA[输出]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="运行环境">
+            <topics>
+                <topic url="_2.htm" window="right"><![CDATA[运行环境]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="退出系统">
+            <topics>
+                <topic url="_61.htm" window="right"><![CDATA[退出系统]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="适用性过滤">
+            <topics>
+                <topic url="_60.htm" window="right"><![CDATA[适用性过滤]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="链接跳转">
+            <topics>
+                <topic url="_36.htm" window="right"><![CDATA[链接跳转]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="阅读智能图像">
+            <topics>
+                <topic url="_41.htm" window="right"><![CDATA[阅读智能图像]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="页面缩放">
+            <topics>
+                <topic url="_35.htm" window="right"><![CDATA[页面缩放]]></topic>
+            </topics>
+        </keyword>
+    </keywords>
+    <groups />
+    <links />
+</root>

@@ -1,0 +1,210 @@
+BODY {
+	FONT: 12px verdana,arial,tahoma
+}
+HTML {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; BORDER-LEFT: 0px; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; HEIGHT: 100%
+}
+BODY {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; BORDER-LEFT: 0px; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; HEIGHT: 100%
+}
+#class .loading-indicator {
+	FONT-SIZE: 12px; HEIGHT: 18px
+}
+#docs .top-toolbar {
+	BORDER-RIGHT: 0px; BORDER-TOP: #d0d0d0 1px solid; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#docs .top-toolbar BUTTON {
+	
+}
+.x-panel-noborder {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#header {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 3px; BACKGROUND: url(hd-bg.gif) #1e4176 repeat-x 0px 0px; BORDER-LEFT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: 0px
+}
+.docs-header .x-panel-body {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#header {
+	
+}
+#header .api-title {
+	MARGIN: 5px; FONT: 16px tahoma, arial, sans-serif; COLOR: white
+}
+.loading-indicator {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 20px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(../../resources/images/default/grid/loading.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; TEXT-ALIGN: left
+}
+#doc-body .loading-indicator {
+	PADDING-RIGHT: 10px; BACKGROUND-POSITION: left 5px; PADDING-LEFT: 38px; LEFT: 43%; BACKGROUND-IMAGE: url(../../resources/images/default/shared/large-loading.gif); PADDING-BOTTOM: 10px; FONT: bold 13px Tahoma, Verdana, Arial, Helvetica, sans-serif; COLOR: #444; PADDING-TOP: 10px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 35%; TEXT-ALIGN: left
+}
+A#welcome-link {
+	PADDING-LEFT: 18px; BACKGROUND: url(docs.gif) #fff no-repeat 0px 0px
+}
+A#help-forums {
+	DISPLAY: block; PADDING-LEFT: 34px; BACKGROUND: url(forum.gif) #fff no-repeat 16px 0px
+}
+
+#loading-mask{
+	position:absolute;
+	left:0;
+	top:0;
+    width:100%;
+    height:100%;
+    z-index:20000;
+    background-color:white;
+}
+#loading{
+	position:absolute;
+	top:40%;
+	padding:2px;
+	z-index:20001;
+    height:auto;
+}
+#loading img {
+    margin-bottom:5px;
+}
+#loading .loading-indicator
+{
+	background: white;
+	color: #555;
+	font: bold 16px Î¢ÈíÑÅºÚ;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	height: auto;
+}
+
+#api-tree A SPAN {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana,arial,tahoma,sans-serif
+}
+#api-tree .cls A:hover SPAN {
+	TEXT-DECORATION: underline
+}
+#api-tree .x-panel-body {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; POSITION: relative; BACKGROUND-COLOR: white
+}
+#api-tree .cls {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid
+}
+#api-tree .x-tree-selected {
+	BORDER-RIGHT: #a3bae9 1px dotted; BORDER-TOP: #a3bae9 1px dotted; BACKGROUND: #dfe8f6; BORDER-LEFT: #a3bae9 1px dotted; BORDER-BOTTOM: #a3bae9 1px dotted
+}
+#api-tree .x-tree-node .x-tree-selected A SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #1e4176
+}
+A {
+	COLOR: #1e4176
+}
+A:link {
+	COLOR: #1e4176; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #555; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #15428b; TEXT-DECORATION: underline
+}
+#welcome {
+	LEFT: 0px; ZOOM: 1; POSITION: relative; TOP: 0px
+}
+.col {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px 250px 0px 10px; PADDING-TOP: 10px; ZOOM: 1
+}
+.col-last {
+	RIGHT: 10px; WIDTH: 220px; POSITION: absolute; TOP: 10px
+}
+.block {
+	MARGIN-BOTTOM: 10px
+}
+.block-title {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; FONT: 18px tahoma,verdana,sans-serif; COLOR: #1e4176; PADDING-TOP: 4px; LETTER-SPACING: -1px
+}
+.block-body {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 2px
+}
+.block-body B {
+	FONT-SIZE: 11px; COLOR: #333333
+}
+.block-body EM {
+	MARGIN-TOP: 5px; DISPLAY: block; FONT-SIZE: 11px; COLOR: gray; TEXT-ALIGN: right
+}
+.list {
+	MARGIN-TOP: 5px; PADDING-LEFT: 20px; LIST-STYLE-TYPE: square
+}
+.res-block {
+	BACKGROUND: url(block-top.gif) no-repeat; MARGIN-BOTTOM: 15px; WIDTH: 210px; PADDING-TOP: 5px
+}
+.res-block-inner {
+	PADDING-RIGHT: 11px; PADDING-LEFT: 11px; BACKGROUND: url(block-bottom.gif) no-repeat left bottom; PADDING-BOTTOM: 6px; PADDING-TOP: 6px
+}
+.res-block H3 {
+	MARGIN-BOTTOM: 8px; FONT: bold 12px tahoma,arial,sans-serif; COLOR: #555
+}
+.res-block UL {
+	FONT: 12px tahoma,arial,sans-serif; MARGIN-LEFT: 15px; COLOR: #555; LIST-STYLE-TYPE: disc
+}
+.res-block UL LI {
+	MARGIN: 0px 0px 5px 3px
+}
+.hide-inherited .inherited {
+	DISPLAY: none
+}
+#doc-body .x-tab-panel-body {
+	BACKGROUND: url(../../resources/images/default/form/text-bg.gif) #fff repeat-x 0px 0px
+}
+#doc-body .x-panel-body {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#doc-body .body-wrap {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+
+.icon-fav {
+	BACKGROUND-IMAGE: url(fav.gif)! important
+}
+.icon-static {
+	BACKGROUND-IMAGE: url(static.gif)! important
+}
+
+#legend LI {
+	LINE-HEIGHT: 16px
+}
+.item-icon {
+	VERTICAL-ALIGN: top; WIDTH: 16px; MARGIN-RIGHT: 6px; HEIGHT: 16px
+}
+.ext-ie .item-icon {
+	VERTICAL-ALIGN: middle
+}
+H3.home-title {
+	MARGIN: 5px 0px; FONT: bold 13px tahoma,arial,sans-serif; COLOR: #444
+}
+.search-item {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 5px 5px 9px; PADDING-TOP: 0px
+}
+.search-item .member {
+	MARGIN: 5px; FONT: bold 12px tahoma,arial,sans-serif; OVERFLOW: hidden; COLOR: #444; ZOOM: 1; WHITE-SPACE: nowrap
+}
+.search-item .cls {
+	MARGIN: 5px; FONT: 12px tahoma,arial,sans-serif; OVERFLOW: hidden; COLOR: #444; ZOOM: 1; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+.search-item P {
+	CLEAR: both; MARGIN: 0px 5px 5px 28px; FONT: 11px tahoma,arial,sans-serif; COLOR: #444; ZOOM: 1
+}
+#search .loading-indicator {
+	POSITION: static! important
+}
+#search H3 {
+	MARGIN: 10px; FONT: 12px tahoma,arial,sans-serif; COLOR: #444
+}
+.inner-link .item-icon {
+	MARGIN-RIGHT: 3px
+}
+.bookmark .item-icon {
+	MARGIN-RIGHT: 3px
+}
+.inner-link {
+	MARGIN-LEFT: 10px
+}
+.bookmark {
+	MARGIN-LEFT: 10px
+}

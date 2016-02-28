@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AdvancedSearch>
+	<AssociateItem name="所有" value="0" />
+	<AssociateItem name="部件编号" value="pnr" />
+	<AssociateItem name="NSN" value="nsn" />
+	<AssociateItem name="段落" value="para" />
+	<AssociateItem name="表格" value="table" />
+	<AssociateItem name="步骤" value="step1" />
+	<AssociateItem name="警告/注意" value="warning-caution" />
+	<AssociateItem name="故障" value="fault" />
+</AdvancedSearch>

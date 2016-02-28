@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/crew.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>130</incode>
+          <incodev>E</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机起动过程中隔离的组件的操作</techname>
+        <infoname>正常操作</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="02" type="new"></issno>
+      <issdate year="2011" month="01" day="12"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <acrw>
+      <frc>
+        <drill ordered="on">
+          <warning>
+            <para>起动机衔接时扳动发动机引气电门会造成起动机损坏。</para>
+          </warning>
+          <step memorize="no" dotline="dot" ordered="on">
+            <challrsp>
+              <challeng>
+                <para>二号发动机</para>
+              </challeng>
+              <response>
+                <para>起动</para>
+              </response>
+            </challrsp>
+          </step>
+          <step memorize="no" dotline="dot" ordered="on">
+            <para>二号发动机工作稳定后：</para>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>隔离活门电门</para>
+                </challeng>
+                <response>
+                  <para>关闭</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>右组件电门</para>
+                </challeng>
+                <response>
+                  <para>AUTO</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>管道压力</para>
+                </challeng>
+                <response>
+                  <para>稳定</para>
+                </response>
+              </challrsp>
+            </step>
+          </step>
+          <step memorize="no" dotline="dot" ordered="on">
+            <challrsp>
+              <challeng>
+                <para>一号发动机</para>
+              </challeng>
+              <response>
+                <para>起动</para>
+              </response>
+            </challrsp>
+          </step>
+          <step memorize="no" dotline="dot" ordered="on">
+            <para>一号发动机工作稳定后：</para>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>隔离活门电门</para>
+                </challeng>
+                <response>
+                  <para>AUTO</para>
+                </response>
+              </challrsp>
+            </step>
+          </step>
+        </drill>
+      </frc>
+    </acrw>
+  </content>
+</dmodule>

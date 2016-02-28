@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>无标题页</title>
+    <script src="resources/js/MIME/graphic_iso.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+     function SetSrc(src,isNet,userid,userPath)
+        {         
+            if(src!="")
+            {
+                 
+                var fullsrc =src;
+//                if (UrlExists(fullsrc))
+//                   {
+                         try{
+                            ImageFile=fullsrc+'?time='+new Date().getHours().toString()+new Date().getMinutes().toString()+new Date().getMilliseconds().toString();
+                            if(loadImageQueryString(ImageFile,"yes"))
+                            {
+                                    if(isNet=="false")
+                                    {
+                                        ImportRedlining(userid,userPath);
+                                    }
+                                    else
+                                    {
+                                        DownloadFile(userid);
+                                    }
+                            } 
+                            else{
+                                top.settbardisabled(true);
+                            }                           
+                            theImageFile=fullsrc;
+                            }
+                           catch(e)
+                            {
+                                top.settbardisabled(true);
+                            }
+                            
+                            if(axCGM==undefined)
+                            {
+                                 top.settbardisabled(true);
+                            }
+//                   }
+//                else
+//                    document.write('<br><br><center><p style="font:bold 16px 微软雅黑;color:gray">文件不存在</p></center>');
+            }
+        
+        }
+        
+        function Init()
+        {
+            
+        }  
+     </script>
+</head>
+<body scroll="no" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0"  onload="Init();">
+     <div id="mainForm:imageDiv"></div>
+</body>
+</html>

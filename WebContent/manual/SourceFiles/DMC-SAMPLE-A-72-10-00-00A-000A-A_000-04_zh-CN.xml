@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/schedul.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>1</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>000</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>风扇和增压器</techname>
+        <infoname>时间限制</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="04" type="new"></issno>
+      <issdate year="2011" month="08" day="04"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+      <remarks>
+        <p>时间限制</p>
+      </remarks>
+    </status>
+  </idstatus>
+  <content>
+    <schedule>
+      <timelim identifier="72-10-00">
+        <equip>
+          <nomen>SCREW-SOCKET HEAD 6,6G</nomen>
+          <identno>
+            <mfc>V58828</mfc>
+            <pnr>9111M35P07</pnr>
+          </identno>
+        </equip>
+        <qty>1</qty>
+        <cat cat="1"></cat>
+        <timelimit>
+          <limittype type="lt01">
+            <threshold uom="th01">
+              <value>100</value>
+            </threshold>
+          </limittype>
+          <limittype type="lt02">
+            <threshold uom="th01">
+              <value>200</value>
+            </threshold>
+          </limittype>
+          <limittype type="lt61">
+            <threshold uom="th01">
+              <value>10</value>
+              <tolerance minus="2" plus="1"></tolerance>
+            </threshold>
+          </limittype>
+        </timelimit>
+        <timelimit>
+          <remarks>无</remarks>
+        </timelimit>
+      </timelim>
+      <timelim identifier="72-10-00">
+        <equip>
+          <nomen>SPACER</nomen>
+          <identno>
+            <mfc>V58828</mfc>
+            <pnr>335-023-603-0</pnr>
+          </identno>
+          <nomen>SPACER</nomen>
+          <identno>
+            <mfc>V58828</mfc>
+            <pnr>335-023-604-0</pnr>
+          </identno>
+        </equip>
+        <qty>1</qty>
+        <cat cat="1"></cat>
+        <timelimit>
+          <limittype type="lt01">
+            <threshold uom="th16">
+              <value>10</value>
+            </threshold>
+          </limittype>
+          <limittype type="lt02">
+            <threshold uom="th16">
+              <value>127</value>
+            </threshold>
+          </limittype>
+          <limittype type="lt61">
+            <threshold uom="th16">
+              <value>2</value>
+              <tolerance minus="1" plus="1"></tolerance>
+            </threshold>
+          </limittype>
+        </timelimit>
+        <timelimit>
+          <remarks>无</remarks>
+        </timelimit>
+      </timelim>
+      <timelim identifier="72-10-00">
+        <equip>
+          <nomen>SHIM</nomen>
+          <identno>
+            <mfc>V58828</mfc>
+            <pnr>335-107-501-0</pnr>
+          </identno>
+        </equip>
+        <qty>1</qty>
+        <cat cat="1"></cat>
+        <timelimit>
+          <limittype type="lt01">
+            <threshold uom="th01">
+              <value>200</value>
+            </threshold>
+          </limittype>
+          <limittype type="lt02">
+            <threshold uom="th01">
+              <value>500</value>
+            </threshold>
+          </limittype>
+          <limittype type="lt61">
+            <threshold uom="th01">
+              <value>50</value>
+              <tolerance minus="20" plus="3"></tolerance>
+            </threshold>
+          </limittype>
+        </timelimit>
+        <timelimit>
+          <remarks>无</remarks>
+        </timelimit>
+      </timelim>
+      <timelim identifier="72-10-00">
+        <equip>
+          <nomen>RETAINER-BLADE STG1</nomen>
+          <identno>
+            <mfc>V58828</mfc>
+            <pnr>335-023-401-0</pnr>
+          </identno>
+        </equip>
+        <qty>1</qty>
+        <cat cat="1"></cat>
+        <timelimit>
+          <limittype type="lt01">
+            <threshold uom="th01">
+              <value>200</value>
+            </threshold>
+          </limittype>
+          <limittype type="lt02">
+            <threshold uom="th01">
+              <value>651</value>
+            </threshold>
+          </limittype>
+          <limittype type="lt61">
+            <threshold uom="th01">
+              <value>40</value>
+              <tolerance minus="11" plus="8"></tolerance>
+            </threshold>
+          </limittype>
+        </timelimit>
+        <timelimit>
+          <remarks>无</remarks>
+        </timelimit>
+      </timelim>
+      <timelim identifier="72-10-00">
+        <equip>
+          <nomen>AXIAL STOP</nomen>
+          <identno>
+            <mfc>V58828</mfc>
+            <pnr> 335-105-201-0</pnr>
+          </identno>
+        </equip>
+        <qty>1</qty>
+        <cat cat="1"></cat>
+        <timelimit>
+          <limittype type="lt01">
+            <threshold uom="th02">
+              <value>200</value>
+            </threshold>
+          </limittype>
+          <limittype type="lt02">
+            <threshold uom="th02">
+              <value>800</value>
+            </threshold>
+          </limittype>
+          <limittype type="lt61">
+            <threshold uom="th02">
+              <value>50</value>
+              <tolerance minus="6" plus="3"></tolerance>
+            </threshold>
+          </limittype>
+        </timelimit>
+        <timelimit>
+          <remarks>无</remarks>
+        </timelimit>
+      </timelim>
+    </schedule>
+  </content>
+</dmodule>

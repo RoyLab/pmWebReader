@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/CheckBoxListUserControl.ascx" hash="5814482f9" filehash="2a5f88c535b4a27e" flags="110000" assembly="App_Web_fj1wu5ky" type="ASP.checkboxlistusercontrol_ascx">
+    <filedeps>
+        <filedep name="/IbvManagement/CheckBoxListUserControl.ascx" />
+        <filedep name="/IbvManagement/CheckBoxListUserControl.ascx.cs" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-723000-A-SBTR-00040-A-01-1 SYSTEM "ICN-SAMPLE-A-723000-A-SBTR-00040-A-01-1.CGM" NDATA cgm>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/proced.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>3</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>520</incode>
+          <incodev>B</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>电嘴/电嘴座,点火器</techname>
+        <infoname>拆卸程序</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="01" day="13"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <proced>
+      <prelreqs>
+        <reqconds>
+          <reqcond>打开反推门。</reqcond>
+          <reqcond>从发动机上拆下适用的激励点火电嘴电缆。</reqcond>
+        </reqconds>
+        <supequip>
+          <supeqli>
+            <supequi>
+              <nomen>维护平台1号和3号发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks>高 4-8 ft(1.2-2.4 m)</remarks>
+            </supequi>
+            <supequi>
+              <nomen>高空作业台,2号发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+            </supequi>
+            <supequi>
+              <nomen>保护堵盖和堵头</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>MIL-C-5501</pnr>
+              </identno>
+              <qty>1</qty>
+            </supequi>
+          </supeqli>
+        </supequip>
+        <supplies>
+          <nosupply></nosupply>
+        </supplies>
+        <spares>
+          <nospares></nospares>
+        </spares>
+        <safety>
+          <safecond>
+            <warning>
+              <para>不要触摸点火系统部件直到电源被切除后至少六分钟。在六分钟后,从点火电嘴拆开点火电嘴钢索并立即接地它到插头的外表面。来自激励器的高压电气会造成人员的伤害和死亡。</para>
+            </warning>
+          </safecond>
+        </safety>
+      </prelreqs>
+      <mainfunc>
+        <figure id="fig-001">
+          <title>点火电嘴-拆卸/安装</title>
+          <graphic boardno="ICN-SAMPLE-A-723000-A-SBTR-00040-A-01-1" xlink:type="simple" reprohgt="144" reprowid="150">
+            <hotspot visibility="visible" apsid="AUTOID_8716" apsname="1"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8710" apsname="2"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8713" apsname="3"></hotspot>
+          </graphic>
+          <legend>
+            <deflist>
+              <term>1</term>
+              <def>
+                <para>点火电嘴</para>
+              </def>
+              <term>2</term>
+              <def>
+                <para>点火电嘴轮毂</para>
+              </def>
+              <term>3</term>
+              <def>
+                <para>主垫圈</para>
+              </def>
+            </deflist>
+          </legend>
+        </figure>
+        <step1>
+          <title>点火电嘴拆卸</title>
+          <step2>
+            <note>
+              <para>在两处在发动机程序拆卸点火电嘴是相同的。</para>
+            </note>
+            <para>按下列步骤拆下点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)</para>
+            <step3>
+              <note>
+                <para>在点火电咀安装座用扳手应小心不损坏到保险丝。</para>
+              </note>
+              <para>使用一个扳手紧的保持点火电咀安装座(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>),和拆下点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)。不要从点火电咀安装座取下保险丝。</para>
+            </step3>
+            <step3>
+              <para>如键垫圈(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="3"></xref>)是损坏的或者磨损,拆下并报废它。</para>
+            </step3>
+            <step3>
+              <para>安装保护盖和堵塞。</para>
+            </step3>
+          </step2>
+          <step2>
+            <para>如点火电嘴(1)没立即安装,或者气候条件需要,关闭口盖。</para>
+          </step2>
+        </step1>
+      </mainfunc>
+      <closereqs>
+        <reqconds>
+          <noconds></noconds>
+        </reqconds>
+      </closereqs>
+    </proced>
+  </content>
+</dmodule>

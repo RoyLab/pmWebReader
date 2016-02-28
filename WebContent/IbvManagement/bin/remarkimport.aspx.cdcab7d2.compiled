@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/RemarkImport.aspx" hash="5814482f9" filehash="e1c003ac88deebdb" flags="110000" assembly="App_Web_xyr-fbv8" type="ASP.remarkimport_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/CheckBoxListUserControl.ascx" />
+        <filedep name="/IbvManagement/CheckBoxListUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/RemarkImport.aspx" />
+        <filedep name="/IbvManagement/RemarkImport.aspx.cs" />
+        <filedep name="/IbvManagement/UpLoadUserControl.ascx" />
+        <filedep name="/IbvManagement/UpLoadUserControl.ascx.cs" />
+    </filedeps>
+</preserve>

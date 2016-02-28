@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<securities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Class>
+    <SecurityItem name="05" description="绝密" />
+    <SecurityItem name="04" description="机密" />
+    <SecurityItem name="03" description="秘密" />
+    <SecurityItem name="02" description="内部" />
+    <SecurityItem name="01" description="公开" />
+  </Class>
+  <Caveat />
+  <Commcls />
+</securities>

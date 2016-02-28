@@ -1,0 +1,1271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<labelconfig>
+  <!--———————————根据标签名命名变量——————————————-->
+  <label name="applic">
+    <text language="en">applic</text>
+    <text language="zh">适用性</text>
+  </label>
+  <label name="type">
+    <text language="en">Type</text>
+    <text language="zh">类型</text>
+  </label>
+  <label name="issno">
+    <text language="en">issno</text>
+    <text language="zh">版本</text>
+  </label>
+  <label name="pubdate">
+    <text language="en">pubdate</text>
+    <text language="zh">出版日期</text>
+  </label>
+  <label name="model">
+    <text language="en">Model</text>
+    <text language="zh">型号</text>
+  </label>
+  <label name="identno">
+    <text language="en">Identification</text>
+    <text language="zh">标识号</text>
+  </label>
+  <label name="sruitem">
+    <text language="en">sruitem</text>
+    <text language="zh">SRU项</text>
+  </label>
+  <label name="sru">
+    <text language="en">sru</text>
+    <text language="zh">内场隔离单元SRU</text>
+  </label>
+  <label name="warning">
+    <text language="en">warning</text>
+    <text language="zh">警告</text>
+  </label>
+  <label name="caution">
+    <text language="en">caution</text>
+    <text language="zh">注意</text>
+  </label>
+  <label name="note">
+    <text language="en">note</text>
+    <text language="zh">注</text>
+  </label>
+  <label name="noconds">
+    <text language="en">No Conditions</text>
+    <text language="zh">无</text>
+  </label>
+  <label name="person">
+    <text language="en">Person</text>
+    <text language="zh">人员</text>
+  </label>
+  <label name="thi">
+    <text language="en">thi</text>
+    <text language="zh">极限间隔</text>
+  </label>
+  <label name="zone">
+    <text language="en">zone</text>
+    <text language="zh">分区</text>
+  </label>
+  <label name="accpnl">
+    <text language="en">accpnl</text>
+    <text language="zh">口盖</text>
+  </label>
+  <label name="avehcfg">
+    <text language="en">avehcfg</text>
+    <text language="zh">产品状态</text>
+  </label>
+  <label name="opndurn">
+    <text language="en">opndurn</text>
+    <text language="zh">维修作业持续时间</text>
+  </label>
+  <label name="nomen">
+    <text language="en">nomen</text>
+    <text language="zh">名称</text>
+  </label>
+  <label name="refs">
+    <text language="en">refs</text>
+    <text language="zh">引用数据模块列表</text>
+  </label>
+  <label name="@prelreqs">
+    <text language="en">@prelreqs</text>
+    <text language="zh">前置条件</text>
+  </label>
+  <label name="@proced">
+    <text language="en">@proced</text>
+    <text language="zh">工作程序</text>
+  </label>
+  <label name="@closeup">
+    <text language="en">@closeup</text>
+    <text language="zh">后置条件</text>
+  </label>
+  <label name="qty">
+    <text language="en">Quantity</text>
+    <text language="zh">数量</text>
+  </label>
+  <label name="foldout">
+    <text language="en">foldout</text>
+    <text language="zh">插页</text>
+  </label>
+  <label name="deflistName">
+    <text language="en">Name</text>
+    <text language="zh">名称</text>
+  </label>
+  <label name="deflistDefine">
+    <text language="en">Define</text>
+    <text language="zh">解析</text>
+  </label>
+  <label name="prelreqs">
+    <text language="en">prelreqs</text>
+    <text language="zh">前置要求</text>
+  </label>
+  <label name="mainfunc">
+    <text language="en">mainfunc</text>
+    <text language="zh">维修操作</text>
+  </label>
+  <label name="closereqs">
+    <text language="en">closereqs</text>
+    <text language="zh">结束要求</text>
+  </label>
+  <label name="closetxt">
+    <text language="en">closetxt</text>
+    <text language="zh">隔离结束</text>
+  </label>
+  <label name="fcontext">
+    <text language="en">fcontext</text>
+    <text language="zh">上下文信息</text>
+  </label>
+  <label name="caption">
+    <text language="en">caption</text>
+    <text language="zh">特殊字幕</text>
+  </label>
+  <label name="isolate">
+    <text language="en">isolate</text>
+    <text language="zh">排故</text>
+  </label>
+  <label name="ifault">
+    <text language="en">ifault</text>
+    <text language="zh">隔离故障</text>
+  </label>
+  <label name="dfault">
+    <text language="en">dfault</text>
+    <text language="zh">可探测故障</text>
+  </label>
+  <label name="ofault">
+    <text language="en">ofault</text>
+    <text language="zh">可观察故障</text>
+  </label>
+  <label name="cfault">
+    <text language="en">cfault</text>
+    <text language="zh">关联故障</text>
+  </label>
+  <label name="describle">
+    <text language="en">Describle</text>
+    <text language="zh">故障描述</text>
+  </label>
+  <label name="page-loc">
+    <text language="en">Page-loc</text>
+    <text language="zh">在显示系统的物理位置</text>
+  </label>
+  <label name="sys-loc">
+    <text language="en">Sys-loc</text>
+    <text language="zh">位置和口盖</text>
+  </label>
+  <label name="sys-name">
+    <text language="en">Sys-name</text>
+    <text language="zh">故障系统</text>
+  </label>
+  <label name="subsys-name">
+    <text language="en">Subsys-name</text>
+    <text language="zh">故障子系统</text>
+  </label>
+  <label name="sys-ident">
+    <text language="en">Sys-ident</text>
+    <text language="zh">故障系统中的故障鉴别码</text>
+  </label>
+  <label name="sys-pos">
+    <text language="en">Sys-pos</text>
+    <text language="zh">位置鉴别</text>
+  </label>
+  <label name="fequipment">
+    <text language="en">Fequipment</text>
+    <text language="zh">故障设备</text>
+  </label>
+  <label name="findication">
+    <text language="en">Findication</text>
+    <text language="zh">故障信息指示</text>
+  </label>
+  <label name="fbasicdesc">
+    <text language="en">Fbasicdesc</text>
+    <text language="zh">故障信息的主部件</text>
+  </label>
+  <label name="fcondition">
+    <text language="en">Fcondition</text>
+    <text language="zh">潜在的故障条件</text>
+  </label>
+  <label name="msg-wmlf-desc">
+    <text language="en">Msg-Wmlf-Desc</text>
+    <text language="zh">警告/故障描述提示信息</text>
+  </label>
+  <label name="wmlfdesc">
+    <text language="en">Wmlfdesc</text>
+    <text language="zh">警告/故障描述</text>
+  </label>
+  <label name="wmlf2desc">
+    <text language="en">Wmlf2desc</text>
+    <text language="zh">关联警告/故障描述</text>
+  </label>
+  <label name="msgdesc">
+    <text language="en">Msgdesc</text>
+    <text language="zh">机内自检设备信息</text>
+  </label>
+  <label name="isolatep">
+    <text language="en">Isolatep</text>
+    <text language="zh">隔离步骤</text>
+  </label>
+  <label name="isostep">
+    <text language="en">Isostep</text>
+    <text language="zh">隔离步骤</text>
+  </label>
+  <label name="isoend">
+    <text language="en">Isoend</text>
+    <text language="zh">隔离结束</text>
+  </label>
+  <label name="action">
+    <text language="en">Action</text>
+    <text language="zh">动作</text>
+  </label>
+  <label name="question">
+    <text language="en">Question</text>
+    <text language="zh">问题</text>
+  </label>
+  <label name="answer">
+    <text language="en">Answer</text>
+    <text language="zh">答案</text>
+  </label>
+  <label name="yes">
+    <text language="en">Yes</text>
+    <text language="zh">是</text>
+  </label>
+  <label name="no">
+    <text language="en">No</text>
+    <text language="zh">否</text>
+  </label>
+  <label name="cfault">
+    <text language="en">Cfault</text>
+    <text language="zh">关联故障</text>
+  </label>
+  <label name="entfield">
+    <text language="en">Entfield</text>
+    <text language="zh">进入</text>
+  </label>
+  <label name="acrw">
+    <text language="en">Crew</text>
+    <text language="zh">操作人员</text>
+  </label>
+  <label name="if">
+    <text language="en">If</text>
+    <text language="zh">如果</text>
+  </label>
+  <label name="elseif">
+    <text language="en">Else If</text>
+    <text language="zh">否则如果</text>
+  </label>
+  <label name="case">
+    <text language="en">Case</text>
+    <text language="zh">选择</text>
+  </label>
+  <label name="tasklist">
+    <text language="en">tasklist</text>
+    <text language="zh">任务列表</text>
+  </label>
+  <label name="@seqnum">
+    <text language="en">seqnum</text>
+    <text language="zh">序号</text>
+  </label>
+  <label name="@taskname">
+    <text language="en">taskname</text>
+    <text language="zh">任务名称</text>
+  </label>
+  <label name="mfc">
+    <text language="en">mfc</text>
+    <text language="zh">厂商</text>
+  </label>
+  <label name="pnr">
+    <text language="en">pnr</text>
+    <text language="zh">部件号</text>
+  </label>
+  <label name="serialno">
+    <text language="en">serialno</text>
+    <text language="zh">序列号</text>
+  </label>
+  <label name="@from">
+    <text language="en">from</text>
+    <text language="zh">从</text>
+  </label>
+  <label name="@to">
+    <text language="en">to</text>
+    <text language="zh">到</text>
+  </label>
+  <label name="@uom">
+    <text language="en">uom</text>
+    <text language="zh">计量单位</text>
+  </label>
+  <label name="sampling">
+    <text language="en">sampling</text>
+    <text language="zh">取样</text>
+  </label>
+  <label name="threshold">
+    <text language="en">threshold</text>
+    <text language="zh">门限值</text>
+  </label>
+  <label name="refinspec">
+    <text language="en">refinspec</text>
+    <text language="zh">引用检查</text>
+  </label>
+  <label name="trigger">
+    <text language="en">trigger</text>
+    <text language="zh">触发器</text>
+  </label>
+  <label name="limrange">
+    <text language="en">limrange</text>
+    <text language="zh">极限范围</text>
+  </label>
+  <label name="remarks">
+    <text language="en">remarks</text>
+    <text language="zh">备注</text>
+  </label>
+  <label name="deftask">
+    <text language="en">deftask</text>
+    <text language="zh">定义任务</text>
+  </label>
+  <label name="reqsource">
+    <text language="en">reqsource</text>
+    <text language="zh">任务来源</text>
+  </label>
+  <label name="@taskid">
+    <text language="en">taskid</text>
+    <text language="zh">任务编号</text>
+  </label>
+  <label name="task">
+    <text language="en">task</text>
+    <text language="zh">任务</text>
+  </label>
+  <label name="timelim">
+    <text language="en">timelim</text>
+    <text language="zh">时间周期</text>
+  </label>
+  <label name="limittype">
+    <text language="en">limittype</text>
+    <text language="zh">限制类型</text>
+  </label>
+  <label name="cat">
+    <text language="en">cat</text>
+    <text language="zh">分类</text>
+  </label>
+  <label name="csnref">
+    <text language="en">csnref</text>
+    <text language="zh">目录顺序码</text>
+  </label>
+  <label name="afiref">
+    <text language="en">afiref</text>
+    <text language="zh">故障隔离引用</text>
+  </label>
+  <label name="diagnost">
+    <text language="en">diagnost</text>
+    <text language="zh">诊断</text>
+  </label>
+  <label name="lruitem">
+    <text language="en">lruitem</text>
+    <text language="zh">LRU项</text>
+  </label>
+  <label name="lru">
+    <text language="en">lru</text>
+    <text language="zh">外场隔离单元</text>
+  </label>
+  <label name="describe">
+    <text language="en">describe</text>
+    <text language="zh">故障描述</text>
+  </label>
+  <label name="crew">
+    <text language="en">Crewmem</text>
+    <text language="zh">操作人员</text>
+  </label>
+  <label name="descacrw">
+    <text language="en">Descacrw</text>
+    <text language="zh">机组人员相关的描述</text>
+  </label>
+  <label name="frc">
+    <text language="en">frc</text>
+    <text language="zh">参考卡</text>
+  </label>
+  <label name="timelimit">
+    <text language="en">timelimit</text>
+    <text language="zh">时限</text>
+  </label>
+  <label name="equip">
+    <text language="en">equip</text>
+    <text language="zh">设备</text>
+  </label>
+  <label name="limit">
+    <text language="en">limit</text>
+    <text language="zh">限制信息</text>
+  </label>
+  <label name="nsn">
+    <text language="en">nsn</text>
+    <text language="zh">国家物料码</text>
+  </label>
+  <label name="refdm">
+    <text language="en">refdm</text>
+    <text language="zh">引用数据模块</text>
+  </label>
+  <label name="cblist">
+    <text language="en">cblist</text>
+    <text language="zh">电路开关列表</text>
+  </label>
+  <label name="cb">
+    <text language="en">cb</text>
+    <text language="zh">电路开关</text>
+  </label>
+  <label name="cblst">
+    <text language="en">cblst</text>
+    <text language="zh">开关列表</text>
+  </label>
+  <label name="cbdata">
+    <text language="en">cbdata</text>
+    <text language="zh">电路开关数据</text>
+  </label>
+  <label name="reftp">
+    <text language="en">reftp</text>
+    <text language="zh">引用出版物</text>
+  </label>
+  <label name="@category">
+    <text language="en">Category</text>
+    <text language="zh">类别</text>
+  </label>
+  <label name="category">
+    <text language="en">Category</text>
+    <text language="zh">使用分类</text>
+  </label>
+  <label name="reqcond">
+    <text language="en">reqcond</text>
+    <text language="zh">必要条件</text>
+  </label>
+  <label name="@skill">
+    <text language="en">Skill level</text>
+    <text language="zh">技能水平</text>
+  </label>
+  <label name="trade">
+    <text language="en">Trade code</text>
+    <text language="zh">商业码</text>
+  </label>
+  <label name="tradetitle">
+    <text language="en">Trade code</text>
+    <text language="zh">职业/职业代码</text>
+  </label>
+  <label name="esttime">
+    <text language="en">Estimated time spent</text>
+    <text language="zh">估计时间</text>
+  </label>
+  <label name="abbrev">
+    <text language="en">abbrev</text>
+    <text language="zh">部件缩写</text>
+  </label>
+  <label name="ein">
+    <text language="en">ein</text>
+    <text language="zh">功能条目码</text>
+  </label>
+  <label name="einlist">
+    <text language="en">einlist</text>
+    <text language="zh">功能项列表</text>
+  </label>
+  <label name="einid">
+    <text language="en">einid</text>
+    <text language="zh">功能条目标识</text>
+  </label>
+  <label name="sns">
+    <text language="en">sns</text>
+    <text language="zh">标准编码体系</text>
+  </label>
+  <label name="einref">
+    <text language="en">einref</text>
+    <text language="zh">功能条目参考</text>
+  </label>
+  <label name="einalt">
+    <text language="en">einalt</text>
+    <text language="zh">备用功能条目码</text>
+  </label>
+  <label name="eininfo">
+    <text language="en">eininfo</text>
+    <text language="zh">功能条目</text>
+  </label>
+  <label name="identnoprefix">
+    <text language="en">part</text>
+    <text language="zh">部件</text>
+  </label>
+  <label name="@einnbr">
+    <text language="en">@einnbr</text>
+    <text language="zh">功能项号</text>
+  </label>
+  <label name="@eintype">
+    <text language="en">@eintype</text>
+    <text language="zh">功能项类型</text>
+  </label>
+  <label name="nature">
+    <text language="en">nature</text>
+    <text language="zh">组件类别（标准/非标准）</text>
+  </label>
+  <label name="quantity">
+    <text language="en">quantity</text>
+    <text language="zh">数量</text>
+  </label>
+  <label name="cbid">
+    <text language="en">cbid</text>
+    <text language="zh">断路开关标识</text>
+  </label>
+  <label name="@cbnbr">
+    <text language="en">@cbnbr</text>
+    <text language="zh">开关号</text>
+  </label>
+  <label name="@cbtype">
+    <text language="en">@cbtype</text>
+    <text language="zh">开关类型</text>
+  </label>
+  <label name="monitored">
+    <text language="en">monitored</text>
+    <text language="zh">是否被监控</text>
+  </label>
+  <label name="collared">
+    <text language="en">collared</text>
+    <text language="zh">是否被固定</text>
+  </label>
+  <label name="provisioned">
+    <text language="en">provisioned</text>
+    <text language="zh">是否为假劣断路开关</text>
+  </label>
+  <label name="cbalt">
+    <text language="en">cbalt</text>
+    <text language="zh">备用电路开关</text>
+  </label>
+  <label name="conlist">
+    <text language="en">conlist</text>
+    <text language="zh">消耗品列表</text>
+  </label>
+  <label name="conitemid">
+    <text language="en">conitemid</text>
+    <text language="zh">条件标识</text>
+  </label>
+  <label name="conitemalt">
+    <text language="en">conitemalt</text>
+    <text language="zh">备用条件</text>
+  </label>
+  <!--可替换消耗品项标识-->
+  <label name="conitemaltid">
+    <text language="en">conitemaltid</text>
+    <text language="zh">编号</text>
+  </label>
+  <label name="consupplygrp">
+    <text language="en">consupplygrp</text>
+    <text language="zh">消耗品组</text>
+  </label>
+  <label name="usage">
+    <text language="en">usage</text>
+    <text language="zh">使用描述</text>
+  </label>
+  <label name="recommendation">
+    <text language="en">recommendation</text>
+    <text language="zh">推荐用法</text>
+  </label>
+  <label name="@itemnbr">
+    <text language="en">@itemnbr</text>
+    <text language="zh">项号</text>
+  </label>
+  <label name="@consupplyref">
+    <text language="en">@consupplyref</text>
+    <text language="zh">消耗品引用</text>
+  </label>
+  <label name="@consupplyreftype">
+    <text language="en">@consupplyreftype</text>
+    <text language="zh">消耗品引用类型</text>
+  </label>
+  <label name="consupply">
+    <text language="en">consupply</text>
+    <text language="zh">消耗品集合</text>
+  </label>
+  <label name="ipc">
+    <text language="en">ipc</text>
+    <text language="zh">图解零件目录</text>
+  </label>
+  <label name="organizationlist">
+    <text language="en">organizationlist</text>
+    <text language="zh">组织列表</text>
+  </label>
+  <label name="organizationid">
+    <text language="en">organizationid</text>
+    <text language="zh">社会组织标识</text>
+  </label>
+  <label name="contactaddr">
+    <text language="en">contactaddr</text>
+    <text language="zh">联系地址</text>
+  </label>
+  <label name="organizationinfo">
+    <text language="en">organizationinfo</text>
+    <text language="zh">社会组织信息</text>
+  </label>
+  <label name="organizationref">
+    <text language="en">organizationref</text>
+    <text language="zh">参考信息</text>
+  </label>
+  <label name="ent-name">
+    <text language="en">ent-name</text>
+    <text language="zh">企业名称</text>
+  </label>
+  <label name="division">
+    <text language="en">division</text>
+    <text language="zh">分部名称</text>
+  </label>
+  <label name="ent-unit">
+    <text language="en">ent-unit</text>
+    <text language="zh">部门名称</text>
+  </label>
+  <label name="dept">
+    <text language="en">dept</text>
+    <text language="zh">部门</text>
+  </label>
+  <label name="street">
+    <text language="en">street</text>
+    <text language="zh">街道</text>
+  </label>
+  <label name="pobox">
+    <text language="en">pobox</text>
+    <text language="zh">邮箱</text>
+  </label>
+  <label name="zip">
+    <text language="en">zip</text>
+    <text language="zh">邮编</text>
+  </label>
+  <label name="city">
+    <text language="en">city</text>
+    <text language="zh">城市</text>
+  </label>
+  <label name="postcode">
+    <text language="en">postcode</text>
+    <text language="zh">邮政编码</text>
+  </label>
+  <label name="country">
+    <text language="en">country</text>
+    <text language="zh">国家</text>
+  </label>
+  <label name="state">
+    <text language="en">state</text>
+    <text language="zh">地区</text>
+  </label>
+  <label name="province">
+    <text language="en">province</text>
+    <text language="zh">省份</text>
+  </label>
+  <label name="building">
+    <text language="en">building</text>
+    <text language="zh">建筑物</text>
+  </label>
+  <label name="room">
+    <text language="en">room</text>
+    <text language="zh">房间</text>
+  </label>
+  <label name="phone">
+    <text language="en">phone</text>
+    <text language="zh">电话</text>
+  </label>
+  <label name="fax">
+    <text language="en">fax</text>
+    <text language="zh">传真</text>
+  </label>
+  <label name="email">
+    <text language="en">email</text>
+    <text language="zh">E-Mail</text>
+  </label>
+  <label name="internet">
+    <text language="en">internet</text>
+    <text language="zh">主页</text>
+  </label>
+  <label name="contacttext">
+    <text language="en">contacttext</text>
+    <text language="zh">附加信息</text>
+  </label>
+  <label name="consupplylist">
+    <text language="en">consupplylist</text>
+    <text language="zh">航材列表</text>
+  </label>
+  <label name="consupplyid">
+    <text language="en">consupplyid</text>
+    <text language="zh">消耗品标识</text>
+  </label>
+  <label name="suplist">
+    <text language="en">suplist</text>
+    <text language="zh">供应商列表</text>
+  </label>
+  <label name="speclist">
+    <text language="en">speclist</text>
+    <text language="zh">规格列表</text>
+  </label>
+  <label name="spec">
+    <text language="en">spec</text>
+    <text language="zh">规格码</text>
+  </label>
+  <label name="local">
+    <text language="en">local</text>
+    <text language="zh">是否国内</text>
+  </label>
+  <label name="packaging">
+    <text language="en">packaging</text>
+    <text language="zh">包装</text>
+  </label>
+  <label name="transport">
+    <text language="en">transport</text>
+    <text language="zh">运输条件</text>
+  </label>
+  <label name="shelflife">
+    <text language="en">shelflife</text>
+    <text language="zh">保质期</text>
+  </label>
+  <label name="accpnlnbr">
+    <text language="en">accpnlnbr</text>
+    <text language="zh">口盖号</text>
+  </label>
+  <label name="accpnltype">
+    <text language="en">accpnltype</text>
+    <text language="zh">口盖类型</text>
+  </label>
+  <label name="cbloc">
+    <text language="en">cbloc</text>
+    <text language="zh">开关位置</text>
+  </label>
+  <label name="hazd">
+    <text language="en">hazd</text>
+    <text language="zh">是否危险品</text>
+  </label>
+  <label name="obsolete">
+    <text language="en">obsolete</text>
+    <text language="zh">是否旧品</text>
+  </label>
+  <label name="speciallbl">
+    <text language="en">speciallbl</text>
+    <text language="zh">是否有特殊标签</text>
+  </label>
+  <label name="toolid">
+    <text language="en">toolid</text>
+    <text language="zh">工具标识</text>
+  </label>
+  <label name="nomdata">
+    <text language="en">nomdata</text>
+    <text language="zh">名称相关信息</text>
+  </label>
+  <label name="procdata">
+    <text language="en">procdata</text>
+    <text language="zh">采购信息数据</text>
+  </label>
+  <label name="techdata">
+    <text language="en">techdata</text>
+    <text language="zh">技术数据</text>
+  </label>
+  <label name="toolref">
+    <text language="en">toolref</text>
+    <text language="zh">工具参考</text>
+  </label>
+  <label name="toolalt">
+    <text language="en">toolalt</text>
+    <text language="zh">备用工具</text>
+  </label>
+  <label name="toollist">
+    <text language="en">toollist</text>
+    <text language="zh">工具列表</text>
+  </label>
+  <label name="@toolnbr">
+    <text language="en">@toolnbr</text>
+    <text language="zh">工具标识</text>
+  </label>
+  <label name="desc">
+    <text language="en">desc</text>
+    <text language="zh">描述</text>
+  </label>
+  <label name="rcmdqty">
+    <text language="en">rcmdqty</text>
+    <text language="zh">推荐数量</text>
+  </label>
+  <label name="taskcode">
+    <text language="en">taskcode</text>
+    <text language="zh">任务码</text>
+  </label>
+  <label name="gem">
+    <text language="en">gem</text>
+    <text language="zh">交付规范表</text>
+  </label>
+  <label name="remark">
+    <text language="en">remark</text>
+    <text language="zh">备注</text>
+  </label>
+  <label name="kwd">
+    <text language="en">kwd</text>
+    <text language="zh">关键字</text>
+  </label>
+  <label name="opn">
+    <text language="en">opn</text>
+    <text language="zh">长编码</text>
+  </label>
+  <label name="stocknbr">
+    <text language="en">stocknbr</text>
+    <text language="zh">客户或仓库编码</text>
+  </label>
+  <label name="@pnr">
+    <text language="en">@pnr</text>
+    <text language="zh">部件号</text>
+  </label>
+  <label name="effect">
+    <text language="en">effect</text>
+    <text language="zh">影响</text>
+  </label>
+  <label name="spl">
+    <text language="en">spl</text>
+    <text language="zh">供应商编码</text>
+  </label>
+  <label name="osc">
+    <text language="en">osc</text>
+    <text language="zh">可选供应商编码</text>
+  </label>
+  <label name="spc">
+    <text language="en">spc</text>
+    <text language="zh">分类码</text>
+  </label>
+  <label name="usgcat">
+    <text language="en">usgcat</text>
+    <text language="zh">使用类别</text>
+  </label>
+  <label name="etops">
+    <text language="en">etops</text>
+    <text language="zh">是否成对使用</text>
+  </label>
+  <label name="psc">
+    <text language="en">psc</text>
+    <text language="zh">物理安全和防盗窃码</text>
+  </label>
+  <label name="ftc">
+    <text language="en">ftc</text>
+    <text language="zh">设备补给码</text>
+  </label>
+  <label name="uoi">
+    <text language="en">uoi</text>
+    <text language="zh">计量单位</text>
+  </label>
+  <label name="str">
+    <text language="en">str</text>
+    <text language="zh">特定存储条件</text>
+  </label>
+  <label name="cmk">
+    <text language="en">cmk</text>
+    <text language="zh">校准要求</text>
+  </label>
+  <label name="wires">
+    <text language="en">Wires</text>
+    <text language="zh">线路列表</text>
+  </label>
+  <label name="harnesses">
+    <text language="en">Harnesses</text>
+    <text language="zh">电缆</text>
+  </label>
+  <label name="elecequips">
+    <text language="en">Electric Equipments</text>
+    <text language="zh">电子设备</text>
+  </label>
+  <label name="stdparts">
+    <text language="en">Standard Parts</text>
+    <text language="zh">标准部件</text>
+  </label>
+  <label name="pct">
+    <text language="en">Product</text>
+    <text language="zh">产品交叉引用表</text>
+  </label>
+  <label name="actidref">
+    <text language="en">ActIDRef</text>
+    <text language="zh">引用目标ID</text>
+  </label>
+  <label name="actreftype">
+    <text language="en">ActRefType</text>
+    <text language="zh">引用类型</text>
+  </label>
+  <label name="actvalue">
+    <text language="en">ActValue</text>
+    <text language="zh">取值</text>
+  </label>
+  <label name="partlist">
+    <text language="en">partlist</text>
+    <text language="zh">部件列表</text>
+  </label>
+  <label name="partid">
+    <text language="en">partid</text>
+    <text language="zh">部件标识</text>
+  </label>
+  <label name="partref">
+    <text language="en">partref</text>
+    <text language="zh">参考部件</text>
+  </label>
+  <label name="rplby">
+    <text language="en">rplby</text>
+    <text language="zh">替换关系</text>
+  </label>
+  <label name="opt">
+    <text language="en">opt</text>
+    <text language="zh">可选部件</text>
+  </label>
+  <label name="psp">
+    <text language="en">psp</text>
+    <text language="zh">首选部件</text>
+  </label>
+  <label name="apn">
+    <text language="en">apn</text>
+    <text language="zh">可换部件</text>
+  </label>
+  <label name="lfm">
+    <text language="en">lfm</text>
+    <text language="zh">原始部件</text>
+  </label>
+  <label name="@inc">
+    <text language="en">@inc</text>
+    <text language="zh">替换代码</text>
+  </label>
+  <label name="part">
+    <text language="en">part</text>
+    <text language="zh">部件</text>
+  </label>
+  <label name="ict">
+    <text language="en">ict</text>
+    <text language="zh">替换条件</text>
+  </label>
+  <label name="apntext">
+    <text language="en">apntext</text>
+    <text language="zh">部件修改描述</text>
+  </label>
+  <label name="conditiontypelist">
+    <text language="en">ConditiontypeList</text>
+    <text language="zh">条件类型列表</text>
+  </label>
+  <label name="conditionlist">
+    <text language="en">ConditionList</text>
+    <text language="zh">条件列表</text>
+  </label>
+  <label name="condtyperef">
+    <text language="en">Condtyperef</text>
+    <text language="zh">条件类型ID</text>
+  </label>
+  <label name="productattributes">
+    <text language="en">ProductAttributes</text>
+    <text language="zh">产品属性集</text>
+  </label>
+  <label name="accpnllist">
+    <text language="en">accpnllist</text>
+    <text language="zh">口盖列表</text>
+  </label>
+  <label name="accpnlid">
+    <text language="en">accpnlid</text>
+    <text language="zh">口盖标识</text>
+  </label>
+  <label name="accpnlalt">
+    <text language="en">accpnlalt</text>
+    <text language="zh">备用口盖</text>
+  </label>
+  <label name="accpnlref">
+    <text language="en">accpnlref</text>
+    <text language="zh">口盖参考</text>
+  </label>
+  <label name="zonelist">
+    <text language="en">zonelist</text>
+    <text language="zh">分区列表</text>
+  </label>
+  <label name="zoneid">
+    <text language="en">zoneid</text>
+    <text language="zh">分区标识</text>
+  </label>
+  <label name="zonealt">
+    <text language="en">zonealt</text>
+    <text language="zh">备用分区</text>
+  </label>
+  <label name="@zonenbr">
+    <text language="en">@zonenbr</text>
+    <text language="zh">分区号</text>
+  </label>
+  <label name="zoneref">
+    <text language="en">zoneref</text>
+    <text language="zh">分区参考</text>
+  </label>
+  <label name="@hand">
+    <text language="en">@hand</text>
+    <text language="zh">分区的边</text>
+  </label>
+  <label name="@type">
+    <text language="en">@type</text>
+    <text language="zh">类型</text>
+  </label>
+  <label name="bndfrom">
+    <text language="en">bndfrom</text>
+    <text language="zh">从</text>
+  </label>
+  <label name="bndto">
+    <text language="en">bndto</text>
+    <text language="zh">到</text>
+  </label>
+  <label name="acctype">
+    <text language="en">acctype</text>
+    <text language="zh">口盖类型</text>
+  </label>
+  <label name="accessto">
+    <text language="en">accessto</text>
+    <text language="zh">可达目标</text>
+  </label>
+  <label name="fastener">
+    <text language="en">fastener</text>
+    <text language="zh">寄挂点</text>
+  </label>
+  <label name="openhour">
+    <text language="en">openhour</text>
+    <text language="zh">打开时间</text>
+  </label>
+  <label name="xref">
+    <text language="en">xref</text>
+    <text language="zh">交叉引用</text>
+  </label>
+  <label name="fstqty">
+    <text language="en">fstqty</text>
+    <text language="zh">寄挂点数量</text>
+  </label>
+  <label name="fsttype">
+    <text language="en">fsttype</text>
+    <text language="zh">寄挂点类型</text>
+  </label>
+  <label name="detect">
+    <text language="en">detect</text>
+    <text language="zh">探测</text>
+  </label>
+  <label name="locandrep">
+    <text language="en">locandrep</text>
+    <text language="zh">定位和修复</text>
+  </label>
+  <label name="location">
+    <text language="en">location</text>
+    <text language="zh">位置</text>
+  </label>
+  <label name="bfe">
+    <text language="en">bfe</text>
+    <text language="zh">是否购买者提供</text>
+  </label>
+  <label name="displaytext">
+    <text language="en">displaytext</text>
+    <text language="zh">显示文字</text>
+  </label>
+  <label name="jacked">
+    <text language="en">jacked</text>
+    <text language="zh">是否顶起</text>
+  </label>
+  <label name="safedev">
+    <text language="en">safedev</text>
+    <text language="zh">安全设备状态</text>
+  </label>
+  <label name="elecpwr">
+    <text language="en">elecpwr</text>
+    <text language="zh">电源状态</text>
+  </label>
+  <label name="hydpwr">
+    <text language="en">hydpwr</text>
+    <text language="zh">液压状态</text>
+  </label>
+  <label name="airpwr">
+    <text language="en">airpwr</text>
+    <text language="zh">气源状态</text>
+  </label>
+  <label name="fcposn">
+    <text language="en">fcposn</text>
+    <text language="zh">其他状态</text>
+  </label>
+  <label name="fuel">
+    <text language="en">fuel</text>
+    <text language="zh">燃料状态</text>
+  </label>
+  <label name="water">
+    <text language="en">water</text>
+    <text language="zh">水源状态</text>
+  </label>
+  <label name="ipp">
+    <text language="en">ipp</text>
+    <text language="zh">项目初始供应码</text>
+  </label>
+  <label name="pas">
+    <text language="en">pas</text>
+    <text language="zh">部件标识段</text>
+  </label>
+  <label name="qna">
+    <text language="en">qna</text>
+    <text language="zh">集成数量</text>
+  </label>
+  <label name="rfs">
+    <text language="en">rfs</text>
+    <text language="zh">入选原因</text>
+  </label>
+  <label name="@isn">
+    <text language="en">@isn</text>
+    <text language="zh">条目顺序码</text>
+  </label>
+  <label name="ctl">
+    <text language="en">ctl</text>
+    <text language="zh">容器位置</text>
+  </label>
+  <label name="ils">
+    <text language="en">ils</text>
+    <text language="zh">综合后勤保障码</text>
+  </label>
+  <label name="can">
+    <text language="en">can</text>
+    <text language="zh">改版</text>
+  </label>
+  <label name="csn">
+    <text language="en">csn</text>
+    <text language="zh">图解零件目录编号</text>
+  </label>
+  <label name="n2d">
+    <text language="en">n2d</text>
+    <text language="zh">自定义数据集</text>
+  </label>
+  <label name="nosupeq">
+    <text language="en">nosupeq</text>
+    <text language="zh">无保障设备要求</text>
+  </label>
+  <label name="nosupply">
+    <text language="en">nosupply</text>
+    <text language="zh">无消耗品</text>
+  </label>
+  <label name="nospares">
+    <text language="en">nospares</text>
+    <text language="zh">无备件要求</text>
+  </label>
+  <label name="nosafety">
+    <text language="en">nosafety</text>
+    <text language="zh">无安全要求</text>
+  </label>
+  <!--可设为目录的元素iscontent="true"代表该元素可成为目录-->
+  <label name="figure" iscontent="false">
+    <text language="en">figure</text>
+    <text language="zh">图片</text>
+  </label>
+  <label name="table" iscontent="false">
+    <text language="en">table</text>
+    <text language="zh">表</text>
+  </label>
+  <label name="para0" iscontent="false">
+    <text language="en">para0</text>
+    <text language="zh">一级段落</text>
+  </label>
+  <label name="subpara1" iscontent="false">
+    <text language="en">subpara1</text>
+    <text language="zh">二级段落</text>
+  </label>
+  <label name="subpara2" iscontent="false">
+    <text language="en">subpara2</text>
+    <text language="zh">三级段落</text>
+  </label>
+  <label name="subpara3" iscontent="false">
+    <text language="en">subpara3</text>
+    <text language="zh">四级段落</text>
+  </label>
+  <label name="subpara4" iscontent="false">
+    <text language="en">subpara4</text>
+    <text language="zh">五级段落</text>
+  </label>
+  <label name="subpara5" iscontent="false">
+    <text language="en">subpara5</text>
+    <text language="zh">六级段落</text>
+  </label>
+  <label name="subpara6" iscontent="false">
+    <text language="en">subpara6</text>
+    <text language="zh">七级段落</text>
+  </label>
+  <label name="subpara7" iscontent="false">
+    <text language="en">subpara7</text>
+    <text language="zh">八级段落</text>
+  </label>
+  <label name="pmd" iscontent="false">
+    <text language="en">pmd</text>
+    <text language="zh">产品管理数据</text>
+  </label>
+  <label name="reqconds" iscontent="true">
+    <text language="en">Required Conditions</text>
+    <text language="zh">条件要求</text>
+  </label>
+  <label name="reqpers" iscontent="true">
+    <text language="en">Required Persons</text>
+    <text language="zh">人员要求</text>
+  </label>
+  <label name="supequip" iscontent="true">
+    <text language="en">Support equipment</text>
+    <text language="zh">保障工具</text>
+  </label>
+  <label name="supplies" iscontent="true">
+    <text language="en">Supplies</text>
+    <text language="zh">消耗品</text>
+  </label>
+  <label name="spares" iscontent="true">
+    <text language="en">Spares</text>
+    <text language="zh">备件</text>
+  </label>
+  <label name="safety" iscontent="true">
+    <text language="en">Safety Conditions</text>
+    <text language="zh">安全条件</text>
+  </label>
+  <label name="step1" iscontent="false">
+    <text language="en">step1</text>
+    <text language="zh">一级步骤</text>
+  </label>
+  <label name="step2" iscontent="false">
+    <text language="en">step2</text>
+    <text language="zh">二级步骤</text>
+  </label>
+  <label name="step3" iscontent="false">
+    <text language="en">step3</text>
+    <text language="zh">三级步骤</text>
+  </label>
+  <label name="step4" iscontent="false">
+    <text language="en">step4</text>
+    <text language="zh">四级步骤</text>
+  </label>
+  <label name="step5" iscontent="false">
+    <text language="en">step5</text>
+    <text language="zh">五级步骤</text>
+  </label>
+  <label name="step6" iscontent="false">
+    <text language="en">step6</text>
+    <text language="zh">六级步骤</text>
+  </label>
+  <label name="step7" iscontent="false">
+    <text language="en">step7</text>
+    <text language="zh">七级步骤</text>
+  </label>
+  <label name="step8" iscontent="false">
+    <text language="en">step8</text>
+    <text language="zh">八级步骤</text>
+  </label>
+  <!--变量-->
+  <label name="var_applic_all" description="">
+    <text language="en">all</text>
+    <text language="zh">全部</text>
+  </label>
+  <label name="var_proced_card_title" description="">
+    <text language="en">var_proced_card_title</text>
+    <text language="zh">维护规程操作卡</text>
+  </label>
+  <label name="var_action_condition" description="">
+    <text language="en">action/condition</text>
+    <text language="zh">动作/条件</text>
+  </label>
+  <label name="var_deftask_limit" description="">
+    <text language="en">var_deftask_limit</text>
+    <text language="zh">间隔周期/时机</text>
+  </label>
+  <label name="var_deftask_sys" description="">
+    <text language="en">var_deftask_sys</text>
+    <text language="zh">系统</text>
+  </label>
+  <label name="var_deftask_limit_title" description="">
+    <text language="en">var_deftask_limit_title</text>
+    <text language="zh">定期维护任务</text>
+  </label>
+</labelconfig>

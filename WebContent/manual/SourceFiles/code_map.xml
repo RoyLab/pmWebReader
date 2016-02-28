@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This color interpretation file is developed for the S1000D Bike business rules.
+     In a fully developed environment the color resolution mechanism must make
+     sure that the correct BREX file is engaged to resolve color coding. -->
+<code-map>
+  <!-- S1000D defined for caption -->
+  <code name="co00">#FFFFFF</code>
+  <!-- none-->
+  <code name="co01">#00FF00</code>
+  <!-- green-->
+  <code name="co02">#FF9900</code>
+  <!-- amber-->
+  <code name="co03">#FFFF00</code>
+  <!-- yellow -->
+  <code name="co04">#FF3333</code>
+  <!-- red -->
+  <code name="co07">#FFFFFF</code>
+  <!-- white-->
+  <code name="co08">#DDDDDD</code>
+  <!-- grey-->
+  <code name="co09">#FFFFFF</code>
+  <!-- clear-->
+  <!-- project defined for caption -->
+  <code name="co51">#44FFFF</code>
+  <!-- blue (light)-->
+  <!-- S1000D defined for drilltype -->
+  <code name="dt00">#FFFFFF</code>
+  <!-- none-->
+  <code name="dt01">#00FF00</code>
+  <!-- green-->
+  <code name="dt02">#FF9900</code>
+  <!-- amber-->
+  <code name="dt03">#FFFF00</code>
+  <!-- yellow -->
+  <code name="dt04">#FF3333</code>
+  <!-- red -->
+  <code name="dt05">#FFCC00</code>
+  <!-- orange-->
+  <code name="dt06">#3366FF</code>
+  <!-- blue-->
+  <!-- S1000D defined for crewmemtype -->
+  <code name="cm00">所有机组人员</code>
+  <code name="cm01">驾驶员</code>
+  <code name="cm02">副驾驶员</code>
+  <code name="cm03">导航员</code>
+  <code name="cm04">空中机械师</code>
+  <code name="cm05">地面人员</code>
+  <code name="cm06">货物装卸长</code>
+  <code name="cm07">座舱监管</code>
+  <!-- S1000D defined for taskcode -->
+  <code name="taskcd01">详细检查</code>
+  <!-- （Detailed Inspection，DET） -->
+  <code name="taskcd02">丢弃</code>
+  <!-- （Discard，DIS） -->
+  <code name="taskcd03">功能检查</code>
+  <!-- （Function Check，FNC） -->
+  <code name="taskcd04">一般目视检查</code>
+  <!-- （General Visual Inspection,GVI） -->
+  <code name="taskcd05">润滑</code>
+  <!-- （Lubrication，LUB） -->
+  <code name="taskcd06">操作性检查</code>
+  <!-- （Operational Check,OPC） -->
+  <code name="taskcd07">恢复</code>
+  <!-- （Restoration，RST） -->
+  <code name="taskcd08">充填加挂</code>
+  <!-- （Servicing，SVC） -->
+  <code name="taskcd09">目视检查</code>
+  <!-- （Visual Check，VCK） -->
+  <!-- S1000D defined for skill 维护人员的技术层次 -->
+  <code name="sk01">初级技术水平</code>
+  <!-- （Basic） -->
+  <code name="sk02">中级技术水平</code>
+  <!-- （Intermediate） -->
+  <code name="sk03">高级技术水平</code>
+  <!-- （Advanced） -->
+  <!-- S1000D defined for skilltype 维护人员的专业 -->
+  <code name="st01">机械</code>
+  <!-- （AirFrame） -->
+  <code name="st02">特设</code>
+  <!-- （Intermediate） -->
+  <code name="st03">电子</code>
+  <!-- （Avionic） -->
+  <code name="st04">发动机</code>
+  <!-- （Engine） -->
+  <!-- S1000D defined for limitype -->
+  <code name="lt01">两次检查之间</code>
+  <!--（Time between Overhaul）-->
+  <code name="lt02">固定时间</code>
+  <!--（Hard Time）-->
+  <code name="lt03">距上次维护时间</code>
+  <!--（Since last maintenance）-->
+  <code name="lt04">超时限</code>
+  <!--（Out time Limit）-->
+  <code name="lt05">视情维护</code>
+  <!--（On condition）-->
+  <code name="lt06">检查维护</code>
+  <!--（Check Maintenance）-->
+  <code name="lt07">功能检查</code>
+  <!--（Function Check）-->
+  <code name="sl51">基层级</code>
+  <!--（Time between Overhaul）-->
+  <code name="sl52">中层级</code>
+  <!--（Hard Time）-->
+  <code name="sl53">基地级</code>
+  <!-- S1000D defined for uom 时间间隔的测量单位-->
+  <code name="th01">飞行小时</code>
+  <!--（Flight hours）-->
+  <code name="th02">飞行起落</code>
+  <!--（Flight cycles）-->
+  <code name="th03">月</code>
+  <!--（Months）-->
+  <code name="th04">周</code>
+  <!--（Weeks）-->
+  <code name="th05">年</code>
+  <!--（Years）-->
+  <code name="th06">日</code>
+  <!--（Days）-->
+  <code name="th07">超音速飞行次数</code>
+  <!--（Supersonic cycles）-->
+  <code name="th08">压力循环次数</code>
+  <!--（Pressure cycles）-->
+  <code name="th09">热机循环次数</code>
+  <!--（Engine cycles）-->
+  <code name="th11">换发次数</code>
+  <!--（Engine change）-->
+  <code name="th12">过站次数</code>
+  <!--（Shop visits）-->
+  <code name="th13">APU更装次数</code>
+  <!--（Auxiliary power unit change）-->
+  <code name="th14">起落架更装次数</code>
+  <!--（Landing gear change）-->
+  <code name="th15">机轮更换次数</code>
+  <!--（Wheel change）-->
+  <code name="th16">发动启动次数</code>
+  <!--（Engine start）-->
+  <!-- submit-caption -->
+  <code name="ok01">OK</code>
+  <code name="ok02">SUBMIT</code>
+  <code name="ok03">YES</code>
+  <code name="ok04">CONTINUE</code>
+  <code name="ok05">EXIT</code>
+  <code name="ok06-ok50">Reserved for future S1000D use</code>
+  <code name="ok51-ok99">Sets the caption with project specific captions</code>
+  <!-- reset-caption -->
+  <code name="re01">RESET</code>
+  <code name="re02">CLEAR</code>
+  <code name="re03-re50">Reserved for future S1000D use</code>
+  <code name="re51-re99">Sets the caption with project specific captions</code>
+  <!-- cancel-caption -->
+  <code name="ca01">CANCEL</code>
+  <code name="ca02">ABORT</code>
+  <code name="ca03">NO</code>
+  <code name="ca04">END</code>
+  <code name="ca05">QUIT</code>
+  <code name="ca06-ca50">Reserved for future S1000D use</code>
+  <code name="ca51-ca99">Sets the caption with project specific captions</code>
+  <!--avehcfg 元素下孩子的status、power属性对应的值-->
+  <code name="yes">必须</code>
+  <code name="no">不适用</code>
+  <code name="indiffer">无区别</code>
+  <code name="na">禁止</code>
+  <code name="engine">发动机</code>
+  <code name="apu">APU</code>
+  <code name="external">外部的</code>
+  <code name="internal">内部的</code>
+  <code name="indifferent">无区别</code>
+  <code name="notapplic">不适用</code>
+  <!--正文前材料DM的Incode值列表-->
+  <fronMatterIncodeList>
+    <data text="有效数据模块目录" incode="00S">
+    </data>
+    <data text="更改记录" incode="00T">没有实际dm的</data>
+    <data text="更改内容" incode="00U">
+    </data>
+    <data text="技术通报记录" incode="008">没有实际dm的</data>
+    <data text="缩略词" incode="005">
+    </data>
+    <data text="术语表" incode="006">
+    </data>
+    <data text="符号表" incode="007">
+    </data>
+    <data text="目录" incode="009">
+    </data>
+    <data text="引用文件" incode="00V">
+    </data>
+    <data text="适用性交叉引用表" incode="00W">
+    </data>
+    <data text="条件交叉引用表" incode="00Q">
+    </data>
+    <data text="产品交叉引用表" incode="00P">
+    </data>
+    <allFrontMatterIncodelist>001,004,005,006,007,008,009,00A,00B,00C,00D,00P,00Q,00R,00S,00T,00U,00V,00W</allFrontMatterIncodelist>
+  </fronMatterIncodeList>
+  <!-- 密级 -->
+  <code name="05">绝密</code>
+  <code name="04">机密</code>
+  <code name="03">秘密</code>
+  <code name="02">内部</code>
+  <code name="01">公开</code>
+</code-map>

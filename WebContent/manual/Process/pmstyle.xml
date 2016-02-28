@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CSS>
+    <StyleClass Name="body" DisplayName="全文样式" Description="全文样式" Order="101" GroupBy="01:全文">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="全文的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="全文的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="全文的字体颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="全文的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="全文的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="全文的字间距" type="Int" unit="mm" value="0" />
+        <StyleProperty name="padding" displayname="边距" Description="全文的边距" type="Int" unit="pt" value="5" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="sub" DisplayName="下标样式" Description="全文样式" Order="102" GroupBy="01:全文">
+      <attributes>
+        <StyleProperty name="font-size" displayname="字体大小(%)" Description="下标字体大小比例(%)" type="Int" unit="%" value="60" />
+        <StyleProperty name="vertical-align" displayname="对齐方式" Description="下标对齐方式" type="Enum" unit="" value="bottom" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="sup" DisplayName="上标样式" Description="全文样式" Order="103" GroupBy="01:全文">
+      <attributes>
+        <StyleProperty name="font-size" displayname="字体大小(%)" Description="上标字体大小比例(%)" type="Int" unit="%" value="60" />
+        <StyleProperty name="vertical-align" displayname="对齐方式" Description="上标对齐方式" type="Enum" unit="" value="top" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".dmodule_title" DisplayName="居中标题1样式" Description="居中标题1样式" Order="1001" GroupBy="02:各类大标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是居中标题1的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="居中标题1的字体" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="居中标题1的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="居中标题1的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="居中标题1的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="居中标题1的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="居中标题1的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="居中标题1的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="居中标题1的对齐方式" type="Enum" unit="" value="center" />
+        <StyleProperty name="margin-top" displayname="上边距(px)" Description="居中标题1的上边距" type="Int" unit="px" value="5" />
+        <StyleProperty name="margin-bottom" displayname="下边距(px)" Description="居中标题1的下边距" type="Int" unit="px" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".lists_title1" DisplayName="居中标题2样式" Description="居中标题2样式" Order="1002" GroupBy="02:各类大标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表的斜体" type="Enum" unit="" value="italic" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表的的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表的的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表的的对齐方式" type="Enum" unit="" value="center" />
+        <StyleProperty name="margin-top" displayname="上行高(px)" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表" type="int" unit="px" value="10" />
+        <StyleProperty name="margin-bottom" displayname="下行高(px)" Description="适用于前置条件、程序、后置条件、寿命列表、任务定义列表" type="int" unit="px" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".lists_title2" DisplayName="侧标题0样式" Description="侧标题0样式" Order="1003" GroupBy="02:各类大标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="适用于必要条件、保障工具、消耗品、备件、安全条件的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="适用于必要条件、保障工具、消耗品、备件、安全条件的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="适用于必要条件、保障工具、消耗品、备件、安全条件的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="适用于必要条件、保障工具、消耗品、备件、安全条件的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="适用于必要条件、保障工具、消耗品、备件、安全条件的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="适用于必要条件、保障工具、消耗品、备件、安全条件的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="适用于必要条件、保障工具、消耗品、备件、安全条件的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="适用于必要条件、保障工具、消耗品、备件、安全条件的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="适用于必要条件、保障工具、消耗品、备件、安全条件的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="margin-top" displayname="上行高(px)" Description="适用于必要条件、保障工具、消耗品、备件、安全条件" type="int" unit="px" value="10" />
+        <StyleProperty name="margin-bottom" displayname="下行高(px)" Description="适用于必要条件、保障工具、消耗品、备件、安全条件" type="int" unit="px" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".crew_frc_titlecls" DisplayName="飞行卡标题" Description="飞行卡标题的样式设置" Order="1004" GroupBy="02:各类大标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="飞行参考信息卡标题的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="飞行参考信息卡标题的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="飞行参考信息卡标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="飞行参考信息卡标题的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="飞行参考信息卡标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="飞行参考信息卡标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="飞行参考信息卡标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="飞行参考信息卡标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="飞行参考信息卡标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".crew_frc_lists" DisplayName="飞行卡列表" Description="飞行卡列表的样式设置" Order="1005" GroupBy="02:各类大标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="列表标题的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="列表标题的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="列表标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="列表标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="列表标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="列表标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="列表标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="列表标题的间隔" type="Int" unit="mm" value="0" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".para0_title" DisplayName="一级侧标题样式" Description="一级侧标题样式" Order="301" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是一级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是一级侧标题的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="这是一级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是一级侧标题的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是一级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是一级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是一级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是一级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是一级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".para0_notitle" DisplayName="一级侧标题样式(无标题)" Description="一级侧标题样式(无标题)" Order="301" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是一级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是一级侧标题的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="这是一级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是一级侧标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是一级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是一级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是一级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是一级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是一级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara1_title" DisplayName="二级侧标题样式" Description="二级侧标题样式" Order="302" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是二级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是二级侧标题的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="这是二级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是二级侧标题的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是二级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是二级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是二级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是二级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是二级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara1_notitle" DisplayName="二级侧标题样式(无标题)" Description="二级侧标题样式(无标题)" Order="302" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是二级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是二级侧标题的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="这是二级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是二级侧标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是二级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是二级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是二级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是二级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是二级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara2_title" DisplayName="三级侧标题样式" Description="三级侧标题样式" Order="303" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是三级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是三级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是三级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是三级侧标题的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是三级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是三级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是三级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是三级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是三级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara2_notitle" DisplayName="三级侧标题样式(无标题)" Description="三级侧标题样式(无标题)" Order="303" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是三级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是三级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是三级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是三级侧标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是三级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是三级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是三级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是三级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是三级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara3_title" DisplayName="四级侧标题样式" Description="四级侧标题样式" Order="304" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是四级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是四级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是四级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是四级侧标题的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是四级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是四级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是四级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是四级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是四级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara3_notitle" DisplayName="四级侧标题样式(无标题)" Description="四级侧标题样式(无标题)" Order="304" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是四级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是四级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是四级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是四级侧标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是四级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是四级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是四级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是四级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是四级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara4_title" DisplayName="五级侧标题样式" Description="五级侧标题样式" Order="305" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是五级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是五级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是五级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是五级侧标题的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是五级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是五级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是五级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是五级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是五级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara4_notitle" DisplayName="五级侧标题样式(无标题)" Description="五级侧标题样式(无标题)" Order="305" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是五级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是五级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是五级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是五级侧标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是五级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是五级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是五级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是五级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是五级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara5_title" DisplayName="六级侧标题样式" Description="六级侧标题样式" Order="306" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是六级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是六级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是六级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是六级侧标题的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是六级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是六级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是六级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是六级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是六级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara5_notitle" DisplayName="六级侧标题样式(无标题)" Description="六级侧标题样式(无标题)" Order="306" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是六级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是六级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是六级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是六级侧标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是六级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是六级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是六级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是六级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是六级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara6_title" DisplayName="七级侧标题样式" Description="七级侧标题样式" Order="307" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是七级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是七级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是七级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是七级侧标题的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是七级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是七级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是七级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是七级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是七级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara6_notitle" DisplayName="七级侧标题样式(无标题)" Description="七级侧标题样式(无标题)" Order="307" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是七级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是七级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是七级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是七级侧标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是七级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是七级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是七级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是七级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是七级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara7_title" DisplayName="八级侧标题样式" Description="八级侧标题样式" Order="308" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是八级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是八级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是八级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是八级侧标题的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是八级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是八级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是八级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是八级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是八级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".subpara7_notitle" DisplayName="八级侧标题样式(无标题)" Description="八级侧标题样式(无标题)" Order="308" GroupBy="03:普通标题">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是八级侧标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是八级侧标题的字体大小" type="Enum" unit="pt" value="12" />
+        <StyleProperty name="color" displayname="颜色" Description="这是八级侧标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是八级侧标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是八级侧标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是八级侧标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是八级侧标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是八级侧标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是八级侧标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".metadataPane" DisplayName="元数据" Description="元数据的样式设置" Order="401" GroupBy="04:元数据">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="元数据文本的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="元数据文本的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="元数据文本的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="元数据文本的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="元数据文本的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="元数据文本的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="元数据文本的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="元数据文本的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="元数据文本的的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="padding" displayname="间距(px)" Description="元数据的边框间距" type="int" unit="px" value="5" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".table_withhead_title" DisplayName="表格标题" Description="表格标题的样式设置" Order="501" GroupBy="05:图表标题(表格/图/多媒体)">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="表格标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="表格标题的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="表格标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="表格标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="表格标题的斜体" type="Enum" unit="" value="italic" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="表格标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="表格标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="表格标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="表格标题的对齐方式" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".figure_title" DisplayName="图标题" Description="图标题的样式设置" Order="502" GroupBy="05:图表标题(表格/图/多媒体)">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="图标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="图标题的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="图标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="图标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="图标题的斜体" type="Enum" unit="" value="italic" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="图标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="图标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="图标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="图标题的对齐方式" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".figure_multimedia_icn" DisplayName="图/多媒体ICN" Description="图/多媒体ICN的样式设置" Order="503" GroupBy="05:图表标题(表格/图/多媒体)">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="图/多媒体ICN的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="图标题的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="图图/多媒体ICN的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="图/多媒体ICN的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="图/多媒体ICN的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="图/多媒体ICN的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="图/多媒体ICN的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="图/多媒体ICN的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="图/多媒体ICN的对齐方式" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".multimedia_title" DisplayName="多媒体标题" Description="多媒体标题的样式设置" Order="504" GroupBy="05:图表标题(表格/图/多媒体)">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="多媒体标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="多媒体标题的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="多媒体标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="多媒体标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="多媒体标题的斜体" type="Enum" unit="" value="italic" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="多媒体标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="多媒体标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="多媒体标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="多媒体标题的对齐方式" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".warning_head" DisplayName="警告的标题" Description="警告的标题样式设置" Order="601" GroupBy="06:警告、注意、注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是警告标题的字体类型" type="FontFamily" unit=",宋体" value=" 黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是警告标题的字体大小" type="Enum" unit="pt" value="15.75" />
+        <StyleProperty name="color" displayname="颜色" Description="这是警告标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是警告标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是警告标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是警告标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是警告标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是警告标题的间隔" type="Int" unit="mm" value="4" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是警告标题的对齐方式" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".warning_text" DisplayName="警告的文本" Description="警告的文本样式设置" Order="602" GroupBy="06:警告、注意、注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="警告文本的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="警告文本的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="警告文本的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="警告文本的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="警告文本的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="警告文本的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="警告文本的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="警告文本的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="警告文本的的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="text-indent" displayname="缩进字符" Description="警告文本的缩进" type="Int" unit="em" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".warning_subsup_text" DisplayName="有上下标的警告文本" Description="有上下标的警告文本样式设置" Order="603" GroupBy="06:警告、注意、注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="有上下标的警告文本的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="有上下标的警告文本的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="有上下标的警告文本的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="有上下标的警告文本的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="有上下标的警告文本的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="有上下标的警告文本的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="有上下标的警告文本的行高" type="Enum" unit="" value="2" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="有上下标的警告文本的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="有上下标的警告文本的的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="text-indent" displayname="缩进字符" Description="有上下标的警告文本的缩进" type="Int" unit="em" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".caution_head" DisplayName="注意的标题" Description="注意的标题样式设置" Order="604" GroupBy="06:警告、注意、注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是注意标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是注意标题的字体大小" type="Enum" unit="pt" value="15.75" />
+        <StyleProperty name="color" displayname="颜色" Description="这是注意标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是注意标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是注意标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是注意标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是注意标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是注意标题的间隔" type="Int" unit="mm" value="4" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是注意标题的对齐方式" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".caution_text" DisplayName="注意的文本" Description="注意的文本样式设置" Order="605" GroupBy="06:警告、注意、注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="注意文本的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="注意文本的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="注意文本的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="注意文本的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="注意文本的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="注意文本的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="注意文本的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="注意文本的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="注意文本的的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="text-indent" displayname="缩进字符" Description="注意文本的缩进" type="Int" unit="em" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".caution_subsup_text" DisplayName="有上下标的注意文本" Description="有上下标的注意文本样式设置" Order="606" GroupBy="06:警告、注意、注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="有上下标的注意文本的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="有上下标的注意文本的字体大小" type="Enum" unit="pt" value="14.25" />
+        <StyleProperty name="color" displayname="颜色" Description="有上下标的注意文本的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="有上下标的注意文本的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="有上下标的注意文本的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="有上下标的注意文本的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="有上下标的注意文本的行高" type="Enum" unit="" value="2" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="有上下标的注意文本的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="有上下标的注意文本的的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="text-indent" displayname="缩进字符" Description="有上下标的注意文本的缩进" type="Int" unit="em" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".note_head" DisplayName="注的标题" Description="注的标题样式" Order="607" GroupBy="06:警告、注意、注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="这是注标题的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="这是注标题的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="这是注标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="这是注标题的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="这是注标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="这是注标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="这是注标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="这是注标题的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="这是注标题的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".note_text" DisplayName="注的文本" Description="注的文本样式设置" Order="608" GroupBy="06:警告、注意、注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="注文本的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="注文本的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="注文本的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="注文本的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="注文本的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="注文本的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="注文本的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="注文本的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="注文本的的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="text-indent" displayname="缩进字符" Description="注文本的缩进" type="Int" unit="em" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".note_subsup_text" DisplayName="有上下标的注文本" Description="有上下标的注文本样式设置" Order="609" GroupBy="06:警告、注意、注">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="有上下标的注文本的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="有上下标的注文本的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="有上下标的注文本的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="有上下标的注文本的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="有上下标的注文本的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="有上下标的注文本的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="有上下标的注文本的行高" type="Enum" unit="" value="2" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="有上下标的注文本的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="有上下标的注文本的的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="text-indent" displayname="缩进字符" Description="有上下标的注文本的缩进" type="Int" unit="em" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".table_class" DisplayName="表格" Description="表格的内容样式设置" Order="901" GroupBy="07:实体表格">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="表格的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="表格的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="表格的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="表格的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="表格的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="表格的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="表格的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="表格的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="word-break" displayname="内容换行方式" Description="内容的换行方式" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="表格的对齐方式" type="Enum" unit="" value="" />
+        <StyleProperty name="var_table_width" displayname="表格宽度" Description="表格的宽度，0表示使用原始大小，最大为100%，默认建议使用90%" type="Int" unit="" value="90" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".table_first_thead" DisplayName="表头" Description="表头的内容样式设置" Order="902" GroupBy="07:实体表格">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="表头的字体类型" type="FontFamily" unit=",宋体" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="表头的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="表头的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="表头的粗体" type="Enum" unit="" value="Bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="表头的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="表头的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="表头的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="表头的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="表头的对齐方式" type="Enum" unit="" value="center" />
+        <StyleProperty name="background-color" displayname="背景颜色" Description="表头的背景颜色" type="Color" unit="" value="#FFFFCC" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".table_last_foot" DisplayName="表尾" Description="表尾的内容样式设置" Order="903" GroupBy="07:实体表格">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="表尾的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="表尾的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="表尾的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="表尾的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="表尾的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="表尾的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="表尾的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="表尾的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="表尾的对齐方式" type="Enum" unit="" value="none" />
+        <StyleProperty name="background-color" displayname="背景颜色" Description="表尾的背景颜色" type="Color" unit="" value="#FFFFCC" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".references_table" DisplayName="表格" Description="引用列表的表格的样式设置" Order="801" GroupBy="08:引用列表">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="引用列表的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="引用列表的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="引用列表的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="引用列表的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="引用列表的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="引用列表的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="引用列表的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="引用列表的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="引用列表的的对齐方式" type="Enum" unit="" value="" />
+        <StyleProperty name="border-top-width" displayname="上边宽(pt)" Description="上边宽" type="int" unit="pt" value="1" />
+        <StyleProperty name="border-top-style" displayname="上边框" Description="边框样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-left-width" displayname="左边宽(pt)" Description="左边宽" type="int" unit="pt" value="1" />
+        <StyleProperty name="border-left-style" displayname="左边框" Description="边框样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-collapse" displayname="表格间距" Description="间距" type="Enum" unit="" value="collapse" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="设置边框的颜色" type="Color" unit="" value="Gray" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".references_table th" DisplayName="表头" Description="引用列表的表格的样式设置" Order="802" GroupBy="08:引用列表">
+      <attributes>
+        <StyleProperty name="border-right-width" displayname="右框宽(pt)" Description="设置边框的宽度" type="Int" unit="pt" value="1" />
+        <StyleProperty name="border-right-style" displayname="右边框" Description="设置边框的样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-bottom-width" displayname="底框宽(pt)" Description="设置边框的宽度" type="Int" unit="pt" value="1" />
+        <StyleProperty name="border-bottom-style" displayname="底边框" Description="设置边框的样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="设置边框的颜色" type="Color" unit="" value="Gray" />
+        <StyleProperty name="border-collapse" displayname="表格间距" Description="间距" type="Enum" unit="" value="collapse" />
+        <StyleProperty name="background-color" displayname="背景颜色" Description="设置表头的背景颜色" type="Color" unit="" value="#FFFFCC" />
+        <StyleProperty name="padding" displayname="间距" Description="设置间距" type="Int" unit="px" value="5" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="表头的对齐方式" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".references_table td" DisplayName="单元格" Description="引用列表的表格的样式设置" Order="803" GroupBy="08:引用列表">
+      <attributes>
+        <StyleProperty name="border-right-width" displayname="右框宽(pt)" Description="设置边框的宽度" type="Int" unit="pt" value="1" />
+        <StyleProperty name="border-right-style" displayname="右边框" Description="设置边框的样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-bottom-width" displayname="底框宽(pt)" Description="设置边框的宽度" type="Int" unit="pt" value="1" />
+        <StyleProperty name="border-bottom-style" displayname="底边框" Description="设置边框的样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-collapse" displayname="表格间距" Description="间距" type="Enum" unit="" value="collapse" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="设置边框的颜色" type="Color" unit="" value="Gray" />
+        <StyleProperty name="padding" displayname="间距" Description="设置间距" type="Int" unit="px" value="5" />
+        <StyleProperty name="text-align" displayname="水平对齐方式" Description="设置单元格的平对齐方式" type="Enum" unit="" value="" />
+        <StyleProperty name="vertical-align" displayname="垂直对齐方式" Description="设置单元格的垂直对齐方式" type="Enum" unit="" value="top" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".lists_table" DisplayName="表格" Description="普通列表的表格的样式设置" Order="901" GroupBy="09:普通列表">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="普通列表的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="普通列表的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="普通列表的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="普通列表的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="普通列表的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="普通列表的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="普通列表的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="普通列表的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="普通列表的的对齐方式" type="Enum" unit="" value="" />
+        <StyleProperty name="border-top-width" displayname="上边宽(pt)" Description="上边宽" type="int" unit="pt" value="1" />
+        <StyleProperty name="border-top-style" displayname="上边框" Description="边框样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-left-width" displayname="左边宽(pt)" Description="左边宽" type="int" unit="pt" value="1" />
+        <StyleProperty name="border-left-style" displayname="左边框" Description="边框样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-collapse" displayname="表格间距" Description="间距" type="Enum" unit="" value="collapse" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="边框颜色" type="Color" unit="" value="Gray" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".lists_table th" DisplayName="表头" Description="普通列表的表格的样式设置" Order="902" GroupBy="09:普通列表">
+      <attributes>
+        <StyleProperty name="border-right-width" displayname="右框宽(pt)" Description="设置边框的宽度" type="Int" unit="pt" value="1" />
+        <StyleProperty name="border-right-style" displayname="右边框" Description="设置边框的样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-bottom-width" displayname="底框宽(pt)" Description="设置边框的宽度" type="Int" unit="pt" value="1" />
+        <StyleProperty name="border-bottom-style" displayname="底边框" Description="设置边框的样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-collapse" displayname="表格间距" Description="间距" type="Enum" unit="" value="collapse" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="设置边框的颜色" type="Color" unit="" value="Gray" />
+        <StyleProperty name="background-color" displayname="背景颜色" Description="设置表头的背景颜色" type="Color" unit="" value="#FFFFCC" />
+        <StyleProperty name="padding" displayname="间距" Description="设置间距" type="Int" unit="px" value="5" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="表头的对齐方式" type="Enum" unit="" value="center" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".lists_table td" DisplayName="单元格" Description="普通列表的表格的样式设置" Order="903" GroupBy="09:普通列表">
+      <attributes>
+        <StyleProperty name="border-right-width" displayname="右框宽(pt)" Description="设置边框的宽度" type="Int" unit="pt" value="1" />
+        <StyleProperty name="border-right-style" displayname="右边框" Description="设置边框的样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-bottom-width" displayname="底框宽(pt)" Description="设置边框的宽度" type="Int" unit="pt" value="1" />
+        <StyleProperty name="border-bottom-style" displayname="底边框" Description="设置边框的样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-collapse" displayname="表格间距" Description="间距" type="Enum" unit="" value="collapse" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="设置边框的颜色" type="Color" unit="" value="Gray" />
+        <StyleProperty name="padding" displayname="间距" Description="设置间距" type="Int" unit="px" value="5" />
+        <StyleProperty name="text-align" displayname="水平对齐方式" Description="设置单元格的平对齐方式" type="Enum" unit="" value="" />
+        <StyleProperty name="vertical-align" displayname="垂直对齐方式" Description="设置单元格的垂直对齐方式" type="Enum" unit="" value="top" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".lists_table_noborder" DisplayName="无边框表格" Description="" Order="904" GroupBy="09:普通列表">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="普通列表的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="普通列表的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="普通列表的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="普通列表的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="普通列表的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="普通列表的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="普通列表的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="普通列表的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="普通列表的的对齐方式" type="Enum" unit="" value="" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".para_firstline_indent_text" DisplayName="首行缩进段落样式" Description="首行缩进段落样式" Order="1001" GroupBy="10:段落样式">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="首行缩进段落的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="首行缩进段落样式的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="首行缩进段落样式的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="首行缩进段落样式的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="首行缩进段落样式的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="首行缩进段落样式的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="首行缩进段落样式的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="首行缩进段落样式的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="首行缩进段落样式的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="text-indent" displayname="缩进字符" Description="首行缩进段落样式的缩进" type="Int" unit="em" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".para_firstline_indent_subsup_text" DisplayName="首行缩进有上下标段落样式" Description="首行缩进有上下标段落样式" Order="1002" GroupBy="10:段落样式">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="首行缩进有上下标段落的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="首行缩进有上下标段落样式的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="首行缩进有上下标段落样式的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="首行缩进有上下标段落样式的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="首行缩进有上下标段落样式的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="首行缩进有上下标段落样式的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="首行缩进有上下标段落样式的行高" type="Enum" unit="" value="2" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="首行缩进有上下标段落样式的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="首行缩进有上下标段落样式的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="text-indent" displayname="缩进字符" Description="首行缩进有上下标段落样式的缩进" type="Int" unit="em" value="2" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".para_text" DisplayName="无缩进段落样式" Description="无缩进段落样式" Order="1003" GroupBy="10:段落样式">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="无缩进段落的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="无缩进段落的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="无缩进段落的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="无缩进段落的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="无缩进段落的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="无缩进段落的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="无缩进段落样式的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="无缩进段落的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="无缩进段落的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".para_subsup_text" DisplayName="无缩进有上下标段落样式" Description="无缩进有上下标段落样式" Order="1004" GroupBy="10:段落样式">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="无缩进有上下标段落的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="无缩进有上下标段落的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="无缩进有上下标段落的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="无缩进有上下标段落的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="无缩进有上下标段落的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="无缩进有上下标段落的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="无缩进有上下标段落样式的行高" type="Enum" unit="" value="2" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="无缩进有上下标段落的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="无缩进有上下标段落的对齐方式" type="Enum" unit="" value="left" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".verbatimcls" DisplayName="段落记号" Description="段落记号" Order="1006" GroupBy="10:段落样式">
+      <attributes>
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="Bold" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".parasigdatacls" DisplayName="段落逐字" Description="段落逐字" Order="1007" GroupBy="10:段落样式">
+      <attributes>
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="Bold" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".var_step_indent_cls" DisplayName="步骤编号控制" Description="步骤编号控制" Order="1101" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="var-indent" displayname="是否缩进" Description="编号是否缩进" type="Enum" unit="" value="true" />
+        <StyleProperty name="var-auto_adapt" displayname="显示方式" Description="列宽显示方式" type="Enum" unit="" value="true" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".step_titlecls" DisplayName="步骤标题" Description="步骤标题的样式" Order="1103" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="步骤标题的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="步骤标题的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="步骤标题的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="步骤标题的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="步骤标题的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="步骤标题的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="步骤标题的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="步骤标题的间隔" type="Int" unit="mm" value="0" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".step_numbercls" DisplayName="步骤编号(无标题)" Description="步骤编号(无标题)" Order="1104" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="步骤编号的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="步骤编号的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="步骤编号的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="步骤编号的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="步骤编号的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="步骤编号的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="步骤编号的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="步骤编号的间隔" type="Int" unit="mm" value="0" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".step1_with_cls" DisplayName="一级缩进步骤列宽" Description="缩进步骤1编号的列宽" Order="1105" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="25" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".step2_with_cls" DisplayName="二级缩进步骤列宽" Description="缩进步骤2编号的列宽" Order="1106" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="40" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".step3_with_cls" DisplayName="三级缩进步骤列宽" Description="缩进步骤3编号的列宽" Order="1107" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="55" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".step4_with_cls" DisplayName="四级缩进步骤列宽" Description="缩进步骤4编号的列宽" Order="1108" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="70" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".step5_with_cls" DisplayName="五级缩进步骤列宽" Description="缩进步骤5编号的列宽" Order="1109" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="85" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".step6_with_cls" DisplayName="六级缩进步骤列宽" Description="缩进步骤6编号的列宽" Order="1110" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="100" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".step7_with_cls" DisplayName="七级缩进步骤列宽" Description="缩进步骤7编号的列宽" Order="1111" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="115" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".step8_with_cls" DisplayName="八级缩进步骤列宽" Description="缩进步骤8编号的列宽" Order="1112" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="130" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".noindent_step_with_cls" DisplayName="无缩进步骤默认(一到五级)列宽" Description="无缩进步骤编号的列宽" Order="1113" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="85" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".noindent6_step_with_cls" DisplayName="无缩进六级步骤列宽" Description="无缩进步骤编号的列宽" Order="1114" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="100" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".noindent7_step_with_cls" DisplayName="无缩进七级步骤列宽" Description="无缩进步骤编号的列宽" Order="1115" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="115" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".noindent8_step_with_cls" DisplayName="无缩进八级步骤列宽" Description="无缩进步骤编号的列宽" Order="1116" GroupBy="11:步骤样式">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="px" value="130" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".simple_randlist_hyphen" DisplayName="简单随机列表" Description="" Order="1201" GroupBy="12:列表样式">
+      <attributes>
+        <StyleProperty name="list-style-position" displayname="列表项位置" Description="列表项位置" type="Enum" unit="" value="outside" />
+        <StyleProperty name="margin-top" displayname="上边距(px)" Description="简单随机列表的上边距" type="Int" unit="px" value="4" />
+        <StyleProperty name="margin-bottom" displayname="下边距(px)" Description="简单随机列表的下边距" type="Int" unit="px" value="4" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".unordered_randlist_hyphen_Odd" DisplayName="无序随机列表（奇数层）" Description="" Order="1202" GroupBy="12:列表样式">
+      <attributes>
+        <StyleProperty name="list-style-position" displayname="列表项位置" Description="列表项位置" type="Enum" unit="" value="outside" />
+        <StyleProperty name="list-style-type" displayname="列表类型" Description="列表类型" type="Enum" unit="" value="disc" />
+        <StyleProperty name="margin-top" displayname="上边距(px)" Description="无序列表的上边距" type="Int" unit="px" value="4" />
+        <StyleProperty name="margin-bottom" displayname="下边距(px)" Description="无序列表的下边距" type="Int" unit="px" value="4" />
+        <StyleProperty name="line-height" displayname="行高" Description="同一层中各项的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="text-indent" displayname="缩进长度(mm)" Description="缩进长度" type="Int" unit="mm" value="7" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".unordered_randlist_hyphen_Even" DisplayName="无序随机列表（偶数层）" Description="" Order="1203" GroupBy="12:列表样式">
+      <attributes>
+        <StyleProperty name="list-style-position" displayname="列表项位置" Description="列表项位置" type="Enum" unit="" value="outside" />
+        <StyleProperty name="list-style-type" displayname="列表类型" Description="列表类型" type="Enum" unit="" value="circle" />
+        <StyleProperty name="margin-top" displayname="上边距(px)" Description="无序列表的上边距" type="Int" unit="px" value="4" />
+        <StyleProperty name="margin-bottom" displayname="下边距(px)" Description="无序列表的下边距" type="Int" unit="px" value="4" />
+        <StyleProperty name="line-height" displayname="行高" Description="同一层中各项的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="text-indent" displayname="缩进长度(mm)" Description="缩进长度" type="Int" unit="mm" value="7" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".seqlist_hyphen_1" DisplayName="有序列表（1层）" Description="" Order="1204" GroupBy="12:列表样式">
+      <attributes>
+        <StyleProperty name="list-style-position" displayname="列表项位置" Description="列表项位置" type="Enum" unit="" value="outside" />
+        <StyleProperty name="list-style-type" displayname="列表类型" Description="列表类型" type="Enum" unit="" value="lower-alpha" />
+        <StyleProperty name="margin-top" displayname="上边距(px)" Description="有序列表的上边距" type="Int" unit="px" value="4" />
+        <StyleProperty name="margin-bottom" displayname="下边距(px)" Description="有序列表的下边距" type="Int" unit="px" value="0" />
+        <StyleProperty name="line-height" displayname="行高" Description="同一层中各项的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="text-indent" displayname="缩进长度(mm)" Description="缩进长度" type="Int" unit="mm" value="7" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".seqlist_hyphen_2" DisplayName="有序列表（2层）" Description="" Order="1205" GroupBy="12:列表样式">
+      <attributes>
+        <StyleProperty name="list-style-position" displayname="列表项位置" Description="列表项位置" type="Enum" unit="" value="outside" />
+        <StyleProperty name="list-style-type" displayname="列表类型" Description="列表类型" type="Enum" unit="" value="decimal" />
+        <StyleProperty name="margin-top" displayname="上边距(px)" Description="有序列表的上边距" type="Int" unit="px" value="4" />
+        <StyleProperty name="margin-bottom" displayname="下边距(px)" Description="有序列表的下边距" type="Int" unit="px" value="0" />
+        <StyleProperty name="line-height" displayname="行高" Description="同一层中各项的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="text-indent" displayname="缩进长度(mm)" Description="缩进长度" type="Int" unit="mm" value="7" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".seqlist_hyphen_0" DisplayName="有序列表（3层）" Description="" Order="1206" GroupBy="12:列表样式">
+      <attributes>
+        <StyleProperty name="list-style-position" displayname="列表项位置" Description="列表项位置" type="Enum" unit="" value="outside" />
+        <StyleProperty name="list-style-type" displayname="列表类型" Description="列表类型" type="Enum" unit="" value="upper-roman" />
+        <StyleProperty name="margin-top" displayname="上边距(px)" Description="有序列表的上边距" type="Int" unit="px" value="4" />
+        <StyleProperty name="margin-bottom" displayname="下边距(px)" Description="有序列表的下边距" type="Int" unit="px" value="0" />
+        <StyleProperty name="line-height" displayname="行高" Description="同一层中各项的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="text-indent" displayname="缩进长度(mm)" Description="缩进长度" type="Int" unit="mm" value="7" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".label_prefix_cls" DisplayName="标签样式" Description="" Order="1301" GroupBy="13:标签样式">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="标签字体类型" type="Enum" unit="" value="黑体" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="标签的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="字体颜色" Description="标签的字体颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="标签的粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-style" displayname="斜体" Description="标签的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="标签的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="标签的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="标签的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="标签的对齐方式" type="Enum" unit="" value="left" />
+        <StyleProperty name="text-indent" displayname="缩进字符" Description="标签的缩进" type="Int" unit="em" value="0" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".card_context_cls" DisplayName="工卡内容" Description="" Order="1401" GroupBy="14:工卡样式">
+      <attributes>
+        <StyleProperty name="font-family" displayname="字体类型" Description="普通列表的字体类型" type="FontFamily" unit=",宋体" value="Arial" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="普通列表的字体大小" type="Enum" unit="pt" value="10.5" />
+        <StyleProperty name="color" displayname="颜色" Description="普通列表的颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="普通列表的粗体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="font-style" displayname="斜体" Description="普通列表的斜体" type="Enum" unit="" value="normal" />
+        <StyleProperty name="text-decoration" displayname="划线" Description="普通列表的划线" type="Enum" unit="" value="none" />
+        <StyleProperty name="line-height" displayname="行高(倍)" Description="普通列表的行高" type="Enum" unit="" value="1.8" />
+        <StyleProperty name="letter-spacing" displayname="间隔(mm)" Description="普通列表的间隔" type="Int" unit="mm" value="0" />
+        <StyleProperty name="text-align" displayname="对齐方式" Description="普通列表的的对齐方式" type="Enum" unit="" value="" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".captioncls" DisplayName="字幕" Description="字幕的样式设置" Order="1301" GroupBy="15:字幕">
+      <attributes>
+        <StyleProperty name="border-style" displayname="边框" Description="边框样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-top-width" displayname="上边宽(pt)" Description="字幕的上边宽" type="int" unit="pt" value="1" />
+        <StyleProperty name="border-left-width" displayname="左边宽(pt)" Description="字幕的左边宽" type="int" unit="pt" value="1" />
+        <StyleProperty name="border-right-width" displayname="右边宽(pt)" Description="字幕的右边宽" type="int" unit="pt" value="1" />
+        <StyleProperty name="border-bottom-width" displayname="下边宽(pt)" Description="字幕的下边宽" type="int" unit="pt" value="1" />
+        <StyleProperty name="padding" displayname="间距(px)" Description="字幕的间距" type="int" unit="px" value="5" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="边框颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="bold" />
+        <StyleProperty name="font-size" displayname="字体大小" Description="字幕的字体大小" type="Enum" unit="pt" value="10.5" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".acrotermcls" DisplayName="缩略词项" Description="缩略词项" Order="1501" GroupBy="15:缩略词">
+      <attributes>
+        <StyleProperty name="font-weight" displayname="粗体" Description="粗体" type="Enum" unit="" value="Bold" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".acrodefcls" DisplayName="缩略词定义" Description="" Order="11502" GroupBy="15:缩略词">
+      <attributes>
+        <StyleProperty name="background-color" displayname="背景颜色" Description="背景颜色" type="Color" unit="" value="#FFFFCC" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="边框颜色" type="Color" unit="" value="Black" />
+        <StyleProperty name="border-style" displayname="边框样式" Description="边框样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-width" displayname="边框宽度(px)" Description="边框宽度" type="Int" unit="px" value="1" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".taskid_cls" DisplayName="任务编号" Description="" Order="1" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="10" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".task_name_cls" DisplayName="任务" Description="" Order="2" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="10" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".task_refs_cls" DisplayName="引用数据模块列表" Description="" Order="3" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="12" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".deftask_equip_cls" DisplayName="设备" Description="" Order="4" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="15" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".pmd_accpnl_cls" DisplayName="口盖" Description="" Order="5" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="8" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".pmd_zone_cls" DisplayName="分区" Description="" Order="6" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="8" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".deftask_limit_cls" DisplayName="间隔周期/时机" Description="" Order="7" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="10" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".supervis_lev_cls" DisplayName="维护级别" Description="" Order="8" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="6" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".deftask_applic_cls" DisplayName="适用性" Description="" Order="9" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="6" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".deftask_remark_cls" DisplayName="备注" Description="" Order="10" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="10" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".deftask_other_cls" DisplayName="其它" Description="" Order="11" GroupBy="16:【定义任务】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="5" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".timelim_sns_cls" DisplayName="项目号" Description="" Order="1" GroupBy="17:【时间限制】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".timelim_lt01_cls" DisplayName="翻修间隔" Description="" Order="2" GroupBy="17:【时间限制】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".timelim_lt02_cls" DisplayName="总寿命" Description="" Order="3" GroupBy="17:【时间限制】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".timelim_lt61_cls" DisplayName="首翻期" Description="" Order="4" GroupBy="17:【时间限制】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".timelim_cat_cls" DisplayName="类别" Description="" Order="5" GroupBy="17:【时间限制】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".task_task_cls" DisplayName="任务" Description="" Order="1" GroupBy="18:【任务列表】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".task_applic_cls" DisplayName="适用性" Description="" Order="2" GroupBy="18:【任务列表】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".ofault_fcontext_cls" DisplayName="故障背景" Description="" Order="1" GroupBy="19:【观测故障】表格">
+      <attributes>
+        <StyleProperty name="display" displayname="显示方式" Description="是否显示该列" type="Enum" unit="" value="block" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".var_techrep_display_cls" DisplayName="技术信息" Description="技术信息" Order="1114" GroupBy="20:技术信息显示方式">
+      <attributes>
+        <StyleProperty name="var-techrep" displayname="显示方式" Description="显示方式" type="Enum" unit="" value="none" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".legend_deflist_term_cls" DisplayName="图解编号的列宽" Description="图解编号的列宽" Order="1" GroupBy="21:各类编号列表列宽">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="mm" value="8" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".legend_deflist_def_cls" DisplayName="图解内容的列宽" Description="图解内容的列宽" Order="2" GroupBy="21:各类编号列表列宽">
+      <attributes>
+        <StyleProperty name="width" displayname="列宽(px)" Description="列宽" type="Int" unit="mm" value="68" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".compart_hr" DisplayName="分隔线" Description="" Order="1" GroupBy="22:分隔线">
+      <attributes>
+        <StyleProperty name="color" displayname="颜色" Description="颜色" type="Color" unit="" value="blue" />
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="100" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".short_compart_hr" DisplayName="短分隔线" Description="" Order="1" GroupBy="22:分隔线">
+      <attributes>
+        <StyleProperty name="color" displayname="颜色" Description="颜色" type="Color" unit="" value="black" />
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="80" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="a:link" DisplayName="链接" Description="链接" Order="1101" GroupBy="23:链接样式">
+      <attributes>
+        <StyleProperty name="color" displayname="颜色" Description="颜色" type="Color" unit="" value="#0000FF" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="a:visited" DisplayName="访问后" Description="链接访问后" Order="1102" GroupBy="23:链接样式">
+      <attributes>
+        <StyleProperty name="color" displayname="颜色" Description="颜色" type="Color" unit="" value="#CC3300" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="a:hover" DisplayName="鼠标经过" Description="鼠标访问链接时" Order="1103" GroupBy="23:链接样式">
+      <attributes>
+        <StyleProperty name="color" displayname="颜色" Description="颜色" type="Color" unit="" value="#FF00FF" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name="a:active" DisplayName="选中" Description="选中链接时" Order="1104" GroupBy="23:链接样式">
+      <attributes>
+        <StyleProperty name="color" displayname="颜色" Description="颜色" type="Color" unit="" value="#FF0000" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".Change_add" DisplayName="修订-新增" Description="" Order="12" GroupBy="24:修订样式">
+      <attributes>
+        <StyleProperty name="border-style" displayname="边框" Description="边框样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="边框颜色" type="Color" unit="" value="#00FF00" />
+        <StyleProperty name="border-width" displayname="边框宽(px)" Description="边框宽(pt)" type="int" unit="px" value="1" />
+        <StyleProperty name="margin" displayname="边距(px)" Description="边距" type="Int" unit="px" value="1" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".Change_modify" DisplayName="修订-修改" Description="" Order="12" GroupBy="24:修订样式">
+      <attributes>
+        <StyleProperty name="border-style" displayname="边框" Description="边框样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="边框颜色" type="Color" unit="" value="#FFFF00" />
+        <StyleProperty name="border-width" displayname="边框宽(pt)" Description="边框宽(pt)" type="int" unit="px" value="1" />
+        <StyleProperty name="margin" displayname="边距(px)" Description="边距" type="Int" unit="px" value="1" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".Change_delete" DisplayName="修订-删除" Description="" Order="12" GroupBy="24:修订样式">
+      <attributes>
+        <StyleProperty name="border-style" displayname="边框" Description="边框样式" type="Enum" unit="" value="solid" />
+        <StyleProperty name="border-color" displayname="边框颜色" Description="边框颜色" type="Color" unit="" value="red" />
+        <StyleProperty name="border-width" displayname="边框宽(pt)" Description="边框宽(pt)" type="int" unit="px" value="1" />
+        <StyleProperty name="margin" displayname="边距(px)" Description="边距" type="Int" unit="px" value="1" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".PrelreqsSize" DisplayName="前置条件窗口" Description="JS设置，在阅读器中，前置条件窗口的大小" Order="20" GroupBy="25:各类窗口">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(px)" Description="JS设置，在阅读器中，前置条件窗口的宽度" type="Int" unit="" value="500" />
+        <StyleProperty name="height" displayname="高度(px)" Description="JS设置，在阅读器中，前置条件窗口的高度" type="Int" unit="" value="400" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".SafetySize" DisplayName="安全条件窗口" Description="JS设置，在阅读器中，安全条件窗口的大小" Order="21" GroupBy="25:各类窗口">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(px)" Description="JS设置，在阅读器中，安全条件窗口的宽度" type="Int" unit="" value="500" />
+        <StyleProperty name="height" displayname="高度(px)" Description="JS设置，在阅读器中，安全条件窗口的高度" type="Int" unit="" value="400" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".StepWindowSize" DisplayName="步进窗口" Description="JS设置，在阅读器中，步进窗口的大小" Order="22" GroupBy="25:各类窗口">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(px)" Description="JS设置，在阅读器中，步进窗口的宽度" type="Int" unit="" value="500" />
+        <StyleProperty name="height" displayname="高度(px)" Description="JS设置，在阅读器中，步进窗口的高度" type="Int" unit="" value="400" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".MetadataPaneSize" DisplayName="元数据窗口" Description="JS设置，在阅读器中，元数据窗口的大小" Order="23" GroupBy="25:各类窗口">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(px)" Description="JS设置，在阅读器中，元数据窗口的宽度" type="Int" unit="" value="500" />
+        <StyleProperty name="height" displayname="高度(px)" Description="JS设置，在阅读器中，元数据窗口的高度" type="Int" unit="" value="400" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".DMRefedListSize" DisplayName="DM被引窗口" Description="JS设置，在阅读器中，DM被引窗口的大小" Order="24" GroupBy="25:各类窗口">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(px)" Description="JS设置，在阅读器中，DM被引窗口的宽度" type="Int" unit="" value="600" />
+        <StyleProperty name="height" displayname="高度(px)" Description="JS设置，在阅读器中，DM被引窗口的高度" type="Int" unit="" value="400" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".PMRefedListSize" DisplayName="PM被引窗口" Description="JS设置，在阅读器中，PM被引窗口的大小" Order="12" GroupBy="25:各类窗口">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(px)" Description="JS设置，在阅读器中，PM被引窗口的宽度" type="Int" unit="" value="600" />
+        <StyleProperty name="height" displayname="高度(px)" Description="JS设置，在阅读器中，PM被引窗口的高度" type="Int" unit="" value="400" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".AfiSize" DisplayName="排故窗口" Description="JS设置，在阅读器中，排故窗口的大小" Order="22" GroupBy="25:各类窗口">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(px)" Description="JS设置，在阅读器中，排故窗口的宽度" type="Int" unit="" value="500" />
+        <StyleProperty name="height" displayname="高度(px)" Description="JS设置，在阅读器中，排故窗口的高度" type="Int" unit="" value="400" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".references_title" DisplayName="条件" Description="" Order="1" GroupBy="26:【引用列表】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="50" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".reqconds_applic" DisplayName="适用性" Description="" Order="1" GroupBy="27:【必须条件、后置条件】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="20" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".reqconds_condition" DisplayName="条件" Description="" Order="2" GroupBy="27:【必须条件、后置条件】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="50" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".reqconds_reference" DisplayName="引用" Description="" Order="3" GroupBy="27:【必须条件、后置条件】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="30" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".reqpers_man" DisplayName="人员" Description="" Order="12" GroupBy="28:【人员需求】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="20" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".reqpers_category" DisplayName="人员类型" Description="" Order="12" GroupBy="28:【人员需求】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="20" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".reqpers_skill" DisplayName="技能" Description="" Order="12" GroupBy="28:【人员需求】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="20" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".reqpers_trade" DisplayName="商业码" Description="" Order="12" GroupBy="28:【人员需求】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="20" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".reqpers_esttime" DisplayName="估计时间" Description="" Order="12" GroupBy="28:【人员需求】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="20" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".supequi_supply_spare_name" DisplayName="名称" Description="" Order="12" GroupBy="29:【保障工具、消耗品、备件】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="15" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".supequi_supply_spare_csnref" DisplayName="目录顺序码" Description="" Order="12" GroupBy="29:【保障工具、消耗品、备件】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="15" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".supequi_supply_spare_nsn" DisplayName="北约物料码" Description="" Order="12" GroupBy="29:【保障工具、消耗品、备件】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="10" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".supequi_supply_spare_mfc" DisplayName="厂商" Description="" Order="12" GroupBy="29:【保障工具、消耗品、备件】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="10" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".supequi_supply_spare_tce" DisplayName="引用标识" Description="" Order="12" GroupBy="29:【保障工具、消耗品、备件】表格">
+      <attributes>
+        <StyleProperty name="width" displayname="宽度(%)" Description="宽度" type="Int" unit="%" value="15" />
+      </attributes>
+    </StyleClass>
+    <StyleClass Name=".var_23applic_style" DisplayName="2.3适用性展示" Description="S1000D 2.3适用性展示样式" Order="1" GroupBy="30:2.3适用性展示">
+      <attributes>
+        <StyleProperty name="var-23applic" displayname="展示方式" Description="一般适用性翻译为“[类型：XXX，型号：YYY1、YYY2]”，特殊翻译为“[仅用于YYY1、YYY2XXX]”。" type="Enum" unit="" value="normal" />
+      </attributes>
+    </StyleClass>
+  </CSS>
+</StyleDocument>

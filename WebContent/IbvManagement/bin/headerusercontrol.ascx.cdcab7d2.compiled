@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/HeaderUserControl.ascx" hash="5814482f9" filehash="58749fb09b60b5b6" flags="110000" assembly="App_Web_fj1wu5ky" type="ASP.headerusercontrol_ascx">
+    <filedeps>
+        <filedep name="/IbvManagement/HeaderUserControl.ascx" />
+        <filedep name="/IbvManagement/HeaderUserControl.ascx.cs" />
+    </filedeps>
+</preserve>

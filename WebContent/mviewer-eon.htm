@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>3D浏览</title>
+    <script language="javascript">
+        function Init(){
+            
+        }
+        
+        function unloadobject()
+        {
+        
+        }
+        
+        function SetSrc(src,type,Isreload,eventList){
+            if(src!="")
+            {
+                    var fullsrc =  'Manual/' + src;
+                    
+                   if (top.ApplicationContext.ICommonService().UrlExists(fullsrc))
+                   {
+                         try{
+                              if(document.all.axCGM!=undefined && document.all.axCGM!=null &&
+                                document.all.axCGM.SimulationFile!=undefined && document.all.axCGM.SimulationFile!=null)
+                              {
+                                    fullsrc=top.ApplicationContext.UserInfo.GetICNLocalizeUrl(fullsrc);
+                                    //必须是完整路径。
+                                    if(fullsrc.indexOf("file://")!=0)
+                                    {
+                                        fullsrc=document.URL.substring(0,document.URL.length-15)+ fullsrc;
+                                        
+                                    }
+                                    document.all.axCGM.SimulationFile = fullsrc;  
+                              }
+                              else
+                              {
+                                 document.write('<br><br><center><p style="font:bold 16px 微软雅黑;color:gray">有错误，没有找到控件</p></center>');
+                                 top.ApplicationContext.MainFrame.SetMultimediaToolbarState(1);
+                              }
+                            }
+                            catch(e)
+                            {
+                                document.write('<br><br><center><p style="font:bold 16px 微软雅黑;color:gray">有错误，没有找到控件</p></center>');
+                               top.ApplicationContext.MainFrame.SetMultimediaToolbarState(1);
+                            }
+                   }
+                else
+                {
+                    document.write('<br><br><center><p style="font:bold 16px 微软雅黑;color:gray">文件不存在</p></center>');
+                   top.ApplicationContext.MainFrame.SetMultimediaToolbarState(1);
+                 }
+                 
+                if(eventList!=undefined && eventList.loadedImage!=undefined)
+                    eventList.loadedImage();
+                    
+            }
+        
+        }
+        
+          function UrlExists(url)
+        {
+            var endIndex=url.indexOf('#');
+	        var xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	        
+	        if(endIndex!=-1)
+	            url=url.substring(0,endIndex);
+	        xmlhttp.open("GET", url, false);
+	        try
+	        {
+		        xmlhttp.send();
+		        
+		        if (xmlhttp.status == 404)
+		            return false;
+		            
+		        return true;
+	        }
+	        catch(e)
+	        {
+		        return false;
+	        }
+        }
+        
+        function doresize()
+        {
+            axCGM.width=window.document.body.clientWidth;
+            axCGM.height=window.document.body.clientHeight;
+            axCGM.width="100%";
+            axCGM.height="100%";
+        }
+        
+        function SwitchToFullScreen()
+        {
+            document.write('<br><br><center><p style="font:bold 16px 微软雅黑;color:gray">全屏预览中...</p></center>');
+        }
+    </script>
+    
+     <script src="resources/js/3D.js" type="text/javascript"></script>
+</head>
+<body scroll="no" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0"  onload="Init();">
+<object classid="clsid:AAD68411-5B98-11D3-9B52-00001C0007B3" id="axCGM"  border="0" width="100%" height="100%">
+           <PARAM name="AutoPlay" value="1" >
+           <center>
+            <p style="font:bold 16px 微软雅黑;color:gray"><br />检测到没有注册EON Viewer控件，请先注册！<br /></p>
+            <p style="font:bold 16px 微软雅黑;color:gray"><br />请安装EON Viewer控件</p>
+        </center>
+      </object>  
+</body>
+</html>

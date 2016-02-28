@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xsltconfig>
+	<!--name:版本号，请用_代替.
+	library:xsltDLL编译的Libary
+	file:xsltDLL相对于xsltConfig.xml的路径文件名称-->
+	<fop path="C:\Program Files\Common Files\Fop"></fop>
+	<xslt path="C:\Program Files\Common Files\Xslt"></xslt>
+	<lang path="C:\Program Files\Common Files\Fop\lang"></lang>
+	<key name="2_3" library="linear2330" classfile="bin\linear2330.dll" scriptfile="bin\linear2330.script*.dll"/>
+	<key name="3_0" library="linear2330" classfile="bin\linear2330.dll" scriptfile="bin\linear2330.script*.dll"/>
+</xsltconfig>

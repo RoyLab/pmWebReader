@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/crew.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>130</incode>
+          <incodev>B</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机</techname>
+        <infoname>电瓶起动</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="01" day="12"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <acrw>
+      <frc>
+        <drill ordered="on">
+          <tabtitle>（APU 引气或地面气源可用）</tabtitle>
+          <subdrill ordered="on">
+            <title>YB631,YB632,YC170-YJ006</title>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>维护文档</para>
+                </challeng>
+                <response>
+                  <para>检查</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>驾驶舱进入系统电门</para>
+                </challeng>
+                <response>
+                  <para>护盖闭合</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>电瓶电门</para>
+                </challeng>
+                <response>
+                  <para>护盖闭合</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>电动液压泵电门</para>
+                </challeng>
+                <response>
+                  <para>OFF</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>起落架手柄</para>
+                </challeng>
+                <response>
+                  <para>DN</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <procd>
+                  <para>证实绿色的起落架指示器灯亮。</para>
+                </procd>
+                <procd>
+                  <para>证实红色的起落架指示器灯熄灭。</para>
+                </procd>
+              </step>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>襟翼手柄</para>
+                </challeng>
+                <response>
+                  <para>调定</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <procd>
+                  <para>将襟翼手柄放置到与襟翼位置一致处。</para>
+                </procd>
+              </step>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>应急设备</para>
+                </challeng>
+                <response>
+                  <para>检查</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <procd>
+                  <para>灭火瓶－检查并收好</para>
+                  <para>消防斧－放好</para>
+                  <para>逃离绳－放好</para>
+                  <para>其他所需设备－检查并放好</para>
+                </procd>
+              </step>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>飞行记录器电门</para>
+                </challeng>
+                <response>
+                  <para>护盖闭合</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>跳开关</para>
+                </challeng>
+                <response>
+                  <para>检查</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <procd>
+                  <para>除需要电源或液压的检查项目外，按需完成内/外安全检查。</para>
+                </procd>
+              </step>
+            </step>
+          </subdrill>
+          <subdrill ordered="on">
+            <crew response="all">
+              <crewmem crewmem="cm02"></crewmem>
+            </crew>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>顶板和火警保护面板</para>
+                </challeng>
+                <response>
+                  <para>检查</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <procd>
+                  <para>测试电门－保持在 OVHT/FIRE</para>
+                  <para>灭火瓶测试电门－检查</para>
+                </procd>
+              </step>
+            </step>
+            <if>
+              <condit>引气源可用</condit>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>APU 电门</para>
+                  </challeng>
+                  <response>
+                    <para>START</para>
+                  </response>
+                </challrsp>
+              </step>
+            </if>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>氧气 </para>
+                </challeng>
+                <response>
+                  <para>测试并调定</para>
+                </response>
+              </challrsp>
+            </step>
+          </subdrill>
+          <subdrill ordered="on">
+            <title>YB631,YB632,YC169-YJ871</title>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>CAB/UTIL 电源电门</para>
+                </challeng>
+                <response>
+                  <para>ON</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>空中娱乐 / 旅客座位电源电门</para>
+                </challeng>
+                <response>
+                  <para>ON</para>
+                </response>
+              </challrsp>
+            </step>
+          </subdrill>
+          <subdrill ordered="on">
+            <title>YA272-YA892,YC166-YC168</title>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>厨房电源电门</para>
+                </challeng>
+                <response>
+                  <para>ON</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>紧急出口灯电门</para>
+                </challeng>
+                <response>
+                  <para>护盖闭合</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>旅客信号牌 </para>
+                </challeng>
+                <response>
+                  <para>调定</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>液压泵电门</para>
+                </challeng>
+                <response>
+                  <para>ON</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>空调面板</para>
+                </challeng>
+                <response>
+                  <para>调定</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>APU 引气电门</para>
+                  </challeng>
+                  <response>
+                    <para>接通</para>
+                  </response>
+                </challrsp>
+              </step>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>组件电门</para>
+                  </challeng>
+                  <response>
+                    <para>自动或高流量</para>
+                  </response>
+                </challrsp>
+              </step>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>发动机引气电门</para>
+                  </challeng>
+                  <response>
+                    <para>接通</para>
+                  </response>
+                </challrsp>
+              </step>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>客舱增压面板</para>
+                </challeng>
+                <response>
+                  <para>调定</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>飞行高度指示器</para>
+                  </challeng>
+                  <response>
+                    <para>巡航高度</para>
+                  </response>
+                </challrsp>
+              </step>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>着陆高度指示器</para>
+                  </challeng>
+                  <response>
+                    <para>目的地机场标高</para>
+                  </response>
+                </challrsp>
+              </step>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>增压方式选择器</para>
+                  </challeng>
+                  <response>
+                    <para>自动</para>
+                  </response>
+                </challrsp>
+              </step>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>停留刹车</para>
+                </challeng>
+                <response>
+                  <para>刹住</para>
+                </response>
+              </challrsp>
+              <note>
+                <para>无刹车压力时应挡上轮挡。</para>
+              </note>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>飞行文件</para>
+                </challeng>
+                <response>
+                  <para>齐全</para>
+                </response>
+              </challrsp>
+            </step>
+            <if>
+              <condit>允许发动机起动</condit>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>空调组件电门</para>
+                  </challeng>
+                  <response>
+                    <para>OFF</para>
+                  </response>
+                </challrsp>
+              </step>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>防撞灯电门</para>
+                  </challeng>
+                  <response>
+                    <para>ON</para>
+                  </response>
+                </challrsp>
+              </step>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>点火选择电门</para>
+                  </challeng>
+                  <response>
+                    <para>IGN-R</para>
+                  </response>
+                </challrsp>
+              </step>
+            </if>
+          </subdrill>
+          <subdrill ordered="on">
+            <title>发动机起动</title>
+            <warning>
+              <para>如 1号发动机用地面气源起动，为避免伤害地面人员，应断开外接气源，并用发动机交输引气起动程 序起动 2 号发动机。</para>
+            </warning>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>1号发动机起动</para>
+                </challeng>
+                <response>
+                  <para>完成</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>1号发电机电门</para>
+                </challeng>
+                <response>
+                  <para>ON</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>IRS 方式选择器</para>
+                </challeng>
+                <response>
+                  <para>OFF,然后 NAV</para>
+                </response>
+              </challrsp>
+              <procd>
+                <para>证实ON DC灯亮，然后熄灭</para>
+                <para>证实ALIGN灯亮</para>
+              </procd>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>FMC/CDU</para>
+                </challeng>
+                <response>
+                  <para>输入 IRS 位置</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>2 号发动机起动</para>
+                </challeng>
+                <response>
+                  <para>完成</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>2 号发电机电门</para>
+                </challeng>
+                <response>
+                  <para>ON</para>
+                </response>
+              </challrsp>
+            </step>
+          </subdrill>
+          <subdrill ordered="on">
+            <crew response="all">
+              <crewmem crewmem="cm01"></crewmem>
+              <crewmem crewmem="cm02"></crewmem>
+            </crew>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>PSEU 灯</para>
+                </challeng>
+                <response>
+                  <para>证实熄灭</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>GPS 灯</para>
+                </challeng>
+                <response>
+                  <para>证实熄灭</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>勤务内话电门</para>
+                </challeng>
+                <response>
+                  <para>OFF</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>发动机面板</para>
+                </challeng>
+                <response>
+                  <para>设定</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <procd>
+                  <para>证实反推灯熄灭</para>
+                  <para>证实发动机控制灯熄灭</para>
+                  <para>EEC 电门－ ALTN 然后接通</para>
+                </procd>
+              </step>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>氧气面板</para>
+                </challeng>
+                <response>
+                  <para>调定</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <challrsp>
+                  <challeng>
+                    <para>机组氧气压力指示器</para>
+                  </challeng>
+                  <response>
+                    <para>检查</para>
+                  </response>
+                </challrsp>
+              </step>
+              <step memorize="no" dotline="dot" ordered="on">
+                <procd>
+                  <para>证实压力满足放行要求</para>
+                </procd>
+                <note>
+                  <para>启用旅客氧气电门将使旅客氧气面罩放出。</para>
+                </note>
+              </step>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>旅客氧气电门</para>
+                </challeng>
+                <response>
+                  <para>护盖闭合</para>
+                </response>
+              </challrsp>
+              <step memorize="no" dotline="dot" ordered="on">
+                <procd>
+                  <para>证实旅客氧气接通灯熄灭。</para>
+                </procd>
+              </step>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>起落架指示器灯</para>
+                </challeng>
+                <response>
+                  <para>证实亮</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>人工放轮勤务门</para>
+                </challeng>
+                <response>
+                  <para>关闭</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>滑行前检查单</para>
+                </challeng>
+                <response>
+                  <para>完成</para>
+                </response>
+              </challrsp>
+            </step>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>IRS校准</para>
+                </challeng>
+                <response>
+                  <para>完成</para>
+                </response>
+              </challrsp>
+            </step>
+          </subdrill>
+          <endmattr>
+            <para>飞机准备滑行。随后的检查参考正常检查单。</para>
+          </endmattr>
+        </drill>
+      </frc>
+    </acrw>
+  </content>
+</dmodule>

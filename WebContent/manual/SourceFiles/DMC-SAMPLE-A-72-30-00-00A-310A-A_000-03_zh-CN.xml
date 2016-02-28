@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-723000-A-SBTR-00036-A-01-1 SYSTEM "ICN-SAMPLE-A-723000-A-SBTR-00036-A-01-1.CGM" NDATA cgm>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/proced.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>3</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>310</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>点火激励器</techname>
+        <infoname>目视检查</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="03" type="new"></issno>
+      <issdate year="2011" month="08" day="03"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <proced>
+      <prelreqs>
+        <reqconds>
+          <reqcond>断开相应跳开关,打保险和挂标签。</reqcond>
+          <reqcond>打开反推门。</reqcond>
+          <reqcond> 拆下激励点火电嘴电缆。</reqcond>
+        </reqconds>
+        <supequip>
+          <supeqli>
+            <supequi>
+              <nomen>螺纹板牙</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>1.000-20UNS-3A</pnr>
+              </identno>
+              <qty>1</qty>
+            </supequi>
+            <supequi>
+              <nomen>维护平台1号和3号发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks>高 4-8 ft(1.2-2.4 m)</remarks>
+            </supequi>
+            <supequi>
+              <nomen>高空作业台,2号发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+            </supequi>
+          </supeqli>
+        </supequip>
+        <supplies>
+          <nosupply></nosupply>
+        </supplies>
+        <spares>
+          <nospares></nospares>
+        </spares>
+        <safety>
+          <safecond>
+            <warning>
+              <para>标记并使用保险夹以保险跳开关。如果跳开关未断开,贴标签,并加以保险,则有可能导致人员受伤和设备损坏。</para>
+            </warning>
+            <warning>
+              <para>不要触摸点火系统部件直到电源被切除后至少六分钟。在六分钟后,从点火电嘴拆开点火电嘴钢索并立即接地它到插头的外表面。来自激励器的高压电气会造成人员的伤害和死亡。</para>
+            </warning>
+          </safecond>
+        </safety>
+      </prelreqs>
+      <mainfunc>
+        <figure id="fig-001">
+          <title>点火激励器-检查</title>
+          <graphic boardno="ICN-SAMPLE-A-723000-A-SBTR-00036-A-01-1" xlink:type="simple" reprohgt="120" reprowid="150">
+            <hotspot visibility="visible" apsid="AUTOID_8710" apsname="1"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8719" apsname="2"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8713" apsname="3"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8716" apsname="4"></hotspot>
+          </graphic>
+          <legend>
+            <deflist>
+              <term>1</term>
+              <def>
+                <para>电插头</para>
+              </def>
+              <term>2</term>
+              <def>
+                <para>点火激励器</para>
+              </def>
+              <term>3</term>
+              <def>
+                <para>输入插头</para>
+              </def>
+              <term>4</term>
+              <def>
+                <para>输出插头到点火器</para>
+              </def>
+            </deflist>
+          </legend>
+        </figure>
+        <step1>
+          <title>点火激励器检查</title>
+          <step2>
+            <para>从可适用的点火激励器(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)脱开电插头(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)。</para>
+          </step2>
+          <step2>
+            <note>
+              <para>电弧标识通过坑洞和污点。</para>
+            </note>
+            <note>
+              <para>跳火通过碳迹标识。</para>
+            </note>
+            <para> 按下列步骤做一个目视检验的点火激励器(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)</para>
+            <step3>
+              <para>检查点火激励器(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)壳体</para>
+              <step4>
+                <para>不准许裂纹</para>
+              </step4>
+              <step4>
+                <para>压痕,刮伤和磨损，准许如深度低于 0.003 in.(0.76 mm)。</para>
+              </step4>
+            </step3>
+            <step3>
+              <para>检查点火激励器电动地输入-插头(插座)(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="3"></xref>)</para>
+              <step4>
+                <para>不准许销钉弯曲</para>
+              </step4>
+              <step4>
+                <para>不准许损坏的销</para>
+              </step4>
+              <step4>
+                <para>不准许螺纹损伤</para>
+              </step4>
+            </step3>
+            <step3>
+              <para> 检查点火激励器输出-插头(插座)(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="4"></xref>)孔</para>
+              <step4>
+                <para>电火花击穿，不准许电弧</para>
+              </step4>
+              <step4>
+                <para>跳火</para>
+              </step4>
+            </step3>
+          </step2>
+          <step2>
+            <para> 如果必需,更换点火激励器。</para>
+          </step2>
+          <step2>
+            <para>安装激励点火电嘴电缆。</para>
+          </step2>
+          <step2>
+            <para>连接电插头(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)到可适用的点火激励器(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)。用手拧紧接头(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)直到锁接通。</para>
+          </step2>
+          <step2>
+            <para> 闭合相应的跳开关</para>
+          </step2>
+          <step2>
+            <para>做点火系统音响试验。</para>
+          </step2>
+        </step1>
+      </mainfunc>
+      <closereqs>
+        <reqconds>
+          <reqcond> 拆下所有工具和设备从区域。确保区域是清洁的。</reqcond>
+          <reqcond>闭合反推舱门。</reqcond>
+        </reqconds>
+      </closereqs>
+    </proced>
+  </content>
+</dmodule>

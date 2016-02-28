@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ddn>
+  <?SchemaVersion 3.0?>
+  <ddnc>
+    <modelic>SAMPLE</modelic>
+    <sendid>SBTR1</sendid>
+    <recvid>SBTR1</recvid>
+    <diyear>2015</diyear>
+    <seqnum>00003</seqnum>
+  </ddnc>
+  <issdate year="2015" month="09" day="29" />
+  <security class="01" />
+  <dispto>
+    <dispaddr>
+      <enterprise>
+        <ent-name>Default</ent-name>
+      </enterprise>
+      <address>
+        <city>Default</city>
+        <country>Default</country>
+      </address>
+    </dispaddr>
+  </dispto>
+  <dispfrom>
+    <dispaddr>
+      <enterprise>
+        <ent-name>Default</ent-name>
+      </enterprise>
+      <address>
+        <city>Default</city>
+        <country>Default</country>
+      </address>
+    </dispaddr>
+  </dispfrom>
+  <authrtn>Default</authrtn>
+  <delivlst>
+    <ddnfilen>DMC-SAMPLE-A-72-10-00-00A-941D-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-10-00-00A-941D-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-281A-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-281A-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-281C-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-281C-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-10-00-00A-941B-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-10-00-00A-941B-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-281C-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-281C-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-310B-A_000-08_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-310B-A</dmcoricn>
+    <issno issno="000" inwork="08" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-281B-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-281B-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-10-00-00A-941E-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-10-00-00A-941E-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-70-00-00A-040C-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-70-00-00A-040C-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-250A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-250A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-70-00-00A-340B-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-70-00-00A-340B-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-70-00-00A-040B-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-70-00-00A-040B-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-10-00-00A-000A-A_000-04_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-10-00-00A-000A-A</dmcoricn>
+    <issno issno="000" inwork="04" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-281B-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-281B-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-350A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-350A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-310A-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-310A-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-09-00-00-00A-018A-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-09-00-00-00A-018A-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-520A-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-520A-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-281D-A_000-06_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-281D-A</dmcoricn>
+    <issno issno="000" inwork="06" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-281E-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-281E-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-20-00-00A-941A-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-20-00-00A-941A-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-00-00-00-00A-022A-A_000-00_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-00-00-00-00A-022A-A</dmcoricn>
+    <issno issno="000" inwork="00" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-09-10-00-00A-100A-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-09-10-00-00A-100A-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-110C-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-110C-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-10-00-00A-941A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-10-00-00A-941A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-041A-A_000-08_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-041A-A</dmcoricn>
+    <issno issno="000" inwork="08" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-281A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-281A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-051A-A_000-05_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-051A-A</dmcoricn>
+    <issno issno="000" inwork="05" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-00-00-00-00A-041A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-00-00-00-00A-041A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-00-00-00-00A-018A-A_000-04_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-00-00-00-00A-018A-A</dmcoricn>
+    <issno issno="000" inwork="04" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-941A-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-941A-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-10-00-00A-941F-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-10-00-00A-941F-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-030A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-030A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-130A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-130A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-720B-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-720B-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-520B-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-520B-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-40-00-00A-042A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-40-00-00A-042A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-40-00-00A-055A-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-40-00-00A-055A-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-010A-A_000-04_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-010A-A</dmcoricn>
+    <issno issno="000" inwork="04" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-280D-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-280D-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-10-00-00A-040A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-10-00-00A-040A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-00-00-00-00A-00CA-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-00-00-00-00A-00CA-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-10-00-00A-941C-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-10-00-00A-941C-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-040A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-040A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-052A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-052A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-310C-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-310C-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-00-00-00-00A-00DA-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-00-00-00-00A-00DA-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-40-00-00A-040A-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-40-00-00A-040A-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-60-00-00A-040A-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-60-00-00A-040A-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-70-00-00A-040A-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-70-00-00A-040A-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-130E-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-130E-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-130F-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-130F-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-240A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-240A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-70-00-00A-340A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-70-00-00A-340A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-20-00-00A-052A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-20-00-00A-052A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-012A-A_000-04_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-012A-A</dmcoricn>
+    <issno issno="000" inwork="04" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-140A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-140A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-110B-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-110B-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-30-00-00A-720A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-30-00-00A-720A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-110A-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-110A-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-130B-A_000-01_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-130B-A</dmcoricn>
+    <issno issno="000" inwork="01" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-005A-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-005A-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-110D-A_000-03_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-110D-A</dmcoricn>
+    <issno issno="000" inwork="03" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-72-00-00-00A-260A-A_000-02_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-72-00-00-00A-260A-A</dmcoricn>
+    <issno issno="000" inwork="02" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-723000-A-SBTR-00051-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-723000-A-SBTR-00051-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-721000-A-SBTR-00062-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-721000-A-SBTR-00062-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-723000-A-SBTR-00050-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-723000-A-SBTR-00050-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-721000-A-SBTR-00045-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-721000-A-SBTR-00045-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-723000-A-SBTR1-00094-A-01-1.sch</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-723000-A-SBTR1-00094-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-721000-A-SBTR-00059-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-721000-A-SBTR-00059-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-727000-A-SBTR1-00098-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-727000-A-SBTR1-00098-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-727000-A-SBTR1-00097-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-727000-A-SBTR1-00097-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-727000-A-SBTR1-00099-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-727000-A-SBTR1-00099-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-721000-A-SBTR-00046-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-721000-A-SBTR-00046-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-723000-A-SBTR-00036-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-723000-A-SBTR-00036-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR1-00093-A-01-1.SLDASM</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR1-00093-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-240000-A-SBTR1-00100-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-240000-A-SBTR1-00100-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-000000-A-SBTR1-00117-A-01-1.mp4</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-000000-A-SBTR1-00117-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-721000-A-SBTR-00052-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-721000-A-SBTR-00052-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00021-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00021-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-091000-A-SBTR-00080-A-01-1.jpg</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-091000-A-SBTR-00080-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-000000-A-SBTR1-00118-A-01-1.zip</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-000000-A-SBTR1-00116-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00089-A-01-1.WMV</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00089-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00082-A-01-1.1</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00082-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00002-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00002-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-721000-A-SBTR-00081-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-721000-A-SBTR-00081-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00044-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00044-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-723000-A-SBTR-00038-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-723000-A-SBTR-00038-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00047-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00047-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-723000-A-SBTR-00037-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-723000-A-SBTR-00037-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00003-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00003-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-723000-A-SBTR-00040-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-723000-A-SBTR-00040-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00048-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00048-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00005-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00005-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-722000-A-SBTR1-00090-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-722000-A-SBTR1-00090-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-721000-A-SBTR-00006-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-721000-A-SBTR-00006-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00049-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00049-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-724000-A-SBTR-00013-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-724000-A-SBTR-00013-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00001-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00001-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-727000-A-SBTR-00016-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-727000-A-SBTR-00016-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-726000-A-SBTR-00007-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-726000-A-SBTR-00007-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-722000-A-SBTR1-00092-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-722000-A-SBTR1-00092-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-727000-A-SBTR1-00096-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-727000-A-SBTR1-00096-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00004-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00004-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00018-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00018-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-724000-A-SBTR-00014-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-724000-A-SBTR-00014-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-724000-A-SBTR-00015-A-01-1.png</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-724000-A-SBTR-00015-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00017-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00017-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-720000-A-SBTR-00023-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-720000-A-SBTR-00023-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>ICN-SAMPLE-A-723000-A-SBTR-00034-A-01-1.cgm</ddnfilen>
+    <dmcoricn>ICN-SAMPLE-A-723000-A-SBTR-00034-A-01-1</dmcoricn>
+    <issno issno="01" inwork="01" type="new" />
+    <ddnfilen>PMC-SAMPLE-54656-56465-00_000-04_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-54656-56465-00</dmcoricn>
+    <ddnfilen>DMC-SAMPLE-A-00-00-00-00A-00JA-A_000-00_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-00-00-00-00A-00JA-A</dmcoricn>
+    <issno issno="000" inwork="00" type="new" />
+    <ddnfilen>DMC-SAMPLE-A-00-00-00-00A-00HA-A_000-00_zh-CN.xml</ddnfilen>
+    <dmcoricn>SAMPLE-A-00-00-00-00A-00HA-A</dmcoricn>
+    <issno issno="000" inwork="00" type="new" />
+  </delivlst>
+</ddn>

@@ -1,0 +1,16 @@
+@charset "utf-8";
+.qstyleClass {
+	text-indent: 16pt;
+}
+
+.istyleClass {
+	text-indent: 16pt;
+}
+
+.rstyleClass {
+	text-indent: 16pt;
+}
+
+.secTitleStyle {
+	font-weight:bold;
+}

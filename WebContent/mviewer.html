@@ -1,0 +1,271 @@
+﻿<html>
+<head>
+    <title>图形、多媒体浏览</title>
+
+    <script language="javascript">
+        
+        var objectSRC = "";
+        var objectType="";
+        var Isreload = false;
+        var Hotspots;
+        var EventList;
+        
+        var zoom;
+
+        ///设置媒体网址，如果src为空，则什么内容也不显示。type：0图形；type：1多媒体
+        //isreload是否重新加载
+        function SetSrc(src, type, hotspots,isreload,eventList)
+        {
+            if(src!="")
+            {
+                var href = document.location.href;
+                var root = href.substring(0, href.lastIndexOf('/') + 1);
+                EventList=eventList;
+                
+                var viewType=undefined;
+                var tmpsrc=src;
+                //图像全屏后关闭，src为空，需要objectSRC保存。
+                //这里使用tmpsrc目的是不改变原先src的状态，影响后续判断。
+                if(tmpsrc==undefined ||　tmpsrc==null || tmpsrc =="")
+                    tmpsrc=objectSRC;
+                if(tmpsrc!=undefined &&　tmpsrc!=null && tmpsrc !="")
+                {
+                    var extpos = tmpsrc.lastIndexOf('.') + 1;
+                    var ext = tmpsrc.substr(extpos).toUpperCase();
+                    
+                    viewType=top.ApplicationContext.UserInfo.GetICNViewType(ext);
+            
+//                    var temp=ChangeType(ext);
+//                    if(temp==1)
+//                        type=temp;
+                }
+                
+                switch (viewType){
+                    case "cgm":
+                       //图形\
+                        if(isreload==true)
+                        {
+                            if (objectSRC!=src && src!=null) {
+                                return;
+                            }
+                            
+                           
+                            if(src==null)
+                            {
+                                src=objectSRC;
+                            }
+                            else
+                            {
+                                objectSRC = src;
+                                Hotspots = hotspots;
+                            }
+                            Isreload=false;
+                            if(top.ApplicationContext.UserInfo.GraphicType=='0')
+                            {
+                                objectType='0';
+                                zoom=0;
+                                multiframe.window.location = root + "mviewer-cgm-l.htm";
+                            }
+                            else
+                                {
+                                objectType="01";
+                                multiframe.window.location = root + "mviewer-cgm-iso.htm";
+                                }
+                                
+                                 top.ApplicationContext.MainFrame.SetMultimediaToolbarState(0);
+                        }
+                        else if(objectSRC!=src)
+                        {
+                            
+                            objectSRC = src;
+                            Hotspots = hotspots;
+                            Isreload=true;
+                            if(top.ApplicationContext.UserInfo.GraphicType=='0')
+                            {
+                                objectType='0';
+                                zoom=0;
+                                multiframe.window.location = root + "mviewer-cgm-l.htm";
+                            }
+                            else
+                            {
+                                objectType="01";
+                                //自动保存图片备注
+                                if(!top.ApplicationContext.ICommonService().Isnet())
+                                {
+                                     if(multiframe.SaveFile!=null)
+                                             multiframe.SaveFile();
+                                }
+                                else if(top.ApplicationContext.ICommonService().Isnet())
+                                {
+                                     if(multiframe.UploadFile!=null)
+                                             multiframe.UploadFile();
+                                }
+                                    
+                                multiframe.window.location = root + "mviewer-cgm-iso.htm";
+                             }
+                              top.ApplicationContext.MainFrame.SetMultimediaToolbarState(0);
+                        }
+                         else{
+                         
+                                if(multiframe.SetHotspots!=null && multiframe.axCGM!=undefined)
+                                {
+                                   multiframe.SetHotspots(hotspots);   
+                                } 
+                                if(eventList!=undefined && eventList.loadedImage!=undefined)
+                                      eventList.loadedImage();
+                                Isreload=false;  
+                                Hotspots = hotspots;  
+                             }
+                        break;
+                    case "windowsmedia":
+                    case "quicktimemedia":
+                    case "flash":
+                    case "pdf":
+                    case "officedocument":
+                         objectSRC = src;
+                         objectType="1";
+                         multiframe.window.location = root + "mviewer-multimedia.htm";
+                         top.ApplicationContext.MainFrame.SetMultimediaToolbarState(objectType);
+                        break;
+                    case "autovue":    
+                         objectSRC = src;
+                         objectType="2";
+                         multiframe.window.location = root + "mviewer-3d.htm";
+                         top.ApplicationContext.MainFrame.SetMultimediaToolbarState(1);
+                        break;
+                    case "eon":
+                        if(isreload==true)
+                        {
+                            if (objectSRC!=src && src!=null) {
+                                return;
+                            }
+                            if(src==null)
+                            {
+                                src=objectSRC;
+                            }
+                            Isreload=false;
+                         }
+                         objectSRC = src;
+                         objectType="eon";
+                         multiframe.window.location = root + "mviewer-eon.htm";
+                         top.ApplicationContext.MainFrame.SetMultimediaToolbarState(1);
+                        break;
+                    case "deep":
+                        if(isreload==true)
+                        {
+                            if (objectSRC!=src && src!=null) {
+                                return;
+                            }
+                            if(src==null)
+                            {
+                                src=objectSRC;
+                            }
+                            Isreload=false;
+                         }
+                         objectSRC = src;
+                         objectType="deep";
+                         multiframe.window.location = root + "mviewer-deep.htm";
+                         top.ApplicationContext.MainFrame.SetMultimediaToolbarState(1);
+                        break;
+                    case "vrml":
+                        if(isreload==true)
+                        {
+                            if (objectSRC!=src && src!=null) {
+                                return;
+                            }
+                            if(src==null)
+                            {
+                                src=objectSRC;
+                            }
+                            Isreload=false;
+                         }
+                         objectSRC = src;
+                         objectType="vrml";
+                         multiframe.window.location = root + "mviewer-vrml.htm";
+                         top.ApplicationContext.MainFrame.SetMultimediaToolbarState(1);
+                        break;
+                    default:
+                        top.ApplicationContext.MainFrame.SetMultimediaToolbarState(2);
+                        multiframe.window.document.body.innerHTML='<br><br><center><p style="font:bold 16px 微软雅黑;color:gray">未知文件类型！</p></center>';
+//                        multiframe.window.document.write('<br><br><center><p style="font:bold 16px 微软雅黑;color:gray">未知文件类型！</p></center>');
+                        break;
+                }
+             }
+            else
+            {
+                SetDisabled(true);
+            }
+        }
+        
+//        function ChangeType(ext)
+//        {
+//              switch(ext)
+//                {
+//                    case "1":case "CATDRAWING":case "CATPART":case "CATPRODUCT":case "IPT":case "IAM":case "PAR":
+//                    case "CFG":case "SLDPRT":case "SLDDRW":case "SLDASM":case "SLDPRT":case "PRT":case "DWG":
+//                    case "DGN":case "DST":case "ASM":case "PCB":case "EMF":case "WMF":case "DDB":case "SCH":
+//                      return 1;
+//                    default:
+//                      return -1;
+//                }
+//        }
+        
+        
+        function SetDisabled(disabled)
+        {
+            if (disabled)
+            {
+                var obj=multiframe.window.document.getElementById("axCGM");
+                if(obj!=undefined && obj.controls!=undefined)
+                {
+                  obj.controls.stop();
+                  obj.style.display='none';
+                  //obj=null;
+                }
+            
+                 var div=multiframe.window.document.getElementById('mainForm:imageDiv');
+                 if(div!=undefined)
+                    div.innerHTML="";
+                objectSRC = "";
+                Isreload = "";
+                objectType="";
+                Hotspots = "";
+                
+            }
+        }
+        
+        
+    </script>
+
+    <script language="javascript">
+     function loadmedia(){
+        if(multiframe.SetSrc!=null)
+        {
+            multiframe.SetSrc(objectSRC,Hotspots,Isreload,EventList);        
+        }
+    }
+    
+    
+    function beforeunload()
+    {
+        if(multiframe.unloadobject!=null)
+        {
+            multiframe.unloadobject();        
+        }
+    }
+    
+    function onresize()
+    {
+        try
+        {
+            if(multiframe.doresize!=undefined)
+                multiframe.doresize();
+        }catch(e){}
+    }
+    
+    </script>
+</head>
+<body  scroll="no" onresize="onresize()" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0">
+<iframe id="multiframe"  src="" width="100%" height="100%"  onload="loadmedia()"   frameborder="0"></iframe>
+</body>
+</html>

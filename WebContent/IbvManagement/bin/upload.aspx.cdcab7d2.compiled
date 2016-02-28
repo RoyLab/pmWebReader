@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/UpLoad.aspx" hash="5814482f9" filehash="23f2705f4fe7f225" flags="110000" assembly="App_Web_fj1wu5ky" type="ASP.upload_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/UpLoad.aspx" />
+        <filedep name="/IbvManagement/UpLoad.aspx.cs" />
+    </filedeps>
+</preserve>

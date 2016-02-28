@@ -1,0 +1,25 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="PRAGMA" content="no-cache" />
+    <title>查看导出意见</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+	<h2 align="center">意见历史</h2>
+	<div id="DDNStyle">
+	<div ><span class="secTitleStyle">编码：</span><span id="ccode"></span></div>
+	<div ><span class="secTitleStyle">发送单位：</span><span id="outputfrom"></span></div>
+	<div ><span class="secTitleStyle">接收单位：</span><span id="outputto"></span></div>
+	<div ><span class="secTitleStyle">导出时间：</span><span id="outputtime"></span></div>
+	</div>
+	
+	<div class="COMStyle" id="COMStyle">
+	
+	
+	</div>
+	
+	
+	
+	</body>
+</html>

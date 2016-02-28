@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/schedul.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>280</incode>
+          <incodev>D</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机</techname>
+        <infoname>飞行前检查</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="08" day="31"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+      <remarks>
+        <p>定义任务</p>
+      </remarks>
+    </status>
+  </idstatus>
+  <content>
+    <refs>
+      <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" target="">
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>3</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>310</incode>
+          <incodev>B</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+        <dmtitle>
+          <techname>点火电嘴</techname>
+          <infoname>检查</infoname>
+        </dmtitle>
+        <language language="zh" country="CN"></language>
+        <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+        <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+      </refdm>
+      <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" target="">
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>3</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>310</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+        <dmtitle>
+          <techname>点火激励器</techname>
+          <infoname>目视检查</infoname>
+        </dmtitle>
+        <language language="zh" country="CN"></language>
+        <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+        <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+      </refdm>
+    </refs>
+    <schedule>
+      <deftask taskid="001" taskcode="taskcd01" airworthlim="recommended" skill="sk03" skilltype="st04" reducem="无">
+        <task>目视检查</task>
+        <prelreqs>
+          <pmd>
+            <zone zonenbr="23aZ"></zone>
+            <accpnl accpnlnbr="ac002d"></accpnl>
+          </pmd>
+          <reqconds>
+            <noconds></noconds>
+          </reqconds>
+          <supequip>
+            <nosupeq></nosupeq>
+          </supequip>
+          <supplies>
+            <nosupply></nosupply>
+          </supplies>
+          <spares>
+            <nospares></nospares>
+          </spares>
+          <safety>
+            <nosafety></nosafety>
+          </safety>
+        </prelreqs>
+        <refs>
+          <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" target="">
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>72</chapnum>
+              <section>3</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>310</incode>
+              <incodev>B</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+            <dmtitle>
+              <techname>点火电嘴</techname>
+              <infoname>检查</infoname>
+            </dmtitle>
+            <language language="zh" country="CN"></language>
+            <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+            <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+          </refdm>
+        </refs>
+        <nomen>点火电嘴</nomen>
+        <supervis sup.lev="sl51"></supervis>
+        <limit typex="pe">
+          <threshold uom="th01">
+            <value>300</value>
+          </threshold>
+        </limit>
+      </deftask>
+      <deftask taskid="002" taskcode="taskcd01" skilltype="st04" skill="sk03" reducem="无" airworthlim="mandatory">
+        <task>目视检查</task>
+        <prelreqs>
+          <pmd>
+            <zone zonenbr="23aZ"></zone>
+            <accpnl accpnlnbr="ac002d"></accpnl>
+          </pmd>
+          <reqconds>
+            <noconds></noconds>
+          </reqconds>
+          <supequip>
+            <nosupeq></nosupeq>
+          </supequip>
+          <supplies>
+            <nosupply></nosupply>
+          </supplies>
+          <spares>
+            <nospares></nospares>
+          </spares>
+          <safety>
+            <nosafety></nosafety>
+          </safety>
+        </prelreqs>
+        <refs>
+          <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" target="">
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>72</chapnum>
+              <section>3</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>310</incode>
+              <incodev>A</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+            <dmtitle>
+              <techname>点火激励器</techname>
+              <infoname>目视检查</infoname>
+            </dmtitle>
+            <language language="zh" country="CN"></language>
+            <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+            <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+          </refdm>
+        </refs>
+        <nomen>点火激励器</nomen>
+        <supervis sup.lev="sl52"></supervis>
+        <limit typex="pe">
+          <threshold uom="th01">
+            <value>600</value>
+          </threshold>
+        </limit>
+      </deftask>
+      <deftask taskid="003" taskcode="taskcd01" airworthlim="none" skill="sk03" skilltype="st04" reducem="无">
+        <task>目视检查</task>
+        <reqsource reqsource="MSG3" sourcenbr="D626A001-MRBR">
+          <issno issno="111" inwork="2" type="new"></issno>
+        </reqsource>
+        <prelreqs>
+          <pmd>
+            <zone zonenbr="23aZ"></zone>
+            <accpnl accpnlnbr="ac002d"></accpnl>
+          </pmd>
+          <reqconds>
+            <noconds></noconds>
+          </reqconds>
+          <supequip>
+            <nosupeq></nosupeq>
+          </supequip>
+          <supplies>
+            <nosupply></nosupply>
+          </supplies>
+          <spares>
+            <nospares></nospares>
+          </spares>
+          <safety>
+            <nosafety></nosafety>
+          </safety>
+        </prelreqs>
+        <refs>
+          <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" target="">
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>72</chapnum>
+              <section>3</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>310</incode>
+              <incodev>B</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+            <dmtitle>
+              <techname>点火电嘴</techname>
+              <infoname>检查</infoname>
+            </dmtitle>
+            <language language="zh" country="CN"></language>
+            <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+            <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+          </refdm>
+        </refs>
+        <equip>
+          <nomen>点火电嘴</nomen>
+          <identno>
+            <mfc>KZ777</mfc>
+            <pnr>LRU1026</pnr>
+            <serialno>
+              <single>S00010</single>
+            </serialno>
+          </identno>
+        </equip>
+        <supervis sup.lev="sl51"></supervis>
+        <limit typex="pe">
+          <threshold uom="th01">
+            <value>1200</value>
+          </threshold>
+        </limit>
+      </deftask>
+      <deftask taskid="004" taskcode="taskcd01" skill="sk03" skilltype="st04" airworthlim="recommended" reducem="无">
+        <task>目视检查</task>
+        <prelreqs>
+          <pmd>
+            <zone zonenbr="23aZ"></zone>
+            <accpnl accpnlnbr="ac002d"></accpnl>
+          </pmd>
+          <reqconds>
+            <noconds></noconds>
+          </reqconds>
+          <supequip>
+            <nosupeq></nosupeq>
+          </supequip>
+          <supplies>
+            <nosupply></nosupply>
+          </supplies>
+          <spares>
+            <nospares></nospares>
+          </spares>
+          <safety>
+            <nosafety></nosafety>
+          </safety>
+        </prelreqs>
+        <refs>
+          <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" target="">
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>72</chapnum>
+              <section>3</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>310</incode>
+              <incodev>A</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+            <dmtitle>
+              <techname>点火激励器</techname>
+              <infoname>目视检查</infoname>
+            </dmtitle>
+            <language language="zh" country="CN"></language>
+            <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+            <?ReferenceType TypeName="Dynamic" XEditor_ChangeType="Unchange"?>
+          </refdm>
+        </refs>
+        <nomen>点火激励器</nomen>
+        <supervis sup.lev="sl53"></supervis>
+        <limit typex="pe">
+          <threshold uom="th01">
+            <value>300</value>
+          </threshold>
+        </limit>
+      </deftask>
+    </schedule>
+  </content>
+</dmodule>

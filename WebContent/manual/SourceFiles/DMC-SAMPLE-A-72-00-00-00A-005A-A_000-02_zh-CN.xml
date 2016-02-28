@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/descript.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>005</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机</techname>
+        <infoname>缩写词列表</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="02" type="new"></issno>
+      <issdate year="2011" month="01" day="11"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <descript>
+      <para>
+        <deflist>
+          <term>AGB</term>
+          <def>
+            <para>附件齿轮箱</para>
+          </def>
+          <term>HDS</term>
+          <def>
+            <para>水平传动轴</para>
+          </def>
+          <term>HPC</term>
+          <def>
+            <para>高压压气机</para>
+          </def>
+          <term>HPT</term>
+          <def>
+            <para>高压涡轮</para>
+          </def>
+          <term>IDG</term>
+          <def>
+            <para>整体传动交流发电机</para>
+          </def>
+          <term>IGB</term>
+          <def>
+            <para>进气道齿轮箱</para>
+          </def>
+          <term>LPC</term>
+          <def>
+            <para>低压压气机</para>
+          </def>
+          <term>LPT</term>
+          <def>
+            <para>低压涡轮</para>
+          </def>
+          <term>RDS</term>
+          <def>
+            <para>径向传动轴</para>
+          </def>
+          <term>TGB</term>
+          <def>
+            <para>传输齿轮箱</para>
+          </def>
+        </deflist>
+      </para>
+    </descript>
+  </content>
+</dmodule>

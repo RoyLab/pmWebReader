@@ -1,0 +1,76 @@
+﻿<html>
+<head>
+    <meta http-equiv="PRAGMA" content="no-cache" />
+    <title>输入</title>
+    <script language="javascript" type="text/javascript">
+    function goMainPage(mamual,dmc,fcode)
+    {
+        var current=window.top;  
+        blogged=window.open('index.html?manual='+mamual+'&dmc='+dmc+'&fcode='+fcode,'_blank','top=0,left=0,scrolbars=no,toolbar=no,lacation=no,status=no,menubar=no,resizable=yes',false);
+        if(blogged)
+        {
+                blogged.resizeTo(window.screen.availWidth,window.screen.availHeight);
+                window.moveTo(0,0);
+                window.open('','_parent','');
+                window.opener=null;
+                window.close();
+        }
+        else{
+            //window.moveTo(0,0);
+            location='index.html';
+        
+        }
+        return false;
+       
+    }
+    
+    function load()
+    {
+         var current=window.top;  
+        blogged=window.open('index.html?manual='+s135("manual")+'&dmc='+s135("dmc")+'&fcode='+s135("fcode"),'_blank','top=0,left=0,scrolbars=no,toolbar=no,lacation=no,status=no,menubar=no,resizable=yes',false);
+        if(blogged)
+        {
+                blogged.resizeTo(window.screen.availWidth,window.screen.availHeight);
+                window.moveTo(0,0);
+                window.open('','_parent','');
+                window.opener=null;
+                window.close();
+        }
+        else{
+            //window.moveTo(0,0);
+            location='index.html';
+        
+        }
+        return false;
+    }
+    
+     function s135(s136){
+        var s137=document.location.search;
+        if(s137=="")
+            return "";
+        if(s137.charAt(0)=="?")
+            s137=s137.substring(1,s137.length);
+        var s138=s137.split("&");
+        for(i=0;i<s138.length;i++)
+        {
+            var s138_values=s138[i].split("=");
+            if(s136==unescape(s138_values[0]))
+            {
+                var s140;
+                if(window.decodeURIComponent)     
+                    s140=decodeURIComponent(s138_values[1]);
+                else 
+                    s140=unescape(s138_values[1]);  
+                    return s140;
+             }
+         }
+         return "";
+  }
+    </script>
+</head>    
+<body scroll="no"  style="background:#DFE8F6" id="docs" onload="load();">
+</body>
+
+
+</html>
+

@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>图像浏览</title>
+     <script src="resources/js/MIME/graphic_l.js" type="text/javascript"></script>
+     <script language="javascript">
+        var newHotspots;
+        var OldHotspots;
+        var isConpareHighlight=false;
+        
+        function SetHotspots(hotspots)
+        {
+            isConpareHighlight=true;
+            newHotspots=hotspots;
+            
+            if(OldHotspots==undefined)
+               HighlightNodes(newHotspots);
+            else
+              ConpareHighlightNodes(newHotspots,OldHotspots);
+            OldHotspots=newHotspots;
+        }
+        
+     function SetSrc(src)
+        {         
+            if(src!="")
+            {
+                //这里应该被抛用了.
+//                //Larson控件只支持tif格式位图，如果不是扩展名不是tif，转成tif。tip图片在出版时都已生成
+//               var extpos = src.lastIndexOf('.') + 1;
+//                var ext = src.substr(extpos).toLowerCase();
+//                if (ext == 'tif' || ext == 'cgm')
+//                {
+//                }
+//                else if(ext == 'bmp' || ext == 'jpg'||ext == 'gif')
+//                {
+//                }
+//                else
+//                {
+//                       document.write('<br><br><center><p style="font:bold 16px 微软雅黑;color:gray">不能显示该格式的图片</p></center>');
+//                       top.settbardisabled(true);
+//                       return;
+
+//                }    
+
+              var fullsrc = 'Manual\\' + src.toLowerCase();
+                
+              try{
+                   if(!loadImageQueryString(fullsrc,"yes"))
+                   {
+                      top.settbardisabled(true);
+                   }
+                    //theImageFile=fullsrc;
+                }
+                catch(e)
+                {
+                    top.settbardisabled(true);
+                }
+                
+                if(axCGM==undefined)
+                {
+                     top.settbardisabled(true);
+                }
+               
+            }
+        
+        }
+        
+        function Init()
+        {
+//              if (axCGM.ToolbarMode)
+//                axCGM.ShowHideToolbar();
+//            axCGM.PictureRotation = 0;
+//            
+//            //初始化Pan状态
+//            axCGM.height=screen.height*3/4+'px';
+//            axCGM.width=screen.width*3/4+'px';
+//            SetPanMode(parent.PanMode);
+        }  
+        
+        
+     </script>
+     
+       <script language="javascript" for="axCGM" event="OnBeginDraw();">
+        inInit();
+            var oldSpots=OldHotspots;
+            clearAllCgmHotspot();
+            OldHotspots=oldSpots;
+      </script>
+     <script language="javascript" for="axCGM" event="OnEndDraw();">
+         if(!isConpareHighlight)
+         {
+            SetHotspots(newHotspots);
+            isConpareHighlight=true;
+         }
+         else
+            HighlightNodes(OldHotspots);
+    </script>
+</head>
+<body scroll="no" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0"  onload="Init();">
+   <div id="mainForm:imageDiv"></div>
+</body>
+</html>

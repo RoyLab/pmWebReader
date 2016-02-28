@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-723000-A-SBTR-00040-A-01-1 SYSTEM "ICN-SAMPLE-A-723000-A-SBTR-00040-A-01-1.CGM" NDATA cgm>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/proced.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>3</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>720</incode>
+          <incodev>B</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>电嘴/电嘴座,点火器</techname>
+        <infoname>安装程序</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="01" day="13"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <proced>
+      <prelreqs>
+        <reqconds>
+          <reqcond>打开反推门。</reqcond>
+        </reqconds>
+        <supequip>
+          <supeqli>
+            <supequi>
+              <nomen>维护平台,1号和3号发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks>高 4-8 ft(1.20-2.40 m)</remarks>
+            </supequi>
+            <supequi>
+              <nomen>高空作业台,2号发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+            </supequi>
+            <supequi>
+              <nomen>扭矩扳手</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks>力矩为 0-600 in-lb (0-68.0 N.m)</remarks>
+            </supequi>
+            <supequi>
+              <nomen>卷缩机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>M303,M305</pnr>
+              </identno>
+              <qty></qty>
+              <remarks>Bergen 机械的(选择性的)</remarks>
+            </supequi>
+          </supeqli>
+        </supequip>
+        <supplies>
+          <supplyli>
+            <supply>
+              <nomen>润滑剂</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>PWA 36001</pnr>
+              </identno>
+              <qty>1</qty>
+            </supply>
+            <supply>
+              <nomen>溶剂,石油 PD 680类型 I</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>PMC 9001</pnr>
+              </identno>
+              <qty>1</qty>
+            </supply>
+            <supply>
+              <nomen>保险丝</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>AS3214-02</pnr>
+              </identno>
+              <qty>1</qty>
+            </supply>
+            <supply>
+              <nomen>保险电缆</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty></qty>
+              <remarks>选择性的</remarks>
+            </supply>
+            <supply>
+              <nomen>保险电缆环</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty></qty>
+            </supply>
+            <supply>
+              <nomen></nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty></qty>
+              <remarks>选择性的</remarks>
+            </supply>
+            <supply>
+              <nomen>键垫圈</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+            </supply>
+          </supplyli>
+        </supplies>
+        <spares>
+          <nospares></nospares>
+        </spares>
+        <safety>
+          <nosafety></nosafety>
+        </safety>
+      </prelreqs>
+      <mainfunc>
+        <figure id="fig-001">
+          <title>点火电嘴-拆卸/安装</title>
+          <graphic boardno="ICN-SAMPLE-A-723000-A-SBTR-00040-A-01-1" xlink:type="simple" reprohgt="144" reprowid="150">
+            <hotspot visibility="visible" apsid="AUTOID_8716" apsname="1"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8710" apsname="2"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8713" apsname="3"></hotspot>
+          </graphic>
+          <legend>
+            <deflist>
+              <term>1</term>
+              <def>
+                <para>点火电嘴</para>
+              </def>
+              <term>2</term>
+              <def>
+                <para>点火电嘴轮毂</para>
+              </def>
+              <term>3</term>
+              <def>
+                <para>主垫圈</para>
+              </def>
+            </deflist>
+          </legend>
+        </figure>
+        <step1>
+          <title>点火电嘴的安装</title>
+          <step2>
+            <para>按下列步骤安装点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)</para>
+          </step2>
+          <step2>
+            <note>
+              <para>点火电嘴安装的程序对于在发动机上的2个位置是相同的。</para>
+            </note>
+            <para> 按下列步骤安装键垫圈(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="3"></xref>)(如它是拆下的)</para>
+            <step3>
+              <para>除去保护盖和塞子。</para>
+            </step3>
+            <step3>
+              <para>安装键垫圈(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="3"></xref>)在点火电咀安装座(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)使垂片向下。</para>
+            </step3>
+            <step3>
+              <para>弯曲键垫圈(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="3"></xref>)垂片沿点火电咀安装座(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)法兰。</para>
+            </step3>
+          </step2>
+          <step2>
+            <warning>
+              <para>危险材料警告</para>
+              <para>HAZMAT 1097,溶剂/MIL-PRF-680 1型(DPM518)</para>
+              <para>HAZMAT 1000,参见 MSDS</para>
+            </warning>
+            <warning>
+              <para>当使用压缩空气时,确保使用经批准的安全设备以保护眼睛。不要让空气吹进眼睛或者吹在皮肤上。这将有助于防止人员受伤。</para>
+            </warning>
+            <para>用溶剂(P11-027)清洁点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)螺纹,和用压缩空气完全干燥它。再做这步骤直到全部螺纹润滑剂和碳粒子被清除。</para>
+          </step2>
+          <step2>
+            <warning>
+              <para>危险材料警告</para>
+              <para>HAZMAT 1180,润滑剂/防咬剂</para>
+              <para>HAZMAT 1000,参见 MSDS</para>
+            </warning>
+            <caution>
+              <para>如不同的溶剂使用之前不要使用 银润滑剂 在点火电嘴螺纹。如你使用银润滑剂在使用其他的溶剂的地方,在发动机操作后它能够发硬。这能够引起损坏点火电嘴和发动机。</para>
+            </caution>
+            <caution>
+              <para>确保你使用经批准的润滑剂在点火电嘴螺纹。如你使用润滑剂是不经批准的,它在发动机操作后能够发硬。这能够引起损坏点火电嘴和发动机。</para>
+            </caution>
+            <para> 涂一层薄润滑剂(P06-023),(或者一个其他的经批准的润滑剂),到点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)螺纹。</para>
+          </step2>
+          <step2>
+            <para>安装点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)在点火电咀安装座(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)。</para>
+          </step2>
+          <step2>
+            <para>按下列步骤拧紧点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)到 300-360 in-lb(33.9-41.0 N.m)</para>
+            <step3>
+              <para>当你拧紧点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)的时候注视着点火电咀安装座(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)。</para>
+            </step3>
+            <step3>
+              <para>如你见点火电咀安装座(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)移动,按下列步骤继续</para>
+              <step4>
+                <para>从点火电咀安装座(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)拆下点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)。</para>
+              </step4>
+              <step4>
+                <para>从发动机上拆卸点火电嘴安装座(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)和分级衬垫(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="4"></xref>)。</para>
+              </step4>
+              <step4>
+                <para>在发动机内安装点火电嘴安装座(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)。</para>
+              </step4>
+              <step4>
+                <para>安装点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)进入点火电嘴安装座(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)。</para>
+              </step4>
+              <step4>
+                <para>拧紧点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)到  300-360 in-lb(33.9-41.0 N.m)</para>
+              </step4>
+            </step3>
+            <step3>
+              <para>用保险丝(AS3214-02),或者保险电缆(P05-291)和保险电缆箍圈(P05-292)保险点火电嘴(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)到凸缘。</para>
+            </step3>
+            <step3>
+              <para>如没看见运行,继续</para>
+            </step3>
+          </step2>
+        </step1>
+      </mainfunc>
+      <closereqs>
+        <reqconds>
+          <reqcond>安装激励点火电嘴电缆。</reqcond>
+          <reqcond>拆除所有任务区的工具和装备。确保区域是清洁的。</reqcond>
+          <reqcond>做音响试验点火系统以确保点火电嘴操作。</reqcond>
+          <reqcond>关闭反推舱门。</reqcond>
+        </reqconds>
+      </closereqs>
+    </proced>
+  </content>
+</dmodule>

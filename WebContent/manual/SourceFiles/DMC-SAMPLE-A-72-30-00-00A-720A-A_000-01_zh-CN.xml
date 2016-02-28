@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-723000-A-SBTR-00034-A-01-1 SYSTEM "ICN-SAMPLE-A-723000-A-SBTR-00034-A-01-1.CGM" NDATA cgm>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/proced.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>3</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>720</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>点火激励器</techname>
+        <infoname>安装程序</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="01" day="13"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <proced>
+      <prelreqs>
+        <reqconds>
+          <reqcond>断开相应跳开关,打保险和挂标签</reqcond>
+          <reqcond>打开反推门</reqcond>
+          <reqcond>拆下激励点火电嘴电缆</reqcond>
+        </reqconds>
+        <supequip>
+          <supeqli>
+            <supequi>
+              <nomen>防尘帽,电插头</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>MS90376</pnr>
+              </identno>
+              <qty>1</qty>
+            </supequi>
+            <supequi>
+              <nomen>维护平台1号和3号发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty>1</qty>
+              <remarks>高 4-8 ft(1.2-2.4 m)</remarks>
+            </supequi>
+            <supequi>
+              <nomen>高空作业台,2号发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr></pnr>
+              </identno>
+              <qty></qty>
+            </supequi>
+          </supeqli>
+        </supequip>
+        <supplies>
+          <supplyli>
+            <supply>
+              <nomen>封严,点火激励器</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>9</pnr>
+              </identno>
+              <qty>1</qty>
+            </supply>
+            <supply>
+              <nomen>滑油,发动机</nomen>
+              <identno>
+                <mfc></mfc>
+                <pnr>PWA 521B</pnr>
+              </identno>
+              <qty>1</qty>
+            </supply>
+          </supplyli>
+        </supplies>
+        <spares>
+          <nospares></nospares>
+        </spares>
+        <safety>
+          <safecond>
+            <warning>
+              <para>标记并使用保险夹以保险跳开关。如果跳开关未断开,贴标签,并加以保险,则有可能导致人员受伤和设备损坏。</para>
+            </warning>
+            <warning>
+              <para>如果必需,打开反推门。</para>
+            </warning>
+          </safecond>
+        </safety>
+      </prelreqs>
+      <mainfunc>
+        <figure id="fig-001">
+          <title>点火激励器-拆除/安装</title>
+          <graphic boardno="ICN-SAMPLE-A-723000-A-SBTR-00034-A-01-1" xlink:type="simple" reprohgt="148" reprowid="151">
+            <hotspot visibility="visible" apsid="AUTOID_8719" apsname="1"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8722" apsname="2"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8734" apsname="3"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8740" apsname="3"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8731" apsname="4"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8737" apsname="4"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8710" apsname="5"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8743" apsname="5"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8728" apsname="6"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8716" apsname="7"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8713" apsname="8"></hotspot>
+            <hotspot visibility="visible" apsid="AUTOID_8725" apsname="9"></hotspot>
+          </graphic>
+          <legend>
+            <deflist>
+              <term>1</term>
+              <def>
+                <para>点火激励器</para>
+              </def>
+              <term>2</term>
+              <def>
+                <para>电插头</para>
+              </def>
+              <term>3</term>
+              <def>
+                <para>螺帽</para>
+              </def>
+              <term>4</term>
+              <def>
+                <para>垫圈</para>
+              </def>
+              <term>5</term>
+              <def>
+                <para>螺栓</para>
+              </def>
+              <term>6</term>
+              <def>
+                <para>振动安装支架</para>
+              </def>
+              <term>7</term>
+              <def>
+                <para>前隔热罩</para>
+              </def>
+              <term>8</term>
+              <def>
+                <para>后隔热罩</para>
+              </def>
+              <term>9</term>
+              <def>
+                <para>密封圈</para>
+              </def>
+            </deflist>
+          </legend>
+        </figure>
+        <step1>
+          <title>点火激励器安装</title>
+          <warning>
+            <para> 使用以下给出的危险材料警告用于下列步骤。</para>
+            <para>在AMM前部的导言部分之后列出危险材料警告。</para>
+            <para>危险材料警告</para>
+            <para>HAZMAT 1016,滑油/润滑油(DPM 3564)</para>
+            <para>HAZMAT 1000,参见 MSDS</para>
+          </warning>
+          <step2>
+            <para>拆下保护堵盖和堵头从电插头(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="2"></xref>)和点火激励器(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)输入和输出插头。</para>
+          </step2>
+          <step2>
+            <para> 安装密封圈组件(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="9"></xref>)(大的外径外侧)在点火激励器(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)输入-插头(较小)。</para>
+          </step2>
+          <step2>
+            <para>对准后面隔热板(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="8"></xref>)和它的输出-插头(更大的),用最大的螺纹的插头在点火激励器(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)。</para>
+          </step2>
+          <step2>
+            <para> 对合前面的隔热板(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="7"></xref>)足以对准螺栓(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="5"></xref>)和孔在减振安装支架(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="6"></xref>)。</para>
+          </step2>
+          <step2>
+            <para>放点火激励器(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)具有隔热罩(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="7"></xref>)和(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="8"></xref>)在减振安装支架(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="6"></xref>)。</para>
+          </step2>
+          <step2>
+            <para>用发动机滑油(P03-001)润滑螺栓(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="5"></xref>)螺纹。</para>
+          </step2>
+          <step2>
+            <para>安装螺栓(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="5"></xref>)经过点火激励器(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="1"></xref>)和减振安装支架(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="6"></xref>)。</para>
+          </step2>
+          <step2>
+            <para>安装垫圈(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="4"></xref>)和螺帽(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="3"></xref>)在螺栓(<xref xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xrefid="fig-001" xidtype="figure" target="5"></xref>)。拧紧螺栓至力矩 36-40 in-lb(4.07-4.52 N.m)。</para>
+          </step2>
+        </step1>
+      </mainfunc>
+      <closereqs>
+        <reqconds>
+          <reqcond> 安装激励点火电嘴电缆。</reqcond>
+          <reqcond>拆除所有任务区的工具和装备。确保区域是清洁的。</reqcond>
+          <reqcond>关闭反推舱门。</reqcond>
+          <reqcond>拆下该保险加标签和闭合这些跳开关</reqcond>
+          <reqcond>做音响试验点火系统。</reqcond>
+        </reqconds>
+      </closereqs>
+    </proced>
+  </content>
+</dmodule>

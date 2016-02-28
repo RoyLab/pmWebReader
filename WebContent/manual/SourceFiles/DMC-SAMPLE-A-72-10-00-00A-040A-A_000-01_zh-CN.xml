@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-721000-A-SBTR-00006-A-01-1 SYSTEM "ICN-SAMPLE-A-721000-A-SBTR-00006-A-01-1.PNG" NDATA png>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/descript.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>1</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>040</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>风扇叶片和叶轮 </techname>
+        <infoname>组成和功能描述</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="01" day="11"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <descript>
+      <figure>
+        <title>风扇叶片和叶轮</title>
+        <graphic boardno="ICN-SAMPLE-A-721000-A-SBTR-00006-A-01-1" xlink:type="simple" reprohgt="98" reprowid="150"></graphic>
+      </figure>
+      <para0>
+        <title>叶轮前锥体和后锥体 </title>
+        <para>叶轮前锥体和后锥体是导引发动机进气气流的空气动力的整流 罩。 </para>
+      </para0>
+      <para0>
+        <title>风扇叶片 </title>
+        <para>有 24 片宽叶弦，钛风扇叶片。在每一风扇叶片下面有一块隔板垫片把叶片固定在正确的径向位置。 拆下隔板垫片就能较容易拆卸风扇叶片。在叶片之间的平台使气流平滑流动。风扇的固定凸缘和保持圈固定风扇叶片隔板垫片和平台。 </para>
+        <para>   在拆下或更换风扇叶片时，记录叶片的位置和序号。做下面这些工作：<seqlist><item><para> 在拆下的同一位置安装叶片，保持平衡。 </para></item><item><para>在更换叶片时，计算附加的叶片位置和动量重量修正值。</para></item></seqlist></para>
+      </para0>
+      <para0>
+        <title>平衡重量螺钉 </title>
+        <para>用平衡重量螺钉平衡发动机。在后叶轮上安装平衡重量螺钉。 </para>
+      </para0>
+      <para0>
+        <title>偏置孔 </title>
+        <para>偏置孔让你安装叶轮锥体和风扇固定凸缘在唯一的正确角位置。球形压痕表明这些偏置孔。在这些部件上有偏置螺栓孔或螺纹：<randlist><item><para>叶轮前锥体 </para></item><item><para>风扇固定凸缘 </para></item><item><para>风扇轮盘 </para></item></randlist></para>
+      </para0>
+    </descript>
+  </content>
+</dmodule>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/crew.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>130</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机</techname>
+        <infoname>启动程序</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="01" day="12"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <acrw>
+      <frc>
+        <drill ordered="on">
+          <crew response="all">
+            <crewmem crewmem="cm02"></crewmem>
+          </crew>
+          <step memorize="no" dotline="dot" ordered="on">
+            <para>选择次要发动机显示</para>
+          </step>
+          <step memorize="no" dotline="dot" ordered="on">
+            <challrsp>
+              <challeng>
+                <para>空调组件(PACK)电门</para>
+              </challeng>
+              <response>
+                <para>关闭(OFF)</para>
+              </response>
+            </challrsp>
+          </step>
+        </drill>
+        <drill ordered="on">
+          <crew response="all">
+            <crewmem crewmem="cm01"></crewmem>
+          </crew>
+          <step memorize="no" dotline="dot" ordered="on">
+            <challrsp>
+              <challeng>
+                <para>起动顺序</para>
+              </challeng>
+              <response>
+                <para>宣布</para>
+              </response>
+            </challrsp>
+          </step>
+          <step memorize="no" dotline="dot" ordered="on">
+            <para>喊话“起动＿发动机”</para>
+          </step>
+        </drill>
+        <drill ordered="on">
+          <crew response="all">
+            <crewmem crewmem="cm02"></crewmem>
+          </crew>
+          <step memorize="no" dotline="dot" ordered="on">
+            <challrsp>
+              <challeng>
+                <para>发动机起动电门</para>
+              </challeng>
+              <response>
+                <para>地面位(GRD)</para>
+              </response>
+            </challrsp>
+          </step>
+        </drill>
+        <drill ordered="on">
+          <crew response="all">
+            <crewmem crewmem="cm01"></crewmem>
+            <crewmem crewmem="cm02"></crewmem>
+          </crew>
+          <step memorize="no" dotline="dot" ordered="on">
+            <para>证实 N2  转速增加 </para>
+          </step>
+        </drill>
+        <drill ordered="on">
+          <crew response="all">
+            <crewmem crewmem="cm01"></crewmem>
+          </crew>
+          <if>
+            <condit>N1 转动且 N2 达到 25%,或(如果 N2  不可能达到 25%)，在最大起动机转速且 N2  最小为 20%时：</condit>
+            <step memorize="no" dotline="dot" ordered="on">
+              <challrsp>
+                <challeng>
+                  <para>发动机起动手柄</para>
+                </challeng>
+                <response>
+                  <para>慢车(IDLE)</para>
+                </response>
+              </challrsp>
+            </step>
+          </if>
+        </drill>
+        <drill ordered="on">
+          <crew response="all">
+            <crewmem crewmem="cm01"></crewmem>
+            <crewmem crewmem="cm02"></crewmem>
+          </crew>
+          <step memorize="no" dotline="dot" ordered="on">
+            <para>监控燃油流量和 EGT  显示 </para>
+          </step>
+        </drill>
+        <drill ordered="on">
+          <crew response="all">
+            <crewmem crewmem="cm02"></crewmem>
+          </crew>
+          <if>
+            <condit>在 N2  达到 56%时，发动机起动电门没有跳至关位 (OFF)。</condit>
+            <step memorize="no" dotline="dot" ordered="on">
+              <para>则将发动机起动电门扳至关位 (OFF) </para>
+            </step>
+          </if>
+          <step memorize="no" dotline="dot" ordered="on">
+            <para>当发动机起动电门跳至关位(OFF)时，证实起动活门开（VALVE OPEN)警戒灯熄灭</para>
+          </step>
+          <step memorize="no" dotline="dot" ordered="on">
+            <para>喊话“起动机脱开”  </para>
+          </step>
+          <step memorize="no" dotline="dot" ordered="on">
+            <para>在发动机加速至稳定慢车期间，监控 N1，N2， EGT，燃油流量和滑油压力显示正常 </para>
+          </step>
+        </drill>
+        <drill ordered="on">
+          <para>在发动机稳定在慢车后，起动另一发动机。 </para>
+          <para>起动机工作循环：<randlist><item><para>每次起动尝试不要超过 2  分钟</para></item><item><para>两次起动尝试之间的间隔最少为 10 秒钟 </para></item></randlist></para>
+          <para>通常的发动机起动注意事项：<randlist><item><para>过早的提起发动机起动手柄，可能会造成热起动 </para></item><item><para>在监控转速，EGT  和燃油流量期间，保持手放在发动机起动手柄上，直到慢车稳定 </para></item><item><para>如果意外关断燃油(关断发动机起动手柄)，不要重新提起发动机起动手柄以尝试再次起动发动机 </para></item><item><para>在起动机脱开转速前出现发动机起动电门不能保持在地面位(GRD)的故障，可能会导致热起动。在发动机转速低于 20% N2 前，不要重新接通发动机起动电门。 </para></item></randlist></para>
+          <para>如果出现一项或多项下述中断情况，执行发动机中止起动检查单：  <randlist><item><para>EGT  上升后，N1  或 N2 没有上升或上升非常缓慢 </para></item><item><para>发动机稳定在慢车时，没有滑油压力显示 </para></item><item><para>发动机起动手柄提至慢车(IDLE)位后 10  秒，EGT  没有上升 </para></item><item><para>EGT  迅速接近或超过起动限制 </para></item></randlist></para>
+        </drill>
+      </frc>
+    </acrw>
+  </content>
+</dmodule>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/UpdateDataExport.aspx" hash="5814482f9" filehash="3cfa18b8d302fb02" flags="110000" assembly="App_Web_xyr-fbv8" type="ASP.updatedataexport_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/HeaderUserControl.ascx" />
+        <filedep name="/IbvManagement/HeaderUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/ListUserControl.ascx" />
+        <filedep name="/IbvManagement/ListUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/UpdateDataExport.aspx" />
+        <filedep name="/IbvManagement/UpdateDataExport.aspx.cs" />
+    </filedeps>
+</preserve>

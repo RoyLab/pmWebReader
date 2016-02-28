@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/proced.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>250</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>发动机</techname>
+        <infoname>清洁</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2011" month="08" day="03"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR1</rpc>
+      <orig origname="">SBTR1</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <proced>
+      <prelreqs>
+        <reqconds>
+          <noconds></noconds>
+        </reqconds>
+        <supequip>
+          <nosupeq></nosupeq>
+        </supequip>
+        <supplies>
+          <nosupply></nosupply>
+        </supplies>
+        <spares>
+          <nospares></nospares>
+        </spares>
+        <safety>
+          <safecond>
+            <caution>
+              <para>如外物掉入一个发动机部件,停止组装程序。拆卸多余的材料。如有必要, 拆卸部件。这将避免损坏到发动机部件。</para>
+            </caution>
+          </safecond>
+        </safety>
+      </prelreqs>
+      <mainfunc>
+        <step1>
+          <para>组装区域是清洁和没有脏物是很重要的。多余的材料和外来物损坏(外来物损坏)没有进入发动机或者它的分组件是重要的。主要引起发动机拆卸的原因是外来物损坏。建议用于多余材料的容器是保持在或者接近每个工作区。</para>
+        </step1>
+        <step1>
+          <para>确保发动机零件被安装好之前是清洁的。</para>
+        </step1>
+        <step1>
+          <para>确保发动机凸缘的配合表面,发动机固定接头和导管连接接头是清洁的。这将有助于确保发动机零件有一个良好的密封。</para>
+        </step1>
+        <step1>
+          <para>在你接触加工好的发动机零件之前,清洁你的手并戴清洁手套。</para>
+        </step1>
+        <step1>
+          <para>在做发动机工作后,彻底检查该工作区是否有松动的部件,工具和多余的材料。</para>
+        </step1>
+      </mainfunc>
+      <closereqs>
+        <reqconds>
+          <noconds></noconds>
+        </reqconds>
+      </closereqs>
+    </proced>
+  </content>
+</dmodule>

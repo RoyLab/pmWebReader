@@ -1,0 +1,1787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pm xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+  <idstatus xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+    <pmaddres>
+      <pmc>
+        <modelic>SAMPLE</modelic>
+        <pmissuer>54656</pmissuer>
+        <pmnumber>56465</pmnumber>
+        <pmvolume>00</pmvolume>
+      </pmc>
+      <pmtitle>test</pmtitle>
+      <issno issno="000" inwork="04" type="new"></issno>
+      <issdate year="2015" month="09" day="29"></issdate>
+      <language language="zh" country="CN"></language>
+    </pmaddres>
+    <pmstatus xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+      <security class="01"></security>
+      <rpc rpcname="">SBTR1</rpc>
+      <orig origname="">SBTR1</orig>
+      <actref>
+        <refdm xlink:title="-">
+          <dmc>
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>00</chapnum>
+              <section>0</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>00W</incode>
+              <incodev>A</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+          </dmc>
+          <dmtitle>
+            <techname>适用性交叉引用</techname>
+            <infoname>适用性交叉引用</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </actref>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <qa>
+        <unverif></unverif>
+      </qa>
+      <rfu></rfu>
+      <remarks></remarks>
+    </pmstatus>
+  </idstatus>
+  <content>
+    <pmentry>
+      <title>Model IC</title>
+      <pmentry>
+        <title>系统区分码</title>
+        <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+          <dmcextension>
+            <dmeproducer></dmeproducer>
+            <dmecode></dmecode>
+          </dmcextension>
+          <dmc>
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>00</chapnum>
+              <section>0</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>041</incode>
+              <incodev>A</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+          </dmc>
+          <dmtitle>
+            <techname>整机</techname>
+            <infoname>组成</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+          <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+        </refdm>
+        <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+          <dmcextension>
+            <dmeproducer></dmeproducer>
+            <dmecode></dmecode>
+          </dmcextension>
+          <dmc>
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>00</chapnum>
+              <section>0</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>018</incode>
+              <incodev>A</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+          </dmc>
+          <dmtitle>
+            <techname>SAMPLE飞机</techname>
+            <infoname>概述</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+          <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+        </refdm>
+        <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+          <dmcextension>
+            <dmeproducer></dmeproducer>
+            <dmecode></dmecode>
+          </dmcextension>
+          <dmc>
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>00</chapnum>
+              <section>0</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>00C</incode>
+              <incodev>A</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+          </dmc>
+          <dmtitle>
+            <techname>整机</techname>
+            <infoname>供应目录（通常用于数据模块前的内容）</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+          <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+        </refdm>
+        <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+          <dmcextension>
+            <dmeproducer></dmeproducer>
+            <dmecode></dmecode>
+          </dmcextension>
+          <dmc>
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>00</chapnum>
+              <section>0</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>00D</incode>
+              <incodev>A</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+          </dmc>
+          <dmtitle>
+            <techname>整机</techname>
+            <infoname>备件目录（通常用于数据模块前的内容）</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+          <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+        </refdm>
+        <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+          <dmcextension>
+            <dmeproducer></dmeproducer>
+            <dmecode></dmecode>
+          </dmcextension>
+          <dmc>
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>09</chapnum>
+              <section>0</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>018</incode>
+              <incodev>A</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+          </dmc>
+          <dmtitle>
+            <techname>牵引</techname>
+            <infoname>概述</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+          <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+        </refdm>
+        <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+          <dmcextension>
+            <dmeproducer></dmeproducer>
+            <dmecode></dmecode>
+          </dmcextension>
+          <dmc>
+            <avee>
+              <modelic>SAMPLE</modelic>
+              <sdc>A</sdc>
+              <chapnum>09</chapnum>
+              <section>1</section>
+              <subsect>0</subsect>
+              <subject>00</subject>
+              <discode>00</discode>
+              <discodev>A</discodev>
+              <incode>100</incode>
+              <incodev>A</incodev>
+              <itemloc>A</itemloc>
+            </avee>
+          </dmc>
+          <dmtitle>
+            <techname>牵引</techname>
+            <infoname>正常牵引飞机程序</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+          <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+        </refdm>
+        <pmentry>
+          <title>发动机</title>
+          <pmentry>
+            <title>概述</title>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>005</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>缩写词列表</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>010</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>综合数据</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>012</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>安全注意事项</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>030</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>技术数据</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>040</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机主轴承</techname>
+                <infoname>组成和功能描述</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>041</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>组成的描述</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>052</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>系统图表</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>110</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机起动电门</techname>
+                <infoname>控制与指示</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>110</incode>
+                  <incodev>B</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机显示控制面板</techname>
+                <infoname>控制与指示</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>110</incode>
+                  <incodev>C</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>N1 SET 外圈旋钮</techname>
+                <infoname>控制与指示</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>110</incode>
+                  <incodev>D</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>燃油流量/燃油消耗</techname>
+                <infoname>控制与指示</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>130</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>启动程序</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>130</incode>
+                  <incodev>B</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>电瓶起动</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>130</incode>
+                  <incodev>E</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机起动过程中隔离的组件的操作</techname>
+                <infoname>正常操作</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>130</incode>
+                  <incodev>F</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机防冰</techname>
+                <infoname>正常操作</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>140</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>高高度机场发动机起动（高于8400英尺）</techname>
+                <infoname>应急程序</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>240</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>润滑</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>250</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>清洁</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>260</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>去除外部表面油污</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>280</incode>
+                  <incodev>D</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>飞行前检查</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>281</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>300H定检</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>281</incode>
+                  <incodev>B</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>600H定检</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>281</incode>
+                  <incodev>C</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>1200H定检</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>281</incode>
+                  <incodev>D</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>预防性维修</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>281</incode>
+                  <incodev>E</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>定期维护</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>350</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机</techname>
+                <infoname>标准荧光渗透剂检查</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>0</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>941</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>主引擎</techname>
+                <infoname>图解零件数据</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+          </pmentry>
+          <pmentry>
+            <title>风扇和增压器</title>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>1</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>000</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>风扇和增压器</techname>
+                <infoname>时间限制</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>1</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>040</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>风扇叶片和叶轮 </techname>
+                <infoname>组成和功能描述</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>1</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>941</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>风扇</techname>
+                <infoname>图解零件数据</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>1</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>941</incode>
+                  <incodev>B</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>风扇外壳</techname>
+                <infoname>图解零件数据</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>1</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>941</incode>
+                  <incodev>C</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>风扇（A、C）</techname>
+                <infoname>图解零件数据</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>1</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>941</incode>
+                  <incodev>D</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>风扇（B）</techname>
+                <infoname>图解零件数据</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>1</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>941</incode>
+                  <incodev>E</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>支架（A）</techname>
+                <infoname>图解零件数据</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>1</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>941</incode>
+                  <incodev>F</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>风扇（附件）</techname>
+                <infoname>图解零件数据</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+          </pmentry>
+          <pmentry>
+            <title>高压压气机</title>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>2</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>052</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>高压压气机</techname>
+                <infoname>系统图表</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>2</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>941</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>高压压气机</techname>
+                <infoname>图解零件数据</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+          </pmentry>
+          <pmentry>
+            <title>燃烧室</title>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>051</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>点火装置</techname>
+                <infoname>电路图表</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>281</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>燃烧室</techname>
+                <infoname>300h定检</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>281</incode>
+                  <incodev>B</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>燃烧室</techname>
+                <infoname>600h定检</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>281</incode>
+                  <incodev>C</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>燃烧室</techname>
+                <infoname>1200h定检</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>310</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>点火激励器</techname>
+                <infoname>目视检查</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>310</incode>
+                  <incodev>B</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>点火电嘴</techname>
+                <infoname>检查</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>310</incode>
+                  <incodev>C</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>点火电嘴</techname>
+                <infoname>检查</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>520</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>点火激励器</techname>
+                <infoname>拆卸程序</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>520</incode>
+                  <incodev>B</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>电嘴/电嘴座,点火器</techname>
+                <infoname>拆卸程序</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>720</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>点火激励器</techname>
+                <infoname>安装程序</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>3</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>720</incode>
+                  <incodev>B</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>电嘴/电嘴座,点火器</techname>
+                <infoname>安装程序</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+          </pmentry>
+          <pmentry>
+            <title>高压涡轮</title>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>4</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>040</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>高压涡轮间隙主动控制</techname>
+                <infoname>组成和功能</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>4</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>042</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>高压涡轮间隙主动控制</techname>
+                <infoname>功能的描述</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>4</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>055</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>高压涡轮间隙主动控制</techname>
+                <infoname>位置图表</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+          </pmentry>
+          <pmentry>
+            <title>附件传动装置</title>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>6</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>040</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>附件传动装置</techname>
+                <infoname>组成和功能</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+          </pmentry>
+          <pmentry>
+            <title>防火系统</title>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>7</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>040</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>防火系统</techname>
+                <infoname>组成和功能</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>7</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>040</incode>
+                  <incodev>B</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>灭火瓶</techname>
+                <infoname>组成和功能</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>7</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>040</incode>
+                  <incodev>C</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>灭火瓶爆炸帽</techname>
+                <infoname>组成和功能</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>7</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>340</incode>
+                  <incodev>A</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机和APU灭火瓶</techname>
+                <infoname>功能测试</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+            <refdm xlink:type="simple" xlink:show="new" xlink:actuate="onRequest">
+              <dmcextension>
+                <dmeproducer></dmeproducer>
+                <dmecode></dmecode>
+              </dmcextension>
+              <dmc>
+                <avee>
+                  <modelic>SAMPLE</modelic>
+                  <sdc>A</sdc>
+                  <chapnum>72</chapnum>
+                  <section>7</section>
+                  <subsect>0</subsect>
+                  <subject>00</subject>
+                  <discode>00</discode>
+                  <discodev>A</discodev>
+                  <incode>340</incode>
+                  <incodev>B</incodev>
+                  <itemloc>A</itemloc>
+                </avee>
+              </dmc>
+              <dmtitle>
+                <techname>发动机灭火</techname>
+                <infoname>功能测试</infoname>
+              </dmtitle>
+              <language language="zh" country="CN"></language>
+              <?AttributeDummny ReferenceType="DynamicFixed" XEditor_ChangeType="Unchange"?>
+            </refdm>
+          </pmentry>
+        </pmentry>
+      </pmentry>
+    </pmentry>
+  </content>
+</pm>

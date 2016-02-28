@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/IbvManagement/UpdateDataImport.aspx" hash="5814482f9" filehash="477b7f07fd7fab52" flags="110000" assembly="App_Web_xyr-fbv8" type="ASP.updatedataimport_aspx">
+    <filedeps>
+        <filedep name="/IbvManagement/ListUserControl.ascx" />
+        <filedep name="/IbvManagement/ListUserControl.ascx.cs" />
+        <filedep name="/IbvManagement/UpdateDataImport.aspx" />
+        <filedep name="/IbvManagement/UpdateDataImport.aspx.cs" />
+        <filedep name="/IbvManagement/UpLoadUserControl.ascx" />
+        <filedep name="/IbvManagement/UpLoadUserControl.ascx.cs" />
+    </filedeps>
+</preserve>

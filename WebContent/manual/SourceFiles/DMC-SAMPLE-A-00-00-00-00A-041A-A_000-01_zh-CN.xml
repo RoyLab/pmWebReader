@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-240000-A-SBTR1-00100-A-01-1 SYSTEM "ICN-SAMPLE-A-240000-A-SBTR1-00100-A-01-1.PNG" NDATA png>
+<!ENTITY ICN-SAMPLE-A-000000-A-SBTR1-00117-A-01-1 SYSTEM "ICN-SAMPLE-A-000000-A-SBTR1-00117-A-01-1.MP4" NDATA mp4>
+<!ENTITY ICN-SAMPLE-A-000000-A-SBTR1-00116-A-01-1 SYSTEM "ICN-SAMPLE-A-000000-A-SBTR1-00116-A-01-1.RAR" NDATA rar>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/descript.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>00</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>041</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>整机</techname>
+        <infoname>组成</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="01" type="new"></issno>
+      <issdate year="2015" month="09" day="29"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status>
+      <security class="01"></security>
+      <rpc rpcname="">SBTR1</rpc>
+      <orig origname="">SBTR1</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <descript>
+      <para>飞机组成示例。</para>
+      <para0>
+        <title>一级标题1</title>
+        <subpara1>
+          <title>二级标题1</title>
+          <para>飞机组成文字部分。</para>
+          <figure>
+            <title>图片1</title>
+            <graphic boardno="ICN-SAMPLE-A-240000-A-SBTR1-00100-A-01-1" xlink:type="simple" reprohgt="115" reprowid="150"></graphic>
+          </figure>
+        </subpara1>
+        <subpara1>
+          <title>二级标题2</title>
+          <para>飞机组成文字部分。</para>
+          <multimedia>
+            <title>视频一</title>
+            <multimediaobject boardno="ICN-SAMPLE-A-000000-A-SBTR1-00117-A-01-1" multimediaclass="3D" xlink:type="simple" height="400" width="600"></multimediaobject>
+          </multimedia>
+        </subpara1>
+      </para0>
+      <para0>
+        <title>一级标题2</title>
+        <para>飞机组成文字部分。</para>
+        <multimedia>
+          <title>三维仿真1</title>
+          <multimediaobject boardno="ICN-SAMPLE-A-000000-A-SBTR1-00116-A-01-1" multimediaclass="3D" xlink:type="simple" height="400" width="600"></multimediaobject>
+        </multimedia>
+      </para0>
+      <para0>
+        <title>一级标题2</title>
+        <para>飞机组成文字部分。</para>
+      </para0>
+    </descript>
+  </content>
+</dmodule>

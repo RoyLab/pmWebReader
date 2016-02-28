@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SAMPLE-A-727000-A-SBTR-00016-A-01-1 SYSTEM "ICN-SAMPLE-A-727000-A-SBTR-00016-A-01-1.PNG" NDATA png>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/descript.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>72</chapnum>
+          <section>7</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>040</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>防火系统</techname>
+        <infoname>组成和功能</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="03" type="new"></issno>
+      <issdate year="2011" month="07" day="29"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+      <security class="01"></security>
+      <rpc rpcname="">SBTR</rpc>
+      <orig origname="">SBTR</orig>
+      <applic applicconf="allowed">
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">
+          <avee>
+            <modelic>SAMPLE</modelic>
+            <sdc>A</sdc>
+            <chapnum>00</chapnum>
+            <section>0</section>
+            <subsect>0</subsect>
+            <subject>00</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>A</itemloc>
+          </avee>
+          <dmtitle>
+            <techname>业务规则</techname>
+            <infoname>业务规则</infoname>
+          </dmtitle>
+          <language language="zh" country="CN"></language>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <descript>
+      <figure>
+        <title>发动机防火</title>
+        <graphic boardno="ICN-SAMPLE-A-727000-A-SBTR-00016-A-01-1" xlink:type="simple" reprohgt="150" reprowid="145"></graphic>
+      </figure>
+      <para0>
+        <title>发动机防火</title>
+        <para>发动机防火包括以下系统：<randlist><item><para>由电瓶汇流条件电的发动机过热和火警探测系统</para></item><item><para>热电瓶汇流条供电的发动机灭火系统。</para></item></randlist></para>
+      </para0>
+      <para0>
+        <title>发动机过热和火警探测</title>
+        <para>每一台发动机包括两个过热/火警探测环路。每一个环路既提供火警探测也提供过热探测。当探测器的温度增加到预先设定的极限时，探测器即感应到过热条件。温度再高时，探测器感应火警情况。正常条件下，两个探测环路必须都感应到火警或过热条件时才会产生发动机过热或火警警报。ENG OVERHEAT（发动机过热）灯或发动机火警电门保持亮，直到温度降到警告起始温度以下。 </para>
+        <para>每台发动机的 OVHT DET （过热探测）电门标有 A,B和 NORMAL标记，允许将环路 A 或 B，或 A 和 B 选作有效的探测环路。</para>
+        <para>此系统包括一个故障监控电路。如果OVHT DET电门在NORMAL位时一个环路失效，该环路自动解除选择，另外一个环路作为单环路探测器继续工作。驾驶舱无单环路失效指示。如果一台发动机的两个环路都故障，FAULT灯亮系统不工作。</para>
+        <para>如果将OVHT DET电门放在A或B，该系统作为单环路工作。不监控未选择的环路。如果选择的环路故障， FAULT 灯亮，并且系统不工作。</para>
+        <para>发动机过热的指示包括：<randlist><item><para>两个 MASTER CAUTION 灯亮</para></item><item><para>OVHT/DET 系统信号牌灯亮</para></item><item><para>相应的 ENG OVERHEAT 灯亮</para></item></randlist></para>
+        <para>发动机火警的指示包括：<randlist><item><para>火警铃响</para></item><item><para>两个主 FIRE WARN 灯亮</para></item><item><para>相应的发动机火警电门亮</para></item><item><para>相应发动机的所有过热警报指示亮</para></item></randlist></para>
+      </para0>
+    </descript>
+  </content>
+</dmodule>

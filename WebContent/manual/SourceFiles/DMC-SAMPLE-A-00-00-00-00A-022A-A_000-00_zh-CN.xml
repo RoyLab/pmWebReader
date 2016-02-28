@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/brex.xsd">
+  <idstatus>
+    <dmaddres>
+      <dmc>
+        <avee>
+          <modelic>SAMPLE</modelic>
+          <sdc>A</sdc>
+          <chapnum>00</chapnum>
+          <section>0</section>
+          <subsect>0</subsect>
+          <subject>00</subject>
+          <discode>00</discode>
+          <discodev>A</discodev>
+          <incode>022</incode>
+          <incodev>A</incodev>
+          <itemloc>A</itemloc>
+        </avee>
+      </dmc>
+      <dmtitle>
+        <techname>业务规则</techname>
+        <infoname>业务规则</infoname>
+      </dmtitle>
+      <issno issno="000" inwork="00" type="new"></issno>
+      <issdate year="2011" month="08" day="10"></issdate>
+      <language language="zh" country="CN"></language>
+    </dmaddres>
+    <status xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+      <security class="01"></security>
+      <rpc rpcname="">SBTR1</rpc>
+      <orig origname="">SBTR1</orig>
+      <applic>
+        <displaytext></displaytext>
+      </applic>
+      <brexref>
+        <refdm xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">
+          <avee>
+            <modelic>AE</modelic>
+            <sdc>A</sdc>
+            <chapnum>04</chapnum>
+            <section>1</section>
+            <subsect>0</subsect>
+            <subject>0301</subject>
+            <discode>00</discode>
+            <discodev>A</discodev>
+            <incode>022</incode>
+            <incodev>A</incodev>
+            <itemloc>D</itemloc>
+          </avee>
+        </refdm>
+      </brexref>
+      <qa>
+        <unverif></unverif>
+      </qa>
+    </status>
+  </idstatus>
+  <content>
+    <brex>
+      <contextrules context="http://www.s1000d.org/S1000D_3-0/xml_schema_flat/crew.xsd">
+        <structrules>
+          <objrule>
+            <objpath>//crewmem/@crewmem</objpath>
+            <objuse></objuse>
+            <objval valtype="single" val1="cm01" val2="">所有机组人员A</objval>
+            <objval valtype="single" val1="cm02" val2="">驾驶员A</objval>
+            <objval valtype="single" val1="cm03" val2="">副驾驶员A</objval>
+            <objval valtype="single" val1="cm04" val2="">导航员A</objval>
+            <objval valtype="single" val1="cm05" val2="">空中机械师A</objval>
+          </objrule>
+        </structrules>
+      </contextrules>
+      <contextrules context="">
+        <structrules>
+          <objrule>
+            <objpath>//side/@hand</objpath>
+            <objuse></objuse>
+            <objval valtype="single" val1="lh" val2="">左侧</objval>
+            <objval valtype="single" val1="rh" val2="">右侧</objval>
+            <objval valtype="single" val1="lr" val2="">左右侧</objval>
+          </objrule>
+          <objrule>
+            <objpath>//dmodule/idstatus/dmaddres/dmc/avee/itemloc</objpath>
+            <objuse></objuse>
+            <objval valtype="single" val1="A" val2="">在产品</objval>
+            <objval valtype="single" val1="B" val2="">在零部件</objval>
+            <objval valtype="single" val1="C" val2="">在车间</objval>
+            <objval valtype="single" val1="D" val2="">适用于A、B、C</objval>
+            <objval valtype="single" val1="T" val2="">培训</objval>
+          </objrule>
+          <objrule>
+            <objpath>//dmodule/idstatus/dmaddres/language/@country</objpath>
+            <objuse></objuse>
+            <objval valtype="single" val1="US" val2="">美国</objval>
+            <objval valtype="single" val1="CN" val2="">中国</objval>
+          </objrule>
+          <objrule>
+            <objpath>//dmodule/idstatus/dmaddres/language/@language</objpath>
+            <objuse></objuse>
+            <objval valtype="single" val1="en" val2="">英文</objval>
+            <objval valtype="single" val1="zh" val2="">中文</objval>
+          </objrule>
+        </structrules>
+        <notationrules>
+          <notrule>
+            <notname notappl="false">Z19</notname>
+            <objuse>不允许在正文中出现此字符串</objuse>
+          </notrule>
+        </notationrules>
+      </contextrules>
+    </brex>
+  </content>
+</dmodule>
