@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/themes/default/easyui.css">
 	<link rel="stylesheet" type="text/css" href="resources/themes/acon.css">
 	<link rel="stylesheet" type="text/css" href="resources/style/login.css">
-	<script type="text/javascript" src="resources/js/jquery.min.js"></script>
+	<script type="text/javascript" src="resources/js/jquery-1.8.0.min.js"></script>
 	<script type="text/javascript" src="resources/js/jquery.easyui.min.js"></script>
 	<%
         String login;   	
@@ -24,7 +24,7 @@
 
 
 <body background="resources/style/LoginBackgroundImage.jpg" >
-	<div id="loginWin" class="easyui-window" title="虚拟军事训练系统登录" minimizable="false" maximizable="false" resizable="false" collapsible="false">
+	<div id="loginWin" class="easyui-window" title="虚拟军事训练系统登录" minimizable="false" maximizable="false" resizable="true" collapsible="false">
     <div class="easyui-layout" fit="true">
             <div region="center" border="false" style="padding:5px;background:#fff;border:1px solid #ccc;">
         <form id="loginForm" method="post" action="login">
