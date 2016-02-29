@@ -28,7 +28,7 @@ public class UserVerificationFilter implements Filter {
 		String path=servletrequest.getServletPath();
 		
 		if(user==null && path.indexOf("workspace")>=0){
-			servletrequest.getRequestDispatcher("login.jsp").forward(request, response);
+			servletrequest.getRequestDispatcher("login.html").forward(request, response);
 		}else{
 			chain.doFilter(request, response);
 		}

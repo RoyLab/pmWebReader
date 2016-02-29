@@ -14,7 +14,7 @@
   </context-param>
   <context-param>
     <param-name>UserDburl</param-name>
-    <param-value>jdbc:mysql://localhost:3306/db_military</param-value>
+    <param-value>jdbc:mysql://localhost:3306/db_publisher</param-value>
   </context-param>
   <context-param>
     <param-name>dbUserName</param-name>
@@ -87,13 +87,21 @@
     <servlet-name>FTSearch</servlet-name>
     <url-pattern>/ftsearch</url-pattern>
   </servlet-mapping>
-    <servlet>
+  <servlet>
     <servlet-name>FTSearchXML</servlet-name>
     <servlet-class>com.publisher.servlets.FullTextSearchXML</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>FTSearchXML</servlet-name>
     <url-pattern>/ftsearchxml</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Nonfullshow</servlet-name>
+    <servlet-class>com.publisher.servlets.NonFullShow</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Nonfullshow</servlet-name>
+    <url-pattern>/content</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -104,5 +112,15 @@
   <servlet-mapping>
     <servlet-name>ContentServlet</servlet-name>
     <url-pattern>/ContentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>NonFullShow</display-name>
+    <servlet-name>NonFullShow</servlet-name>
+    <servlet-class>com.publisher.servlets.NonFullShow</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NonFullShow</servlet-name>
+    <url-pattern>/NonFullShow</url-pattern>
   </servlet-mapping>
 </web-app>

@@ -11,6 +11,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
+import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
 import javax.xml.transform.Templates;
@@ -160,37 +161,18 @@ public class XSLTTransformer {
 	public static void xsl2StreamWithPath(
 	        String input,
 	        Writer writer,
+	        String xslFilename){
+		xsl2StreamWithPath(new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8)), writer, xslFilename);
+		
+	}
+	
+	public static void xsl2StreamWithPath(
+			InputStream input,
+	        Writer writer,
 	        String xslFilename) {
 	    try {
-	        // Create transformer factory
-	        TransformerFactory factory = TransformerFactory.newInstance();
-
-	        URL url = null;
-	        try {
-	        	url = new File(xslFilename).toURI().toURL();
-			} catch (MalformedURLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-	        StreamSource source1 = new StreamSource(
-		            new FileInputStream(xslFilename));
-	        source1.setSystemId(url.toExternalForm());
-	        System.out.println(url.toExternalForm());
-	        
-	        // Use the factory to create a template containing the xsl file
-	        Templates template = factory.newTemplates(source1);
-	
-	        // Use the template to create a transformer
-	        Transformer xformer = template.newTransformer();
-	
-	        // Prepare the input and output files
-	        Source source = new StreamSource(new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8)));
-
-	        Result result = new StreamResult(writer);
-	
-	        // Apply the xsl file to the source file and write the result to the
-	        // output file
-	        xformer.transform(source, result);
+	    	Transformer xformer = createTransformerWithPath(new File(xslFilename));
+	    	xsl2StreamWithPath(input, writer, xformer);
 	    } catch (FileNotFoundException e) {
 	    	e.printStackTrace();
 	        // File not found
@@ -204,6 +186,39 @@ public class XSLTTransformer {
 	    }
 	}
 	
+	public static void xsl2StreamWithPath(
+			InputStream input,
+	        Writer writer,
+	        Transformer xformer) throws TransformerException{
+		
+        Source source = new StreamSource(input);
+        Result result = new StreamResult(writer);
+//        properties.setProperty(OutputKeys.INDENT, "yes");
+//        properties.setProperty(OutputKeys.ENCODING, "UTF-8");
+        xformer.getOutputProperties().setProperty(OutputKeys.ENCODING, "UTF-8");
+        xformer.transform(source, result);
+	}
+	
+	public static Transformer createTransformerWithPath(File file) throws FileNotFoundException, TransformerConfigurationException
+	{
+        TransformerFactory factory = TransformerFactory.newInstance();
+
+        URL url = null;
+        try {
+        	url = file.toURI().toURL();
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+        StreamSource source1 = new StreamSource(
+	            new FileInputStream(file));
+        source1.setSystemId(url.toExternalForm());
+        
+        // Use the factory to create a template containing the xsl file
+        Templates template = factory.newTemplates(source1);
+
+        // Use the template to create a transformer
+        return template.newTransformer();
+	}
 	public static void main(String[] args) {
 		xsl("D:\\pubRes\\xml\\DMC-SAMPLE-A-72-00-00-00A-110B-A_000-03_zh-CN.xml",
 				"C:/Users/RUI/Desktop/xlst/output.html",

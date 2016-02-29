@@ -540,7 +540,7 @@ UserManager.UserInfo = function ()
       {
           this.dmc = GetParameterValue("dmc");
           this.fcode = GetParameterValue("fcode");
-          this.FullShow  = GetParameterValue("fullshow");
+          this.FullShow  = GetParameterValue("showall");
 
           pma=UserManager.Cookies.GetPMA();
           if(pma!=undefined && pma=='true')

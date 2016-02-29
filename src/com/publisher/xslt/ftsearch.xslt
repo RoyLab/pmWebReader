@@ -8,7 +8,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <p><xsl:value-of select="."/></p>
 </xsl:template>
 
-<xsl:template match="/">
+<xsl:template match="/result">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta charset="utf-8"/>
@@ -128,11 +128,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
   	<table style="background-color:#D9E1F7;height:20px;" width="100%" border="0" cellpadding="0" cellspacing="0">
 	  	<tr align="right">
-	  	<td align="right" style="width:100%;text-align:right">共搜索到<xsl:value-of select="result/recordnum"/>条记录，分成<xsl:value-of select="result/pagenum"/>页，当前是第<xsl:value-of select="result/pageid"/>页</td>
+	  	<td align="right" style="width:100%;text-align:right">共搜索到<xsl:value-of select="recordnum"/>条记录，分成<xsl:value-of select="pagenum"/>页，当前是第<xsl:value-of select="pageid"/>页</td>
 	  	</tr>
 	  	</table>
   
-    <xsl:for-each select="result/dm">
+    <xsl:for-each select="dm">
     	<xsl:variable name="dmc">
     		<xsl:value-of select="code"/>
    		</xsl:variable>
@@ -148,14 +148,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		</tr>
 		</table><br/>
     </xsl:for-each>
-    <xsl:variable name="keyword"><xsl:value-of select="result/key" /></xsl:variable>
+    <xsl:variable name="keyword"><xsl:value-of select="key" /></xsl:variable>
     
     <script type="text/javascript">
       //$(".content").textSearch("<xsl:value-of select="$keyword"/>");
       $('.content').highlight('<xsl:value-of select="$keyword"/>');
     </script>
 
-	<xsl:apply-templates select="result/foot"/>
+	<xsl:apply-templates select="foot"/>
 	
 	<form name="form1" method="post" action="ftsearch?pageIndex=1&amp;searchCondition=1&amp;user=admin&amp;time=5683" id="form1">
 	<div>

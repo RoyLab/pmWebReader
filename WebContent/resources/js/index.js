@@ -23,7 +23,7 @@ Ext.onReady
                     Ext.get('loading').remove();
                     Ext.get('loading-mask').fadeOut({ remove: true });
                 },
-                250);
+                0);
 
 
                  //初始化加载首页，找了很久没有找到合适的事件来初始化加载，暂时放在这里。

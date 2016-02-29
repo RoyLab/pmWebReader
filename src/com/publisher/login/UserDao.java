@@ -11,11 +11,10 @@ public class UserDao {
 
 	public User login(Connection con,User user)throws Exception{
 		User resultUser=null;
-		String sql="select * from t_user where userName=? and password=? and authority=?";
+		String sql="select * from t_user where userName=? and password=MD5('"+user.getPassword()+"') and authority=?";
 		PreparedStatement pstmt=con.prepareStatement(sql);
 		pstmt.setString(1, user.getUserName());
-		pstmt.setString(2, user.getPassword());
-		pstmt.setString(3, user.getAuthority());
+		pstmt.setString(2, user.getAuthority());
 		ResultSet rs=pstmt.executeQuery();
 		if(rs.next()){
 			resultUser=new User();
