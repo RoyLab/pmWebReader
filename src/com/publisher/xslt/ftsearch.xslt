@@ -8,6 +8,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <p><xsl:value-of select="."/></p>
 </xsl:template>
 
+
+<xsl:variable name="guser"><xsl:value-of select="result/user" /></xsl:variable>
+<xsl:variable name="gkey"><xsl:value-of select="result/key" /></xsl:variable>
+<xsl:variable name="gpagenum"><xsl:value-of select="result/pagenum" /></xsl:variable>
+
 <xsl:template match="/result">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -123,6 +128,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             
             clickHref(integer,searchCondition,user);
         }
+        
+        function onClickItem(dmc)
+        {
+        	top.ApplicationContext.IMainFrame().LoadMainHTMLTab(dmc,'Manual/'+dmc+'.htm?contentKey='+'<xsl:value-of select="$gkey"/>')
+        }
+        
     </script>
   </head>
   <body>
@@ -138,7 +149,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
    		</xsl:variable>
         <table width="100%"  border="0" cellpadding="0" cellspacing="0">
 		<tr>
-		<td class="f" style="width:100%;word-break:break-all"><a href="javascript:top.ApplicationContext.IMainFrame().LoadMainHTMLTab('{$dmc}','Manual/{$dmc}.htm?contentKey=1')">
+		<td class="f" style="width:100%;word-break:break-all"><a href="#" onclick="onClickItem('{$dmc}')">
 		<font size="3" class="content"><xsl:value-of select="techname"/> - <xsl:value-of select="infoname"/></font></a>
 		<br/>
 		<font size="-1" class="content"><xsl:value-of select="abstract"/></font>
@@ -148,11 +159,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		</tr>
 		</table><br/>
     </xsl:for-each>
-    <xsl:variable name="keyword"><xsl:value-of select="key" /></xsl:variable>
     
     <script type="text/javascript">
-      //$(".content").textSearch("<xsl:value-of select="$keyword"/>");
-      $('.content').highlight('<xsl:value-of select="$keyword"/>');
+      $('.content').highlight('<xsl:value-of select="$gkey"/>');
     </script>
 
 	<xsl:apply-templates select="foot"/>
@@ -168,9 +177,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	</html>
 </xsl:template>
 
-<xsl:variable name="guser"><xsl:value-of select="result/user" /></xsl:variable>
-<xsl:variable name="gkey"><xsl:value-of select="result/key" /></xsl:variable>
-<xsl:variable name="gpagenum"><xsl:value-of select="result/pagenum" /></xsl:variable>
 
 <xsl:template match="foot">
 	<div class="p">
