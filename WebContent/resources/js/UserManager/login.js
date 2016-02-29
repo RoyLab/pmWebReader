@@ -252,29 +252,23 @@ function OnLoginScriptFileLoaded()
          */
         function Logon()
         {
-            // loginWindow.AddLoginButtonClass("x-btn-click",1);
-                
-            // var result;
+            loginWindow.AddLoginButtonClass("x-btn-click",1);
             
-            // var uId = loginWindow.GetUserID();
-            // var passwd = loginWindow.GetPassword();
-            // loginWindow.FocusLoginButton(1);
+            var result;
             
-            // Service.WebService.Call('UserLogon',
-            //                         {userid: "admin", userpass:"admin"},
-            //                         function(result){LogonCallback(result);},
-            //                         function(XmlHttpRequest,textStatus,errorThrow)
-            //                         { 
-            //                             LogonCallback(textStatus);
-            //                             alert(XmlHttpRequest.responseText);
-            //                             Service.ShowMessageBox('错误', XmlHttpRequest.responseText, Ext.MessageBox.OK, Ext.MessageBox.ERROR);
-            //                         });
-            UserManager.Cookies.SetCookiesName("admin&admin&99&管理员&;1,2,3&D:~test&1&false&true&1&true&true&true&true&true&true&true&true");
-                      SetModelCookie(); 
-                      
-                      loginWindow.SetPromtMessage("正在登录.....");
-                      GoMainPage();
-           
+            var uId = loginWindow.GetUserID();
+            var passwd = loginWindow.GetPassword();
+            loginWindow.FocusLoginButton(1);
+            
+            Service.WebService.Call('login',
+                                    {userid: uId, userpass:passwd},
+                                    function(result){LogonCallback(result);},
+                                    function(XmlHttpRequest,textStatus,errorThrow)
+                                    { 
+                                        LogonCallback(textStatus);
+                                        alert(XmlHttpRequest.responseText);
+                                        Service.ShowMessageBox('错误', XmlHttpRequest.responseText, Ext.MessageBox.OK, Ext.MessageBox.ERROR);
+                                    });
         };
 
         /**
@@ -283,12 +277,46 @@ function OnLoginScriptFileLoaded()
         function LogonCallback(result)
         {
             //result.text = "admin&admin&99&管理员&;1,2,3&D:~test&1&false&true&1&true&true&true&true&true&true&true&true";
-
-                      UserManager.Cookies.SetCookiesName(result.text);
+            if(result=='wrong pwd')
+            {
+                loginWindow.SetPromtMessage("密码错误，登录失败！");
+                
+                if(UserManager.Cookies.GetPMA()=='true')
+                {
+                    for(i=0;i<loginWindow.buttons.length;i++)
+                    {
+                        if(loginWindow.buttons[i].id=="ManagerLoginButton")
+                        {
+                            loginWindow.buttons[i].hide();
+                            break;
+                        }
+                    }
+                    loginWindow.show();
+                    alert('使用默认的用户名密码登录失败，请输入登录名密码');
+                }
+            } else if (result=='invalid user')
+            {
+            	loginWindow.SetPromtMessage("用户名不存在！");
+            }
+            else
+            {
+                if(result.indexOf('{Authorization')!=-1)
+                {
+                      eval("au="+result.text);
+                      if(au!=undefined && au.Authorization!=undefined)
+                      {
+                          Service.ShowMessageBox('错误', au.Authorization, Ext.MessageBox.OK, Ext.MessageBox.ERROR,WindowClose);
+                      }
+                }
+                else
+                {
+                      UserManager.Cookies.SetCookiesName(result);
                       SetModelCookie(); 
                       
                       loginWindow.SetPromtMessage("正在登录.....");
                       GoMainPage();
+                }
+            }
        };
        
        /**
@@ -567,7 +595,7 @@ UserManager.LoginWindow = Ext.extend(Ext.Window,
            
            //添加窗体控件     
        this.add(formPanel);
-       this.addButton(ManagerLoginButton);
+//       this.addButton(ManagerLoginButton);
       
        this.addButton(loginButton);
        this.addButton(cancelButton);

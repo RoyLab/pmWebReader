@@ -17,7 +17,7 @@ import com.publisher.SearchEngine;
 import com.publisher.utils.OperateXMLByDOM;
 import com.publisher.utils.XSLTTransformer;
 
-public class FullTextSearch extends HttpServlet {
+public class FullTextSearchXML extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 	private static final int MAX_RESULT_PER_PAGE = 20;
@@ -51,10 +51,10 @@ public class FullTextSearch extends HttpServlet {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-//    	out.write(OperateXMLByDOM.doc2FormatString(xml));
-//    	response.setContentType("application/xml");
-    	response.setContentType("text/html");
-    	XSLTTransformer.xsl2Stream(OperateXMLByDOM.doc2FormatString(xml), out, this.getClass().getResourceAsStream("/com/publisher/xslt/ftsearch.xslt"));
+    	out.write(OperateXMLByDOM.doc2FormatString(xml));
+    	response.setContentType("application/xml");
+//    	response.setContentType("text/html");
+//    	XSLTTransformer.xsl2Stream(OperateXMLByDOM.doc2FormatString(xml), out, this.getClass().getResourceAsStream("/com/publisher/xslt/ftsearch.xslt"));
     }
 
     @Override

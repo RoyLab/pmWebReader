@@ -18,7 +18,9 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
+import org.w3c.dom.Text;
 import org.xml.sax.InputSource;
 
 import com.sun.org.apache.xml.internal.serialize.OutputFormat;
@@ -31,6 +33,15 @@ import com.sun.org.apache.xml.internal.serialize.XMLSerializer;
  * @date 2011-5-3 上午09:49:27
  */
 public class OperateXMLByDOM {
+	
+	public static Element AddTextNode(Document doc, Node root, String tag, String text){
+		Element elem = doc.createElement(tag);
+		Text textNode = doc.createTextNode(text);
+		elem.appendChild(textNode);
+		root.appendChild(elem);
+		return elem;
+	}
+	
 	/**
 	 * 将给定文件的内容或者给定 URI 的内容解析为一个 XML 文档，并且返回一个新的 DOM Document 对象
 	 * 

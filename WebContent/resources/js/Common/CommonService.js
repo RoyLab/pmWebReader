@@ -395,7 +395,7 @@ Service.Isnet = function () {
 };
 
 //定义服务实例
-window.Service.WebService = new Service.WebServiceManager('Service/ManualService.asmx/');
+window.Service.WebService = new Service.WebServiceManager('');
 
 /*
  *	新建一个GUID字符串

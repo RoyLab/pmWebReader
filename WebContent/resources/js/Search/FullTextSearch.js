@@ -65,7 +65,7 @@ Search.FullTextSearchField = Ext.extend(Ext.form.TwinTriggerField, {
             var userID = ApplicationContext.IUserInfo().ID;
             try{
              ApplicationContext.MainFrame.ShowBusy();
-            ApplicationContext.MainFrame.LoadFullTextSearchPage('SearchIndex.aspx?pageIndex=1&searchCondition='+encodeURIComponent(v.replace(/<([A-Za-z\/])/g,"$1"))+'&user=' + userID +'&time='+new Date().getMinutes().toString()+new Date().getMilliseconds().toString());
+            ApplicationContext.MainFrame.LoadFullTextSearchPage('ftsearch?pageIndex=1&searchCondition='+encodeURIComponent(v.replace(/<([A-Za-z\/])/g,"$1"))+'&user=' + userID +'&time='+new Date().getMinutes().toString()+new Date().getMilliseconds().toString());
             }
             catch(e)
             {

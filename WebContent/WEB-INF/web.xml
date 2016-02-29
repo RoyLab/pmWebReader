@@ -45,7 +45,7 @@
   </filter>
   <filter-mapping>
     <filter-name>UserVerification</filter-name>
-    <url-pattern>/*</url-pattern>
+    <url-pattern>/nouse</url-pattern>
   </filter-mapping>
   <servlet>
     <servlet-name>loginServlet</servlet-name>
@@ -86,6 +86,14 @@
   <servlet-mapping>
     <servlet-name>FTSearch</servlet-name>
     <url-pattern>/ftsearch</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>FTSearchXML</servlet-name>
+    <servlet-class>com.publisher.servlets.FullTextSearchXML</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FTSearchXML</servlet-name>
+    <url-pattern>/ftsearchxml</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>

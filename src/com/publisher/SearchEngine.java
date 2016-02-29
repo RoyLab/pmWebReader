@@ -5,6 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.publisher.utils.DbUtil;
 
@@ -19,14 +21,13 @@ public class SearchEngine {
 		con = DbUtil.getCon(Config.getInstance().getProjectName());
 	}
 	
-	public String fullTextSearch(String keyword) throws SQLException{
+	public List<String> fullTextSearch(String keyword) throws SQLException{
 		PreparedStatement pstmt = con.prepareStatement(sqlFullTextSearch);
 		pstmt.setString(1, "%"+keyword+"%");
 		ResultSet rs = pstmt.executeQuery();
-		String result = "";
+		List<String> result = new ArrayList<String>();
 		while (rs.next()){
-			result += rs.getString(1);
-			result += ",";
+			result.add(rs.getString(1));
 		}
 		pstmt.close();
 		return result;

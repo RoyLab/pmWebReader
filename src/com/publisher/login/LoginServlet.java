@@ -29,9 +29,11 @@ public class LoginServlet extends HttpServlet{
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		HttpSession session=request.getSession();
-		String userName=request.getParameter("userName");
-		String password=request.getParameter("password");
+		String userName=request.getParameter("userid");
+		String password=request.getParameter("userpass");
 		String authority=request.getParameter("authority");
+		
+		authority = "admin";
 		
 		Connection con=null;
 		try{
@@ -40,17 +42,14 @@ public class LoginServlet extends HttpServlet{
 			User currentUser=userDao.login(con, user);
 			boolean exist=userDao.login(con, userName);
 			if(!exist){
-				request.setAttribute("user", user);
-				request.setAttribute("error", "用户名不存在");
-				request.getRequestDispatcher("login.jsp").forward(request, response);
+				response.getWriter().append("invalid user");
 			}
 			else if(currentUser==null){
-				request.setAttribute("user", user);
-				request.setAttribute("error", "用户名密码错误");
-				request.getRequestDispatcher("login.jsp").forward(request, response);
+				response.getWriter().append("wrong pwd");
 			}else{
 				session.setAttribute("currentUser", currentUser);
-				response.sendRedirect("mainPanel.jsp");
+				response.getWriter().append(userName+"&"+password+"&99&管理员&;1,2,3&D:~test&1&false&true&1&true&true&true&true&true&true&true&true");
+//				response.sendRedirect("index.html");
 			}
 		}catch(Exception e){
 			e.printStackTrace();
@@ -58,7 +57,6 @@ public class LoginServlet extends HttpServlet{
 			try {
 				dbUtil.closeCon(con);
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
