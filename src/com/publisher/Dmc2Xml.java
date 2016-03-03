@@ -21,7 +21,7 @@ import com.publisher.utils.OperateXMLByDOM;
 
 public class Dmc2Xml {
 	
-	private static String sqlDmcInfoQuery = "select name,associateFile,dmc,content,modified from t_dmcmain where dmc in (?);";
+	private static String sqlDmcInfoQuery = "select name,fulldmc,dmc,content,modified from t_dmcmain where dmc in (?);";
 	
 	private static int ABSTRACT_CHAR_NUMBER = 250;
 	
@@ -93,8 +93,8 @@ public class Dmc2Xml {
 				
 				info = result.createElement("code");
 				String path = rs.getString(2);
-				int idx = path.lastIndexOf('\\');
-				text = result.createTextNode(path.substring(idx+1, path.length()-4));
+//				int idx = path.lastIndexOf('\\');
+				text = result.createTextNode(path);
 				info.appendChild(text);
 				dm.appendChild(info);
 				

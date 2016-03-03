@@ -2,7 +2,6 @@ package com.publisher.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Enumeration;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -15,7 +14,6 @@ import org.w3c.dom.Document;
 import com.publisher.Dmc2Xml;
 import com.publisher.SearchEngine;
 import com.publisher.utils.OperateXMLByDOM;
-import com.publisher.utils.XSLTTransformer;
 
 public class FullTextSearchXML extends HttpServlet {
 

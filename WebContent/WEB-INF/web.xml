@@ -111,7 +111,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>ContentServlet</servlet-name>
-    <url-pattern>/ContentServlet</url-pattern>
+    <url-pattern>/Manual</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>

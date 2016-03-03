@@ -35,14 +35,14 @@ public class ContentServlet extends HttpServlet {
 		String dmc = request.getParameter("dmc");
 		
 		DbUtil db = new DbUtil();
-		String html = null;
+		String fulldmc = null;
 		try {
 			Connection con = db.getCon(Config.getInstance().getProjectName());
 			Statement stmt = con.createStatement();
-			ResultSet resultSet = stmt.executeQuery("select html from t_dmcmain where dmc='"+dmc+"';");
+			ResultSet resultSet = stmt.executeQuery("select fulldmc from t_dmcmain where dmc='"+dmc+"';");
 			
 			if (resultSet.next())
-				html = resultSet.getString(1);
+				fulldmc = resultSet.getString(1);
 			
 			stmt.close();
 			con.close();
@@ -52,8 +52,8 @@ public class ContentServlet extends HttpServlet {
 			e.printStackTrace();
 		}
 		
-		if (html != null)
-			response.sendRedirect("projects/"+Config.getInstance().getProjectName()+"/" + html);
+		if (fulldmc != null)
+			response.sendRedirect("projects/"+Config.getInstance().getProjectName()+"/" + fulldmc+".htm");
 		else
 			response.sendRedirect("projects/manual-resources/null.html");
 	}
